@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.h1 {
+  font-family: Arial, sans-serif;
+  color: rgb(28, 30, 137);
+  line-height: 1em;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.position {
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.h2 {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}
+
+.pDev {
+  text-align: center;
+}
+
+/* .main {
+  background-image: url(../assets/imeges/m-chernysh.jpg);
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  margin-bottom: 15px;
+} */
+
+.foto {
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.myFoto {
+  border-radius: 3%;
+  border: 2px solid blue;
+}
+
+.skills {
+  padding: 15px;
+  font-size: 18px;
+}
+
+.sectionFoto {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer {
+  display: flex;
+  /* align-items: center */
+}
+
+.footerDiv {
+  width: 50%;
+  padding: 10px 40px 10px 40px;
+  margin-bottom: 40px;
+}
+
+.sectionFirst {
+  display: flex;
+  justify-content: flex-start;
+  padding: 35px;
+}
+
+.background {
+  background-color: gainsboro;
+}
+
+.top {
+  text-align: center;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px;
+  font-size: 20px;
+}
+
+.jobInformation {
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  list-style: none;
+}
+.socialIcons a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.socialIcons img {
+  width: 30px;
+  height: 30px;
+}
+
+.ul {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.cvDev {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+
+.experience {
+  font-size: 18px;
+}
