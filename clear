@@ -1,0 +1,80 @@
+[33mcommit 5ba96351bffbc9fc644171ff5a34c73d22552641[m[33m ([m[1;36mHEAD -> [m[1;32mrmn/homework/lesson1[m[33m, [m[1;31morigin/rmn/homework/lesson1[m[33m)[m
+Author: roman-zherebetskyi <zherebetskyi@gmail.com>
+Date:   Wed Sep 13 13:09:55 2023 +0300
+
+    added assets/images directory and moved my_photo.png in it
+
+[33mcommit 1fb00484b9e8e92c1c4dbde8f40a01935857f2fd[m
+Author: roman-zherebetskyi <zherebetskyi@gmail.com>
+Date:   Tue Sep 12 20:20:10 2023 +0300
+
+    homework for lesson 1
+
+[33mcommit 0f086ca245e9ad2b30334ddb6eda383a85c3a8dc[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mZherebetskyi[m[33m)[m
+Author: Alexey Polchanov <alexey.polchanov@beetroot.se>
+Date:   Tue Sep 12 19:57:25 2023 +0300
+
+    added new folder
+
+[33mcommit f40d6b376864137e556c823dc455ad68dc666240[m
+Author: Alexey Polchanov <alexey.polchanov@beetroot.se>
+Date:   Tue Sep 12 19:32:34 2023 +0300
+
+    added folder
+
+[33mcommit c8ad1428c5a906eb1e3986aadcb785f98a5d36cb[m
+Author: Alexey Polchanov <alexey.polchanov@beetroot.se>
+Date:   Tue Sep 12 18:54:05 2023 +0300
+
+    added folders
+
+[33mcommit 3f4bf3f2a2ab98a245a1cad088026ea291e35baa[m
+Author: Alexey Polchanov <alexey.polchanov@beetroot.se>
+Date:   Mon Sep 11 12:38:28 2023 +0300
+
+    check proteckted branch
+
+[33mcommit 721703cf72bf04b070b10a6012e6b0abc7758d30[m
+Merge: 1d74c4d a0d00da
+Author: Alexey Polchanov <89130916+Ezhukovich1@users.noreply.github.com>
+Date:   Fri Sep 8 12:20:36 2023 +0300
+
+    Merge pull request #1 from Ezhukovich1/feature/testingGit
+    
+    testing git
+
+[33mcommit a0d00daeaac9ba31d86daad805b7ed57cedc5bce[m[33m ([m[1;31morigin/feature/testingGit[m[33m)[m
+Author: “grannyZoya” <ezhukovich2@gmail.com>
+Date:   Fri Sep 8 12:19:07 2023 +0300
+
+    testing git
+
+[33mcommit 1d74c4d4fef985eeb5599c7bd4ea4f06149a9755[m
+Author: Alexey Polchanov <alexey.polchanov@beetroot.se>
+Date:   Fri Sep 8 11:41:31 2023 +0300
+
+    added empty md files
+
+[33mcommit 1d33e724324ea700099f3cc45ca6df5a38343639[m
+Author: Alexey Polchanov <alexey.polchanov@beetroot.se>
+Date:   Fri Sep 8 11:39:53 2023 +0300
+
+    empty md file
+
+[33mcommit c0fa77f1b2ee1d711987bc4b06099c1a6717cf06[m
+Author: Alexey Polchanov <alexey.polchanov@beetroot.se>
+Date:   Fri Sep 8 11:29:38 2023 +0300
+
+    added report md file
+
+[33mcommit 17441f9c2ab7f7133e50bcc1ab94fcafdd898813[m
+Author: Alexey Polchanov <alexey.polchanov@beetroot.se>
+Date:   Fri Sep 8 11:19:44 2023 +0300
+
+    added Structure
+
+[33mcommit 0575f37b38367f96455a53d02ac04967d79b3852[m
+Author: Alexey Polchanov <89130916+Ezhukovich1@users.noreply.github.com>
+Date:   Fri Sep 8 11:05:55 2023 +0300
+
+    Initial commit
