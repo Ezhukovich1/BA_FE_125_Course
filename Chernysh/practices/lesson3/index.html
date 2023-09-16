@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson4</title>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One%7COswald%7CBaloo+2:500&display=swap" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <video autoplay muted loop class="background-video">
+        <source src="./videos/background-video.mp4" type="video/mp4">
+    </video>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about_me">about me</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#feedback">feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="wrapper">
+        <section id="about_me" class="manual-padding-on-top">
+            <div class="row-content background-color">
+                <img class="my-photo" src="imeges/m-chernysh.jpg" alt="my photo" />
+                <div class="personal-info">
+                    <h1>Chernysh Maksym</h1>
+                    <h2>SEO</h2>
+                    <h3>Kiev, Ukraine</h3>
+                    <h5>chernyshmaksym911@gmail.com</h5>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore quo illo tempore totam hic, necessitatibus maxime corrupti sunt molestiae at perferendis ea, perspiciatis dignissimos! Omnis exercitationem accusamus ea error.</p>
+            <h5 class="title-block">Skills</h5>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <h5 class="title-block">Social Media</h5>
+            <ol>
+                <li><a href="https://www.google.com.ua/" target="_blank">site 1</a></li>
+                <li><a href="https://www.google.com.ua/" target="_blank">site2</a></li>
+                <li><a href="https://www.google.com.ua/" target="_blank">site3</a></li>
+            </ol>
+        </section>
+        <div class="triangle-right"></div>
+        <section id="portfolio" class="manual-padding-on-top">
+            <h2 class="content-title'">Portfolio</h2>
+            <div class="portfolio-list">
+                <a class="portfolio-item" href="#" target="_blank">
+                    <img src="./imeges/m-chernysh.jpg" alt="my cv">
+                    <div class="item-name">
+                        CV
+                    </div>
+                </a>
+            </div>
+        </section>
+        <div class="triangle-left"></div>
+        <section id="feedback" class="manual-padding-on-top">
+            <h2 class="content-title">Feedback</h2>
+            <div class="feedback-container">
+                <form action>
+                    <fieldset>
+                        <label for="email">Enter e-mail</label>
+                        <input type="email" name="email">
+                    </fieldset>
+                    <div class="submit-form-container">
+                        <div class="row">
+                            <input type="checkbox" name="conditions" id="agree">
+                            <lable for="agree">
+                                I agree to the <a href="#">private policy</a> and <a href="#">terms of use</a>
+                            </lable>
+                        </div>
+                        <input type="submit" value="Submit your feedback">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
