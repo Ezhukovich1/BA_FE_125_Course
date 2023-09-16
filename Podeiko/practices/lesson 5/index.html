@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One%7COswald%7CBaloo+2:500&display=swap"
+        rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+    <title>Lesson 5</title>
+</head>
+
+<body>
+    <video autoplay muted loop class="background-video">
+        <source src="videos/background-video.mp4" type="video/mp4">
+    </video>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about_me">About me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Wrapper -->
+    <main class="wrapper">
+        <section id="about_me" class="manual-padding-on-top">
+
+            <!-- Photo -->
+            <div class="row-content background-color">
+                <img class="my-photo" src="./images/IMG_0628.jpg" alt="My photo" />
+
+                <!-- Info -->
+                <div class="personal-info">
+                    <h1>Volodymyr Podeiko</h1>
+                    <h2>Student</h2>
+                    <h3>Kyiv</h3>
+                    <h4>25 y.o</h4>
+                    <h5>vova.podeiko@gmail.com</h5>
+                </div>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit ad
+                voluptas, necessitatibus vitae sapiente inventore magnam. Voluptatibus
+                officia, exercitationem maxime illo saepe, suscipit perferendis,
+                libero natus soluta tempora earum quae.
+            </p>
+
+            <!-- Skills -->
+            <h5 class="title-block">Skills</h5>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <!-- Social media -->
+            <h5 class="title-block">Social Media</h5>
+            <ol>
+                <li>
+                    <img class="logo" src="./images/GitHub-Mark.png" alt="github" />
+                    <a href="https://github.com/Wetability" target="_blank">My github</a>
+                </li>
+                <li>
+                    <img class="logo" src="./images/Logo_Telegram.jpg" alt="telegam" />
+                    <a href="https://t.me/Wetability" target="_blank">My telegam</a>
+                </li>
+                <li>
+                    <img class="logo" src="./images/Gmail-Logo-Vector.jpg" alt="gmail" />
+                    <a href="mailto:vova.podeiko@gmail.com">Mail me</a>
+                </li>
+            </ol>
+        </section>
+
+        <div class="triangle-right"></div>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="manual-padding-on-top">
+            <h2 class="content-title">Portfolio</h2>
+            <div class="portfolio-list">
+                <a href="https://google.com" class="portfolio-item" target="_blank">
+                    <img src="images/IMG_0628.jpg" alt="my_cv">
+                    <div class="item-name">
+                        CV
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <div class="triangle-left"></div>
+
+        <!-- Feedback -->
+        <section id="feedback" class="manual-padding-on-top">
+            <h2 class="content-title">Feedback</h2>
+            <div class="feedback-container">
+                <form action="#">
+                    <fieldset>
+                        <label for="email">Enter mail</label>
+                        <input type="email" name="email">
+                    </fieldset>
+                    <div class="submit-form-container">
+                        <div class="row">
+                            <input type="checkbox" name="conditions" id="agree">
+                            <label for="agree">
+                                I agree to the <a href="#">private policy</a> and <a href="#">terms of use</a>
+                            </label>
+                        </div>
+                        <input type="submit" value="Submit your feedback">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
