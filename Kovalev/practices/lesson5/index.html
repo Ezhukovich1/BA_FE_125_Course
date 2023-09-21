@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5</title>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One%7COswald%7CBaloo+2:500&display=swap" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <video autoplay muted loop class="background-video">
+        <source src="./videos/background-video.mp4" type="video/mp4" />
+    </video>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about_me">About me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="wrapper">
+        
+        <section id="about_me" class="manual-padding-on-top">
+            <div class="row-content background-color">
+                <img src="./images/IMG_5687.JPG" alt="my photo" class="my-photo" />
+                <div class="personal-info">
+                    <h1>Kovalev Anton</h1>
+                    <h2>CEO Ltd "Techlight"</h2>
+                    <h3>Poltava city</h3>
+                    <h4>27 y.o.</h4>
+                    <h5>+380954440060</h5>
+                    <h6><u>tohankov@gmail.com</u></h6>
+                </div>
+            </div>
+            <p>I graduated from NTU KHPI in Kharkov. Since 2015, I have been working at Oil Company- <strong>Ltd "Nadezhda"</strong>. Until 2019 I was the chief manager of Kharkiv region. In 2019, I bought out the shares of the company - <strong>Ltd "Techlight"</strong>. The main importer of German hand tools in Ukraine and became a co-owner of the business.</p>
+                <h5 class="title-block">Skills</h5>
+            <ul>
+                <li>Negotiations</li>
+                <li>Sales</li>
+                <li>Management</li>
+                <li>Personnel management</li>
+                <li>Brand promotion and brand recognition</li>
+            </ul>
+            <p>
+                 <h5 class="title-block">Social Media</h5>
+                 <ol>
+                     <li><a href="https://www.instagram.com/tohan_kov/" target="_blank">Instagram</a></li>
+                      <li><a href="https://www.facebook.com/profile.php?id=100061690629854" target="_blank">Facebook</a></li>
+                      <li><a href="https://techlight.com.ua/" target="_blank">Work website</a></li>
+                 </ol>
+            </p>
+        </section>
+
+        <div class="triangle-right"></div>
+
+        <section id="portfolio" class="manual-padding-on-top">
+            <h2 class="content-title">Portfolio</h2>
+            <div class="portfolio-list">
+                <a class="portfolio-item" href="https://google.com.ua" target="_blank">
+                    <img src="./images/IMG_5687.JPG" alt="my_cv" />
+                    <div class="item-name">
+                        CV
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <div class="triangle-left"></div>
+
+        <section id="feedback" class="manual-padding-on-top">
+            <h2 class="content-title">Feedback</h2>
+            <div class="feedback-container">
+                <form action>
+                    <fieldset>
+                        <label for="email">Enter mail</label>
+                        <input type="email" name="email">
+                    </fieldset>
+                    <div class="submit-form-container">
+                        <div class="row">
+                            <input type="checkbox" name="conditions" id="agree" />
+                            <label for="agree">
+                                I agree to the <a href="#">private policy</a> and <a href="#">terms of use</a>
+                            </label>
+                        </div>
+                        <input type="submit" value="Submit your feedback" />
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
