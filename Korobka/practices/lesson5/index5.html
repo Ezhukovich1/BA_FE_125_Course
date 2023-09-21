@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One%7COswald%7CBaloo+2:500&display=swap"
+        rel="stylesheet">
+    <link href="./css/styles(1).css" rel="stylesheet">
+    <title>Lesson 5</title>
+</head>
+
+<body>
+    <video autoplay muted loop class="background-video">
+        <source src="./videos/background-video.mp4" type="video/mp4" />
+
+    </video>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about me">About me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="wrapper">
+        <section id="about_me" class="manual-padding-on-top">
+            <div class="row-content background-color">
+                <img class="my-photo" src="./images/1.jpeg" alt="my photo" />
+                <div class="personal-info">
+                    <h1>Olena Korobka</h1>
+                    <h2>Academy student</h2>
+                    <h3>Zaporizhye, Ukraine</h3>
+                    <h4>32 y.o.</h4>
+                    <h5>lenchik.shevchenko0110@gmail.com</h5>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio inventore quo illo tempore totam hic,
+                necessitatibus maxime corrupti sunt molestiae at perferendis ea, perspiciatis dignissimos! Omnis
+                exercitationem accusamus ea error.</p>
+            <h5 class="title-block">Skills</h5>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <h5 class="title-block">Social Media</h5>
+            <ol>
+                <li><a href="https://www.google.com.ua/" target="_blank">site 1</a></li>
+                <li><a href="https://www.google.com.ua/" target="_blank">site2</a></li>
+                <li><a href="https://www.google.com.ua/" target="_blank">site3</a></li>
+            </ol>
+        </section>
+
+        <div class="triangle-right"></div>
+
+        <section id="portfolio" class="manual-padding-on-top">
+            <h2 class="content-title">Portfolio</h2>
+            <div class="portfolio-list">
+                <a href="https://google.com.ua" class="portfolio-item" target="_blank">
+                    <img src="./images/1.jpeg" alt="my _photo">
+                    <div class="item-name">
+                        CV
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <div class="triangle-left"></div>
+
+        <section id="feedback" class="manual-padding-on-top">
+            <h2 class="content-title">Feedback</h2>
+            <div class="feedback-container">
+                <form action="">
+                    <fieldset>
+                        <label for="email">Enter mail</label>
+                        <input type="email" name="email" />
+                    </fieldset>
+                    <div class="submit-form-container">
+                        <div class="row">
+                            <input type="checkbox" name="conditions" id="agree" />
+                            <label for="agree">
+                                I agree to the <a href="#">private policy</a> and <a href="#">terms of use</a>
+                            </label>
+                        </div>
+                        <input type="submit" value="Submit your feedback" />
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
