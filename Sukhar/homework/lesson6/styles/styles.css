@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+section {
+    width: 970px;
+    margin: auto;
+}
+
+ul {
+    display: block;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+a {
+    color: #828282;
+}
+
+a:hover {
+   color:black;
+}
+
+a:active {
+    color: black;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+nav {
+    width: 496px;
+margin: auto;}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
