@@ -14,10 +14,10 @@ ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
-
+    
 }
-a {
-    color: #828282;
+a{
+    color: black;
 }
 
 a:hover {
@@ -27,8 +27,10 @@ a:hover {
 a:active {
     color: black;
 }
-a:link {
+
+.menu_title:link {
     text-decoration: none;
+    color: #828282;
 }
 
 a:visited {
