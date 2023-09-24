@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson_7_homework</title>
+  <style>.fieldset {background-color: rgb(232, 232, 232);}</style>
+</head>
+<body>
+  <form action="" method="get">
+    <fieldset class="fieldset">
+      <legend><b>Персональна інформація</b></legend>
+      <br>
+      <label for="name">Ім'я:</label>
+      <input type="text" name="name" id="name">
+      <br><br>
+      <label for="surname">Прізвище:</label>
+      <input type="text" name="surname" id="surname">
+      <br><br>
+      <label for="age">Скільки тобі років?</label>
+      <input type="number" name="age" id="age" value="18" min="1" max="100">
+      <br><br>
+      <label for="birthday">Дата народження:</label>
+      <input type="date" name="birthday" id="birthday">
+      <br><br>
+      <label for="accepted">Я згідний з обробкою моїх персональних даних</label>
+      <input type="checkbox" name="accepted" id="accepted" value="yes" required>
+    </fieldset>
+    <br><br>
+
+    <fieldset class="fieldset">
+      <legend><b>Вхід в систему</b></legend>
+      <br>
+      <label for="email">E-мейл:</label>
+      <input type="email" name="email" id="email" placeholder="email@example.com" required>
+      <br><br>
+      <label for="password">Пароль</label>
+      <input type="password" name="password" id="password" minlength="6" maxlength="30" required>
+    </fieldset>
+    <br><br>
+
+    <fieldset class="fieldset">
+      <legend><b>Цікаві факти про тебе</b></legend>
+      <br>
+      Кого ти більше любиш?
+      <input type="radio" name="pets" id="cats" value="cats">
+      <label for="cats">Котів</label>
+      <input type="radio" name="pets" id="dogs" value="dogs">
+      <label for="dogs">Собак</label>
+      <input type="radio" name="pets" id="both" value="both">
+      <label for="both">Обох</label>
+      <br><br>
+      <label for="color">Який твій улюблений колір?</label> 
+      <input type="color" name="color" id="color">
+      <br><br>
+      <label for="time">О котрій годині ти лягаєш спати?</label> 
+      <input type="time" name="time" id="time" step="1">
+      <br><br>
+      <label for="cars">Яка твоя улюблена марка авто?</label> 
+      <select name="cars" id="cars" multiple>
+        <option value="bmw">BMW</option>
+        <option value="audi">Audi</option>
+        <option value="skoda">Skoda</option>
+        <option value="skoda">Mercedes</option>
+      </select>
+      <br><br>
+      <label for="rate">Який твій рівень володіння англійською?</label> 
+      <input type="range" name="rate" id="rate" value="0" step="1" min="0" max="5">
+      <br><br>
+      <label for="music">Яка твоя улюблена музика?</label>
+      <select name="music" id="music">
+        <option>Поп</option>
+        <option>Реп</option>
+        <option>Рок</option>
+      </select>
+    </fieldset>
+    <br><br>
+
+    <fieldset class="fieldset">
+      <legend><b>Додаткова інформація</b></legend>
+      <br>
+      <label for="comments">Залиш свій відгук:</label>
+      <textarea name="comments" id="comments"></textarea>
+    </fieldset>
+    <br><br>
+
+    <button type="reset"><b>Очистити все</b></button>
+    <button type="submit"><b>Надіслати</b></button>
+    <br><br>
+  </form>
+</body>
+</html>
