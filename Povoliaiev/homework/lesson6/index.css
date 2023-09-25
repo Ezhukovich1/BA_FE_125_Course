@@ -30,6 +30,7 @@ width: 82.342px;
      height: 387px;
      flex-shrink: 0;
     margin-left: 35px ;
+
 }
 
 
@@ -37,6 +38,7 @@ width: 82.342px;
 .head_list{
     display: flex;
     flex-wrap: wrap;
+     
 }
 
 .head_item{
@@ -59,7 +61,6 @@ width: 82.342px;
     align-items: flex-end;
     justify-content: center;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-   
 }
 
 .header_link{
@@ -83,6 +84,15 @@ width: 82.342px;
             text-decoration: none;
 }
 
+.header_line{
+    width: 965px;
+    height: 1px;
+    position: centr;
+    background: #828282;
+    margin-left: 5px;
+   
+}
+
 .about_me{
     text-align: center;
     background: var(--bg-gray, #F6F6F6);
@@ -93,8 +103,94 @@ width: 82.342px;
     margin-top: 45px;
 }
 
-.icon{
-        width: 80px;
-        height: 80px;
+.skill_up{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-shrink: 0;
+    
+
+}
+
+.card_title{
+    color: var(--text, #828282);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin-bottom: 60px;
+    
+}
+
+.icon_img{
+    margin-left: 35px;
+    margin-top: 50px;
+}
+
+.wrap_portfolio{
+    text-align: center;
+    background: var(--bg-gray, #F6F6F6);
+   
+}
+
+.contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
         flex-shrink: 0;
+        text-align: center;
+        color: var(--Black, #070707);
+        font-family: Open Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 100px ;
+}
+
+.button{
+        display: flex;
+        justify-content: center;
+        font-family: Open Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.8px;
+        background-color: black;
+        color: white;
+        border-radius: 22px;
+        width: 148px;
+}
+
+.social{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 97px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        flex-shrink: 0;
+        margin-top: 50px;
+
+}
+
+.text_edit{
+        color: #828282;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 60px;
 }
