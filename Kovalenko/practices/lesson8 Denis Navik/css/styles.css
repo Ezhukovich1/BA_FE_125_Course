@@ -1,0 +1,92 @@
+.wrapper {
+margin: auto;
+}
+
+.line {
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-top: 25px;
+    padding-bottom: 12px; 
+}
+
+.name {
+    padding-left: 235px;
+    padding-right: 905px;
+    padding-top: 12px;
+    padding-bottom: 50px;
+    color: #070707;
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.denis_foto {
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-top: 50px;
+    padding-bottom: 0%;
+    width: 970px;
+    height: 387px;
+    flex-shrink: 0;
+}
+
+.second_page{
+    background: #F6F6F6;
+}
+
+.title_second_page {
+    padding-left: 620px;
+    padding-right: 620px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p1 {
+    padding-left: 480px;
+    padding-right: 480px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p2 {
+    padding-left: 517px;
+    padding-right: 517px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p3 {
+    padding-left: 559, 5px;
+    padding-right: 559, 5px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
