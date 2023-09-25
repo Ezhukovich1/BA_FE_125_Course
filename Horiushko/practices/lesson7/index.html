@@ -9,38 +9,47 @@
 
 <body>
     <form action="#" name="registration" method="get">
-        <label for="fullname">Повне ім'я</label>
-        <input type="text" id="fullname" name="fullname" />
+        <fieldset>
+            <legend>Ім'я користувача, пошта та пароль</legend>
+            <label for="fullname">Повне ім'я</label>
+            <input type="text" id="fullname" name="fullname" />
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+            <br><br>
+            <label for="password">Пароль</label>
+            <input type="password" id="password" name="password" />
+            <br><br>
+            <label for="password-again">Пароль ще раз</label>
+            <input type="password" id="password-again" name="password-again" />
+        </fieldset>
         <br><br>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" />
+        <fieldset>
+            <legend>Стать та вік користувача</legend>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Чоловіча</label>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Жіноча</label>
+            <br><br>
+            <label for="age">Вік</label>
+            <input type="number" id="age" name="age" min="18" max="90" />
+        </fieldset>
         <br><br>
-        <label for="password">Пароль</label>
-        <input type="password" id="password" name="password" />
+        <fieldset>
+            <legend>Курс</legend>
+            <select name="course" id="course">
+                <option value="">Виберіть курс</option>
+                <option value="front_end">Front end</option>
+                <option value="back_end">Back end</option>
+                <option value="ui_ux_design">UI/UX Design</option>
+            </select>
+        </fieldset>
         <br><br>
-        <label for="password-again">Пароль ще раз</label>
-        <input type="password" id="password-again" name="password-again" />
-        <br><br>
-        <label>Стать</label>
-        <input type="radio" id="male" name="gender" value="male" />
-        <label for="male">Чоловіча</label>
-        <input type="radio" id="female" name="gender" value="female" />
-        <label for="female">Жіноча</label>
-        <br><br>
-        <label for="age">Вік</label>
-        <input type="number" id="age" name="age" min="18" max="90" />
-        <br><br>
-        <label for="course">Курс</label>
-        <select name="course" id="course">
-            <option value="">Виберіть курс</option>
-            <option value="front_end">Front end</option>
-            <option value="back_end">Back end</option>
-            <option value="ui_ux_design">UI/UX Design</option>
-        </select>
-        <br><br>
-        <label for="address">Повна адреса</label>
-        <textarea name="address" id="address" cols="25" rows="3"
-            placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+        <fieldset>
+            <legend>Повна адреса</legend>
+            <textarea name="address" id="address" cols="25" rows="3"
+                placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+        </fieldset>
         <br><br>
         <input type="checkbox" id="agree" name="agree" />
         <label for="agree">Я погоджуюсь з обробкою персональних даних</label>
