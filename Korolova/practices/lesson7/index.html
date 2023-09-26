@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <form action="#" name="registration" method="get"> 
+    
+<label for="fullname">Повне ім'я</label>
+    <input type="text" id="fullname" name="fullname">
+<br>
+<br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+<br>
+<br>
+    <label for="password">Пароль</label>
+    <input type="password" id="password" name="password" >
+<br>
+<br>
+    <label for="password_again">Пароль ще раз</label>
+    <input type="password" id="password_again" name="password_again" >
+<br>    
+<br>
+    <label for="gender">Стать</label>
+    <input type="radio" id="male" name="gender" value="male"><label for="gender">Чоловіча</label>
+    <input type="radio" id="femail" name="gender" value="female"><label for="gender">Жіноча</label>
+<br>
+<br>
+    <label for="age">Вік</label>
+    <input type="number" id="age" name="age">
+ <br>
+ <br>   
+    <label for="course">Курс</label>
+    <select name="course" id="course">
+        <option value="">Виберіть курс</option>
+        <option value="front_end">Front end</option>
+        <option value="back_end">Back end</option>
+        <option value="design">Design</option>
+    </select>
+<br>
+<br>
+    <label for="address">Повна адреса</label>  
+    <textarea name="address" id="address" placeholder="Країна, регіон, місто/селище, вулиця"></textarea>  
+<br>
+<br>
+    <input type="checkbox" id="checkbox" name="checkbox">
+    <label for="checkbox">Я погоджуюсь з обробкою персональних даних</label>
+<br>
+<br>
+        <input type="reset" value="Очистити форму">
+        <input type="submit" value="Зареєструватись">
+</form>   
+<br>
+<br>
+<form action="#" name="registration" method="get">
+    <fieldset>
+        <legend>Personal information</legend>
+        <input type="text" required id="first_name" name="first_name" placeholder="First name">
+        <label for="first_name">First name</label>
+    <br>
+    <br>
+        <input type="text" required id="last_name" name="last_name" placeholder="Last name">
+        <label for="Last name">Last name</label>
+    <br>
+        <h5>Date of birth</h5>
+<div>
+        <label for="date">Date</label>
+        <select name="date" id="date">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+    
+      <br>
+        <label for="mounth">Mounth</label>  
+        <select name="mounth" id="mounth">
+            <option value="january">January</option>
+            <option value="february">February</option>
+            <option value="march">March</option>
+            <option value="april">April</option>
+            <option value="may">May</option>
+            <option value="june">June</option>
+            <option value="july">July</option>
+            <option value="august">August</option>
+            <option value="september">September</option>
+            <option value="october">October</option>
+            <option value="november">November</option>
+            <option value="december">December</option>
+        </select>
+        <label for="year">Year</label>
+        <input type="number" id="year" name="year">
+    <br>
+    <br>
+    <input type="email" id="email1" name="email1" placeholder="type your emeil">
+    <label for="email1">Your email</label>
+</div>
+
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Delivery address</legend>
+        <input type="text" required id="first_line" name="first_line">
+        <label for="first_line">First line</label>
+    <br>
+    <br>
+        <input type="text" id="second_line" name="second_line" disabled>
+        <label for="second_line">Second line</label>
+    <br>
+    <br>
+        <input type="text" id="city" name="city">
+        <label for="city">City</label>
+    <br>
+    <br>
+        <input type="text" id="country" name="country">
+        <label for="country">Country</label>
+    <br>
+    <br>
+        <input type="text" required id="post_code" name="post_code">
+        <label for="post_code">Post code</label>
+    <br>
+    <br>
+        <input type="number" required name="mobile_number" id="mobile_number">
+        <label for="mobile_number">Mobile number</label>
+    <br>
+    <br>
+        <textarea name="comments_for_the_courier" id="comments_for_the_courier" cols="30" rows="10" 
+                  placeholder="optional"></textarea>
+        <label for="comments_for_the_courier">Comments for the courier</label>
+
+    </fieldset>
+    <br>
+    <br>
+        <input type="checkbox" required id="agree" name="agree">
+        <label for="agree">I agree to the privasy policy and consent 
+                           to the processing of my personal data</label>
+    <br>
+    <br>
+            <button>Order confirmation</button>
+</form>
+
+</body>
+</html>
