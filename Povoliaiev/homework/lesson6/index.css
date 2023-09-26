@@ -137,6 +137,7 @@ width: 82.342px;
 .wrap_portfolio{
     text-align: center;
     background: var(--bg-gray, #F6F6F6);
+    margin-top: 75px
    
 }
 
@@ -193,4 +194,16 @@ width: 82.342px;
         font-weight: 400;
         line-height: normal;
         margin-top: 60px;
+}
+
+.fashion_store{
+    margin-top: 60px;
+}
+
+.title_braun{
+    margin-top: 125px;
+}
+
+.title_reebok{
+    margin-top: 75px;
 }
