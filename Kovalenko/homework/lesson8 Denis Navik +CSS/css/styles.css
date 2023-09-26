@@ -1,0 +1,343 @@
+.body {
+margin: 0;
+height: 100;
+}
+
+.wrapper {
+    margin: auto;
+    
+}
+
+.home {
+    padding-left: 472px;
+    padding-right: 472px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    width: 496px;
+    height: 30px;
+    align-items: center;
+    gap: 40px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    color: #070707;
+    text-align: center;
+    list-style-type: none;
+    /*забирає крапки*/
+
+    color: #828282;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.header_link {}
+
+.line {
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-top: 25px;
+    padding-bottom: 12px;
+}
+
+.name {
+    padding-left: 235px;
+    padding-right: 905px;
+    padding-top: 12px;
+    padding-bottom: 50px;
+    color: #070707;
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.denis_foto {
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-top: 50px;
+    padding-bottom: 0%;
+    width: 970px;
+    height: 387px;
+    flex-shrink: 0;
+}
+
+.second_page {
+    background: #F6F6F6;
+}
+
+.title_second_page {
+    padding-left: 620px;
+    padding-right: 620px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p1 {
+    padding-left: 480px;
+    padding-right: 480px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p2 {
+    padding-left: 517px;
+    padding-right: 517px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p3 {
+    padding-left: 559, 5px;
+    padding-right: 559, 5px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.name_skills {
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.skills_dscr {
+    color: #828282;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.skills_p {
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.wrapper_skills {
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    width: 970px;
+    height: 230px;
+    justify-content: center;
+    text-align: center;
+    gap: 97px;
+    flex-shrink: 0;
+}
+
+.portfolio_page {
+    background: #F6F6F6;
+}
+
+.portfolio {
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 645px;
+    padding-right: 645px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.fashion_foto {
+    width: 970px;
+    height: 540px;
+    flex-shrink: 0;
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.fashion_store {
+    padding-left: 620px;
+    padding-right: 620px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.reebok_foto {
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.reebok_store {
+    padding-left: 620px;
+    padding-right: 620px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.braun_foto {
+    padding-left: 235px;
+    padding-right: 235px;
+    padding-top: 70px;
+    padding-bottom: 64px;
+}
+
+.braun_store {
+    padding-left: 590px;
+    padding-right: 590px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+
+}
+
+.contacts {
+    padding-left: 645px;
+    padding-right: 645px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contacts_p {
+    padding-left: 580px;
+    padding-right: 580px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button {
+    display: flex;
+    width: 180px;
+    height: 44px;
+    padding: 0px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    background: #070707;
+    color: #F6F6F6;
+    margin-right: 646px;
+    margin-left: 646px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+
+.net_items {
+    display: flex;
+    width: 310px;
+    height: 40px;
+    align-items: flex-start;
+    gap: 50px;
+
+    padding-left: 565px;
+    padding-right: 565px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    justify-content: center;
+    text-align: center;
+    gap: 97px;
+    flex-shrink: 0;
+    list-style-type: none;
+}
+
+.like {
+    color: #828282;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 620px;
+    padding-right: 620px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
