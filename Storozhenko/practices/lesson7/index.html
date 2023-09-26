@@ -89,7 +89,7 @@
                     <input name="date" id="date_of_completing" type="date" />
                     <br />
                     <br />
-                    <input type="checkbox" />
+                    <input type="checkbox" id="checkbox" name="checkbox" />
                     <label for="checkbox">Всі дані заповнено вірно та відповідають дійсності</label>
                     <br />
                     <br />
@@ -102,7 +102,7 @@
             <fieldset>
                 <legend><b>Частина ІI.</b> Сімейний стан</legend>
                 <br />
-                <label for="marital_status">Сімейний стан: </label>  
+                <p>Сімейний стан: </p>  
                 <select name="marital_status" id="marital_status">
                   <option value="">Обрати варіант:</option>
                   <option value="not_married">не одружений(а)</option>
@@ -117,22 +117,24 @@
                 <textarea name="another_option" id="another_option" placeholder="інший варіант"></textarea>
                 <br />
                 <br />
-                <label for="children">Діти: </label>    
-                <input type="radio" id="yes" name="children" value="yes" /><label for="children">є</label>
-                <input type="radio" id="no" name="children" value="no" /><label for="children">немає</label>
+                <p>Діти: </p>    
+                <input type="radio" id="childrenchoise1" name="children" value="yes" />
+                <label for="childrenchoise1">є</label>
+                <input type="radio" id="childrenchoise2" name="children" value="no" />
+                <label for="childrenchoise2">немає</label>
                 <br />
                 <br />
-                <label for="confidant" required>Контактні дані довіреної особи: </label>
+                <p>Контактні дані довіреної особи: </p>
                 <br />
                 <br />
                 <label for="surname">Прізвище та ім'я: </label>
-                <input type="text" id="surname" required>
+                <input type="text" id="surname">
                 <label for="phone_number"><i>+380</i></label>
-                <input type="tel" id="phone_number" max="9" required>
+                <input type="tel" id="phone_number" required>
                 <br />
                 <br />
-                <input type="checkbox" />
-                <label for="checkbox">Всі дані заповнено вірно та відповідають дійсності</label>
+                <input type="checkbox" id="checkbox_2" name="checkbox_2" />
+                <p>Всі дані заповнено вірно та відповідають дійсності</p>
                 <br />
                 <br />
                 <button type="reset">Очистити форму</button>
