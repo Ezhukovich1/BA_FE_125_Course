@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#" name="registration" method="get">
+      <label for="fullname">Повне ім'я</label>
+      <input type="text" id="fullname" name="fullname" /><br /><br />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" /> <br />
+      <br />
+      <label for="password">Пароль</label>
+      <input type="password" id="password" /><br />
+      <br />
+      <label for="password_agin">Пароль ще раз</label>
+      <input type="password" id="password_agin" /><br /><br />
+      <label> Стать</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Жіноча</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Чоловіча</label><br /><br />
+      <label for="age">Вік</label>
+      <input type="number" id="age" name="age" /><br /><br />
+      <label for="course">курс</label>
+      <select name="course" id="course">
+        <option value="">виберіть курс</option>
+        <option value="front_end">Front end</option>
+        <option value="back_end">Back end</option>
+        <option value="desing">Desing</option>
+      </select>
+      <br /><br />
+      <label for="adreess">Повна адреса</label>
+      <textarea
+        name="adreess"
+        id="adreess"
+        cols="10"
+        rows="3"
+        placeholder="Країна,регіон,місто,селище,вулиця"
+      ></textarea
+      ><br /><br />
+      <input type="checkbox" />
+      <label for="">Я пошоджуюсь з обробкю даних</label><br /><br />
+      <input type="reset" value="очистити форму" />
+      <input type="submit" value="заруєструватися" />
+    </form>
+  </body>
+</html>
