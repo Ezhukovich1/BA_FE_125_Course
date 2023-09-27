@@ -1,0 +1,31 @@
+.section_form{
+    margin: 0 auto;
+    background-color:antiquewhite;
+    border: 2px solid gray;
+    width: 350px;
+}
+.form_title{
+    text-align: center;
+}
+.form_reg{
+    width: 100%;
+}
+input{
+    margin-bottom: 10px; 
+}
+.label_styles{
+    display: block;
+    float: left;
+    width: 110px;   
+}
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+}
+.buttons{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.legend{
+    color: gray;
+}

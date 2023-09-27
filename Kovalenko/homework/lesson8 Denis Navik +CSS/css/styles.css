@@ -1,5 +1,4 @@
 
-
 .home {
     padding-left: 472px;
     padding-right: 472px;
@@ -25,7 +24,11 @@
     letter-spacing: 0.36px;
 }
 
+wrapper {
+margin: auto;
+}
 
+main
 .line {
     padding-left: 235px;
     padding-right: 235px;

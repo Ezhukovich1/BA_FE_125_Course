@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Lesson 7</title>
+</head>
+<body>
+    <form action="#" name="singin_data">
+        <h2>Дані для реєстрації особистого кабінету</h2>
+        <fieldset name="registration_data">
+            <label for="fullname">Повне імʼя</label>
+            <input type="text" id="fullname" name="fullname" placeholder="">
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="">
+            <br>
+            <br>
+            <label for="password">Пароль</label>
+            <input type="password" id="password" name="password" placeholder="">
+            <br>
+            <br>
+            <label for="password_again">Пароль ще раз</label>
+            <input type="password" id="password_again" name="password_again" placeholder="">
+            <br>
+            <br>
+            <label for="gender">Стать</label>
+            <input type="radio" id="male" name="gender" value="male"><label for="male">чоловіча</label>
+            <input type="radio" id="female" name="gender" value="female"><label for="female">жіноча</label>
+            <br>
+            <br>
+            <label for="age">Вік</label>
+            <input type="number" id="age" name="age" placeholder="">
+            <br>
+            <br>
+            <label for="course">Курс</label>
+            <select name="course" id="course" >
+                <option value="">=Виберіть курс=</option>
+                <option value="front_end">Front end</option>
+                <option value="back_end">Back end</option>
+                <option value="design">Design</option>
+            </select>
+            
+        </fieldset>
+        <h2>Контактні дані</h2>
+        <fieldset name="contacts">
+            <label for="number">Номер телефону</label>
+            <input type="text" id="number" name="number" placeholder="">
+            <br>
+            <br>
+            <label for="course">Повна адреса</label>
+            <textarea name="adress" id="address" placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+            <br>
+            <br>
+            <label for="town">Виберіть найближчий до вас філіал компанії</label>
+            <select name="town" id="town" >
+                <option value="">------------</option>
+                <option value="kyiv">Киів</option>
+                <option value="odesa">Одеса</option>
+                <option value="lviv">Львів</option>
+                <option value="kherson">Херсон</option>
+                <option value="tchernivtsi">Чернівці</option>
+            </select>
+
+        </fieldset>
+        <br>
+        <input type="checkbox" id="checkbox" name="checkbox"><label for="checkbox">Я погоджуюсь з обробкою даних</label>
+            <br>
+            <br>
+            <button type="reset">Очистити форму</button>
+            <button type="submit">Зареєструватись</button>
+    </form>
+</body>
+</html>

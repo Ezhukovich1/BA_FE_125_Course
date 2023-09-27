@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> practic for less7 Form</title>
+</head>
+<body>
+    <form action="" method="get" name="registration">
+            <lable for="full_name">Full name:</lable>
+            <input type="text" name="full_name" id="full_name">
+            <br><br>
+            <lable for="email">Email:</lable>
+            <input type="email" name="email"  id="email">
+            <br><br>
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="pass">
+            <br><br>
+            <label for="pass_again">Enter password again:</label>
+            <input type="password" name="pass_again" id="pass_again">
+            <br><br>
+            <label for="">Sex:</label>
+            <label for="male">Male</label>
+            <input type ="radio" name="sex" id="male" value="male" >
+            <label for="female">Female</label>
+            <input type ="radio" name="sex" id="femail" value="femail">
+            <br><br>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age">
+            <br><br>
+            <label for="course">Course:</label>
+            <select name="course">
+                <option value=""></option>
+                <option value="frontend">Front-End</option>
+                <option value="backend">Back-End</option>
+                <option value="management">Project Management</option>
+                <option value="qa">QA Manual</option>
+              </select>
+            <br><br>
+            <label for="address"> Address:</label><br>
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter full address"></textarea>
+            <br><br>
+            <input type="checkbox" name="yes" id="yes">
+            <label for="yes">I agree...</label>
+            <br><br>
+            <button type="reset">Clear form</button>
+            <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+
+<body>
+      <form action="#" name="registration" method="get">
+          <br />
+          <label for="fullname">Повне ім'я</label>
+          <input type="text" id="fullname" name="fullname" />
+          <br />
+          <br />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+          <br />
+          <br />
+          <label for="password">Пароль:</label>
+          <input type="password" id="password" />
+          <br />
+          <br />
+          <label for="password_again">Пароль ще раз:</label>
+          <input type="password" name="password_again" />
+          <br />
+          <br />
+          <label for="gender">Стать</label>
+          <input type="radio" id="male" name="gender" value="male" /><label for="gender">чоловіча</label>
+          <input type="radio" id="female" name="gender" value="female" /><label for="gender">жіноча</label>
+          <br />
+          <br />
+          <label for="age">Вік</label>
+          <input type="text" id="age" name="age" />
+          <br />
+          <br />
+          <label for="course">Курс</label>
+          <select name="course" id="course">
+            <option value="">Виберіть курс</option>
+            <option value="front_end">Front-end</option>
+            <option value="back_end">Back-end</option>
+            <option value="design">Design</option>
+          </select>
+          <br />
+          <br />
+          <label for="address">Повна адреса</label>
+          <textarea name="address" id="address" placeholder="Країна, регіон, місто/селище, вулиця"></textarea>
+          <br />
+          <br />
+          <input type="checkbox" id="checkbox" name="checkbox">
+          <label for="checkbox">Я погоджуюсь з обробкою персональних даних</label>
+          <br />
+          <br />
+          <button type="reset">Очистити форму</button>
+          <button type="submit">Зареєструватися</button>
+      </form> 
+
+      <br />
+      <hr />
+      
+      <!-- Homework Extra -->
+      <form action="#" name="registration" method="get">
+                <fieldset>
+                    <legend><b>Частина І.</b> Персональна анкета фізичних даних</legend>
+                    <br />
+                    <label for="photo">Ваше фото: </label>
+                    <input type="file" id="photo" name="photo" accept="image/png, image/jpeg" />
+                    <br />
+                    <br />
+                    <label for="hight">Зріст, см: </label>
+                    <input type="number" id="hight" min="50" max="230" step="1" value="" />
+                    <br />
+                    <br />
+                    <label for="weight">Вага, кг: </label>
+                    <input type="number" id="weight" min="1" max="300" step="1" value="" />
+                    <br />
+                    <br />
+                    <label for="eye_colour">Колір очей: </label>
+                    <select name="eye_colour" id="eye_colour">
+                         <option value="">Обрати варіант:</option>
+                         <option value="brown">Карі</option>
+                         <option value="green">Зелені</option>
+                         <option value="blue">Блакитні</option>
+                         <option value="grey">Сірі</option>
+                    </select>
+                    <br />
+                    <br />
+                    <label for="date_of_completing">Дата заповнення анкети: </label>
+                    <input name="date" id="date_of_completing" type="date" />
+                    <br />
+                    <br />
+                    <input type="checkbox" id="checkbox" name="checkbox" />
+                    <label for="checkbox">Всі дані заповнено вірно та відповідають дійсності</label>
+                    <br />
+                    <br />
+                    <button type="reset">Очистити форму</button>
+                    <button type="submit">Зареєструватися</button>
+                </fieldset>
+
+            <br />
+
+            <fieldset>
+                <legend><b>Частина ІI.</b> Сімейний стан</legend>
+                <br />
+                <p>Сімейний стан: </p>  
+                <select name="marital_status" id="marital_status">
+                  <option value="">Обрати варіант:</option>
+                  <option value="not_married">не одружений(а)</option>
+                  <option value="married">одружений(заміжня)</option>
+                  <option value="divorced">розлучений(а)</option>
+                  <option value="widower_widow">вдівець(вдова)</option>
+                  <option value="civil marriage">цивільний шлюб</option>
+                  <option value="another_option">інший варіант</option>
+                </select>
+                  <br />
+                  <br />
+                <textarea name="another_option" id="another_option" placeholder="інший варіант"></textarea>
+                <br />
+                <br />
+                <p>Діти: </p>    
+                <input type="radio" id="childrenchoise1" name="children" value="yes" />
+                <label for="childrenchoise1">є</label>
+                <input type="radio" id="childrenchoise2" name="children" value="no" />
+                <label for="childrenchoise2">немає</label>
+                <br />
+                <br />
+                <p>Контактні дані довіреної особи: </p>
+                <br />
+                <br />
+                <label for="surname">Прізвище та ім'я: </label>
+                <input type="text" id="surname">
+                <label for="phone_number"><i>+380</i></label>
+                <input type="tel" id="phone_number" required>
+                <br />
+                <br />
+                <input type="checkbox" id="checkbox_2" name="checkbox_2" />
+                <p>Всі дані заповнено вірно та відповідають дійсності</p>
+                <br />
+                <br />
+                <button type="reset">Очистити форму</button>
+                <button type="submit">Зареєструватися</button>
+            </fieldset>
+      </form>
+</body>
+</html>

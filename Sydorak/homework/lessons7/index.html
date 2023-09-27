@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#" name="registraion" method="get">
+      <fieldset>
+        <legend>Повне ім'я</legend>
+        <label for="fullname">Повне ім'я</label>
+        <input type="text" id="fullname" name="fullname" />
+        <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Email</legend>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+        <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Пароль</legend>
+        <label for="password">Пароль</label>
+        <input type="password" id="password" name="password" />
+        <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Підтвердіть Пароль</legend>
+        <label for="password">Пароль ще раз</label>
+        <input type="password" id="password-again" name="password-again" />
+        <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Стать</legend>
+        <input type="radio" name="gender" id="male" />
+        <label for="male">чоловіча</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">жіноча</label>
+        <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Вік</legend>
+        <label for="age">Вік</label>
+        <input type="number" id="age" name="age" min="1" max="100" />
+        <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Виберіть курс</legend>
+        <label for="curse">курс</label>
+        <select name="curse" id="curse">
+          <option value="">Виберіть курс</option>
+          <option value="Front-End">Front-End</option>
+          <option value="Back-End">Back-End</option>
+          <option value="Project">Project</option>
+          <option value="Qa Manual">Qa Manual</option>
+        </select>
+        <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Контактна інформація</legend>
+        <label for="address">Повна адреса</label>
+        <textarea
+          name="address"
+          id="address"
+          rows="3"
+          placeholder="Країна,регіон,місто,вулиця"
+        ></textarea>
+        <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <input type="checkbox" id="accept" />
+        <label for="accept"> Я погоджуюсь з обробкою персональних даних</label>
+        <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Кнопки</legend>
+        <button type="reset">Очистити форму</button>
+        <button type="submit">Зареєструватися</button>
+      </fieldset>
+
+      <fieldset>
+        <legend>Номер телефону</legend>
+        <input type="tel" id="number" />
+        <label for="number"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Додати файл</legend>
+        <input type="file" name="myfile" id="file" />
+        <label for="file"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Пошук GOOGLE</legend>
+        <input type="search" name="googlesearch" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Додайте вашу домашню сторінку</legend>
+        <input type="url" name="homepage" />
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pract7</title>
+</head>
+<body>
+    <form action="#" name="registration" method="get" >
+        <label for="fullname">повне імʼя:</label>
+        <input type="text" name="fullname" placeholder="повне імʼя">
+
+        <br><br>
+        
+        <label for="email">пошта:</label>
+        <input type="email" name="email" id="email" placeholder="пошта">
+        
+        <br><br>
+        
+        <label for="password">пароль:</label>
+        <input type="password" name="password" id="password" placeholder="пароль">
+
+        <br><br>
+
+        <label for="password_again">пароль ще раз:</label>
+        <input type="password_again" name="password_again" id="password_again" placeholder="пароль ще раз">
+
+        <br><br>
+
+        <input type="radio" id="male" name="gender" value="male">
+         <label for="male">чоловіча</label>
+        <input type="radio" id="famale" name="gender" value="famale"> 
+        <label for="famale">жіноча</label>
+
+        <br><br>
+
+        <label for="age">вік</label>
+        <input type="tel" id="age" name="age">
+
+        <br><br>
+
+        <label for="cours"> курс</label>
+        <select name="course" id="course">
+            <option value="">вибір курсу</option>
+            <option value="front_end">front end</option>
+            <option value="back_end">back end</option>
+            <option value="designe">designe</option>
+        </select>
+
+        <br><br>
+
+        <label for="address">повна адреса</label>
+        <textarea name="address" id="address" cols="10" rows="3" 
+        placeholder="країна,регіон,селище,вулиця"></textarea>
+        
+        <br><br>
+         
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <label for="checkbox">я погоджуюсь з обробкою персональних данних</label>
+         
+        <br><br>
+
+        <input type="submit" value=" зареєструватись">
+        <input type="reset" value="очистить форму">
+    </form>
+
+</body>
+</html>

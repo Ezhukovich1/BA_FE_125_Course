@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>homework for lesson 7 Forms</title>
+</head>
+<body>
+    <section class="section_form">
+        <h1 class="form_title">Форма реєстрації</h1>
+        <form class="form_reg" action="#" method="get" name="registration">
+            <fieldset>
+                <legend class="legend">Контактні данні</legend>
+                <label for="full_name" class="label_styles">Повне ім’я:</label>
+                <input type="text" name="full_name" id="full_name" required>
+                <label for="age" class="label_styles">Вік</label>
+                 <input type="number" name="age" id="age" required>
+                <label for="email" class="label_styles">Email:</label>
+                <input type="email" name="email"  id="email" required>
+                <label for="address" class="label_styles">Повна адреса:</label>
+                <textarea name="address" id="address"  placeholder="Країна, регіон, місто.
+                \селище, вулиця" required></textarea>
+            </fieldset>
+            <fieldset>
+                <legend class="legend">Стать</legend>
+                <label for="male" class="label_styles">чоловіча</label>
+                <input type ="radio" name="sex" id="male" value="male" ><br>
+                <label for="female" class="label_styles">жіноча</label>
+                <input type ="radio" name="sex" id="femail" value="femail">
+            </fieldset>
+            <fieldset>
+                <legend class="legend">Бажаний курс</legend>
+                <label for="select" class="label_styles">Курс</label>
+                <select id="select" required>
+                    <option value="">Виберіть курс</option>
+                        <optgroup label="Програмування">
+                            <option value="frontend">Front-End</option>
+                            <option value="backend">Back-End</option>
+                        </optgroup>
+                        <optgroup label="Тестування">
+                            <option value="qa_manual">QA Manual</option>
+                        </optgroup>
+                        <optgroup label="Керування проектами">
+                            <option value="project_management">Project Management</option>
+                        </optgroup>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend class="legend">Реєстраційні данні</legend>
+                <label for="login" class="label_styles">Login</label>
+                <input type="text" name="login" id="login" required>
+                <label for="password" class="label_styles">Пароль</label>
+                <input type="password" name="password" id="password" required>
+                <label for="pass_again" class="label_styles">Пароль ще раз</label>
+                <input type="password" name="pass_again" id="pass_again" required>
+            </fieldset>
+            <input type="checkbox" name="yes" id="yes" required>
+            <label for="yes">Я погоджуюсь з обробкою персональних даних</label>
+            <div class="buttons">
+                <button class="btn" type="reset">Очистити форму</button>
+                <button class="btn" type="submit">Зареєструватися</button>
+            </div>    
+        </form>
+    </section>
+</body>
+</html>

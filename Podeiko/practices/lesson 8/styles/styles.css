@@ -1,0 +1,19 @@
+.container {
+  width: 1110px;
+  /* experemental */
+  margin: 0 auto;
+}
+
+.button {
+  background: #111b47;
+  width: 160px;
+  height: 26px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  /* experemental */
+  display: block;
+  text-align: center;
+  font-family: Roboto;
+}
