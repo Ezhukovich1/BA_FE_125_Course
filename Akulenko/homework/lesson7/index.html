@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" name="registration" method="post" id="form1">
+        <fieldset>
+            <legend>Особисті дані</legend>
+            <label for="name">Ім'я</label>
+            <input type="text" id="name" name="name" placeholder="введіть ваше ім'я" required>
+            <br />
+            <br />
+            <label for="surname">Прізвище</label>
+            <input type="text" id="surname" name="surname" placeholder="введіть ваше прізвище" required>
+            <br />
+            <br />
+            <label for="secondname">Побаткові</label>
+            <input type="text" id="secondname" name="secondname" placeholder="побатькові">
+        </fieldset>
+        <fieldset>
+            <legend>Загальна інформація</legend>
+            <label>Стать</label>
+            <input type="radio" name="gender" id="male" value="male"><label for="male">Чоловіча</label>
+            <input type="radio" name="gender" id="female" value="female"><label for="female">Жіноча</label>
+            <br />
+            <br />
+            <label>Вкажіть ваш вік</label>
+            <input type="checkbox" name="age" id="18_25" value="18_25"><label for="18_25">18-25</label>
+            <br />
+            <input type="checkbox" name="age" id="25_45" value="25_45"><label for="25_45">25-45</label>
+            <br />
+            <input type="checkbox" name="age" id="45_60" value="45_60"><label for="45_60">45-60</label>
+            <br />
+            <label for="city">Місто проживання</label>
+            <select name="city" id="city">
+                <option value="">Оберіть ваше місто</option>
+                <option value="kyiv">Київ</option>
+                <option value="zytomyr">Житомир</option>
+                <option value="lviv">Львів</option>
+                <option value="lutsk">Луцьк</option>
+                <option value="cherkasy">Черкаси</option>
+                <option value="rivne">Рівне</option>
+            </select>
+            <label for="your_city">Ваш варіант</label>
+            <input type="text" id="your_city" name="your_city" placeholder="назва вашого населеного пункту">
+            <br />
+        </fieldset>
+        <br />
+        <button type="submit" form="form1" value="submit">Надіслати форму</button>
+        <button type="reset" form="form1" value="reset">Очистити дані</button>
+    </form>
+</body>
+</html>
