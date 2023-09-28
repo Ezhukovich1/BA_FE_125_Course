@@ -19,10 +19,12 @@ section {
     margin: auto;
     margin-bottom: 22px;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
 }
-
+/* .first_screen{
+    margin-bottom: 0;
+} */
 .menu {
     display: block;
     display: flex;
@@ -78,6 +80,8 @@ h1{
 }
 #about_me {
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 #about_me li{
     margin-bottom: 30px;
@@ -101,6 +105,10 @@ h2 {
     font-size: 34px;
     font-weight: bold;
 }
+#skills{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 #skills h2{
     margin-bottom: 20px;
 }
@@ -110,6 +118,10 @@ h2 {
 }
 #skills figcaption{
     margin-top: 25px;
+}
+#portfolio{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #portfolio h2{
