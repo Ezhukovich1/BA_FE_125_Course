@@ -23,6 +23,7 @@ width: 82.342px;
     
 .main{
     background: #FFF;
+    
 }
 
 .photo{
@@ -55,6 +56,14 @@ width: 82.342px;
     margin: 0 auto;
 }
 
+.hero{
+    width: 970px;
+    height: 387px;
+    flex-shrink: 0;
+    
+    
+}
+
 .header_wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -85,11 +94,11 @@ width: 82.342px;
 }
 
 .header_line{
-    width: 965px;
+    width: 970px;
     height: 1px;
     position: centr;
     background: #828282;
-    margin-left: 5px;
+    margin-right: 22px;
    
 }
 
