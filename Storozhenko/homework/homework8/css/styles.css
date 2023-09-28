@@ -1,0 +1,140 @@
+body {
+  width: 1440px;
+  font-family: Open Sans;
+  font-style: normal;
+  line-height: normal;
+  background: #FFF;
+}
+
+/* Header */
+.navbar {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 12px;
+  margin-left:20px;
+  color: #828282;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+}
+
+h1 {
+  flex-shrink: 0;
+  color: #070707;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 12px;
+  padding-bottom: 50px;
+}
+
+.photo {
+  width: 970px;
+  height: 387px;
+  background-position: 92;
+  background-position: 235;
+  display: block;
+  display: flex;
+  text-align: center;
+}
+
+/* <!-- Section "About me" --> */
+h3 {
+  color: #070707;
+  font-size: 34px;
+  text-align: center;
+}
+
+.about-me1 {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.about-me2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  
+}
+
+.about-me3 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/* Section "Skills" */
+.skills-general {
+  text-align: center;
+}
+
+.skills {
+  color: #070707;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.skills-icons {
+  display: flex;
+  justify-content: center;
+  gap: 97px;
+}
+
+/* Section "Portfolio" */
+.portfolio-general {
+  text-align: center;
+}
+
+.portfolio {
+  width: 970px;
+  height: 540px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.port-link {
+  color: #070707;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+.contact {
+  color: #070707;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+button {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  border-radius: 22px;
+  padding: 0px 16px;
+}
+
+.social-buttons {
+  gap: 50px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-text {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 400;
+}
