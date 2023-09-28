@@ -1,11 +1,11 @@
-
 .home {
     padding-left: 472px;
     padding-right: 472px;
     padding-top: 25px;
     padding-bottom: 25px;
     display: flex;
-    width: 496px;
+    /*робить в рядок*/
+    width: 600px;
     height: 30px;
     align-items: center;
     gap: 40px;
@@ -13,20 +13,23 @@
     justify-content: space-between;
     color: #070707;
     text-align: center;
-    list-style-type: none;  /*забирає крапки*/
+    list-style-type: none;
+    /*забирає крапки*/
     text-decoration: none;
-   
     font-family: Open Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.36px;
+
 }
 
-wrapper {
-margin: auto;
+.a:hover {
+    font-size: x-large;
+    text-decoration: none;
 }
+
 
 .line {
     padding-left: 235px;
@@ -302,6 +305,12 @@ margin: auto;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.8px;
+
+}
+
+.button:hover{
+color: crimson;
+background-color: aqua;
 }
 
 .net_items {
@@ -322,11 +331,16 @@ margin: auto;
     list-style-type: none;
 }
 
+.s:hover {
+    display: flex;
+    color: #070707;
+}
+
 .like {
     color: #828282;
     text-align: center;
     font-family: Open Sans;
-    font-size: 14px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
