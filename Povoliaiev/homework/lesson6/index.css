@@ -1,7 +1,27 @@
-.head_item{
-width: 82.342px;
-    height: 22.777px;
-    flex-shrink: 0;
+
+.header{
+    background-color: white;
+    max-width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.header_menu{
+    width: 970px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    
+}
+
+.head_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.head_item {
     color: #828282;
     font-family: Open Sans;
     font-size: 18px;
@@ -9,97 +29,44 @@ width: 82.342px;
     font-weight: 400;
     line-height: normal;
     list-style-type: none;
-
-}
-
-.header{
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-   
-}
-    
-.main{
-    background: #FFF;
-    
-}
-
-.photo{
-    width: 970px;
-     height: 387px;
-     flex-shrink: 0;
-    margin-left: 35px ;
-
-}
-
-
-
-.head_list{
-    display: flex;
-    flex-wrap: wrap;
-     
-}
-
-.head_item{
-    margin-right: 41px;
-
-}
-
-.head_item:last-child {
-    margin-right: 0;
-}
-
-.wrapper{
-    max-width: 1060px;
-    margin: 0 auto;
-}
-
-.hero{
-    width: 970px;
-    height: 387px;
-    flex-shrink: 0;
-    
-    
-}
-
-.header_wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: center;
+    margin-right: 40px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
 }
 
-.header_link{
+.header_link {
     color: #828282;
     font-family: Open Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-.header_link1{
-            color: var(--Black, #070707);
-            font-family: Open Sans;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            letter-spacing: 0.36px;
-            text-decoration: none;
+.header_link1 {
+    color: var(--Black, #070707);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-decoration: none;
 }
 
-.header_line{
+.main{
+    background: #FFF;
+}
+
+.first_screen{
+    text-align: center;
+}
+
+.hero{
+    text-align: center;
     width: 970px;
-    height: 1px;
-    position: centr;
-    background: #828282;
-    margin-right: 22px;
-   
 }
 
 .about_me{
@@ -113,96 +80,80 @@ width: 82.342px;
 }
 
 .skill_up{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 97px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    gap: 50px;
     flex-shrink: 0;
-    
-
-}
-
-.card_title{
-    color: var(--text, #828282);
     text-align: center;
-    font-family: Open Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.28px;
-    margin-bottom: 60px;
-    
+    margin-top: 50px;
 }
+   
 
 .icon_img{
-    margin-left: 35px;
-    margin-top: 50px;
+
+   margin-left: 92px;
+
 }
 
 .wrap_portfolio{
     text-align: center;
     background: var(--bg-gray, #F6F6F6);
-    margin-top: 75px
+    margin-top: 120px
    
 }
 
 .contacts{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        flex-shrink: 0;
-        text-align: center;
-        color: var(--Black, #070707);
-        font-family: Open Sans;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        padding-top: 100px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--Black, #070707);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 100px ;
 }
 
 .button{
-        display: flex;
-        justify-content: center;
-        font-family: Open Sans;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 1.8px;
-        background-color: black;
-        color: white;
-        border-radius: 22px;
-        width: 148px;
+    display: flex;
+    justify-content: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    background-color: black;
+    color: white;
+    border-radius: 22px;
+    width: 148px;
+    border: none;
 }
 
 .social{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-column-gap: 97px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 50px;
-        flex-shrink: 0;
-        margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    text-align: center;
+    margin-top: 50px;
+}
 
+.social_icon{
+    margin-left: 50px;
 }
 
 .text_edit{
-        color: #828282;
-        text-align: center;
-        font-family: Open Sans;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        margin-top: 60px;
+    color: #828282;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 60px;
 }
 
 .fashion_store{
