@@ -1,4 +1,4 @@
-* {
+html {
   font-family: 'Open Sans';
   margin: 0;
   padding: 0;
@@ -14,12 +14,14 @@ ul {
 }
 
 h2 {
+  margin: 0;
   font-size: 34px;
   font-weight: 700;
   line-height: 46px;
 }
 
 p {
+  margin: 0;
   font-size: 18px;
   font-weight: 400;
   line-height: 26px;
@@ -51,20 +53,26 @@ p {
 
 .nav-link {
   color: #828282;
+
+  font-size: 18px;
+  font-weight: 400;
   text-decoration: none;
   border-bottom: 1px solid transparent;
 
-  transition: border 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .nav-link:hover {
-  border-bottom: 1px solid #828282;
+  color: black;
+  border-bottom: 1px solid #000;
 }
 
 .page-title {
   padding-top: 12px;
   padding-bottom: 50px;
   font-size: 48px;
+  font-weight: 700;
+  line-height: 65.37px;
 }
 
 .content {
@@ -117,7 +125,7 @@ p {
   padding-top: 40px;
 }
 
-.message {
+.message-btn {
   cursor: pointer;
   height: 44px;
   width: 180px;
@@ -127,6 +135,14 @@ p {
   font-weight: 700;
   background-color: black;
   color: white;
+
+  transition: all .3s linear
+}
+
+.message-btn:hover {
+  background-color: white;
+  color: black;
+  border: 3px solid black;
 }
 
 .socials {
@@ -135,6 +151,14 @@ p {
   gap: 50px;
   padding-top: 30px;
   padding-bottom: 60px;
+}
+
+.social-link {
+  transition: opacity .2s;
+}
+
+.social-link:hover {
+ opacity: 0.5;
 }
 
 .like {
@@ -147,4 +171,9 @@ p {
 .like-link {
   text-decoration: none;
   color: #828282;
+}
+
+.like-link:hover {
+  color: black;
+  border-bottom: 0.5px sold black;
 }
