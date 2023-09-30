@@ -1,0 +1,245 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 970px;
+    /*experemental*/
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.spacing {
+    width: 40px;
+    display: inline-block;
+}
+
+header {
+    text-align: center;
+}
+
+header li {
+list-style-type: none;
+display: inline;
+}
+
+nav  {
+   border-bottom: 1px solid #828282; 
+}
+nav a {
+    font-size: 18px;
+    line-height:  80px;
+    letter-spacing: 0,36px;
+    color: #828282;
+}
+
+nav a.active {
+    color: #070707;
+}
+
+#intro .spacing {
+width: 100%;
+height: 12px;
+}
+
+h1 {
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 48px;
+    color: #070707;
+}
+
+#into h1 + .spacing {
+    height: 50 px;
+}
+#about_me {
+    background: #f6f6f6;
+    text-align: center;
+}
+
+#about_me .container {
+width: 480px;
+}
+
+#about_me .spacing {
+    height: 100px;
+    width: 100%;
+
+}
+
+#about_me h2 +.spacing {
+height: 50px;
+}
+
+#about_me p +.spacing {
+    height: 30px;
+}
+#about_me h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+}
+#about_me p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#skills {
+    text-align: center;
+}
+#skills .spacing {
+    height: 100px;
+   
+    width: 100%;
+
+}
+#skills h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+#skills h2 + .spacing {
+height: 20px;
+}
+
+#skills p + .spacing {
+    height: 50px;
+}
+
+#skills p {
+    font-size: 18px;
+   font-weight: 400;
+   line-height: normal;
+}
+#skills .skills-item {
+    width: 170px;
+    display: inline-block;
+}
+
+#skills .skills-item p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #828282;
+}
+
+#skills .skills-item .spacing {
+height: 25px;
+}
+
+#skills .skills-item p + .spacing {
+    height: 60px;
+}
+
+#skills .skills-item:last-of-type p + .spacing {
+    height: 80px;
+}
+
+#skills .skills-item ~ .spacing {
+width: 88px;
+height: auto;
+}
+
+#portfolio {
+   background: #f6f6f6; 
+}
+ 
+#portfolio .spacing {
+    height: 100px;
+    width: 100%;
+   
+}
+
+#portfolio h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+#portfolio .container {
+    text-align: center;
+}
+
+#portfolio h2 + .spacing {
+    height: 50px;
+}
+
+#portfolio img + .spacing {
+    height: 40px;
+}
+
+.pportfolio-item a {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+#portfolio .pportfolio-item ~ .spacing {
+    height: 70px;
+}
+
+#contacts .container {
+    text-align: center;
+}
+
+#contacts .spacing {
+    height: 100px;
+    width: 100%;
+   
+}
+
+#contacts h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+#contacts h2 + .spacing {
+    height: 20px;
+}
+ 
+#contacts p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #070707;
+}
+
+#contacts .btn-feedback {
+    background:#070707;
+    display: inline-block;
+    width: 180px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44 px;
+    color: white;
+    border-radius: 22px;
+}
+
+#contacts p + .spacing {
+    height: 60 px;
+}
+
+#contacts .btn-feedback + .spacing {
+    height: 30 px;
+}
+
+#contacts .social .spacing {
+    width: 50px;
+    height: auto;
+}
+#contacts p:last-of-type {
+    color: #828282;
+    font-size: 14px;
+}
+#contacts .social + .spacing {
+    height: 60 px;
+}
