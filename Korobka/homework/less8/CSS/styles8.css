@@ -1,0 +1,134 @@
+.top {
+    width: 970px;
+    margin: 0 auto;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.fornav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button1 {
+    width: 53px;
+    height: 25px;
+    color: #070707;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;  
+    gap: 40px;
+    align-items: center;
+}
+
+.button2 {
+    width: 53px;
+    height: 25px;
+    color: #828282;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;   
+    gap: 40px;
+    gap: 40px;
+    align-items: center;
+}
+
+.denis {
+    width: 970px;
+    height: 387px;
+}
+
+.denisimg {
+    width: 970px;
+}
+
+
+.content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #F6F6F6;
+    }
+
+    h3 {
+    color: var#070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+    }
+
+    p, pre {
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    }
+
+   pre {
+    line-height: 1mm;
+   }
+
+    br {
+       width: 10mm; 
+    }
+
+.content2 {
+    width: 720px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+
+.tdcenter {
+    text-align: center;
+}
+.part {
+    background: #F6F6F6;
+}
+
+.content3 {
+    width: 970px;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+}
+
+.end {
+    width: 970px;
+    margin: 0 auto;
+    align-items: center;
+    font-style: normal;
+}
+
+button {
+color: #FFF;
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+border-radius: 22px;
+background:#070707;
+display: flex;
+width: 180px;
+height: 44px;
+padding: 0px 16px;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+
+.tdendcenter 
+{
+    text-align: center;
+}
