@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Denis Novik</title>
     <link rel="stylesheet" href="./styles/styles.css">
-   <link href="https://fonts.googleapis.com/css?family=Fjalla+One%7COswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="Header">
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a class="menu_title" href="#">Home</a></li>
                 <li><a class="menu_title" href="#about_me">About me</a></li>
                 <li><a class="menu_title" href="#skills">Skills</a></li>
@@ -22,22 +22,23 @@
     <main>
         <section id="first_screen" >
                 <h1>Denis Novik</h1>
-                <img src="./img/photox940.jpg" alt="man">
+                <img class="hero" src="./img/photox940.jpg" alt="man" width="970">
         </section>
+        <div class="bg_container">
         <section id="about_me">
             <h2>About me</h2>
-            <p>Hi, I'm Denis – UX/UI designer from Minsk.
-                I'm interested in design and everything connected with it.
-                I'm studying at courses "Web and mobile design 
-                interfaces" in IT-Academy.
-                Ready to implement excellent projects
-                 with wonderful people.</p>
+            <ul>
+            <li>Hi, I'm Denis – UX/UI designer from Minsk. <br>I'm interested in design and everything connected with it.</li>
+            <li> I'm studying at courses "Web and mobile design <br> interfaces" in IT-Academy.</li>
+            <li>Ready to implement excellent projects <br> with wonderful people.</li>
+        </ul>
         </section>
+    </div>
         <section id="skills">
-            <div>
+           
                 <h2>Skills</h2>
                 <p>I work in such programs as</p>
-            </div>
+            
             <div class="container">
                 <div class="card">
                     <figure>
@@ -74,35 +75,46 @@
                 </div>
             </div>
         </section>
+        <div class="bg_container">
         <section id="portfolio">
             <h2>Portfolio</h2>
-            <figure>
-                <img src="./img/Fashion-Store.png" alt="">
-                <figcaption><a href="">Online fashion store - Homepage</a></figcaption>
-            </figure>
-            <figure>
-                <img src="./img/reebok_web.png" alt="">
-                <figcaption><a href="">Reebok Store - Concept</a></figcaption>
-            </figure>
-            <figure>
-                <img src="./img/braun-landing.png" alt="">
-                <figcaption><a href="">Braun Landing Page - Concept</a></figcaption>
-            </figure>
+            <ul>
+                <li>
+                    <figure>
+                        <img src="./img/Fashion-Store.png" alt="">
+                        <figcaption><a href="">Online fashion store - Homepage</a></figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/reebok_web.png" alt="">
+                        <figcaption><a href="">Reebok Store - Concept</a></figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/braun-landing.png" alt="">
+                        <figcaption><a href="">Braun Landing Page - Concept</a></figcaption>
+                    </figure>
+                </li>
+            </ul>
+            
 
         </section>
+    </div>
     </main>
     <footer id="contacts">
         <h2>Contacts</h2>
         <p>Want to know more or just chat? You are welcome!</p>
         <button>Send message</button>
-        <div>
-            <img src="./img/linkedin.png" alt="icon_linkedin">
-            <img src="./img/instagram.png" alt="icon_instagram">
-            <img src="./img/behance.png" alt="icon_behance">
-            <img src="./img/dribbble.png" alt="icon_dribbble">
+        <div class="icon_container">
+            <a href=""><img src="./img/linkedin.png" alt="icon_linkedin"></a>
+            <a href=""><img src="./img/instagram.png" alt="icon_instagram"></a>
+            <a href=""><img src="./img/behance.png" alt="icon_behance"></a>
+            <a href=""><img src="./img/dribbble.png" alt="icon_dribbble"></a>
         </div>
-        <p>Like me on
-            LinkedIn, Instagram, Behance, Dribble</p>
+        <p>Like me on <br>
+            LinkedIn, Instagram, Behance, <br>Dribble</p>
     </footer>
 </body>
 </html>

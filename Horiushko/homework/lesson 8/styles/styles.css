@@ -1,0 +1,251 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body,
+html {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+main {
+    width: 67%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    /* margin: 0px 120px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.menu {
+    display: inline-flex;
+    width: 600px;
+    height: 30px;
+    align-items: center;
+    gap: 40px;
+    flex-shrink: 0;
+    justify-content: space-between;
+}
+
+.menu-link {
+    font-size: 18px;
+    color: #828282;
+    text-align: center;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}
+
+hr {
+    background: #828282;
+    width: 100%;
+    height: 1px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.denis-novik {
+    color: #070707;
+    margin: 0;
+    font-size: 48px;
+}
+
+#denis {
+    width: 100%;
+}
+
+.background-wrapper {
+    background-color: #F6F6F6;
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+}
+
+#about_me {
+    color: #070707;
+    text-align: center;
+    width: 49%;
+    margin: 0 auto 100px;
+}
+
+#about_me>div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#about_me>div>p {
+    margin: 0;
+}
+
+.about_denis {
+    font-size: 34px;
+    margin-top: 100px;
+}
+
+#skills {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#skills>div>h2 {
+    font-size: 34px;
+    margin: 0;
+}
+
+#skills>div>p {
+    margin-top: 0;
+}
+
+.skills-container {
+    color: #070707;
+    width: 25%;
+    margin: 100px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: row;
+    gap: 97px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.skills-name {
+    color: #828282;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.skills-list-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#portfolio>div>h2 {
+    font-size: 34px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.portfolio-header {
+    color: #070707;
+    margin: 100px auto 0;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.portfolio-list-images {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.portfolio-list-names {
+    color: #070707;
+    font-size: 18px;
+    text-decoration-line: underline;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#contacts>div>h2 {
+    font-size: 34px;
+    margin: 0;
+}
+
+#contacts>div>p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contacts-header {
+    color: #070707;
+    width: 25%;
+    margin: 100px auto 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+button {
+    background: #070707;
+    width: 180px;
+    height: 44px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 16px;
+    border-style: solid none;
+    border-radius: 22px;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+.contacts-info {
+    margin-bottom: 100px;
+}
+
+.contacts-info>p {
+    color: #828282;
+    font-size: 14px;
+}
