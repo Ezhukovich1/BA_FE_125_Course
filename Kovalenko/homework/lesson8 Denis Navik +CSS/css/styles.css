@@ -29,6 +29,7 @@
 .a:hover {
     font-size: x-large;
     text-decoration: none;
+    color: #828282;
 }
 
 
@@ -66,6 +67,10 @@
     flex-shrink: 0;
 }
 
+.denis_foto:hover {
+    opacity: 0,5;
+    
+}
 
 .second_page {
 
