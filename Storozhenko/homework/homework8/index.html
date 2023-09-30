@@ -3,83 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homework CSS</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <title>Homework CSS</title>
 </head>
 
 <body>
   <!-- Header -->
-      <main>
+       <header>
           <nav class="navbar">
-                  <a href="#home">Home</a>
-                  <a href="#about me">About me</a>
-                  <a href="#skills">Skills</a>
-                  <a href="#portfolio">Portfolio</a>
-                  <a href="#contacts">Contacts</a>
+                <a href="#home">Home</a>
+                <a href="#about me">About me</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contacts">Contacts</a>
           </nav>
-          
-          <hr>
+        </header>
 
-          <h1>Denis Novik</h1>
-          <img class="photo" src="./images/Photo.jpg" alt="photo" />
-      </main>
+        <hr>
+
+        <main>
+          <section class="Denis_Novik">
+            <div>
+              <h1>Denis Novik</h1>
+              <img class="photo" src="./images/Photo.jpg" alt="photo" />
+            </div>
+          </section>
+        </main>
 
   <!-- Section "About me" -->
-      <article>
-        <h3>About me</h3>
-           <p class="about-me1">Hi, I'm Denis – UX/UI designer from Minsk. <br>
-                I'm interested in design and everything connected with it.</p>
-           <p class="about-me2">I'm studying at courses "Web and mobile design <br>
-                interfaces" in IT-Academy.</p>
-           <p class="about-me3">Ready to implement excellent projects <br>
-                with wonderful people.</p>
-      </article>
-  
+         <section>
+            <div class="background">
+              <h3>About me</h3>
+                <div class="about-me">
+                    <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
+                          I'm interested in design and everything connected with it.</p>
+                    <p>I'm studying at courses "Web and mobile design <br>
+                          interfaces" in IT-Academy.</p>
+                    <p>Ready to implement excellent projects <br>
+                          with wonderful people.</p>
+                </div>
+            </div>
+         </section>
+
   <!-- Section "Skills" --> 
-      <section class="skills-general">
-          <h3>Skills</h3>
-          <p class="skills">I work in such programs as</p>
-        <div class="skills-icons">
-          <div>
-              <img src="./images/icon_1.png" alt="Adobe Photoshop" /> <br>
-              <img src="./images/black_star.png" alt="black_star">
-              <img src="./images/black_star.png" alt="black_star">
-              <img src="./images/white_star.png" alt="white_star">
-              <img src="./images/white_star.png" alt="white_star">
-              <img src="./images/white_star.png" alt="white_star">
-          </div>
+         <section class="skills-general">
+              <h3>Skills</h3>
+              <p class="skills">I work in such programs as</p>
+            <div class="skills-icons">
+              <div>
+                  <img src="./images/icon_1.png" alt="Adobe Photoshop" /> <br>
+                  <img src="./images/black_star.png" alt="black_star">
+                  <img src="./images/black_star.png" alt="black_star">
+                  <img src="./images/white_star.png" alt="white_star">
+                  <img src="./images/white_star.png" alt="white_star">
+                  <img src="./images/white_star.png" alt="white_star">
+              </div>
 
-          <div>
-               <img src="./images/icon_2.png" alt="Adobe Illustrator" /> <br>
-               <img src="./images/black_star.png" alt="black_star">
-               <img src="./images/black_star.png" alt="black_star">
-               <img src="./images/black_star.png" alt="black_star">
-               <img src="./images/white_star.png" alt="white_star">
-               <img src="./images/white_star.png" alt="white_star">
-          </div>
+              <div>
+                  <img src="./images/icon_2.png" alt="Adobe Illustrator" /> <br>
+                  <img src="./images/black_star.png" alt="black_star">
+                  <img src="./images/black_star.png" alt="black_star">
+                  <img src="./images/black_star.png" alt="black_star">
+                  <img src="./images/white_star.png" alt="white_star">
+                  <img src="./images/white_star.png" alt="white_star">
+              </div>
 
-          <div>
-            <img src="./images/icon_3.png" alt="Adobe After Effects" /> <br>
-            <img src="./images/black_star.png" alt="black_star">
-            <img src="./images/black_star.png" alt="black_star">
-            <img src="./images/black_star.png" alt="black_star">
-            <img src="./images/black_star.png" alt="black_star">
-            <img src="./images/white_star.png" alt="white_star">
-          </div>
+              <div>
+                <img src="./images/icon_3.png" alt="Adobe After Effects" /> <br>
+                <img src="./images/black_star.png" alt="black_star">
+                <img src="./images/black_star.png" alt="black_star">
+                <img src="./images/black_star.png" alt="black_star">
+                <img src="./images/black_star.png" alt="black_star">
+                <img src="./images/white_star.png" alt="white_star">
+              </div>
 
-          <div>
-            <img src="./images/icon_4.png" alt="Figma" /> <br>
-            <img src="./images/black_star.png" alt="black_star">
-            <img src="./images/black_star.png" alt="black_star">
-            <img src="./images/black_star.png" alt="black_star">
-            <img src="./images/black_star.png" alt="black_star">
-            <img src="./images/black_star.png" alt="black_star">
-          </div>
-        </div>
-      </section>
+              <div>
+                <img src="./images/icon_4.png" alt="Figma" /> <br>
+                <img src="./images/black_star.png" alt="black_star">
+                <img src="./images/black_star.png" alt="black_star">
+                <img src="./images/black_star.png" alt="black_star">
+                <img src="./images/black_star.png" alt="black_star">
+                <img src="./images/black_star.png" alt="black_star">
+              </div>
+            </div>
+        </section>
 
   <!-- Section "Portfolio" -->
         <section class="portfolio-general">
@@ -100,12 +111,15 @@
 
   <!-- Footer -->
    <footer>
-       <h3>Contacts</h3>
-       <p class="contact" >Want to know more or just chat? <br> 
-          You are welcome!</p>
+      <section>
+          <div class="contacts">
+              <h3>Contacts</h3>
+              <p>Want to know more or just chat? <br> 
+                  You are welcome!</p>
+          </div>
 
           <div>
-            <button>Send message</button>
+              <button>Send message</button>
           </div>
 
           <div class="social-buttons">
@@ -115,9 +129,12 @@
               <a href="#"><img src="./images/Dribble.png" alt="Dribble_icon" /></a> 
           </div>
 
-         <p class="social-text">Like me on <br>
-            LinkedIn, Instagram, Behance, <br>
-            Dribble</p>
+          <div class="social-text">
+              <p>Like me on <br>
+                  LinkedIn, Instagram, Behance, <br>
+                  Dribble</p>
+          </div>
+      </section>
    </footer>
 
 </body>
