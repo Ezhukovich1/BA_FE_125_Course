@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title> Practic Lesson 10  CSS selectors</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header >
+            <div class="container">
+                <p class="logo"> <span>Doc</span><span>Kit</span></p>
+                <div class="links">
+                    <a href="#">List your practice on DocKit</a>
+                    <a href="#">Log in\</a>
+                    <a href="#">Sign up</a>
+                </div>
+            </div>
+        </header>  
+        <main>
+            <section class="section section_head">
+                <h1>Find local OB-GYNs <br> who take your insurance</h1>
+                <form action="#" class="search_form" name="search_form">
+                    <label for="choice_doctor">Condition, procedure, doctor...</label>
+                    <input type="text" name="choice_doctor" id="choice_doctor">
+                    <label for="choice_city">City, state, or zip code</label>
+                    <input type="text" name="choice_city" id="choice_city">
+                    <label for="choice_data">Today</label>
+                    <input type="text" name="choice_data" id="choice_data">
+                    <label for="choice_plan">Insurance carrier and plan</label>
+                    <input type="text" name="choice_plan" id="choice_plan">
+                    <button class=" button button_search">Search</button>
+                </form>
+            </section>
+            <section class="section  section_rait">
+                <h2>Top-rated primary care doctors</h2>
+                <p class="p">90% of patients gave these primary care doctors 5 stars</p>
+                <a href="#">See more highly-recommended doctors</a>
+                <div class="block_cards">
+                    <div class="card card_bg_blue">
+                        <div class="card_img">
+                            <img src="./lmg/Ellipse 48.jpg" alt="">
+                        </div>
+                        <p class="card_name">Katie Nemirovsky, DMD</p>
+                        <button disabled>Highly recommended</button>
+                        <span>Primary Care Doctor <br> New York, NY</span>
+                        <p class="card_raiting"><span>&#9733;4.54</span> <span>37 reviews</span> </p>
+                        <p class="card_description">Very personable and good listener. Makes you feel comfortable and open immediately. Felt well taken care...</p>
+                    </div>
+                    <div class="card card_bg_blue">
+                        <div class="card_img">
+                            <img src="./lmg/Ellipse 45.jpg" alt="">
+                        </div>
+                        <p class="card_name">Martin Arron, MD</p>
+                        <button disabled>Highly recommended</button>
+                        <span>Primary Care Doctor <br> New York, NY</span>
+                        <p class="card_raiting"><span>&#9733;4.85</span> <span>113 reviews</span></p>
+                        <p class="card_description">Very helpful. Made sure all my questions were answered and that I had discussed everything I needed to.</p>
+                    </div>
+                    <div class="card card_bg_blue">
+                        <div class="card_img">
+                            <img src="./lmg/Ellipse 49.jpg" alt="">
+                        </div>
+                        <p class="card_name">Michael Cafarella, DMD</p>
+                        <button disabled>Highly recommended</button>
+                        <span>Primary Care Doctor <br> New York, NY</span>
+                        <p class="card_raiting"><span>&#9733;4.93</span> <span>215 reviews</span></p>
+                        <p class="card_description">Very personable doctor. As a first time patient, he reviewed my history, went over my reasons for visit and...</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section section_rait">
+                <h2>Dentists with the shortest wait time</h2>
+                <p class="p">91% of patients spent less than 30 minutes in the waiting room for these Dentists</p>
+                <a href="#">See more dentists with excellent wait time</a>
+                <div class="block_cards">
+                    <div class="card card_bg_green">
+                        <div class="card_img">
+                            <img src="./lmg/Ellipse 55.jpg" alt="">
+                        </div>
+                        <p class="card_name">Hyun Kyu Song, DDS</p>
+                        <button disabled>Highly recommended</button>
+                        <span>Dentist, Dental Pain Specialist <br> New York, NY</span>
+                        <p class="card_raiting"><span>&#9733;4.54</span> <span>37 reviews</span></p>
+                        <p class="card_description">Easy billing process, fast appointment schedule. Great bedside manner and service, can't say enough about this...</p>
+                    </div>
+                    <div class="card card_bg_green">
+                        <div class="card_img">
+                            <img src="./lmg/Ellipse 56.jpg" alt="">
+                        </div>
+                        <p class="card_name">Dr. Garo Nazarian, DDS</p>
+                        <button disabled>Highly recommended</button>
+                        <span>Dentist, Dental Pain Specialist<br> New York, NY</span>
+                        <p class="card_raiting"><span>&#9733;4.92</span> <span>212 reviews</span></p>
+                        <p class="card_description">Well.. Honestly I have to say how I felt .. At front desk After the warm welcoming me at front desk (Grate Friendly)...</p>
+                    </div>
+                    <div class="card card_bg_green">
+                        <div class="card_img">
+                            <img src="./lmg/Ellipse 57.jpg" alt="">
+                        </div>
+                        <p class="card_name">Mazen Natour, DMD</p>
+                        <button disabled>Excellent wait time</button>
+                        <span>Prosthodontist, Dentist, Cosmetic Dentist <br> New York, NY</span>
+                        <p class="card_raiting"><span>&#9733;4.82</span><span>250 reviews</span></p>
+                        <p class="card_description">did not see this doctor. . I did bot even see an endodontist, just a DDS who took x-rays and told me I did not need...</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section section_flex">
+                <h2>Top-searched specialties</h2>
+                <div class="block_icons">
+                    <div class="icon">
+                        <figure>
+                            <img src="./lmg/icons/Clinic.png" alt="icon clinic">
+                            <figcaption>Primary Care</figcaption>
+                        </figure>
+                    </div>
+                    <div class="icon">
+                        <figure>
+                            <img src="./lmg/icons/Tooth.png" alt="icon tooth">
+                            <figcaption>Dentist</figcaption>
+                        </figure>
+                    </div>
+                    <div class="icon">
+                        <figure>
+                            <img src="./lmg/icons/Closed Eye.png" alt="icon closed eye">
+                            <figcaption>Eye Doctor</figcaption>
+                        </figure>
+                    </div>
+                    <div class="icon">
+                        <figure>
+                            <img src="./lmg/icons/Schizophrenia.png" alt="icon schiza">
+                            <figcaption>Psychiatrist</figcaption>
+                        </figure>
+                    </div>
+                    <div class="icon">
+                        <figure>
+                            <img src="./lmg/icons/Skin.png" alt="icon skin">
+                            <figcaption>Dermatologist</figcaption>
+                        </figure>
+                    </div>
+                    <div class="icon">
+                        <figure>
+                            <img src="./lmg/icons/Pram.png" alt="icon pram">
+                            <figcaption>OB-GYB</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <section class="section section_flex">
+                <div class="block_picture position_right">
+                    <img src="./lmg/sebastian-herrmann-NbtIDoFKGO8-unsplash 5.jpg" alt="picter">
+                </div>
+                <div class="block_info">
+                    <p class="title">DocKit for private practices</p>
+                    <h2>Are you a provider interested <br> in reaching new patients?</h2>
+                    <ul>
+                        <li>Reach patients in your area looking for a new provider  </li>
+                        <li>Fill last-minute openings in your schedule</li>
+                        <li>Strengthen your online reputation with verified reviews</li>
+                    </ul>
+                    <button class="button button_mail">List your practice on DocKit</button>
+                </div>
+            </section>
+            <section class="section section_health">
+                <p class="title">DocKit for health systems</p>
+                <h2>We’re trusted by top health systems</h2>
+                <div>
+                    <img src="./lmg/image 29.png" alt="">
+                    <img src="./lmg/image 30.png" alt="">
+                </div>
+                <button class="button">Partner with DocKit</button>
+            </section>
+            <section class="section">
+                <div class="block_bg_grey">
+                    <p>Find doctors and dentists by city</p>
+                    <div class="block_ul">
+                        <ul>
+                            <li><a href="#">New York City</a></li>
+                            <li> <a href="#">Brooklyn</a></li>
+                            <li><a href="#">Queens</a></li>
+                            <li><a href="#">Denver</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Baltimore</a> </li>
+                            <li><a href="#">Washington, DC</a></li>
+                            <li><a href="#">Seattle</a></li>
+                            <li><a href="#">Austin</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Philadelphia</a> </li>
+                            <li><a href="#">Houston</a></li>
+                            <li><a href="#">Dallas</a></li>
+                            <li><a href="#">Chicago</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Boston </a></li>
+                            <li><a href="#">San Francisco</a></li>
+                            <li><a href="#">Miami</a></li>
+                            <li><a href="#">Los Angeles</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Bronx</a> </li>
+                            <li><a href="#">Long Island</a></li>
+                            <li><a href="#">Atlanta</a></li>
+                            <li><a href="#">San Diego</a></li>
+                        </ul>
+                    </div>
+                    <div class="block_reasons">
+                        <p>Common visit reasons</p>
+                        <ul>
+                            <li> <a href="#">Medical</a></li>
+                            <li> <a href="#">Dental</a></li>
+                            <li> <a href="#">Mental Health</a></li>
+                            <li> <a href="#">Vision</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section section_flex">
+                <div class="block_info position_right">
+                    <p class="title">DocKit jobs</p>
+                    <h2>Join us, and help transform <br> healthcare for everyone.</h2>
+                    <button class="button">View job openings</button>
+                </div>
+                <div class="block_picture">
+                    <img src="./lmg/sebastian-herrmann-NbtIDoFKGO8-unsplash 6.png" alt="picter">
+                </div>
+            </section>  
+        </main>     
+        <footer>
+            <div class="menu">
+                <div >
+                    <p>DocKit</p>
+                    <a href="#">Home</a>
+                    <a href="#">About us</a>
+                    <a href="#">Press</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact us</a>
+                    <a href="#">Help</a>
+                </div>
+                <div >
+                    <p>Discover</p>
+                    <a href="#">The Paper Gown</a>
+                    <a href="#">Stories for and about patients</a>
+                    <a href="#">The Script </a>
+                    <a href="#">Insights for doctors</a>
+                    <a href="#">Community Standards</a>
+                    <a href="#">Data and privacy</a>
+                    <a href="#">Verified reviews</a>
+                </div>
+                <div >
+                    <p>Insurance Carriers</p>
+                    <a href="#">Aetna</a>
+                    <a href="#">Aetna Dental</a>
+                    <a href="#">Ambetter</a>
+                    <a href="#">Anthem Blue Cross Blue Shield</a>
+                    <a href="#">Blue Cross Blue Shield</a>
+                    <a href="#">Blue Cross Blue Shield Dental </a>
+                    <a href="#">Cigna</a>
+                    <a href="#">Cigna Dental</a>
+                    <a href="#">Delta Dental</a>
+                    <a href="#">Florida Blue Cross Blue Shield</a>
+                    <a href="#">Humana Dental</a>
+                    <a href="#">Humana</a>
+                    <a href="#">Kaiser Permanente</a>
+                    <a href="#">Metlife</a>
+                    <a href="#">Multiplan PHCS</a>
+                    <a href="#">UnitedHealthcare</a>
+                    <a href="#">UnitedHealthcare Dental </a>
+                    <a href="#">UnitedHealthcare Oxford</a>
+                    <a href="#">1199SEIU </a>
+                    <a href="#">View all</a>
+                </div>
+                <div >
+                    <p>Top Specialties</p>
+                    <a href="#">Primary Care Doctor</a>
+                    <a href="#">Urgent Care</a>
+                    <a href="#">Dermatologist</a>
+                    <a href="#">OB-GYN</a>
+                    <a href="#">Dentist</a>
+                    <a href="#">Psychiatrist</a>
+                    <a href="#">Ear, Nose & Throat Doctor</a>
+                    <a href="#">Podiatrist</a>
+                    <a href="#">Urologist</a>
+                    <a href="#">Gastroenterologist</a>
+                    <a href="#">Cardiologist</a>
+                    <a href="#">Neurologist</a>
+                    <a href="#">Orthopedic Surgeon</a>
+                    <a href="#">Ophthalmologist</a>
+                    <a href="#">Pediatrician</a>
+                    <a href="#">Optometrist</a>
+                    <a href="#">Eye Doctor</a>
+                    <a href="#">Therapist Counselor</a>
+                    <a href="#">Physical Therapist</a>
+                    <a href="#">Psychologist</a>
+                    <a href="#">View all</a>
+                </div>
+                <div >
+                    <p>Are you a top doctor or health service?</p>
+                    <a href="#">List your practice on DocKit</a>
+                    <a href="#">Become an API partner</a>
+                </div>
+            </div>
+            <div class="block_footer_bottom">
+                <div>
+                    <img src="./lmg/icons/image 31.png" alt="">
+                    <span>&#169; 2021 DocKit, Inc.</span>
+                </div>
+                <div>
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Do not sell my personal information</a>
+                    <a href="#">Site map</a>
+                </div>
+                <div class="social_icons">
+                    <a href="#"><img src="./lmg/icons/Twitter.png" alt="icon twitter" title="twitter"></a>
+                    <a href="#"><img src="./lmg/icons/Instagram.png" alt="icon Instagram" title="Instagram"></a>
+                    <a href="#"><img src="./lmg/icons/Facebook.png" alt="icon facebook" title="facebook"></a>
+                    <a href="#"><img src="./lmg/icons/LinkedIn 4.png" alt="icon LinkedIn" title="LinkedIn"></a>
+                </div>
+            </div>
+        </footer>  
+    </div>
+</body>
+</html>
