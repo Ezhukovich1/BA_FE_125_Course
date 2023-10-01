@@ -1,0 +1,184 @@
+* {
+    font-family: roboto;
+}
+
+.header {
+    background: #4A4F56;
+    text-align: center;
+}
+
+.header .spacing {
+    height: 19px;
+    width: 100%;
+}
+
+.header h1 {
+    color: #FF8984;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header p {
+    color: #FF8984;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.spacing1 {
+    height: 12px;
+}
+
+/* header end */
+
+.container {
+    background: #3B3F45;
+}
+
+.first_spacing {
+    height: 20px;
+}
+
+.main_section {
+    padding-left: 500px;
+    /* experemental */
+    width: 534px;
+}
+
+.box {
+    width: 18px;
+    height: 18px; 
+}
+
+.line1 {
+    width: 534px;
+    height: 45px;
+    color: white;
+    background: #88839E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line1 p {
+    display: inline-block;
+    font-size: 14px; 
+}
+
+
+
+
+.line2 {
+    width: 534px;
+    height: 45px;
+    color: white;
+    background: #7A7593;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line2 p {
+    display: inline-block;
+    font-size: 14px; 
+}
+
+.line3 {
+    width: 534px;
+    height: 45px;
+    color: white;
+    background: #88839E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line3 p {
+    display: inline-block;
+    font-size: 14px; 
+}
+
+.line4 {
+    width: 534px;
+    height: 45px;
+    color: white;
+    background: #7A7593;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line4 p {
+    display: inline-block;
+    font-size: 14px; 
+}
+
+.line5 {
+    width: 534px;
+    height: 45px;
+    color: white;
+    background: #88839E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.line5 p {
+    display: inline-block;
+}
+
+.line6 {
+    width: 534px;
+    height: 45px;
+    color: white;
+    background: #7A7593;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.line6 p {
+    display: inline-block;
+    font-size: 14px; 
+}
+
+/* main end */
+
+.spacing2 {
+    height: 45px;
+}
+
+.footer {
+    width: 534px;
+    height: 45px;
+    color: white;
+    background: #4A4F56;
+    text-align: center;
+}
+
+.footer p {
+    color: #FF8984;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+
+}
+
+.last_spacing {
+    height: 45px;
+}
