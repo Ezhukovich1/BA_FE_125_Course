@@ -1,0 +1,117 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    width: 55%;
+    margin: 0 auto;
+}
+
+header {
+    height: 14%;
+    text-align: center;
+    background: #4A4F56;
+    color: #FF8984;
+    padding-top: 19px;
+    padding-bottom: 12px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+header>p {
+    margin: 0;
+}
+
+main {
+    background: #3B3F45;
+    padding-bottom: 45px;
+}
+
+.form-container {
+    padding-top: 20px;
+    margin-bottom: 45px;
+    text-align: left;
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container span {
+    color: #FFFFFF;
+}
+
+form div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+}
+
+span:last-of-type {
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+span:first-of-type {
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+input[type="checkbox"] {
+    background-color: #FFFFFF;
+    width: 21px;
+    height: 21px;
+}
+
+input[type="checkbox"]:checked~span {
+    color: #9B96AC;
+    text-decoration: line-through;
+}
+
+form div:nth-child(odd) {
+    background: #88839E;
+}
+
+form div:nth-child(even) {
+    background: #7A7593;
+
+}
+
+form div:hover {
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-color: #FFFFFF;
+    background: #625E77;
+}
+
+/* .dark-purple {
+
+} */
+
+.bon-appetit {
+    width: 67%;
+    margin: 0 auto;
+    text-align: center;
+    background: #4A4F56;
+    color: #FF8984;
+}
+
+.bon-appetit p {
+    font-size: 18px;
+    /* margin-top: 45px; */
+    margin: 0;
+}
