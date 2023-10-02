@@ -1,6 +1,8 @@
 * {
     font-family: roboto;
+    transition: all .1s ease-in;
 }
+
 
 .header {
     background: #4A4F56;
@@ -38,6 +40,8 @@
 
 .container {
     background: #3B3F45;
+    border: solid 5px white;
+    
 }
 
 .first_spacing {
@@ -70,8 +74,6 @@
     display: inline-block;
     font-size: 14px; 
 }
-
-
 
 
 .line2 {
@@ -155,6 +157,29 @@
     font-size: 14px; 
 }
 
+/* animations stsrt */
+
+
+
+#lines:hover {
+    background: #625E77;
+    border-top: solid 5px;
+    border-bottom: solid 5px;
+}
+ 
+#lines:active {
+    background: #FF8984;
+    text-decoration: line-through;
+}
+
+
+
+
+
+/* animations end */
+
+
+
 /* main end */
 
 .spacing2 {
@@ -176,7 +201,6 @@
     font-style: normal;
     font-weight: 400;
     display: inline-block;
-
 }
 
 .last_spacing {
