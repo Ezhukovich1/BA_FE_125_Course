@@ -14,6 +14,11 @@ a {
    text-decoration: none;
 }
 
+.spacing {
+  width: 40px;
+  display: inline-block;
+}
+
 header {
    text-align: center;
 }
@@ -102,6 +107,7 @@ h1 {
 #skills {
   text-align: center;
 }
+
 #skills .spacing {
   height: 100px;
   width: 100%;
@@ -131,6 +137,7 @@ h1 {
   width: 170px;
   display: inline-block;
 }
+
 #skills .skills-item p {
   font-size: 14px;
   font-weight: 700;
@@ -162,23 +169,95 @@ h1 {
 #portfolio .spaicing {
   height: 100px;
   width: 100%;
-  background: green;
 }
 
 #portfolio h2 {
   font-size: 34px;
   font-weight: 700;
-  line-height: 40px
+  line-height: 40px;
 }
 
 #portfolio .container {
   text-align: center;
 }
+
 #portfolio h2 + .spaicing {
   height: 50px;
 }
 
-
 #portfolio img .spaicing {
   height: 40px;
+}
+
+.portfolio-item {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+#portfolio .portfolio-item ~ .spacing {
+  height: 70px;
+}
+
+/* styles for contacts (footer) */
+#contacts .container {
+  text-align: center;
+
+}
+#contacts .spaicing {
+  height: 100px;
+  width: 100%;
+}
+
+#contacts h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+#contacts h2 + .spaicing {
+  height: 20px;
+}
+
+#contacts p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #070707;
+}
+
+#contacts .btn-feedback {
+  background: black;
+  display: inline-block;
+  width: 180px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  color: white;
+  border-radius: 22px;
+}
+
+#contacts p + .spaicing {
+  height: 60px;
+}
+
+#contacts .btn-feedback + .spaicing {
+  height: 30px;
+}
+
+#contacts .social .spaicing {
+  width: 50px;
+  height: auto;
+}
+
+#contacts p:last-of-type {
+  color: #828282;
+  font-size: 14px;
+}
+
+#contacts .social + .spaicing {
+  height: 60px;
 }

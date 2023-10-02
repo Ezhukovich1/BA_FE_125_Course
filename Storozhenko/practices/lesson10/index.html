@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <title>Homework CSS</title>
 </head>
 
   <body>
   <!-- Header -->
-       <header>
-          <nav class="container">
+       <header class="container">
+          <nav >
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">Home</a></li>
                   <div class="spacing"></div>
                 <li><a href="#">About me</a></li>
                   <div class="spacing"></div>
@@ -29,6 +29,7 @@
 
         <main>
           <section id="into">
+            <div class="spacing"></div>
               <div class="container">
               <h1>Denis Novik</h1>
               <div class="spacing"></div>
@@ -113,50 +114,54 @@
                         <img src="./images/portfolio.png" alt="Fashion store" /> <br>
                         <div class="spacing"></div>
                         <a href="#">Online fashion store - <br> Homepage</a>
-                    </div>
-                <div class="spacing"></div>      
-             </div>
-            <div class="skills-item"></div>
-        </section>
+                    </div> 
+                    <div class="spacing"></div> 
 
-        <section class="portfolio-general">
-          <img class="portfolio" src="./images/reebok.png" alt="reebok" /> <br>
-          <a class="port-link" href="#">Reebok Store - Concept</a>
-        </section>
+                    <div class="portfolio-item">
+                      <img src="./images/reebok.png" alt="reebok " /> <br>
+                      <div class="spacing"></div>
+                      <a href="#">Reebok Store - Concept</a>
+                  </div> 
+                  <div class="spacing"></div> 
 
-        <section class="portfolio-general">
-          <img class="portfolio" src="./images/braun-landing.png" alt="braun" /> <br>
-          <a class="port-link" href="#">Braun Landing Page - Concept</a>
-        </section>
+                    <div class="portfolio-item">
+                      <img src="./images/braun-landing.png" alt="braun" /> <br>
+                      <div class="spacing"></div>
+                      <a href="#">Braun Landing Page - Concept</a>
+                  </div>  
 
-      </main>
+              </div>
+              <div class="spacing"></div>
+        </section>
+      
 
   <!-- Footer -->
-   <footer>
-      <section>
-          <div class="contacts">
-              <h3>Contacts</h3>
-              <p>Want to know more or just chat? <br> 
-                  You are welcome!</p>
-          </div>
-
-          <div>
-              <button>Send message</button>
-          </div>
-
-          <div class="social-buttons">
-              <a href="#"><img src="./images/LinkedIn.svg" alt="LinkedIn_icon" /></a>
-              <a href="#"><img src="./images/instagram.png" alt="Instagram_icon" /></a>
-              <a href="#"><img src="./images/Behance.png" alt="Behance_icon" /></a>
-              <a href="#"><img src="./images/Dribble.png" alt="Dribble_icon" /></a> 
-          </div>
-
-          <div class="social-text">
-              <p>Like me on <br>
-                  LinkedIn, Instagram, Behance, <br>
-                  Dribble</p>
-          </div>
-      </section>
+   <footer id="contacts">
+    <div class="spacing"></div>
+      <div class="container">
+          <h2>Contacts</h2>
+            <div class="spacing"></div>
+               <p>Want to know more or just chat? <br> 
+              You are welcome!</p>
+                <div class="spacing"></div>
+                  <a href="#" class="btn-feedback">Send message</a>
+                    <div class="spacing"></div>
+                      <div class="social">
+                        <a href="#"><img src="./images/LinkedIn.svg" alt="linkedIn_icon" /></a>
+                          <div class="spacing"></div>
+                        <a href="#"><img src="./images/instagram.png" alt="instagram_icon" /></a>
+                          <div class="spacing"></div>
+                        <a href="#"><img src="./images/Behance.png" alt="behance_icon" /></a>
+                          <div class="spacing"></div>
+                        <a href="#"><img src="./images/Dribble.png" alt="dribble_icon" /></a> 
+                          <div class="spacing"></div>
+                      </div>
+                          <div class="spacing"></div>
+                  <p>Like me on <br>LinkedIn, Instagram, Behance, <br> Dribble</p>
+        </div>
+      </div>
+    <div class="spacing"></div>
    </footer>
+  </main>
 </body>
 </html>
