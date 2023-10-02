@@ -39,6 +39,10 @@ nav a.active {
     color: black;
 }
 
+nav a:hover {
+    font-style: oblique;
+}
+
 #intro.spacing {
     width: 100%;
     height: 12px;
@@ -147,3 +151,108 @@ width: 100%;
 #portfolio {
     background: #f6f6f6;
 }
+
+#portfolio .spacing {
+    height: 100px;
+    width: 100px;
+}
+
+#portfolio h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+#portfolio .container {
+    text-align: center;
+}
+
+#portfolio h2 + .spacing {
+    height: 50px;
+}
+
+#portfolio img + .spacing {
+    height: 40px;
+}
+
+.portfolio-tem a {
+    color: #070707;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+#portfolio .portfolio-tem ~ .spacing {
+    height: 70 px;
+}
+
+#contacts .container {
+    text-align: center;
+}
+
+#contacts .spacing {
+    height: 100px;
+    width: 100%;
+}
+
+ #contacts h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+ }
+
+ #contacts h2 + .spacing {
+    height: 20px;
+ }
+
+ #contacts p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #070707;
+ }
+
+ #contacts .btn-feedback {
+    background: black;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    width: 180px;
+    border-radius: 22px;
+ }
+
+ #contacts p + .spacing {
+    height: 60px;
+ }
+
+ #contacts .btn-feedback + .spacing {
+     height: 30px;
+ }
+
+ #contacts .social .spacing {
+    height: auto;
+    width: 50px;
+ }
+
+ #contacts p:last-of-type {
+    color: #828282;
+    font-size: 14px;
+ }
+
+  #contacts .social .spacing {
+    height: 60px;
+  }
+
+  #contacts .social a:hover {
+    opacity: 0.5;
+  }
+
+   #contacts .btn-feedback:hover {
+    background: blue;
+    color: #828282;
+   }
