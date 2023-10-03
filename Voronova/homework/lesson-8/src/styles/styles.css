@@ -1,0 +1,243 @@
+/*----------------------
+    General Styles
+-----------------------*/
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: #070707;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 970px;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.section-about,
+.section-portfolio {
+    background-color: #F6F6F6;
+}
+
+.component-intro {
+    max-width: 480px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.component-intro__title {
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.component-intro__description {
+    text-align: center;
+}
+
+.component-intro__description p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.component-link {
+    display: inline-block;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    color: #070707;
+    cursor: pointer;
+
+}
+
+.component-link:hover {
+    opacity: 0.5;
+}
+
+.component-btn {
+    display: inline-block;
+    padding: 8px 16px;
+
+    background-color: #070707;
+    border: none;
+    border-radius: 22px;
+
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+
+    color: #ffffff;
+}
+
+
+
+/*----------------------
+    Navigation
+-----------------------*/
+
+.component-nav {
+    width: 100%;
+    border-bottom: 1px #828282 solid;
+}
+
+.component-nav__list {
+    max-width: 496px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.component-nav__item {
+    list-style: none;
+}
+
+.component-nav__item a {
+    color: #828282;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    cursor: pointer;
+}
+
+.component-nav__item a:hover {
+    color: #070707;
+}
+
+
+/*----------------------
+    Hero Styles
+-----------------------*/
+
+.section-hero {
+    padding: 12px 0 0;
+}
+
+.section-hero__title {
+    margin-bottom: 50px;
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-hero__img-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*----------------------
+    Skills
+-----------------------*/
+
+.component-skills-list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.component-skills__item {
+    list-style: none;
+}
+
+.component-skill__info {
+    margin-bottom: 60px;
+    text-align: center;
+
+}
+
+.component-skill__name {
+    color: #828282;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.component-skill__level {
+    text-align: center;
+}
+
+.component-skill__level-star {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+}
+
+.component-skill__level-star svg {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*----------------------
+    Portfolio
+-----------------------*/
+
+.component-portfolio__project {
+    margin-bottom: 70px;
+}
+
+.component-portfolio__link {
+    padding-top: 40px;
+    text-align: center;
+}
+
+/*-----------------------
+    Footer
+------------------------*/
+
+.organism-footer{
+    padding: 100px 0;
+}
+
+.organism-footer__btn {
+    text-align: center;
+}
+
+.component-social {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.component-social__list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 310px;
+    margin: 60px auto 60px;
+    padding: 0;
+
+}
+
+.component-social__item {
+    list-style: none;
+}
+
+.component-social__text {
+    color: #828282;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
