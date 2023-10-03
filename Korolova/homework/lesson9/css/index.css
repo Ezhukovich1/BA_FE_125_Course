@@ -1,0 +1,169 @@
+a {
+    text-decoration: none;
+    color: #828282;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+    line-height: 80px;
+    display: inline-block;
+}
+.nav {
+    width: 970px;
+    height: 80px;
+    border-bottom: 1px #828282 solid;
+}
+.nav1 {
+    width: 53px;
+    height: 25px;
+}
+.nav2 {
+    width: 86px;
+    height: 25px;
+}
+.container {
+    width: 970px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.screen {
+    background: #F6F6F6;
+}
+h1 {
+    width: 300px;
+    height: 60px;
+    text-align: left;
+    color: #070707;
+    font-size: 48px;
+    font-family: Open Sans;
+    font-weight: 700;
+    word-wrap: break-word   
+}
+.my_photo {
+    height: 387px;
+}
+.about_me {
+    height: 500px;
+  
+}
+h3 {
+    width: 150;
+    height: 40;
+    color: #070707;
+    font-size: 34px;
+    font-family: Open Sans;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+
+.text1 {
+    width: 480;
+    height: 210;
+    color: #070707;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.retreat1 {
+    height: 50px;
+}
+.retreat2 {
+    height: 30px;
+}
+.retreat3 {
+    height: 100px;
+}
+.retreat4 {
+    width: 97px;
+}
+.retreat5 {
+    height: 25px;
+}
+.retreat6 {
+    height: 60px;
+}   
+.retreat7 {
+    height: 20px;
+}
+.retreat8 {
+    height: 80px;
+}
+.retreat9 {
+    height: 40px;
+}
+.retreat10 {
+    height: 70px;
+}
+.retreat11 {
+    width: 50px;
+}
+
+.skills {
+    height: 564px;
+}
+.progr1 {
+    width: 80px;
+    height: 80px;
+}
+.programms_icon {
+    width: 170px;
+    height: 230px;
+}
+
+.programm {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.programms_icon p {
+    color: #828282;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 700;
+    letter-spacing: 0.28px;
+    word-wrap: break-word
+}
+.prog2 {
+    width: 53.33341px;
+    height: 79.99967px ;
+}
+.portfolio img {
+    height: 540px;
+}
+.portfolio p {
+    color: #070707;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 400;
+    text-decoration: underline;
+    word-wrap: break-word
+}
+.contacts {
+    height: 400px;   
+}
+.contacts p {
+    color: #070707;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 400;
+    word-wrap: break-word
+}
+button {
+   margin: 0 auto;
+    display: block;
+    background: #070707;
+    border-radius: 16px;
+    width: 180px;
+    height: 44px;
+    text-align: center;
+    color: #F6F6F6;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 700;
+    letter-spacing: 1.80px;
+    word-wrap: break-word;
+}

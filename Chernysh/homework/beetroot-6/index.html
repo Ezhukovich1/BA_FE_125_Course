@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get" name="registration">
+        <lable for="fullname">Full name</lable>
+        <input type="text" id="fullname" name="fullname"><br />
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email"><br />
+
+        <lable for="pass">Password</lable>
+        <input type="password" id="pass"><br />
+        <lable for="pass_again">Password again</lable>
+        <input type="password" id="passw_again"><br />
+
+        <label>Male</label>
+        <label for="male"></label>
+        <input type="radio" id="male" name="gender" value="male">Man
+        <label for="female"></label>
+        <input type="radio" id="female" name="gender" value="femele">Woman<br />
+
+        <lable for="age">Age</lable>
+        <input type="text" id="age" name="age"><br />
+        <lable type="course">Course</lable>
+        <select id="course" name="course">
+            <option value="">Select thr course</option>
+            <option value="FrontEnd">Front-End</option>
+            <option value="BackEnd">Back-End</option>
+            <option value="ProjectManagement">Project Management</option>
+            <option value="QAManual">QA Manual</option>
+        </select><br />
+        <label for="address">Address</label>
+        <textarea name="address" rows="5" cols="20" placeholder="Country, City, Street "></textarea><br />
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <lable for="checkbox">I agree to the processing of personal data</lable><br />
+        <button type="reset">Clear the form</button>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>

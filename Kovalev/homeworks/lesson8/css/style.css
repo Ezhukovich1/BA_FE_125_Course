@@ -1,0 +1,47 @@
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+a {
+    color: #828282;
+    text-decoration: none;
+    font-weight: 400;
+    width: 44px;
+    height: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    display: inline-block;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    float:left;
+}
+
+nav a {
+    margin: 40px;
+}
+
+.section1 {
+    background-color: #F6F6F6;
+    height: 500px;
+}
+
+.skill1 {
+    width: 170px;
+    height: 230px;
+}
+
+.skill11 {
+    height: 60px;
+}

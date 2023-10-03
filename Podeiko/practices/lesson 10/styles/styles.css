@@ -1,0 +1,267 @@
+* {
+  font-family: open sans, sans-serif !important;
+}
+
+.container {
+  width: 970px;
+  margin: 0 auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.spacing {
+  display: inline-block;
+  width: 40px;
+}
+
+/* styles for header */
+
+header {
+  text-align: center;
+}
+
+header li {
+  list-style: none;
+  display: inline;
+}
+
+nav {
+  border-bottom: 1px solid #828282;
+}
+
+nav a {
+  font-size: 18px;
+  line-height: 80px;
+  letter-spacing: 0.36px;
+  color: #828282;
+}
+
+nav a.active {
+  color: #070707;
+}
+
+/* styles for header end */
+
+/* styles for into (h1 +image) */
+
+#into .spacing {
+  width: 100%;
+  height: 12px;
+}
+
+h1 {
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 48px;
+  color: #070707;
+}
+
+#into h1 + .spacing {
+  height: 50px;
+  /* background-color: green; */
+}
+/* styles for into (h1 +image) end */
+
+/* styles for about_me */
+
+#about_me {
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+#about_me .container {
+  width: 480px;
+}
+
+#about_me .spacing {
+  height: 100px;
+  width: 100%;
+  /* background: green; */
+}
+
+#about_me h2 + .spacing {
+  height: 50px;
+}
+
+#about_me p + .spacing {
+  height: 30px;
+}
+
+#about_me h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+#about_me p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+/* styles for about_me end */
+
+/* styles for skills end */
+
+#skills {
+  text-align: center;
+}
+
+#skills .spacing {
+  height: 100px;
+  /* background: green; */
+  width: 100%;
+}
+
+#skills h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+#skills h2 + .spacing {
+  height: 20px;
+}
+
+#skills p + .spacing {
+  height: 50px;
+}
+
+#skills p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#skills .skills_item {
+  width: 170px;
+  display: inline-block;
+}
+
+#skills .skills_item p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #828282;
+}
+
+#skills .skills_item .spacing {
+  height: 25px;
+}
+
+#skills .skills_item p + .spacing {
+  height: 60px;
+}
+
+#skills .skills_item:last-child p + .spacing {
+  height: 80px;
+}
+
+#skills .skills_item ~ .spacing {
+  width: 87px;
+  height: auto;
+}
+
+/* styles for skills end */
+
+/*  styles for portfolio  */
+
+#portfolio {
+  background-color: #f6f6f6;
+}
+
+#portfolio .spacing {
+  height: 100px;
+  width: 100%;
+  /* background: green; */
+}
+
+#portfolio .container {
+  text-align: center;
+}
+
+#portfolio h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+#portfolio h2 + .spacing {
+  height: 50px;
+}
+
+#portfolio img + .spacing {
+  height: 40px;
+}
+
+.portfolio_item a {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: underline;
+}
+/*  styles for portfolio end */
+/*  styles for contcts */
+
+#contacts .container {
+  text-align: center;
+}
+
+#contacts .spacing {
+  height: 100px;
+  width: 100%;
+  /* background-color: green; */
+}
+
+#contacts h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+#contacts h2 + .spacing {
+  height: 20px;
+}
+
+#contacts p {
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+}
+
+#contacts p + .spacing {
+  height: 60px;
+}
+
+#contacts .btn_feedback {
+  background: black;
+  display: inline-block;
+  border-radius: 22px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  width: 180px;
+  color: white;
+}
+
+#contacts .btn_feedback + .spacing {
+  height: 30px;
+}
+
+#contacts .social .spacing {
+  width: 50px;
+  height: auto;
+}
+
+#contacts .social + .spacing {
+  height: 30px;
+}
+
+#contacts p:last-of-type {
+  color: #828282;
+  font-size: 14px;
+}
+/*  styles for contacts end */
