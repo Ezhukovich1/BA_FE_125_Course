@@ -5,7 +5,7 @@
 html,
 body {
     width: 100%;
-    margin: 0;
+    margin: 7px;
 }
 
 .container {
@@ -82,25 +82,26 @@ input[type="checkbox"]:checked~span {
     text-decoration: line-through;
 }
 
-form div:nth-child(odd) {
+form label:nth-child(odd) div {
     background: #88839E;
 }
 
-form div:nth-child(even) {
+form label:nth-child(even) div {
     background: #7A7593;
-
 }
 
-form div:hover {
+form label div:hover {
     border-top: 3px solid;
     border-bottom: 3px solid;
     border-color: #FFFFFF;
     background: #625E77;
+    cursor: pointer;
 }
 
-/* .dark-purple {
-
-} */
+form label div:active {
+    background: #FF8984;
+    transition: background-color 0.5s ease-out;
+}
 
 .bon-appetit {
     width: 67%;
