@@ -1,0 +1,704 @@
+* {
+  box-sizing: border-box;
+
+  transition: all .1s ease-in;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  font-family: 'SF Pro Display', sans-serif;
+
+  padding-top: 164px;
+  margin: 0 auto;
+
+  width: 1062px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+/* #region HEADER */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+.logo__1 {
+  color: #0E1244
+}
+
+.logo__2 {
+  color: #02CCC5;
+}
+
+.nav-links {
+  display: flex;
+  gap: 38px;
+}
+
+.nav-links a {
+  line-height: 24px;
+
+  color: #12175E;
+  border-bottom: 1px solid transparent;
+}
+
+.nav-links a:hover {
+  border-bottom: 1px solid #12175E;
+}
+
+.login-sing-up {
+  line-height: 24px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+
+  padding-top: 94px;
+}
+
+.header-title {
+  font-size: 46px;
+  font-weight: 800;
+  line-height: normal;
+
+  color: #12175E;
+}
+
+.header-search-form {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  height: 368px;
+  width: 470px;
+
+  background-color: #F6F6F6;
+
+  border-radius: 25px;
+}
+
+input[type="text"] {
+  height: 64px;
+  background-color: #F6F6F6;
+  border: none;
+  border-bottom: 1px solid #E4E4E4;
+}
+
+input[type="text"]:last-of-type {
+  border-bottom: none;
+}
+
+.btn {
+  height: 52px;
+
+  font-weight: 700;
+
+  border: none;
+  border-radius: 25px;
+
+  color: white;
+  background-color: #5B67CA;
+}
+
+.btn:active {
+  background-color: #40488e;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* #endregion */
+
+/* #region SECTION */
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.section-title {
+  color: #12175E;
+
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.section-title + p {
+  color: #65677B;
+
+  padding-top: 38px;
+}
+
+.section__top-doctors {
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 110px;
+}
+
+.section__top-doctors > a {
+  color: #5B67CA;
+
+  border-bottom: 1px solid transparent;
+  padding-top: 20px;
+  margin-bottom: 78px;
+}
+
+.section__top-doctors > a:hover {
+  border-bottom: 1px solid #5B67CA;
+}
+
+.section__dentists {
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 156px;
+}
+
+.section__dentists > a {
+  color: #12175E;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+
+  border-bottom: 1px solid transparent;
+  padding-top: 20px;
+  margin-bottom: 84px;
+}
+
+.section__dentists > a:hover {
+  border-bottom: 1px solid #12175E;
+}
+
+.section__top-specialties {
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 163px;
+}
+
+.section__new-patients {
+  gap: 56px;
+
+  padding-top: 166px;
+}
+
+.section__health-systems {
+  align-items: center;
+  flex-direction: column;
+  padding-top: 137px;
+}
+
+.section__health-systems > h3{
+  padding-bottom: 20px;
+}
+
+.section__health-systems .btn {
+  width: 293px;
+  height: 52px;
+}
+
+.section__find-doctors {
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 106px;
+  height: 475px;
+
+  border-radius: 25px;
+  background-color: #F6F6FF;
+}
+
+.section__find-doctors .card-title:first-child{
+  padding-top: 44px;
+  padding-bottom: 25px;
+}
+
+.section__find-doctors .card-title:nth-child(3) {
+  padding-top: 122px;
+  padding-bottom: 22px;
+}
+
+.section__join-us {
+  padding-top: 120px;
+}
+/* #endregion */
+
+/* #region DOCTOR-CARDS */
+.doctor-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+
+  height: 333px;
+  width: 334px;
+
+  padding: 49px 30px 37px;
+
+  background-color:#EBF9FF;
+
+  border-radius: 25px;
+}
+
+.card-title {
+  color: #12175E;
+  
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+
+  padding-bottom: 11px;
+}
+
+.doctor-card:hover, .dentist-card:hover {
+  transform: scale(1.05);
+}
+
+.doctor-card > p {
+  width: 146px;
+  height: 24px;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+
+  border-radius: 4px;
+  color: #05B4FE;
+  background: #D2F2FF;
+
+  margin-bottom: 26px;
+}
+
+.doctor-card::before {
+  position: absolute;
+  top: -50px;
+  left: 132px;
+  height: 70px;
+  width: 70px;
+}
+
+.doctor-card:first-child::before {
+  content: url(../images/doctor1.png);
+}
+
+.doctor-card:nth-child(2)::before {
+  content: url(../images/doctor2.png);
+}
+
+.doctor-card:last-child::before {
+  content: url(../images/doctor3.png);
+}
+
+.doctor-card span {
+  color: rgba(0, 0, 0, 0.40);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.doctor-card:first-child span:nth-child(5)::before {
+  content: "★4.54 ";
+  color: #FFB800;
+}
+
+.doctor-card:nth-child(2) span:nth-child(5)::before {
+  content: "★4.85 ";
+  color: #FFB800;
+}
+
+.doctor-card:last-child span:nth-child(5)::before {
+  content: "★4.93 ";
+  color: #FFB800;
+}
+
+.doctor-card article {
+  color: #12175E;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+
+  padding-top: 27px;
+}
+/* #endregion */
+
+/* #region DENTIST-CARDS */
+.dentist-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+
+  height: 333px;
+  width: 334px;
+
+  padding: 49px 30px 37px;
+
+  background-color:#F1FDF5;
+
+  border-radius: 25px;
+}
+
+.dentist-card > p {
+  width: 146px;
+  height: 24px;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+
+  border-radius: 4px;
+  color: #61DA83;
+  background-color: #DAFAE3;
+
+  margin-bottom: 26px;
+}
+
+.dentist-card::before {
+  position: absolute;
+  top: -50px;
+  left: 132px;
+  height: 70px;
+  width: 70px;
+}
+
+.dentist-card:first-child::before {
+  content: url(../images/dentist1.png);
+}
+
+.dentist-card:nth-child(2)::before {
+  content: url(../images/dentist2.png);
+}
+
+.dentist-card:last-child::before {
+  content: url(../images/dentist3.png);
+}
+
+.dentist-card span {
+  color: rgba(0, 0, 0, 0.40);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.dentist-card:first-child span:nth-child(5)::before {
+  content: "★4.54 ";
+  color: #FFB800;
+}
+
+.dentist-card:nth-child(2) span:nth-child(5)::before {
+  content: "★4.92 ";
+  color: #FFB800;
+}
+
+.dentist-card:last-child span:nth-child(5)::before {
+  content: "★4.82 ";
+  color: #FFB800;
+}
+
+.dentist-card article {
+  color: #12175E;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+
+  padding-top: 27px;
+}
+/* #endregion */
+
+/* #region TOP-SPECIALTIES */
+.top-specialties-block {
+  display: flex;
+  flex-wrap: wrap;
+  height: 317px;
+  width: 500px;
+}
+
+.top-specialties-block a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 150px;
+  width: 150px;
+  border-radius: 25px;
+  background: #F6F6F6;
+}
+
+.top-specialties-block a:hover {
+  background-color: rgb(91, 103, 202, 0.5);
+}
+
+.top-specialties-block a:first-child,
+.top-specialties-block a:nth-child(4) {
+  margin-right: 34px;
+}
+
+.top-specialties-block a:nth-child(2),
+.top-specialties-block a:nth-child(5) {
+  margin-right: 16px;
+}
+
+.top-specialties-block a:nth-child(3) {
+  margin-bottom: 17px;
+}
+/* #endregion */
+
+/* #region NEW_PATIENTS */
+.new-patients-block h3 {
+  padding-bottom: 20px;
+}
+
+.new-patients-block .section-title{
+  padding-bottom: 23px;
+}
+
+.new-patients-block ul {
+  padding-bottom: 34px;
+}
+
+.new-patients-block li {
+  margin-left: 16px;
+  color: #12175E;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.new-patients-block .btn {
+  width: 290px;
+  height: 52px;
+}
+/* #endregion */
+
+/* #region HEALTH-SYSTEM */
+.health-systems-list {
+  margin-top: 33px;
+  margin-bottom: 55px;
+  height: 53px;
+  display: flex;
+  gap: 26px;
+}
+
+.health-systems-list img:nth-child(1) {
+  height: 42px;
+  margin-top: 3px;
+}
+/* #endregion */
+
+/* #region FIND-DOCTORS */
+.city-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 42px;
+}
+
+.city-list ul {
+  list-style-type: none;
+  width: 196px;
+}
+
+.city-list li {
+  display: flex;
+  align-items: center;
+
+  padding-bottom: 7px;
+}
+
+.city-list li:last-of-type {
+  padding-bottom: 0;
+}
+
+.city-list a {
+  position: relative;
+  color:#12175E;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: max-content;
+  border: 1px solid transparent;
+}
+
+.city-list a::before,
+.visit-reasons a::before {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  content: "";
+  background-image: url(../images/Right-Button.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  margin-right: 10px;
+}
+
+.city-list a:hover {
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.city-list a:active {
+  background-color: #cbccce;
+}
+
+.visit-reasons {
+  display: flex;
+  width: 100%;
+  padding-left: 42px;
+}
+
+.visit-reasons li {
+  width: 265px;
+  list-style: none;
+}
+
+.visit-reasons a {
+  border: 1px solid transparent;
+}
+
+.visit-reasons a::before {
+  background-image: url(../images/Down-Button.png);
+}
+
+.visit-reasons a:hover {
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+/* #endregion */
+
+.join-us-block .section-title{
+  padding-bottom: 31px;
+}
+
+.join-us-block .btn {
+  width: 203px;
+  height: 52px;
+}
+
+/* #region FOOTER */
+footer {
+  padding-top: 106px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-list article {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list h4 {
+  color: #12175E;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+
+  padding-bottom: 13px;
+}
+
+.footer-list article a {
+  color: #12175E;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  width: max-content;
+  border-bottom: 1px solid transparent;
+  margin-bottom: 6px;
+}
+
+.footer-list article a:hover {
+  border-bottom: 1px solid #12175E;
+}
+
+.footer-list article a:last-child {
+  margin-bottom: 0;
+}
+
+.footer-bottom {
+  padding-top: 73px;
+  padding-bottom: 166px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom article {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 4px;
+}
+
+.footer-bottom article span {
+  color: #12175E;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-bottom article:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 4px;
+}
+
+.footer-bottom article:nth-of-type(2) a {
+  color: #12175E;
+  font-size: 14px;
+  font-weight: 500;
+
+  border-bottom: 1px solid transparent;
+}
+
+.footer-bottom article:nth-of-type(2) a:hover {
+  border-bottom: 1px solid #12175E;
+}
+
+.footer-bottom article:last-of-type {
+  display: flex;
+  gap: 26px;
+}
+
+.footer-bottom article:last-of-type a:hover {
+  transform: scale(1.1);
+}
+/* #endregion */
