@@ -5,17 +5,18 @@
 
 
 body {
-margin: 0;
-height: 100%;
-border: solid 5px white;
-background: #3B3F45; 
+    margin: 0;
+    height: 200%;
+    background: #3B3F45;
+    border: solid 5px white;
+    
 
 }
 
 .header {
     background: #4A4F56;
     text-align: center;
-    
+
 }
 
 .header .spacing {
@@ -35,8 +36,6 @@ background: #3B3F45;
 
 }
 
-
-
 .header p {
     color: #FF8984;
     font-family: Roboto;
@@ -47,7 +46,7 @@ background: #3B3F45;
 }
 
 .header_text {
-padding-top: 12px;
+    padding-top: 12px;
 }
 
 .spacing1 {
@@ -68,7 +67,7 @@ padding-top: 12px;
 
 .box {
     width: 18px;
-    height: 18px; 
+    height: 18px;
 }
 
 .line1 {
@@ -84,7 +83,7 @@ padding-top: 12px;
 
 .line1 p {
     display: inline-block;
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 
@@ -101,7 +100,7 @@ padding-top: 12px;
 
 .line2 p {
     display: inline-block;
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .line3 {
@@ -117,7 +116,7 @@ padding-top: 12px;
 
 .line3 p {
     display: inline-block;
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .line4 {
@@ -133,7 +132,7 @@ padding-top: 12px;
 
 .line4 p {
     display: inline-block;
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .line5 {
@@ -148,7 +147,7 @@ padding-top: 12px;
 
 }
 
-.line5  {
+.line5 {
     display: inline-block;
 }
 
@@ -165,7 +164,7 @@ padding-top: 12px;
 
 .line6 p {
     display: inline-block;
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 /* animations stsrt */
@@ -177,19 +176,19 @@ padding-top: 12px;
     border-top: solid 5px;
     border-bottom: solid 5px;
 }
- 
+
 #lines:active {
     background: #FF8984;
     text-decoration: line-through;
 }
 
 
-input:checked + label {
+input:checked+label {
     text-decoration: line-through;
-    color: #9B96AC; 
+    color: #9B96AC;
 }
 
-input:checked + label > p {
+input:checked+label>p {
     text-decoration: line-through;
 }
 
