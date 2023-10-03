@@ -4,15 +4,26 @@
 }
 
 
+body {
+margin: 0;
+height: 100%;
+border: solid 5px white;
+background: #3B3F45; 
+
+}
+
 .header {
     background: #4A4F56;
     text-align: center;
+    
 }
 
 .header .spacing {
-    height: 19px;
+    height: 11px;
     width: 100%;
 }
+
+
 
 .header h1 {
     color: #FF8984;
@@ -21,7 +32,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
 }
+
+
 
 .header p {
     color: #FF8984;
@@ -32,17 +46,15 @@
     line-height: normal;
 }
 
+.header_text {
+padding-top: 12px;
+}
+
 .spacing1 {
     height: 12px;
 }
 
 /* header end */
-
-.container {
-    background: #3B3F45;
-    border: solid 5px white;
-    
-}
 
 .first_spacing {
     height: 20px;
@@ -81,7 +93,6 @@
     height: 45px;
     color: white;
     background: #7A7593;
-
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -137,7 +148,7 @@
 
 }
 
-.line5 p {
+.line5  {
     display: inline-block;
 }
 
@@ -173,12 +184,24 @@
 }
 
 
+input:checked + label {
+    text-decoration: line-through;
+    color: #9B96AC; 
+}
 
+input:checked + label > p {
+    text-decoration: line-through;
+}
 
+p::after {
+    content: ")";
+}
+
+p::before {
+    content: "(";
+}
 
 /* animations end */
-
-
 
 /* main end */
 
@@ -192,16 +215,19 @@
     color: white;
     background: #4A4F56;
     text-align: center;
+
 }
 
-.footer p {
+.footer p2 {
     color: #FF8984;
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     display: inline-block;
+    padding-top: 10px;
 }
+
 
 .last_spacing {
     height: 45px;
