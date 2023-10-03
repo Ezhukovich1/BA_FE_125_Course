@@ -103,6 +103,14 @@ form label div:active {
     transition: background-color 0.5s ease-out;
 }
 
+span:nth-child(3)::before {
+    content: "( ";
+}
+
+span:nth-child(3)::after {
+    content: " )";
+}
+
 .bon-appetit {
     width: 67%;
     margin: 0 auto;
