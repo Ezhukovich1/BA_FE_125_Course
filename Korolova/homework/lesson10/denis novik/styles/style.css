@@ -1,0 +1,226 @@
+
+li {
+    text-decoration: none;
+    color: #828282;
+    font-size: 18px;
+    font-family: Open Sans;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+    font-family: 'Open Sans';
+}
+li:first-child {
+    color: #070707;
+}
+li:hover {
+    font-weight: 800;
+}
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center; 
+}
+header li {
+    list-style-type: none;
+    display: inline;
+}
+
+
+
+.spacing {
+    width: 40px;
+    display: inline-block;
+}
+nav {
+    border-bottom: 1px solid  #828282 ;
+}
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #070707;
+    font-family: 'Open Sans';
+}
+#into .spacing {
+    width: 100%;
+    height: 12px;
+}
+#into h1 + .spacing {
+    height: 50px;
+}
+#about_me, #portfolio {
+    background: #F6F6F6;
+    text-align: center;
+}
+
+#about_me .container {
+    width: 480px;
+}
+#about_me .spacing {
+    height: 100px;
+    width: 100%;
+}
+#about_me h2 + .spacing{
+    height: 50px;
+    width: 100%;
+}
+#about_me p + .spacing {
+    height: 30px;
+}
+#about_me h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    font-family: 'Open Sans';
+
+}
+#about_me p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Open Sans';
+}
+#skills {
+    text-align: center;
+}
+#skills .spacing {
+    height: 100px;
+    width: 100%;
+}
+#skills h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    font-family: 'Open Sans';
+}
+#skills h2 + .spacing {
+    height: 20px;
+}
+#skills p + .spacing {
+    height: 50px;
+}
+#skills p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Open Sans';
+}
+#skills .skills_item {
+    width: 170px;
+    display: inline-block;
+}
+#skills .skills_item p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #828282;
+    font-family: 'Open Sans';
+}
+#skills .skills_item .spacing {
+    height: 25px;
+   
+}
+#skills .skills_item  p + .spacing {
+height: 60px;
+}
+#skills .skills_item:last-of-type p + .spacing {
+height: 80px;
+}
+#skills .skills_item ~ .spacing {
+    width: 88px;
+    height: auto;
+}
+#portfolio h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    font-family: 'Open Sans';
+
+}
+.portfolio_item  a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+    font-family: 'Open Sans';
+
+}
+#portfolio .spacing {
+    height: 100px;
+    width: 100%;
+}
+#portfolio  h2 + .spacing {
+    height: 50px;
+    width: 100%;
+}
+#portfolio  img + .spacing  {
+    height: 40px;
+}
+#portfolio .portfolio_item  ~ .spacing {
+    height: 70px;
+}
+/*portfolio*/
+#contacts .container {
+    text-align: center;
+}
+#contacts  .spacing{
+height: 100px;
+width: 100%;
+}
+#contacts h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    font-family: 'Open Sans';
+
+}
+#contacts h2 + .spacing {
+    height: 20px;
+}
+#conctacts p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+#contacts .btn_feedback {
+    background: #070707;
+    display: inline-block;
+    width: 180px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    line-height: 44px;
+    color: white;
+    border-radius: 22px;
+}
+#contacts p + .spacing {
+    height: 60 px;
+}
+#contacts .btn_feedback + .spacing {
+    height: 30px;
+}
+#contacts .btn_feedback:hover {
+    background: aquamarine;
+    font-weight: 800;
+    color: blueviolet;
+}
+#contacts  .social .spacing {
+    width: 50px;
+    height: auto;
+
+}
+#contacts p:last-of-type {
+    color: #828282;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+#contacts .social img:hover {
+    opacity: 50%;
+}
+#contacts .social + .spacing {
+height: 60 px;
+}
