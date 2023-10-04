@@ -1,0 +1,325 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    margin-top: 164px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1061px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+    color: black;
+
+}
+header span{
+    color: #02CCC5;
+}
+.button-heder{
+    border: none;
+    background: none;
+    padding: 0;
+    color: #12175E;
+    font-size: 16px;
+    letter-spacing: 0;
+
+}
+.button-heder:first-child{
+    margin-right: 37px;
+}
+.container{
+    width: 1061px;
+    margin: auto;
+}
+.find{
+    margin-top: 95px;
+    display: flex;
+
+}
+h2{
+    font-size: 46px;
+    color: #12175E;
+    width: 541px;
+}
+.find-form{
+box-sizing: border-box;
+width: 470px;
+height: 367px;
+padding-left: 40px;
+padding-right: 50px;
+padding-top: 39px;
+background: #F6F6F6;
+border-radius: 25px;
+font-size: 16px;
+color: rgba(0, 0, 0, 0.4);
+
+
+
+}
+.find-form label, input{
+    display: block;
+}
+.find-form label{
+    height: 19px;
+}
+input{
+    box-sizing: border-box;
+    height: 24px;
+    width: 100%;
+    border: none;
+    border-bottom:1px solid #E4E4E4;
+    margin-bottom: 22px;
+    background: none;
+}
+input[name="insurance_carrier"]{
+    margin-bottom: 0;
+    border: none;
+}
+.button{
+    color: white;
+    background: #5B67CA;
+    border-radius: 25px;
+    height: 52px;
+}
+.find-form button{
+display: block;
+ width: 385px;
+ height: 52px;
+ margin-right: auto;
+ margin-left: auto;
+}
+.doctor-card{
+    text-align: center;
+    margin-top: 109px;
+}
+.doctor-card a{
+color: #5B67CA;
+}
+h3{
+    color: #12175E;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 38px;
+}
+.container-card{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+   text-align: center;
+   background: #EBF9FF; 
+   border-radius: 25px;
+   width: 334px;
+   height: 333px;
+   position: relative;
+   margin-top: 78px;
+   padding-top: 45px;
+}
+.card-photo{
+    position: absolute;
+    right: 132px;
+    top: -46px;
+    
+}
+.name-doctor{
+    color: #12175E;
+    font-size: 16px;
+    font-weight: 900;
+}
+.recommended{
+    text-align: center;
+    line-height:24px;
+font-size: 14px;
+width: 146px;
+height: 24px;
+color: #05B4FE;
+background: #D2F2FF;
+border-radius: 4px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 26px;
+margin-top: 0;
+}
+.specialization-of-doctors, .city{
+font-size: 16px;
+color: rgba(0, 0, 0, 0.4);
+margin-bottom: 3px;
+margin-top: 0;
+}
+.rating{
+    font-size: 16px;
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 27px;
+    
+}
+.rating > span{
+    color: #FFB800;
+}
+.icon-star{
+    fill: #FFB800;
+}
+.description{
+    font-size: 16px;
+    line-height: 24px;
+    color: #12175E;
+    width: 272px;
+    margin: auto;
+}
+.dentist-card{
+    text-align: center;
+    margin-top: 154px;
+}
+.dentist-card a{
+    color: #12175E;
+}
+.dentist-card .recommended{
+    color: #61DA83;
+}
+.top-searched-pecialties{
+margin-top: 163px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.top-searched-pecialties .container-card {
+    width: 500px;
+    height: 317px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:space-between;
+}
+
+.top-searched-pecialties figcaption{
+    color: #12175E;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+figure{
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    background: #F6F6F6;
+    border-radius: 25px;
+    padding-top: 35px;
+}
+.form-fo-added{
+margin-top: 161px;
+display: flex;
+justify-content: space-between;
+color: #12175E;
+
+}
+.form-fo-added > div{
+    width: 509px;
+    height: 330px;
+    
+}
+.form-fo-added button{
+    width: 290px;
+}
+.form-fo-added  p{
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: 27px;
+}
+.form-fo-added h3{
+    height: 86px;
+    margin-bottom: 23px;
+}
+.form-fo-added li:nth-child(-n + 2){
+    font-size: 16px;
+    margin-bottom: 11px;
+}
+.form-fo-added ul{
+    margin-bottom: 34px;
+    height: 81px;
+}
+
+.partner{
+    text-align: center;
+    color: #12175E;
+    margin-top: 137px;
+}
+.partner h3{
+    margin-bottom: 35px;
+    height: 43px;
+}
+.partner div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.partner button{
+    width: 293px;
+    font-size: 16px;
+
+}
+.find-doctors{
+    width: 100%;
+    height: 475px;
+    border-radius: 25px;
+    background: #F6F6FF;
+    margin-top: 106px;
+    box-sizing: border-box;
+    padding-top: 44px;
+    padding-left: 42px;
+
+}
+table{
+    color:#12175E ;
+    width: 100%;
+    
+
+
+}
+caption{
+    font-weight: 900;
+    line-height: 27px;
+    margin-bottom: 38px;
+}
+td{
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+td::before{
+    content: ' ';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-image: url('../image/DownButton.png');
+    margin-right: 5px;
+}
+.visit-reasons{
+    margin-top: 122px;
+}
+.job-openings{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    color: #12175E;
+}
+.job-openings button{
+    width: 203px;
+}
+.job-openings h3{
+    height: 86px;
+margin-bottom: 31px;
+}
+.job-openings p{
+    margin-bottom: 47px;
+}
