@@ -1,0 +1,194 @@
+.container {
+    padding: 0 120px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+/* header {
+    text-align: center;
+} */
+
+header li {
+    list-style-type: none;
+    display: inline;
+}
+
+.logo,
+.menu,
+.btns {
+    display: inline-block;
+}
+
+.logo {
+    float: left;
+    padding-top: 7px;
+}
+
+nav {
+    margin: 18px 0;
+    text-align: center;
+    height: 46px;
+}
+
+.menu-item {
+    color: #2F281E;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    padding-right: 20px;
+}
+
+.menu-item:last-child {
+    padding-right: 0;
+}
+
+.active {
+    color: #FF9900;
+}
+
+.btns {
+    float: right;
+    margin-top: 18px;
+}
+
+.btn_sign_in {
+    color: #2F281E;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 600;
+    padding: 13px 25px;
+    border-radius: 4px;
+    border: 1px #BCD0E5 solid;
+    margin-right: 16px;
+}
+
+.btn_sign_up {
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 600;
+    padding: 13px 25px;
+    background: #FF9900;
+    border-radius: 4px;
+    margin-left: 16px;
+}
+
+.first-screen {
+    padding-top: 87px;
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+}
+
+.first-screen-left {
+    width: 500px;
+    padding: 97px 0;
+}
+
+.page-title {
+    color: #2F281E;
+    font-size: 44px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.page-title-txt {
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 30px 0 20px;
+    margin: 0;
+}
+
+.btn-get-started {
+    display: block;
+    box-sizing: border-box;
+    height: 50px;
+    width: 180px;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 700;
+    background: #FF9900;
+    padding: 13px 0;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.features-bg {
+    background-image: url(../images/bg.svg);
+    /* height: 388px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.features {
+    margin-top: 99px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.features-cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 31px;
+}
+
+.features-title {
+    color: #2F281E;
+    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: 700;
+    width: 539px;
+    height: 88px;
+    text-align: center;
+}
+
+.card {
+    width: 270px;
+    height: 175px;
+}
+
+.card h3 {
+    padding: 30px 0 16px;
+    color: #2F281E;
+    font-size: 22px;
+    font-family: Montserrat;
+    font-weight: 600;
+    margin: 0;
+}
+
+.card p {
+    color: #544837;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.btn-sign-up-now {
+    box-sizing: border-box;
+    display: block;
+    color: white;
+    background-color: #FF9900;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    padding: 13px 40px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 24px;
+    margin: 70px 0 74px;
+}
