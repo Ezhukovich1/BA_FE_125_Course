@@ -1,0 +1,179 @@
+* {
+    font-family: 'Montserrat', sans-serif!important
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+header {
+    text-align: center;
+    background: #FFE5D2;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+a {
+    color: #2F281E;
+    text-decoration: none;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2F281E;
+    height: 28px;
+    letter-spacing: normal;
+    font-weight: 400;
+    padding: 13px 5px;
+    margin: 17px 5px;
+}
+
+/* .inline {
+    display: inline-block;
+} */
+
+nav img {
+    display: inline;
+    padding: 15px 0;
+    margin: 15px 0;
+}
+
+.btm {
+    display: inline;
+}
+
+nav {
+    display: flex;
+    margin: 0px 120px;
+}
+
+nav img {
+    width: 200px;
+    height: 32px;
+}
+
+nav ul {
+    margin: 0px 185px;
+}
+
+.btm {
+    padding: 0 25px;
+} 
+
+.btm a:last-child {
+    margin-left: 32px;
+}
+
+.btm a {
+    font-weight: 600;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+}
+
+nav .btm a {
+    padding: 13px 25px;
+}
+
+nav .btm a:last-child {
+    background-color: #FF9900;  
+    color: #FFFFFF;
+}
+
+
+nav a.active {
+    color: #FF9900;
+}
+
+.container2 {
+    width: 1200px;
+    margin: 0 auto;
+    height: 495px;
+    display: flex;
+}
+
+.section1 {
+    margin: 71px 0 99px;
+    background: #FFE5D2;
+}
+
+h1 {
+    width: 500px;
+    height: 110px;
+    color: #2F281E;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+    /* font-style: normal; */
+    /* letter-spacing: ; */
+    margin: 97px 0 30px;
+}
+
+.firstsection p {
+    width: 500px;
+    height: 91px;
+    color: #544837;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.firstsection a {
+    padding: 13px 40px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    background: #FF9900;
+}
+
+.container2 img {
+    margin-left: 24px;
+}
+
+h2 {
+    width: 539px;
+    color: #2F281E;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 450px 30px;
+}
+
+.container2 .blast p {
+    color: #2F281E;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 30px 40px 0 0;
+}
+
+.container2 .blast p:last-child {
+    color: #544837;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.btm2 a {
+    padding: 13px 40px;
+    margin 70px 635px;
+    text-align: center;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 4px;
+    background: #FF9900;
+}
