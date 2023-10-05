@@ -1,0 +1,296 @@
+.wrapper{
+    background-color: white;
+    margin: 0 auto;
+    width: 1120px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 16px;
+    color: #12175E;
+}
+a{
+    text-decoration: none;
+    color: #12175E;
+    font-weight: 400;
+    font-size: 16px;
+}
+h1{
+    font-size: 46px;
+    font-weight: 800;
+    margin-right: 48px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 38px;
+}
+button{
+    width: 385px;
+    height: 52px;
+    border-radius: 25px;
+    border: none;
+    background-color: #5B67CA;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity,color 1s ease;
+}
+button:hover{
+    opacity: 0.6;
+    transition: opacity, color 1s ease;
+    color: #12175E;
+}
+input{
+    appearance: none;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #E4E4E4;
+    width: 380px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 164px;
+}
+.logo > span{
+    color: #0E1244;
+    font-size: 24px;
+    font-weight: 900;
+}
+.logo span:last-of-type{
+    color: #02CCC5;
+}
+.links a:first-of-type{
+    margin-right:37px;
+}
+.section{
+    margin: 100px auto 0 auto;
+}
+.section_head{
+    display: flex;
+    align-items: center;
+}
+.search_form{
+    width: 470px;
+    background-color:#F6F6F6;
+    padding: 40px;
+    border-radius: 25px;
+}
+.search_form label{
+    color: rgba(0, 0, 0, 0.40);
+    font-weight: 400;
+    display: block;
+}
+.search_form input{
+    margin-bottom: 28px;
+}
+.search_form button{
+    display: block;
+}
+.section_rait{
+    text-align: center;
+}
+.p {
+    color: #65677B;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.section a{
+    color: #5B67CA;
+}
+.block_cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 67px;
+}
+.card_bg_blue{
+    background-color:#EBF9FF;
+}
+.card{
+    width: 334px;
+    border-radius: 25px;
+}
+.card_img{
+    width:70px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.card_img img{
+    width: 100%;
+    margin-top: -35px;
+ }
+.card_name{
+    font-weight: 700;
+}
+.card button {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    width: 146px;
+    height: 24px;
+    margin: 25px auto 11px auto;
+}
+.card_bg_blue button{
+    color: #05B4FE;
+    background-color: #D2F2FF;
+}
+.card span{
+    color: rgba(0, 0, 0, 0.40);
+    font-weight: 400;
+}
+.card_raiting span:first-child{
+    color: #FFB800;
+    font-weight: 400;
+    font-size: 16px;
+}
+.card_description{
+    width: 272px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 27px auto 37px auto;
+}
+.card_bg_green{
+    background-color: #F1FDF5;
+}
+.card_bg_green button{
+    color: #61DA83;
+    background-color: #DAFAE3;
+}
+.section_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block_icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:600px;
+}
+.icon{
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+    background-color: #F6F6F6;
+    margin-left:34px;
+    margin-bottom: 34px;
+    text-align: center;
+}
+.icon figure{
+    text-align: center;
+    margin-top: 25%;
+}
+.icon figure img{
+    width: 40px;
+}
+.icon figure figcaption{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.block_picture{
+    width: 495px;
+}
+.block_picture img{
+    width: 100%;
+}
+.title{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.block_info ul{
+    margin-top: 23px;
+    margin-bottom: 34px;
+}
+.block_info ul li{
+    list-style-type: disc;
+    font-weight: 400;
+    line-height: 27px;
+}
+.section_health{
+    text-align: center;
+}
+.section_health div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+.section_health div img{
+    width:500px;
+}
+.block_bg_grey{
+    background-color: #F6F6FF;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 44px;
+    padding-bottom: 58px;
+}
+.block_bg_grey  p{
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.block_ul{
+    display: flex;
+justify-content: space-around;
+    margin-bottom:122px;
+}
+.block_bg_grey .block_ul ul{
+    text-align: left;
+
+}
+.block_bg_grey .block_ul ul li{
+   margin-bottom: 18px;
+    position: relative;
+}
+.block_bg_grey .block_ul ul li::before, .block_reasons ul li::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-image: url("../lmg/icons/Down Button.png");
+    position: absolute;
+    left: -20px;
+}
+.block_bg_grey .block_ul ul li a , .block_reasons ul li a{
+    color: #12175E;
+}
+.block_reasons ul{
+    display: flex;
+    justify-content: space-around;
+}
+.block_reasons ul li{
+    position: relative;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 168px;
+}
+.menu p{
+    color: #12175E;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+.font_style, .menu a, .block_footer_bottom, .block_footer_bottom a{
+    font-size: 14px;
+    font-weight: 500;
+}
+.menu a{
+    display: block;
+    line-height: 21px;
+}
+.block_footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    margin-bottom: 166px;
+}
+.block_footer_bottom a{
+    margin-right: 10px;
+}
+.social-icons a{
+    margin-right: 26px;
+}
