@@ -3,6 +3,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: #12175E;
 }
 header{
     margin-top: 164px;
@@ -322,4 +323,64 @@ margin-bottom: 31px;
 }
 .job-openings p{
     margin-bottom: 47px;
+}
+nav{
+    margin-top: 106px;
+    display: flex;
+    justify-content: space-between;
+    height: 598px;
+}
+nav h4 {
+    color: #12175E;
+    font-size: 14;
+    font-weight: 900;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav li a{
+    font-size: 14px;
+}
+
+nav li{
+    line-height: 21px;
+    margin-bottom: 6px;
+}
+footer .container{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #12175E;
+}
+footer p::before{
+    content: ' ';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../image/image31.png);
+    margin-right: 8px;
+}
+.link-container{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0;
+    width: 377px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-container{
+    font-size: 14px;
+    width: 174px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.icon{
+    fill: red;
 }

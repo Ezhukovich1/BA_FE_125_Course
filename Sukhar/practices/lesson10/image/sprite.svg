@@ -1,47 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0">
-<symbol id="linkedIn" width="24" height="24" viewBox="0 0 24 24" fill="none">
-<rect opacity="0.6" width="24" height="24" fill="url(#pattern0)"/>
-<defs>
-<pattern patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_0_178" transform="scale(0.02)"/>
-</pattern>
-<image id="image0_0_178" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAACbElEQVRoge3YTYhNYRzH8Y/BKG/NYihpNJOsJDGDklgoSWGrrCxESNkrsZBSiljMxsLbwsrLxsZCTMqCIkpRmA3TGKHxMo07Fue5zTXm3nnOneueOzrfejqn5/x+z/3977nnec59yMmpG8twFi/wNbSnOIXFGeZKxR58x0iZ9hnbM0sXyUb8QgGXsQ4tmI9OXAzXfmBFRhmjuCP51k9U0JwOmut1SVQlnyQhF1bQLAmavrokSkFTyXkhHJsr6IuapgqaTCgNdC8cj1TQHw7Hnn8TpzaslMxYBVw1+rDPwurQV8Aw1maUMZqt+Kj89PsNuzNLl5JWHJX8fPokC+IznEFHhrlypiw9yj8bY9v9GnlnYhvO4xF6JW8OA3iOa9iFuWkKiQ1SbJPxTsNevInUv8d+TE9TSDW6tN67JecvcQybsEiyILdgOQ75827fxpxqAsbq0npH8Ao7IzywAx+C76FkbUsVMFYX6x0KuiuYF6EvZSleB/+5tAFjdbHefTgoeUaqYZVkMihgfZqAsbpYby04Hj7rRjnBVCmkFYOSP4Htxc6sXsfb0S1ZN4bwDhfQFuHtl8xeTdg8nqBed2QLvpR4StsANkSMcSDoL8UGjNXFejuMFnETXZJ1oQu3Qn8/FkwwTlfQPo4NGKuL9XYbLWI8isWcnGCctqB7GxswVhfr7Q26zjLX14TrTyYYZ3bQDcYGjNXFeoeDrty+QHO4/rPKHKnC1OIVZbKav3QNtxtSLXkhjUZeSKORF9Jo5IU0GnkhjUZeSKPx3xQyY5y+yeyG1HInJdVYpXfkQQrf2N34yXjHUsuxcnJyAr8B348Si+pXIRAAAAAASUVORK5CYII="/>
-</defs>
-</symbol>
 
-<symbol id="facebook" width="24" height="24" viewBox="0 0 24 24" fill="none">
-<rect opacity="0.6" width="24" height="24" fill="url(#pattern0)"/>
-<defs>
-<pattern patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_0_177" transform="scale(0.02)"/>
-</pattern>
-<image id="image0_0_177" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAABz0lEQVRoge2avU7DMBRGTxFC0ImxLWLgGeiCxMjWbgwMMLIhtlIeoEgIiTeA12AsiBnYmBgYEEwwUX4XypAbUdImcZy4NshHurLkutffl+Q2TW/B4/Ho0gS6wAvQtxw90dLIamLPAfFx0VE10ZQ3fAAtoJr1KBigCuwQaOqjeGZOZXHLnC5t2gTauiqLe7K4YlKRJhUCbc8qi8Nr0VVG6puwIMQI3ohr2DCyABwC1wQ321fgDjgHDoBloFTERiaLfRN4I/2md1OEPlNG1oAviWOgDpSBKYKP1RWCM5W2v1Ujs8CT5N3Oub9VI1uS86yA/a0aOZGc65H5MrAP3DJcO7n1mTByLzkXIvNH/BbvvJF3yTkdmX+Q+SVgRjGXVSNxOXX28t+1dFG53ketDWO+KAFF5UkyFFfoj1n1jePSKg1E0mslYFXmL7Nu4lqNLMr4543UZbwqIpkLNZJU6GO/j+gaSSr0WH2TeZSmMFjcaQcm94OUazWijTfiGt6Ia3gjruGNuMa/NtKT0YWWW5Q5GYcaPaOMXMi4YUyOPqEmpeeVBj/N0DZQK0BA3l9RasAu8CnrldvUHeKfFWyHcns6pEHQPQ2bozZD+w8DHo8n4Bt69EZ7bl4vtAAAAABJRU5ErkJggg=="/>
-</defs>
-</symbol>
-
-<symbol id="instagram" width="24" height="24" viewBox="0 0 24 24" fill="none">
-<rect opacity="0.6" width="24" height="24" fill="url(#pattern0)"/>
-<defs>
-<pattern patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_0_176" transform="scale(0.02)"/>
-</pattern>
-<image id="image0_0_176" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAADl0lEQVRoge2aO09UQRSAPw0ohOWxlouUCMZCFOwEQyKJxIRHY0tIDP9AkRq0NRJKib2FGq1kfXdorTy0UCBaCYZnBVicM866wN6Ze2eBgi+5uZt7z5w5Z+fMzJmZC0ccURSOeco3AD1AB1AL1AEVgWxZA+aBBSALPANmA+n+RwvwGtje5+sV0BzCgVJgDNhSxb+Bh0AX0jqhWgPV1QB0A+Na17bWPQqUxFWcBt6osjVgGKhKaKwPVcAIsI5tnRpfJaXYUFpAQuugOA98V1veAyd8Co9pwTkgE9w0fzLIQLANPHAt1ILE5RpwoTh2xeIiEmab+jsSE1LDRTQqLncR27JRgg3Y0Wk/O7bhOtIn54HOXd5XA4uIjfWFFA2q0HhgA10x/cD0z914pO9v5T48nid0Ve/PQ1oXGGNbRyGhGcTbMwkqSgP9SIoxDazqNQ081XfpPcp2Iq0yB1zbQ8aE/3QhI5ZVqNLPdgDKgSHgD9GpxxJwByiLUU+l6lguJGQq8iUDfMop/xK4iU1jKoBGfTaRI/eRePNUpJ1xHMkgoWCa+7JDmVZsGMeZdIM7Uo5tibf45UJp4J2WncQvzII7MqTyU8RI6BBnTMsMepQL6kga27FdwmkvrmAHgL1Gs3yCOtKP7dhJyaquPkf5HXbmT4g+dOn9cQIdBqOjq6CUBz4tYmK7IUC9jThMcjkEDa0VlU05yhcipbpWHOWDhlZIjB1bSRXE4afeaxPoMJgJ8VdcBUkc+aL31gQ6DG16/xxXQRJHTDp9I4EOg9ERbPngOyEuqXxbhGwh2rETomt2ULQUZQb3WTmXNLItumPFF0FwR8qQVHwbSQB9nDkFfOCQJI3wfxo/i+ROUbQDXzlEabwhg/yrpnwWGADOIpNdSn8PIFufRm6SIi2skix1y5BU3AwAUUvd28DJGPU4LXVDbD7UIFnsE2SdsqLXlD7rI97axeC0+WDS6e4EFRWbXnZZPuRPiGYrMlg6XQTMnzxRSOigt0yjcN4yBTuqjBTZqDjcw2NV2oyk0+s4bt/vEy3ABnKs0ORaaBTxfJ4waXpSarEb3Pd9CpZgQ2wBuBTcNHeagB/Yidb7ULQG68w6cshSHdDAKKqRPrGhNkyQYP4pQc7sNlXZInI+0YNsGIRYrxtSqrNX6zCj0yYSTrGPp3M5B7wgOvUIfWVxHHB8P+Gox37CUQecJlyrrCIdeh77Cce3QLqPOCIufwFq0mD8AdK0IAAAAABJRU5ErkJggg=="/>
-</defs>
-</symbol>
-
-<symbol id="twitter" width="24" height="24" viewBox="0 0 24 24" fill="none">
-<rect opacity="0.6" width="24" height="24" fill="url(#pattern0)"/>
-<defs>
-<pattern patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_0_175" transform="scale(0.02)"/>
-</pattern>
-<image id="image0_0_175" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAEsklEQVRoge3ZaahVVRQH8J9T9dRUzMQyLZozM4nSMjPMoqKgeaIvRRHZh6TIBmggyKCBMGmSqIioaCIKooFAKxpohGZTscECM9JKzbHXh7WP57zrve/d4Twf0fvD4d5z9tr/vdae1tpr04te9OJ/gT493P7+mIxRGIRf8C3exZYe1KsuDMAV+BrtNZ5fcSeG1+Doi/PwKk6tJjADT2L3EhUvYiIWyRVeiaeF0rdgPj4ulK/C+YX6u+KyCo57KxvZActS4ecYVrIRp2BN4v8Sp6FfDdm98ZiYXu3C2PcL78VnYmXlsyoE3sbgkow4DGsT73wxverB8Vhd0GkLFuKP9P5stUpPpMKH8EH6/yFGNK1+YCf5SN/fRP1xmCPWxG54UG7YI3hPjNhWZPNuKobKjVmEg5uxIGF24vkY/VvgGYE3VN8cFhcF/0ofR6b3wXgpfVuLS5povA9+ThwzmqhfRDZjsmdT4XdqUXB9KhhU+NYXt+OfVPYGDmig8cmp3tLmdO+AGXgYM3G93JCZlYI/pYKDapD8kMo3iC1vbB2NX5Xq3NeE4rUwC5tF595QTeCV1OjZNQiGYh42JrmNYriPEyNXDXcl2Wua1boC9xTavqiW0JVJ6OUuyPbDM6JXsvm6HA+InWVUQTbbYS5vUvFKLE98p3cmNFw4rE3qWwd74g6ssO0uslLES1+l9zlNKl6JHxPfmK4E58i3yh3qJO+HaWLYP5VPveLzcMMqV8dviW+XyoJi9PsIhojQYYBwMheLxd0I2jBBhBmjxHb+uIhqW8UG0cE7ig7bBoNUdzRv6bgd9yRGCp1+70yoj3xKrNTRmDO7WcF6cZTQ56NqhVnI0C7OB4fiahFjjcdAXe9i2wtZmLS4UyncLQx6vlvVaR6PCf1mdSV4iPCWm7BvNyvVDJYKQw6vR/g5eUxVy1v3BMbL129dEfRo+WKfq+eTExlulp8/6sY0/JkqPqX8I2+j6IslQp+TG608UX6OWIEbReqmJ3Bq0mOZ2mf8TitnhhSfeSUqWC8WprZndyZUa0EfYduUUDvWta5XQzgRxwpv3lS8tr889XIrpojzyPZEf3yWdLi2FaLMAS3Gzq3r1TCuS+3/IALRpjFcHv+/bvuOyDj8ndo+qQzCCWJ+ZtnB8WWQdoEh+Ca1+WiZxOPwXSLeLLJ7Z2IPreWpqqGfPAX1hfIynVsxELfJHWX2rFc7WdEo+ooDWJa87tZ4b6h8E8hyseeUwNu/wLsGx5TAWRX9cALelBuxRIQzrWKYPBW6DtNL4OyAMSJDP1dHL79aJCkGltDGJHGWz0KhKa2QvSBuiJaKe5Hlomcqw5MlIlVZxjbcJtZclvb8HHu1SvqRbZVeL3aN50WMc2CrjST0x6Xy9OwWcTJtyeFlaBM9XbxQeQ1nqP9CpiuMxk3ye5J2fIKjS+LvgBEiOZ151HYx5Z7AhcJv1Is2HCnC/3d0TK9+g3OVfGirRjYMF4gk8aSKstVJke+FT1mdvg8S8diuYhrupWNkvQEvigh2gTCoVHTVKweLS8zpwqha18WV2CiigbdEnLZA+IduQ6PDOxb7iK15F3l+eK248VolruqWiunUi1781/EvT+Bu8XX4GDwAAAAASUVORK5CYII="/>
-</defs>
-</symbol>
 
 <symbol id="star" width="15" height="14" viewBox="0 0 15 14" >
 <path d="M7.5 0L9.18386 5.18237H14.6329L10.2245 8.38525L11.9084 13.5676L7.5 10.3647L3.09161 13.5676L4.77547 8.38525L0.367076 5.18237H5.81614L7.5 0Z"/>
+</symbol>
+
+<symbol id="LinkedIn1" width="24" height="24">
+
+<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
+    <image  x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFBSURBVEhL7dXJS8NAGMbhuNQF9OCGeBBBQUWKJy/WQ6EteBBR6qVeXQ6K2oLrpaAgvQoi/r3+3oyJX4JUBkdPfeGBycxkviSdJtF/pYB1bKOCOQTNPm5RxS6esYxgecK4a8bZwqlrhkkLRehRjaCOBoJlFZdQoTucYwbB0ocJLGIBuougucB1zh6UQ+THjjGNMo7QxBl28O2ddzBlbEILKRrTjrLj73iAiq9hFks4gPr1yDPRIjZa0BbQoja64hUMxEdf0fEG7pE5x7dAt9+oH7qTWnz0Gd8Ck7jCG/RI5mGjjaKdmMa3wAn0jx9FCdraY0ii/rZruvgW0KtkyDWjQdxAWzyJtr3mpPEtkJ+vuTrHJjOnV6BX4PcFXqEOS29Y5RH5MX0BbTT3BXaO1kyjb4Gu0lKf0m0syTB+mvMXiaIPjLJGOID48UUAAAAASUVORK5CYII=" preserveAspectRatio="none" width="18" height="18"/>
+</g>
+</symbol>
+
+<symbol id="Facebook1" width="24" height="24">
+
+<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
+    <image  x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVEhL7ZXNLgRBFEabFRYisSGxE0LiZyGEjSfwBDYk8wAiJGywYiuxwds6p2eu9FAYdbHyJSddVcm9p7uneqr560zBbBJ7FLMG13CXxB72GorWG9iEcRcqY609lAw9iY+mfayd5aLEXvZ8TQh+KmnBIhzBCRzDLkxAJCVYhkvYhxXYAmuXIJISnMJ2f9jMww5cgeJISvAAkzANF9ADX9MCRFKCJ3C3WXMLpW1dJTiA5wHGmpg/wipEqgXyNjNwDnPtrJ9qwdngavxSHR+C6+lt6o+4B91XdA+ubbjQSZUg0hV8VPMvaFMlGOUs+EpQ/Lv+zoHzmcDa4oFj1mGUI1NBaRzYw17FaPXOMry7819M07wAjh5EcxCIuNYAAAAASUVORK5CYII=" preserveAspectRatio="none" width="18" height="18"/>
+</g>
+</symbol>
+
+
+<symbol id="Instagram1" width="24" height="24">
+
+<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
+    <image  x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGuSURBVEhLzZW5TsNAEIZNIkERgsRRAgW8AxISUANKIAUFiEOcJRIVIFHwAjw0/+c9tLbX9sYpkl/6pPXuemZnZo9sHloR2+JQnIlRC8w5EruiJxq1Ju7El7gSJwJHTTCHub/iTWAjKgY+BZNX6ZhSy+JSYKPihNDwPrHtruJfFngrSLXXjiDEQmeiWO2DOMi/TPTfgjp6USQ812lJrIs9y5btQxj6E/f5lxG2qI8XO+HYNCvaFDfiQzxb3sWjYKwvcBLmncKfmqYR263g0QoDP2IshoIcA8boY2xDlIUtbHrFHJCCJ4Ehl45Q9DF2bduhkhyQZ1LByuvEGKmjPqGSHOwLIoit3ol0URMKH2oxHBA24beliDSSzlBJDlg5BWwq8oVgu5bHkxwgt00xFG5T2vQxxpyyKg7aDhqrJBXuoJE6ooudAcRBOzdNIzy2XRXk2V0V1CeWNidsFRbMUecNGORfs4kLk4uTC9SLTh4aPJPjruJfrvxXUYmQwvFYMKHLtc01zQKjD44TAy+CEJk8zZPJG8BDU2vcidDIH0ViJ7DdmmAH4og6dol8FmXZPyDGOKTWDGEQAAAAAElFTkSuQmCC" preserveAspectRatio="none" width="18" height="18"/>
+</g>
+</symbol>
+
+
+<symbol id="Twitter1" width="24" height="24">
+
+<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
+    <image  x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH/SURBVEhL5ZXbS1RRFIdPGSXaRe2CVFipqGlqmUWRVlAEUoggCKVokhFe6MHCtFKLHrpBgT747/Z9ew/jcJpznBropR98sNeZfdbZa+211iT/tY5AN1yHNjgIpaqD/XGZJKegC/YFK1++dBc+wCt4Bm/gPfTCCbgFa3Aegp7COlyFvT4yCgtwOlhRvmMUS7ACfvwLXIAgH1wGN9yGA1BOOvkI9cH6XYfBlP2ALXgLQZ/AHJ6FeXgCzZCOZhLux2WmTI/7vkKnD5S51KE6CvfAUKfhCjSCH/NZO+TpDLyD/mAVNALjcVmUVXAHTJspNNyfcBHyNAjPoRi9CyPYhuGCXapD0ASGexPMc55M0UxcRunwG5gOc6fDajQGj+JyV4Z0LS6r1jJcistdmddN8DKr0XHQz7FglcjufAD+aCS18Dey+kx1TbBSstF24Ds89MEfytlkxbUGq4ycIRtgBOlK2kvut6SnIGsKhE3OIi/J5vJElX7IqWqpnwtWjryLDlgEp+NjSI/htBwvNmElgzJcrjmcBbt3APLUAqswBMXZn5bOHL8vC8yBA807yTpRAzhedH4DMp0rh9dr+Ax2oMOqnGM73L12qumbgJNQ0T35st3nv5OVZHosOe0X4AH8H7AAHIrmPbNa8uRp/DMxCru7D3rAe7FLvaOKTvyPlCS/AK7VNMVfVuRuAAAAAElFTkSuQmCC" preserveAspectRatio="none" width="18" height="18"/>
+</g>
 </symbol>
 
 </svg>
