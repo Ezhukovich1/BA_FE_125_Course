@@ -1,0 +1,76 @@
+* {
+    font-family: roboto;
+    transition: all .1s ease-in;
+}
+
+
+body {
+    margin: 0;
+    height: 200%;
+    background: #3B3F45;
+    border: solid 5px white;
+    
+
+}
+
+.header {
+    background: #4A4F56;
+    text-align: center;
+
+}
+
+.header .spacing {
+    height: 11px;
+    width: 100%;
+}
+
+
+
+.header h1 {
+    color: #FF8984;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.header p {
+    color: #FF8984;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header_text {
+    padding-top: 12px;
+}
+
+.spacing1 {
+    height: 12px;
+}
+
+/* header end */
+
+.first_spacing {
+    height: 20px;
+}
+
+.main_section {
+    padding-left: 500px;
+    /* experemental */
+    width: 534px;
+}
+
+.box {
+    width: 18px;
+    height: 18px;
+}
+
+.line1 {
+    width: 534px;
+    height: 45px;
+}
