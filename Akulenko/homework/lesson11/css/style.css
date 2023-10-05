@@ -51,43 +51,58 @@ nav {
     color: #FF9900;
 }
 
+.btn {
+    box-sizing: border-box;
+    color: white;
+    background-color: #FF9900;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 700;
+    padding: 13px 40px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 24px;
+}
+
 .btns {
     float: right;
     margin-top: 18px;
 }
 
-.btn_sign_in {
+.btns .btn:first-child {
     color: #2F281E;
-    font-size: 16px;
+    background-color: white;
     font-family: Montserrat;
     font-weight: 600;
     padding: 13px 25px;
-    border-radius: 4px;
     border: 1px #BCD0E5 solid;
     margin-right: 16px;
 }
 
-.btn_sign_up {
-    color: white;
-    font-size: 16px;
+.btns .btn:last-child {
     font-family: Montserrat;
     font-weight: 600;
     padding: 13px 25px;
-    background: #FF9900;
-    border-radius: 4px;
     margin-left: 16px;
 }
 
 .first-screen {
     padding-top: 87px;
     display: flex;
-    /* width: 100%; */
-    justify-content: space-between;
 }
 
 .first-screen-left {
     width: 500px;
     padding: 97px 0;
+    margin-right: 23px;
+}
+
+.first-screen-right {
+    margin-left: 23px;
+}
+
+.first-screen-left .btn {
+    display: block;
 }
 
 .page-title {
@@ -107,7 +122,7 @@ nav {
     margin: 0;
 }
 
-.btn-get-started {
+/* .btn-get-started {
     display: block;
     box-sizing: border-box;
     height: 50px;
@@ -121,11 +136,10 @@ nav {
     border-radius: 4px;
     text-align: center;
     line-height: 24px;
-}
+} */
 
 .features-bg {
     background-image: url(../images/bg.svg);
-    /* height: 388px; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -136,12 +150,14 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 74px;
 }
 
 .features-cards {
     display: flex;
     justify-content: space-between;
     padding-top: 31px;
+    margin-bottom: 70px;
 }
 
 .features-title {
@@ -157,6 +173,15 @@ nav {
 .card {
     width: 270px;
     height: 175px;
+    margin: 0 20px;
+}
+
+.card:first-child {
+    margin-left: 0;
+}
+
+.card:last-child {
+    margin-right: 0;
 }
 
 .card h3 {
@@ -174,21 +199,4 @@ nav {
     font-family: Montserrat;
     font-weight: 500;
     line-height: 26px;
-}
-
-.btn-sign-up-now {
-    box-sizing: border-box;
-    display: block;
-    color: white;
-    background-color: #FF9900;
-    font-size: 16px;
-    font-family: Poppins;
-    font-weight: 700;
-    width: 200px;
-    height: 50px;
-    padding: 13px 40px;
-    border-radius: 4px;
-    text-align: center;
-    line-height: 24px;
-    margin: 70px 0 74px;
 }
