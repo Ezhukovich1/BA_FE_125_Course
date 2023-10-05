@@ -1,0 +1,51 @@
+.header .links li {
+    display: inline-block;
+    
+}
+
+.links a {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+header {
+    height: 80px;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    margin-left: 200px; 
+}
+
+header nav, header .btn-header {
+    display: inline-block;
+}
+
+.links li {
+    display: inline;
+}
+
+header img {
+
+    padding: 24px;
+
+}
+
+.btn-header {
+    padding: 17px;
+    padding-left: 250px;
+}
+
+.btn-header button {
+    display: inline-block;
+    padding: 13px 25px;
+}
+
