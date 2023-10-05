@@ -27,6 +27,12 @@ a {
     padding: 100px 0;
 }
 
+.body-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
 
 header {
     text-align: center;
@@ -104,11 +110,7 @@ h1 {
 }
 
 
-#skills p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: normal;
-    display: block;
+#skills p .body-text {
     margin-bottom: 50px;
 }
 
@@ -166,7 +168,7 @@ h1 {
     margin-bottom: 0px;
 }
 
-#portfolio-item a {
+.portfolio-item a {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -184,12 +186,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-#contacts p {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    color: #070707;
+#contacts p .body-text {
     margin-bottom: 60px;
 }
 
