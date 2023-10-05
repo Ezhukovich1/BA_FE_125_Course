@@ -43,23 +43,32 @@ h1 {
 }
 
 ul {
-  display: block;
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
 }
 
 section.conteiner label {
-  display: block;
+  display: flex;
+  align-items: center;
   width: 534px;
   height: 45px;
   background-color: #88839e;
-  /* border: 1px solid black; */
   margin: auto;
   padding: 0px;
 }
 
-/* label:nth-child(2) { */
-/* background-color: #7a7593; */
-/* } */
+.list .list_item_1 {
+  background-color: #625e77;
+}
+
+.list .list_item_3 {
+  background-color: #625e77;
+}
+
+.list .list_item_5 {
+  background-color: #625e77;
+}
 
 [type="checkbox"] {
   width: 19px;
@@ -181,4 +190,24 @@ input:checked ~ span {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.conteiner_1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 534px;
+  height: 45px;
+  background-color: #4a4f56;
+  margin: auto;
+  text-align: center;
+}
+
+.conteiner_1 h2 {
+  color: #ff8984;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: auto;
 }
