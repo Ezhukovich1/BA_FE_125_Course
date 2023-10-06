@@ -1,0 +1,132 @@
+* {
+  transition: all 0.1s ease-in;
+}
+
+body {
+  background: #3b3f45;
+  font-family: Roboto;
+}
+
+.container {
+  width: 534px;
+  margin: 0 auto;
+}
+
+span {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 11px 0px 13px 16px;
+  display: inline-block;
+}
+
+/* Header */
+
+header {
+  background: #4a4f56;
+  text-align: center;
+  padding: 19px 0 12px;
+}
+
+h1 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #ff8984;
+  margin: 0 0 4px 0;
+}
+
+p {
+  color: #ff8984;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Checkboxes & Content */
+#checkbox1,
+#checkbox2,
+#checkbox3,
+#checkbox4,
+#checkbox5,
+#checkbox6 {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: 12px 0px 14px 12px;
+}
+
+main {
+  padding: 20px 0 0 0;
+}
+
+.checkbox:first-child,
+.checkbox:nth-child(3),
+.checkbox:nth-child(5) {
+  background: #88839e;
+}
+
+.checkbox:nth-child(2),
+.checkbox:nth-child(4),
+.checkbox:nth-child(6) {
+  background: #7a7593;
+}
+
+.checkbox_inscription {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 12px 0 17px 3px;
+}
+
+.checkbox_inscription::before {
+  content: "(";
+}
+.checkbox_inscription::after {
+  content: ")";
+}
+
+/* Footer */
+
+footer {
+  padding: 45px 0;
+}
+
+footer .container {
+  background: #4a4f56;
+  text-align: center;
+}
+
+footer p {
+  font-size: 18px;
+  padding: 12px 0;
+}
+
+/* Animation for checkboxes */
+
+label {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+label:hover {
+  background: #625e77;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+.checkbox_label input:checked ~ span {
+  text-decoration: line-through;
+}
+
+label:active {
+  background: red;
+  transition: all 0.3s ease-in;
+}
