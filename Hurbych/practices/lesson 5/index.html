@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One%7COswald%7CBaloo+2:500&display=swap" rel="stylesheet">
+    <title>Lesson 5</title>
+</head>
+<body>
+    <video autoplay muted loop class="background-video">
+        <source src="./videos/background-video.mp4" type="video/mp4" />
+    </video>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about_me">About me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="wrapper">
+        <section id="about_me" class="manual-padding-on-top">
+            <div class="row-content background-color">
+                <img width="250" height="250" src="./images/daria-photo.JPG" alt="My photo" />
+                <div class="personal-info">
+                    <h1>Daria Hurbych</h1>
+                    <h2>Student</h2>
+                    <h3>Toronto, Canada</h3>
+                    <h4>30 y.o.</h4>
+                    <h5>dariahubych@gmail.com</h5>
+                </div>
+            </div>
+            <p>I am very excited about this course and hope I can conquer front-end in the end.</p>
+            <h5 class="title-block">Skills</h5>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <h5 class="title-block">Social Media</h5>
+            <ol>
+                <li><a href="https://www.linkedin.com/in/daria-hurbych/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.behance.net/dariahurbych" target="_blank">Behance</a></li>
+                <li><a href="https://www.facebook.com/daria.hurbych" target="_blank">Facebook</a></li>
+            </ol>
+        </section>
+
+        <div class="triangle-right"></div>
+
+        <section id="portfolio" class="manual-padding-on-top">
+            <h2 class="content-title">Portfolio</h2>
+            <div class="portfolio-list">
+                <a class="portfolio-item" href="https://google.com.ua" target="_blank">
+                    <img width="250" height="250" src="./images/daria-photo.JPG" alt="My CV" />
+                    <div class="item-name">
+                        CV
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <div class="triangle-left"></div>
+
+        <section id="feedback" class="manual-padding-on-top">
+            <h2 class="content-title">Feedback</h2>
+            <div class="feedback-container">
+                <form action>
+                    <fieldset>
+                        <label for="email">Enter email</label>
+                        <input type="email" name="email">
+                    </fieldset>
+                    <div class="submit-form-container">
+                        <div class="row">
+                            <input type="checkbox" name="conditions" id="agree" />
+                            <label for="agree">
+                                I agree to the <a href="#">Privacy policy</a> and <a href="#">Terms of use</a>
+                            </label>
+                        </div>
+                        <input type="submit" value="Submit your feedback" />
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
