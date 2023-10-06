@@ -1,0 +1,216 @@
+* {
+  font-family: "Open Sans", sans-serif !important;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 970px;
+  margin: 0 auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Refactoring */
+
+.section-title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+
+.section-container {
+  padding: 100px 0;
+}
+
+.body-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+/* Refactoring end */
+
+/* styles for header */
+header {
+  text-align: center;
+}
+
+header li {
+  list-style-type: none;
+  display: inline;
+}
+
+nav {
+  border-bottom: 1px solid #828282;
+}
+nav a {
+  display: inline-block;
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  color: #828282;
+  padding: 10px 5px;
+  margin: 17.5px 15px;
+}
+
+nav a.active {
+  color: #070707;
+}
+
+/* styles for header end */
+
+/* styles for into(h1 + image) */
+
+h1 {
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 48px;
+  color: #070707;
+  margin-top: 12px;
+  margin-bottom: 50px;
+}
+
+/* styles for into(h1 + image) end */
+
+/* styles for about_me */
+#about_me {
+  background: #f6f6f6;
+  text-align: center;
+}
+
+#about_me .container {
+  width: 480px;
+}
+
+#about_me p:last-child {
+  margin-bottom: 0;
+}
+/* styles for about_me end */
+
+/* styles for skills */
+
+#skills {
+  text-align: center;
+}
+
+#skills .section-title {
+  margin-bottom: 20px;
+}
+
+#skills .body-text {
+  margin-bottom: 50px;
+}
+
+#skills .skills-item {
+  width: 170px;
+  display: inline-block;
+  margin: 0 44px;
+}
+
+#skills .skills-item:first-child {
+  margin-left: 0;
+}
+
+#skills .skills-item:last-child {
+  margin-right: 0;
+}
+
+#skills .skills-item p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #828282;
+  margin-bottom: 60px;
+}
+
+.skills-item img:first-child {
+  margin-bottom: 25px;
+}
+
+#skills .skills-item:last-of-type p {
+  margin-bottom: 80px;
+}
+/* styles for skills end */
+
+/* styles for portfolio */
+#portfolio {
+  background: #f6f6f6;
+}
+
+#portfolio .container {
+  text-align: center;
+}
+
+#portfolio img {
+  margin-bottom: 40px;
+}
+
+.portfolio-item {
+  margin-bottom: 70px;
+}
+
+.portfolio-item:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio-item a {
+  display: inline;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  border-bottom: 1px solid black;
+}
+
+.portfolio-item .width181 {
+  width: 181px;
+}
+/* styles for portfolio end */
+/* styles for contacts(footer) */
+#contacts .container {
+  text-align: center;
+}
+
+#contacts .section-title {
+  margin-bottom: 20px;
+}
+
+#contacts .body-text {
+  margin-bottom: 60px;
+}
+
+#contacts .btn-feedback {
+  background: black;
+  display: inline-block;
+  width: 180px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  color: white;
+  border-radius: 22px;
+}
+
+#contacts .social {
+  margin: 30px 0 60px;
+}
+
+#contacts .social a {
+  margin: 0 25px;
+}
+
+#contacts .social a:first-child {
+  margin-left: 0;
+}
+
+#contacts .social a:last-child {
+  margin-right: 0;
+}
+
+#contacts p:last-of-type {
+  color: #828282;
+  font-size: 14px;
+}
+/* styles for contacts(footer) end */
