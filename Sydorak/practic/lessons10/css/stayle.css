@@ -1,5 +1,6 @@
 * {
   font-family: "Open sans";
+  box-sizing: border-box;
 }
 
 .container {
@@ -12,18 +13,27 @@ a {
   text-decoration: none;
 }
 
-.spacing {
-  width: 40px;
-  display: inline-block;
+/* Refactoring */
+
+.section-title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 50px;
 }
 
+.section-container {
+  padding: 100px 0;
+}
+
+/* Refactoting end */
 header {
   text-align: center;
 }
 
 header li {
   list-style-type: none;
-  display: inline;
+  display: inline-block;
 }
 
 nav {
@@ -31,10 +41,13 @@ nav {
 }
 
 nav a {
+  display: inline-block;
   font-size: 18px;
-  line-height: 80px;
+  line-height: normal;
   letter-spacing: 0, 36px;
   color: #828282;
+  padding: 10px 5px;
+  margin: 17.5px 15px;
 }
 
 nav a.active {
@@ -43,21 +56,13 @@ nav a.active {
 
 /* The end stale heder */
 
-#into .spacing {
-  width: 100%;
-  height: 12px;
-}
-
 h1 {
   font-weight: 700;
   line-height: 60px;
   font-size: 48px;
   color: #070707;
-  margin: auto;
-}
-
-#into h1 + .spacing {
-  height: 50px;
+  margin-top: 12px;
+  margin-bottom: 50px;
 }
 
 /* The end section 1 */
@@ -65,124 +70,92 @@ h1 {
 #about_me {
   background: #f6f6f6;
   text-align: center;
+  /* padding: 100px; */
 }
 
 #about_me .container {
   width: 480px;
 }
 
-#about_me .spacing {
-  height: 100px;
-  width: 100%;
-}
-
-#about_me h2 + .spacing {
-  height: 50px;
-  width: 100%;
-}
-
-#about_me p + .spacing {
-  height: 30px;
-  width: 100%;
-}
-
-#about_me h2 {
-  font-size: 34px;
-  font-weight: 700;
-  line-height: 40px;
-}
-
 #about_me p {
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 30px;
+}
+
+#about_me p:last-child {
+  margin-bottom: 0;
 }
 
 /* The end about me */
 
 #skills {
   text-align: center;
+  padding: 100px 0;
 }
 
-#skills .spacing {
-  height: 100px;
-  width: 100%;
-}
-
-#skills h2 {
-  font-size: 34px;
-  font-weight: 700;
-  line-height: 40px;
-}
-
-#skills h2 + .spacing {
-  height: 20px;
-}
-
-#skills p + .spacing {
-  height: 50px;
+#skills .section-title {
+  margin-bottom: 20px;
 }
 
 #skills p {
   font-size: 18px;
   font-weight: 400;
+  margin-bottom: 50px;
 }
 
 #skills .skills-item {
   width: 170px;
   display: inline-block;
+  margin: 0 44px;
+}
+
+#skills .skills-item:first-child {
+  margin-left: 0px;
+}
+
+#skills .skills-item:last-child {
+  margin-right: 0px;
 }
 
 #skills .skills-item p {
   font-size: 14px;
   font-weight: 700;
   color: #828282;
+  margin-bottom: 60px;
+  margin-top: 0px;
 }
 
-#skills .skills-item .spacing {
-  height: 25px;
+.skills-item img:first-child {
+  margin-bottom: 25px;
 }
 
-#skills .skills-item p + .spacing {
-  height: 60px;
-}
-
-#skills .skiills-item:last-of-type p + .spacing {
-  height: 80px;
-}
-
-#skills .skills-item ~ .spacing {
-  width: 88px;
-  height: auto;
+#skills .skiills-item:last-of-type p {
+  margin-bottom: 80px;
 }
 
 /* the end skills */
 
 #portfolio {
   background: #f6f6f6;
-}
-
-#portfolio .spacing {
-  height: 100px;
-  width: 100%;
-}
-
-#portfolio h2 {
-  font-size: 34px;
-  font-weight: 700;
-  line-height: 40px;
+  /* padding: 100px 0; */
 }
 
 #portfolio .container {
   text-align: center;
 }
 
-#portfolio h2 + .spacing {
-  height: 50px;
+#potfolio img {
+  margin-bottom: 40px;
 }
 
-#portfolio img + .spacing {
-  height: 40px;
+.portfolio-item {
+  margin-bottom: 70px;
+}
+
+.portfolio-item:last-child {
+  margin-bottom: 0;
 }
 
 .portfolio-item a {
@@ -192,29 +165,18 @@ h1 {
   text-decoration: underline;
 }
 
-#portfolio .portfolio-item ~ .spacing {
-  height: 70px;
-}
-
 /* The end portfolio */
+
+/* #contacts { */
+/* padding: 100px 0; */
+/* } */
 
 #contacts .container {
   text-align: center;
 }
 
-#contacts .spacing {
-  height: 100px;
-  width: 100%;
-}
-
-#contacts h2 {
-  font-size: 34px;
-  font-weight: 700;
-  line-height: 40px;
-}
-
-#contacts h2 + .spacing {
-  height: 20px;
+#contacts .section-title {
+  margin-bottom: 20px;
 }
 
 #contacts p {
@@ -223,6 +185,7 @@ h1 {
   font-weight: 400;
   line-height: normal;
   color: #070707;
+  margin-bottom: 60px;
 }
 
 #contacts .btn-feedback {
@@ -237,24 +200,22 @@ h1 {
   border-radius: 22px;
 }
 
-#contacts p + .spacing {
-  height: 60px;
+#contacts .social {
+  margin: 30px 0 60px;
 }
 
-#contacts .btn-feedback + .spacing {
-  height: 30px;
+#contacts .social a {
+  margin: 0 25px;
 }
 
-#contacts .social .spacing {
-  width: 50px;
-  height: auto;
+#contacts .social a:first-child {
+  margin-left: 0;
 }
 
+#contacts .social a:last-child {
+  margin-right: 0;
+}
 #contacts p :last-of-type {
   color: #828282;
   font-size: 14px;
-}
-
-#contacts .social + .spacing {
-  height: 60px;
 }
