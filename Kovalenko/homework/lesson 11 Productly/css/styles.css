@@ -59,15 +59,15 @@ nav a.active {
     color: black;
 }
 
-/*heared end*/
+/*header end*/
 .spacing99px {
     height: 99px;
 }
 
 .section1 {
+
     display: flex;
     align-items: center;
-
 }
 
 h1 {
@@ -124,7 +124,7 @@ p {
     text-decoration: none;
 }
 
-/*first section1 end */
+/* section1 end */
 
 .section2 {
     background-image: url(../img/flex-line.jpg);
@@ -190,4 +190,205 @@ p {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+/* section2 end */
+
+.spacing178px {
+    height: 178px;
+}
+
+.section3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.section3 p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    color: black;
+
+}
+
+.spacing40px {
+    height: 40px;
+}
+
+.section3 h2 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.section3 h3 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.main-text p {
+    margin-bottom: 30px;
+}
+
+/*section 3 enf */
+
+.section4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.section4 h2 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.icon-sct4 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.icon-sct4 p {
+    margin-left: 30px;
+    color: black;
+}
+
+/* end section 4*/
+
+.section5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.section5 p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    color: black;
+
+}
+
+.spacing40px {
+    height: 40px;
+}
+
+.section5 h2 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.section5 h3 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.main-text p {
+    margin-bottom: 30px;
+}
+
+/*end section5*/
+
+.footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.list h2 {
+    color: #2F281E;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.list a {
+    color: #544837;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.list li {
+    margin-bottom: 15px;
+}
+
+.footer-form h2 {
+    color: #2F281E;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+input {
+    display: flex;
+    width: 340px;
+    height: 50px;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    margin-bottom: 25px;
+}
+
+
+.footer-form button {
+    border-radius: 4px;
+    background-color: #F90;
+    width: 180px;
+    height: 50px;
+    padding: 13px 40px;
+    border: none;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
 }
