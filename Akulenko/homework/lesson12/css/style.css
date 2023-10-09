@@ -185,3 +185,121 @@ header .custom_btn:last-of-type {
 .features_card h3 {
     margin-bottom: 16px;
 }
+
+.benefits {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.bnfts_left {
+    display: flex;
+    width: 525px;
+    height: 573px;
+    padding-right: 54px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bnfts_right {
+    display: flex;
+    width: 525px;
+    height: 573px;
+    padding-left: 54px;
+}
+
+.p_title {
+    color: #2F281E;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+
+.benefits .bnfts_left h2 {
+    padding-bottom: 20px;
+}
+
+.benefits .bnfts_left div:first-of-type {
+    padding-bottom: 40px;
+}
+
+.benefits .bnfts_left div {
+    padding-bottom: 30px;
+}
+
+.benefits .bnfts_left div:last-of-type {
+    padding-bottom: 0;
+}
+
+.form input {
+    display: flex;
+    height: 50px;
+    width: 340px;
+    margin: 24px 0 24px;
+    padding: 1px 0 1px;
+}
+
+.footer {
+    display: flex;
+    padding-bottom: 70px;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.f_links {
+    width: 135px;
+}
+
+.f_links p, 
+.form p {
+    color: #2F281E;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.form {
+    width: 340px;
+}
+
+.f_links p {
+    padding-bottom: 30px;
+}
+
+.f_links a {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    color: #544837;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.f_links a:last-of-type,
+.form a:last-of-type {
+    padding-bottom: 0;
+}
+
+.form a {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 700;
+    background-color: #FF9900;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
