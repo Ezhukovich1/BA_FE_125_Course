@@ -3,79 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
     <title>Lesson 10 (shopping list)</title>
 </head>
 
 <body>
-    <div class="main_container">
-
       <!-- Header -->
-        <section id="header">
-          <div>
-            <h1>CSS Dinner Shopping List</h1>
-            <p class="header-item">Let’s go to the mall!</p>
+      <header>
+            <div class="header">
+                <h1>CSS Dinner Shopping List</h1>
+                <p class="header-item">Let’s go to the mall!</p>
           </div>
-        </section>
+      </header>
 
-      <!-- Action -->
-       <section class="container">
-           <form>
-               <ul>
-                  <li class="item-1">
-                      <label for="variant1">
-                        <input type="checkbox" class="quadrate" id="variant1"/>
-                        <span class="text-1">A lot of pickles</span><span class="text-2">(for the next lessons about CSS)</span>
-                     </label>
-                  </li>
-                
-                  <li class="item-2">
-                    <label for="variant2">
-                        <input type="checkbox" class="quadrate" id="variant2" checked/>
-                        <span class="text-3">10 apples</span><span class="text-4">(for more CSS manipulations)</span>
+      <!-- Main -->
+      <main>
+        <div class="all_page">
+            <form>
+              <ul>
+                 <li class="item-1">
+                     <label for="variant1">
+                       <input type="checkbox" class="quadrate" name="variant1" id="variant1"/>
+                       <span class="text-1">A lot of pickles</span>
+                       <span class="text-2">(for the next lessons about CSS)</span>
                     </label>
-                  </li>
-
-                  <li class="item-3">
-                    <label for="variant3">
-                      <input type="checkbox" class="quadrate" id="variant3"/>
-                      <span class="text-1">20 oranges</span><span class="text-2">(because they are awesome)</span>
+                 </li>
+               
+                 <li class="item-2">
+                   <label for="variant2">
+                       <input type="checkbox" class="quadrate" id="variant2"/>
+                       <span class="text-1">10 apples</span>
+                       <span class="text-2">(for more CSS manipulations)</span>
                    </label>
+                 </li>
+
+                 <li class="item-3">
+                   <label for="variant3">
+                     <input type="checkbox" class="quadrate" id="variant3"/>
+                     <span class="text-1">20 oranges</span>
+                     <span class="text-2">(because they are awesome)</span>
+                  </label>
                 </li>
 
-                  <li class="item-4">
-                      <label for="variant4">
-                        <input type="checkbox" class="quadrate" id="variant4"/>
-                        <span class="text-1">13 plates</span><span class="text-2">(hm... they always dissapear)</span>
-                      </label>
-                  </li>
+                 <li class="item-4">
+                     <label for="variant4">
+                       <input type="checkbox" class="quadrate" id="variant4"/>
+                       <span class="text-1">13 plates</span>
+                       <span class="text-2">(hm... they always dissapear)</span>
+                     </label>
+                 </li>
 
-                   <li class="item-5">
-                        <label for="variant5">
-                          <input type="checkbox" class="quadrate" id="variant5"/>
-                          <span class="text-1">15 bentos</span>
-                      </label>
-                  </li>
+                  <li class="item-5">
+                       <label for="variant5">
+                         <input type="checkbox" class="quadrate" id="variant5" />
+                         <span class="text-1">15 bentos</span>
+                     </label>
+                 </li>
 
                   <li class="item-6">
-                    <label for="variant6">
-                        <input type="checkbox" class="quadrate" id="variant6" checked/>
-                        <span class="text-3">1 bottle of Sake </span><span class="text-4"> (for my friends)</span>
-                    </label>
-                  </li> 
-               </ul>
-          </form>
+                   <label for="variant6">
+                       <input type="checkbox" class="quadrate" id="variant6" />
+                       <span class="text-1">1 bottle of Sake</span>
+                       <span class="text-2">(for my friends)</span>
+                   </label>
+                 </li> 
+              </ul>
 
-        </section>
-     
-
-        <!-- Footer -->
-         
               <div class="button">
-                 <button class="bon_appetit" type="submit">Bon appetit :<span>&#10099;</span></button>
-              </div>
-    </div>
+                <button class="bon_appetit" type="submit">Bon appetit :<span>&#10099;</span></button>
+             </div>
+          </form>
+        </div>
+      </main>
 </body>
 </html>

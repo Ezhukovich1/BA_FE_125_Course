@@ -1,46 +1,51 @@
 * {
-  font-family: Roboto, sans-serif!important;
+  font-family: 'Roboto', sans-serif!important;
 }
 
-.main_container {
-  background: #3B3F45;
+body {
+  height: 100%;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.all_page {
+  background-color: #3B3F45;
+  margin: 0 auto;
   width: 793px;
-  height: 507px;
 }
 
 /* Header */
-#header {
-  background: #4A4F56;
-  width: 793px;
-  height: 82px;
+.header {
+  background-color: #4A4F56;
+  text-align: center;
 }
 
 h1 {
   color: #FF8984;
   font-size: 24px;
   font-weight: 700;
-  padding-left: 247px;
   padding-top: 19px;
-  padding-right: 270px;
-  padding-bottom: 4px;
 }
 
 .header-item {
   color: #FF8984;
   font-size: 16px;
   font-weight: 400;
-  padding-left: 316px;
-  padding-right: 338px;
-  padding-bottom: 12px; 
+  padding-bottom: 32px;
+  padding-top: 4px;
 }
 
-/* Action */
-.container {
-  margin-top: 20px;
-  margin-bottom: 45px;
-}
 
 /* item-1 */
+.quadrate {
+  width: 19px;
+  height: 19px;
+  margin: 12px 16px 14px 16px;
+}
+
 .item-1 {
   width: 534px;
   height: 45px;
@@ -49,15 +54,6 @@ h1 {
   margin-top: 20px;
   margin-right: 130px;
   margin-top: 0;
-}
-
-.quadrate {
-  width: 19px;
-  height: 19px;
-  margin-left: 12px;
-  margin-top: 12px;
-  margin-right: 16px;
-  margin-bottom: 14px; 
 }
 
 .text-1 {
@@ -82,6 +78,37 @@ h1 {
   padding-bottom: 17px;
 }
 
+
+input:checked {
+  text-decoration: line-through;
+}
+
+/* 
+input[type="checkbox"]:checked {
+  text-decoration: line-through;
+  color: #9B96AC;
+}
+
+option:checked {
+  color: #9B96AC;
+  text-decoration: line-through;
+} */
+
+
+.item-1:hover {
+  background-color: #625E77;
+  border-top: 3px white solid;
+  border-bottom:3px white solid ;
+}
+
+.item-1:visited {
+  color:  #9B96AC;
+}
+
+.item-1:active {
+  background: #FF8984;
+}
+
 /* item-2 */
 .item-2 {
   width: 534px;
@@ -91,31 +118,16 @@ h1 {
   margin-top: 20px;
   margin-right: 130px;
   margin-top: 0;
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
-.text-3 {
-  color: #9B96AC;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding-top: 11px;
-  padding-right: 0;
-  padding-bottom: 13px;
-  text-decoration: line-through;
+.item-2:hover {
+  background-color: #625E77;
+  border-top: 3px white solid;
+  border-bottom:3px white solid ;
 }
 
-.text-4 {
-  color: #9B96AC;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding-top: 12px;
-  padding-right: 0;
-  padding-bottom: 17px;
-  text-decoration: line-through;
+.item-2:active {
+  background: #FF8984;
 }
 
 /* item-3 */
@@ -128,15 +140,33 @@ h1 {
   margin-right: 130px;
 }
 
+.item-3:active {
+  background: #FF8984;
+} 
+.item-3:hover {
+  background-color: #625E77;
+  border-top: 3px white solid;
+  border-bottom:3px white solid ;
+}
+
 /* item-4 */
 .item-4 {
   width: 534px;
   height: 45px;
-  background: #625E77;
+  background: #7A7593;
   margin-left: 129px;
-  margin-top: 3px;
   margin-right: 130px;
-  margin-bottom: 3px;
+  margin-bottom: 0px;
+}
+
+.item-4:active {
+  background: #FF8984;
+}
+
+.item-4:hover {
+  background-color: #625E77;
+  border-top: 3px white solid;
+  border-bottom:3px white solid ;
 }
 
 /* item-5 */
@@ -145,10 +175,20 @@ h1 {
   height: 45px;
   background: #88839E;
   margin-left: 129px;
-  margin-top: 3px;
   margin-right: 130px;
   margin-bottom: 0;
 }
+
+.item-5:active {
+  background: #FF8984;
+} 
+
+.item-5:hover {
+  background-color: #625E77;
+  border-top: 3px white solid;
+  border-bottom: 3px white solid ;
+} 
+
 /* item-6 */
 .item-6 {
   width: 534px;
@@ -158,15 +198,22 @@ h1 {
   margin-top: 20px;
   margin-right: 130px;
   margin-top: 0;
-  box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
-/* Footer */
+.item-6:active {
+  background: #FF8984;
+}
+
+.item-6:hover {
+  background-color: #625E77;
+  border-top: 3px white solid;
+  border-bottom:3px white solid ;
+}
+
+
+/* Button */
 .button {
-  margin-left: 129px;
-  margin-top: 417px;
-  margin-right: 130px;
-  margin-top: 45px;
+  padding: 45px 130px 45px 129px;
 }
 
 .bon_appetit {
