@@ -196,8 +196,7 @@ header .custom_btn:last-of-type {
 .bnfts_left {
     display: flex;
     width: 525px;
-    height: 573px;
-    padding-right: 54px;
+    height: auto;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -205,8 +204,7 @@ header .custom_btn:last-of-type {
 .bnfts_right {
     display: flex;
     width: 525px;
-    height: 573px;
-    padding-left: 54px;
+    height: auto;
 }
 
 .p_title {
@@ -282,8 +280,7 @@ header .custom_btn:last-of-type {
     line-height: 26px;
 }
 
-.f_links a:last-of-type,
-.form a:last-of-type {
+.f_links a:last-of-type {
     padding-bottom: 0;
 }
 
