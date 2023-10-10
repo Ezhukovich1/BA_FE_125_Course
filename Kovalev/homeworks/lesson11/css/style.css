@@ -1,5 +1,5 @@
 * {
-    font-family: 'Montserrat', sans-serif!important
+    font-family: 'Montserrat', sans-serif!important;
     box-sizing: border-box;
 }
 
@@ -11,7 +11,6 @@
 
 header {
     text-align: center;
-    background: #FFE5D2;
 }
 
 nav li {
@@ -101,7 +100,6 @@ nav a.active {
 
 .section1 {
     margin: 71px 0 99px;
-    background: #FFE5D2;
 }
 
 h1 {
@@ -166,7 +164,7 @@ h2 {
 
 .btm2 a {
     padding: 13px 40px;
-    margin 70px 635px;
+    margin: 70px 635px;
     text-align: center;
     display: block;
     color: #FFFFFF;
