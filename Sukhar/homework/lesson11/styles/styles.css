@@ -1,5 +1,6 @@
 body{
   font-family: 'Montserrat', sans-serif;
+  background-color: rgba(255, 229, 210, 0.6293);
 }
 a{
     text-decoration: none;
@@ -11,6 +12,7 @@ a{
     width: 1200px;
     margin: auto;
 }
+
 header .container{
     display: flex;
     justify-content: space-between;
@@ -38,11 +40,16 @@ a:first-of-type{
     display: flex;
     justify-content: space-between;
 }
-button{
+.button-container button{
     width: 110px;
     height: 46px;
+}
+button{
+    width: 180px;
+    height: 50px;
     font-size: 16px;
     font-weight: 600;
+    border: 1px solid;
     border-color: #BCD0E5;
     border-radius: 4px;
     background: none;
@@ -56,10 +63,14 @@ button:hover{
     color: #FFFFFF;
     border: orange;
 }
+
+.first-section{
+    padding-top: 87px;
+}
 .first-screen{
     display: flex;
     justify-content: space-between;
-    margin-top: 87px;
+    
 }
 h1{
     font-size: 44px;
@@ -75,8 +86,41 @@ h1{
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.first-screen button{
-    width: 150px;
-    height: 50px;
+.tools-section{
+    padding-top: 99px;
+    padding-bottom: 74px;
+    background-image: url('../image/bg.png');
+    background-size: auto auto;
+    background-position:right 50% bottom 0px;
+    background-repeat: no-repeat;
+  
 }
+.tools-section > .container{
+text-align: center;
+}
+h2{
+    color: #2F281E;
+    font-size: 36px;
+    font-weight: 700;
 
+
+}
+.tools-section h2{
+    margin-bottom: 50px;
+}
+.tools-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+}
+.tools-card{
+    text-align: left;
+    width: 270px;
+}
+.tools-card img{
+    margin-bottom: 30px;
+}
+.tools-card h4{
+    margin-bottom: 16px;
+}
