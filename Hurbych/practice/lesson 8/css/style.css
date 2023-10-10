@@ -1,0 +1,20 @@
+.container {
+    width: 1110px;
+    /* experemental */
+    margin: 0 auto;
+}
+
+.button {
+    background: #111B47;
+    border-radius: 2px;
+    width: 160px;
+    height: 26px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    /* experemental */
+   display: block;
+   text-align: center;
+}
