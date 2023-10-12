@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 7</title>
+</head>
+<body>
+    <form action="#" name="registration" method="get">
+        <label for="fullname">Full name</label>
+        <input type="text" id="fullname" name="fullname">
+        <br/>
+        <br/>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br/>
+        <br/>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <br/>
+        <br/>
+        <label for="password">Password one more time</label>
+        <input type="password" name="password" id="password2">
+        <br/>
+        <br/>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <br/>
+        <br/>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="1">
+        <br/>
+        <br/>
+        <label for="course">Course</label>
+        <select name="course" id="course">
+            <option value="front_end">Front-End</option>
+            <option value="back_end">Back-End</option>
+            <option value="project_management">Project Management</option>
+            <option value="qa_manual">QA Manual</option>
+        </select>
+        <br/>
+        <br/>
+        <label for="full_address">Full Address</label>
+        <textarea name="full_address" id="full_address" cols="30" rows="10" placeholder="Country, region, city, street"></textarea>
+        <br/>
+        <br/>
+        <input type="checkbox" name="privacy_policy" id="privacy_policy">
+        <label for="privacy_policy">By clicking here, I state that I have read and
+            understood the terms and conditions.</label>
+        <br/>
+        <br/>
+        <input type="reset" value="Clear form">
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
