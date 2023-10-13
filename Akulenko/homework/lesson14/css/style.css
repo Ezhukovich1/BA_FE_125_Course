@@ -1,0 +1,134 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    height: 54px;
+    margin: 13px auto 13px;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.headerleft {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header p {
+    padding-right: 50px;
+    font-family: Tourney;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 1.32px;
+    margin-right: 50px;
+}
+
+nav a {
+    color: #000;
+    font-family: Staatliches;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.66px;
+
+}
+
+nav span {
+    padding: 0 10px;
+    color: #000;
+    font-family: Staatliches;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.66px;
+}
+
+/* header img {
+   
+    display: flex;
+    
+} */
+
+.chapter1,
+.chapter2,
+.chapter3,
+.chapter4 {
+    margin-top: 70px;
+}
+
+h1 {
+    color: #000;
+    font-family: Francois One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1.44px;
+}
+
+sup {
+    color: #000;
+    font-family: Farro;
+    font-size: 50%;
+    vertical-align: text-top;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    height: 20px;
+}
+
+.chapter1 p,
+.chapter2 p,
+.chapter3 p,
+.chapter4 p {
+    padding-top: 40px;
+    color: #000;
+    font-family: PT Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; 
+}
+
+i {
+    font-style: italic;
+  }
+
+b {
+    font-weight: bold;   
+}
+
+/* .cat::before {
+    content: <Text>;
+}
+
+.cat::after {
+    content: </Text>;
+} */
+
+.cat {
+    font-family: arial; 
+    font-size: 26px; 
+    color: black;
+}
+
+.dada {
+    background-color: #DADADA;
+}
+
+.chapter4 {
+    margin-bottom: 90px;
+}
