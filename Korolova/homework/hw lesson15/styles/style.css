@@ -1,0 +1,78 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+header .container{
+    height: 80px;
+    /* margin-bottom: 70px; */
+    display: flex;
+    align-items: center;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: Tourney;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.88px;
+}
+.doc a   {
+    margin-left: 50px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: Staatliches;
+    font-weight: 400;
+    letter-spacing: 0.66px;
+}
+.doc a:last-of-type {
+    margin-left: 10px;
+    margin-right: 600px;
+}
+.logo img{
+    width: 237.999977px;
+    height: 54px;
+    margin-right: 0px;
+}
+h2 {
+    margin-top: 70px;
+    margin-bottom: 0px;
+    color: black;
+    font-size: 36px;
+    font-family: Francois One;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1.44px;
+}
+sup {
+    height: 20px;
+    vertical-align: text-top;
+    line-height: normal;
+    font-size: 50%;
+    color: black;
+    font-family: Farro; 
+    font-weight: 300;
+    letter-spacing: 1.20px;
+}
+p {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    color: black;
+    font-size: 28px;
+    font-family: PT Sans;
+    font-weight: 400;
+    line-height: 48px;
+}
+code {
+    background: lightgray;
+    color: black;
+    font-size: 28px;
+    font-family: PT Sans;
+    font-weight: 400;
+    line-height: 48px;
+}
+.handling {
+    margin-bottom: 90px;
+}
