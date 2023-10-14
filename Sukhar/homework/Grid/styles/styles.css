@@ -1,0 +1,80 @@
+/* font-family: 'Delius Unicase', cursive;
+font-family: 'Roboto', sans-serif; */
+section{
+    max-width: 1170px;
+    margin: auto;
+  
+}
+
+h2{font-family: 'Delius Unicase', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    color: #000;     
+    text-align: center;
+}
+figure, .card-container{
+    margin: 0;
+    position: relative;
+    border-radius: 20px;
+    
+}
+.card-container::after {
+    content: "";
+    display: block; 
+    border-radius: 20px;  
+    width: 100%;
+    height: 100%;   
+    position: absolute;
+    top: 0;     
+    left: 0;  
+    background: transparent;
+    background-image: linear-gradient(0deg, #241F24 0%, rgba(91, 91, 91, 0.45) 34.11%, rgba(187, 186, 192, 0.26) 62.5%);  
+
+}
+
+
+.card-title{
+    color: #FFF;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+font-size: 20px;
+font-weight: 500;
+display: flex;
+justify-content: space-between;
+position: absolute;
+left: 0;
+bottom: 0;
+box-sizing: border-box;
+padding: 20px 20px 20px 20px;
+z-index: 1;
+
+
+}
+.date-on-card{
+    color:  #E0E0E0;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+
+}
+.item-square{
+    width: 370px;
+}
+.item-landscape{
+    width: 770px;
+}
+img{
+    border-radius: 20px;
+    position: relative;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    gap: 30px;
+    
+  }
+.item-landscape{
+    grid-column-end: span 2;
+}
