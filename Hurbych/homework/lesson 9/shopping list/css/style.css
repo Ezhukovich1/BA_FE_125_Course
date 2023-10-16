@@ -1,0 +1,147 @@
+/* global styles */
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+  margin: 16px;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  display: inline-block;
+  text-align: center;
+  width: 534px;
+}
+
+
+h1 {
+  color: #FF8984;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* global styles end */
+
+
+/* header styles */
+
+header {
+  text-align: center;
+  padding: 19px 0 12px 0;
+  background: #4A4F56;
+}
+
+header h1 {
+    margin-bottom: 4px;
+}
+
+header p {
+    color: #FF8984;
+}
+
+/* header styles END*/
+
+
+/* list styles */
+
+main {
+  background-color: #3B3F45;
+  text-align: center;
+  display: block;
+  height: 86vh;
+}
+
+div p {
+    color: white;
+}
+
+.list {
+    margin: 20px 0 45px;
+}
+
+.list-item {
+    background-color: #88839E;
+    display: block;
+    padding: 14px;
+    text-align: left;
+    border-top: solid 3px transparent;
+    border-bottom: solid 3px transparent;
+}
+
+.list-item span {
+    color: white;
+}
+
+span:last-of-type {
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+span:first-of-type {
+    font-size: 18px;
+    margin-left: 16px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.additional-text:before {
+    content: "("
+}
+
+.additional-text:after {
+    content: ")"
+}
+
+[type="checkbox"] {
+    height: 19px;
+    width: 19px;
+    vertical-align: middle;
+}
+
+.list-item:nth-of-type(2n) {
+    background-color: #7A7593;
+}
+
+[type="checkbox"]:checked ~ span {
+  color: #9B96AC;
+  text-decoration: line-through;
+  }
+
+.list-item:hover {
+    background-color: #625E77;
+    border-top: solid 3px white;
+    border-bottom: solid 3px white;
+    transition: all 0.1s ease-in;
+}
+
+.list-item:active {
+    background-color: #FF8984;
+    transition: all 0.1s ease-in;
+}
+
+/* list styles END */
+
+
+/* bon appetit styles */
+
+.bon-appetit p {
+    color: #FF8984;
+}
+
+.bon-appetit {
+    margin-bottom: 45px;
+    padding: 12px 0;
+    background-color: #4A4F56;
+}
+    
+/* bon appetit styles END*/

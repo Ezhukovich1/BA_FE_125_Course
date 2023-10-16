@@ -1,0 +1,265 @@
+/* general styles */
+
+* {
+  font-family: "Open Sans";
+  box-sizing: border-box;
+}
+
+.container {
+  width: 970px;
+  margin: 0 auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: "Open Sans";
+}
+
+h1 {
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 48px;
+  color: #070707;
+  margin-top: 12px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+  padding-bottom: 50px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+/* general styles end*/
+
+
+/* styles for header */
+
+header {
+  text-align: center;
+  min-height: 80px;
+}
+
+header li {
+  list-style-type: none;
+  display: inline;
+}
+
+nav {
+  border-bottom: 1px solid #828282;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  color: #828282;
+  padding: 10px 5px;
+  margin: 17.5px 15px;
+}
+
+nav a:hover {
+  color: #070707;
+  font-weight: 700;
+  animation-timing-function: ease-in;
+}
+
+nav a.active {
+  color:#070707;
+}
+
+/* styled for header end */
+
+
+/* styles for about_me */
+
+#about_me {
+  background: #f6f6f6;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#about_me .container {
+  width: 480px;
+}
+
+#about_me p:last-child {
+  margin-bottom: 0;
+}
+
+/* styles for about_me end */
+
+
+/* styles for skills */
+
+#skills {
+  text-align: center;
+  padding: 100px 0;
+}
+
+#skills h2 {
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+#skills p {
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+#skills .skills-item {
+  width: 170px;
+  display: inline-block;
+  margin: 0 44px;
+}
+
+#skills .skill-item:first-child {
+  margin-left: 0;
+}
+
+#skills .skill-item:last-child {
+  margin-right: 0;
+}
+
+#skills .skills-list {
+  display: inline-flex;
+}
+
+#skills .skills-item p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #828282;
+  padding-bottom: 60px;
+}
+
+#skills .skills-item:last-of-type p {
+  margin-bottom: 80px;
+  padding-bottom: 0;
+}
+
+.skills-item img:first-child {
+  margin-bottom: 25px;
+}
+
+/* styles for skills end*/
+
+
+/* styles for portfolio */
+
+#portfolio {
+  background: #f6f6f6;
+  padding: 100px 0;
+}
+
+#portfolio .container {
+  text-align: center;
+}
+
+#portfolio h2 {
+  padding-bottom: 0;
+  margin-bottom: 50px;
+} 
+
+#portfolio img {
+  margin-bottom: 40px;
+}
+
+.portfolio-item:last-of-type a {
+  margin-bottom: 0px;
+}
+
+.portfolio-item {
+  margin-bottom: 70px;
+}
+
+.portfolio-item:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio-item a {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+/* styles for portfolio end*/
+
+
+/* styles for footer */
+
+#contacts {
+  padding: 100px 0;
+}
+
+#contacts .container {
+  text-align: center;
+}
+
+#contacts h2 {
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
+
+#contacts .button {
+  width: 180px;
+  display: inline-block;
+  border-radius: 22px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  color: white;
+  background-color: black;
+}
+
+#contacts p {
+  margin-bottom: 60px;
+}
+
+#contacts .social {
+  margin: 30px 0 60px;
+}
+
+#contacts .social a {
+  margin: 0 25px;
+}
+
+#contacts .social a:first-child {
+  margin-left: 0;
+}
+
+#contacts .social a:last-child {
+  margin-right: 0;
+}
+
+#contacts .container p:first-of-type {
+  color: #070707;
+  font-size: 18px;
+}
+
+#contacts p:last-of-type {
+  color: #828282;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.social a:hover {
+  opacity: 0.5;
+}
+
+#contacts .button:hover {
+  background-color: green;
+}
+
+/* styles for footer end */
