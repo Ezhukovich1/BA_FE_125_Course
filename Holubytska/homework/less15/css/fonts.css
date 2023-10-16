@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Tourney;
+    font-style: normal;
+    font-weight: normal;
+    src:  url("../fonts/Tourney-VariableFont_wdth,wght.ttf") format("truetype");
+}
+@font-face {
+    font-family: Farro;
+    font-style: normal;
+    font-weight: normal;
+    src:  url("../fonts/Farro-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Francois One";
+    font-style: normal;
+    font-weight: normal;
+    src:  url("../fonts/FrancoisOne-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: normal;
+    src:  url("../fonts/PTSans-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Staatliches";
+    font-style: normal;
+    font-weight: normal;
+    src:  url("../fonts/Staatliches-Regular.ttf") format("truetype");
+}
