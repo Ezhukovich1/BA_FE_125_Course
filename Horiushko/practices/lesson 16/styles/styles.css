@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 570px;
+    padding: 35px 34px 16px 36px;
+}
+
+label {
+    color: #545454;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    margin-bottom: 7px;
+}
+
+.group-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    position: relative;
+    width: 245px;
+}
+
+.group input {
+    height: 38px;
+    padding: 7px 10px;
+    border-radius: 8px;
+    border: 1px solid #545454;
+}
+
+.group input:focus {
+    border: 1px solid #007BFF;
+}
+
+.max-width {
+    width: 100%;
+}
+
+.hint {
+    color: #969696;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+}
+
+.group .hint {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.group.max-width {
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+.gender-item {
+    display: flex;
+}
+
+.gender-item input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.radiobutton {
+    display: block;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #E4E4E4;
+    border-radius: 20px;
+    margin-right: 8px;
+    position: relative;
+}
+
+.radiobutton::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 2;
+    left: 6;
+    display: none;
+}
+
+.gender-item input:checked~.radiobutton {
+    background-color: #007BFF;
+}
+
+.gender-item input:checked~.radiobutton::after {
+    display: block;
+}
