@@ -6,6 +6,11 @@
 body {
     /* max-width: 1200px; */
     margin: 0 120px;
+    background-image: url("../images/bg-picture.png");
+    background-size: 450px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right bottom 45%;
 }
 
 header {
