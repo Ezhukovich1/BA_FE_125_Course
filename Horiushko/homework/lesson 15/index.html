@@ -19,33 +19,40 @@
 <body>
     <header>
         <div class="header-items">
-            <div class="text-logo">
-                <p>ENG</p>
+            <div class="header-items-text">
+                <div class="text-logo">
+                    <p>ENG</p>
+                </div>
+                <div class="header-info">
+                    <p class="header-paragraph">Documentation</p>
+                    <p class="header-paragraph">/</p>
+                    <p class="header-paragraph">Who's using</p>
+                </div>
             </div>
-            <div class="header-info">
-                <p class="header-paragraph">Documentation</p>
-                <p class="header-paragraph">/</p>
-                <p class="header-paragraph">Who's using</p>
+            <div class="header-picture">
+                <img src="images/company-logo.svg" alt="company-logo">
             </div>
-        </div>
-        <div class="header-picture">
-            <img src="images/company-logo.svg" alt="company-logo">
         </div>
     </header>
     <main>
         <div class="sidebar">
-            <h2><a href="#">Introduction</a></h2>
-            <h2><a href="#">core components</a></h2>
-            <h2><a href="#">react fundamentals</a></h2>
-            <h2><a href="#">handling text input</a></h2>
+            <h2><a href="#intro">Introduction</a></h2>
+            <h2><a href="#core">core components</a></h2>
+            <h2><a href="#fundament">react fundamentals</a></h2>
+            <h2><a href="#inp">handling text input</a></h2>
         </div>
         <div class="container">
-            <section>
-                <div class="headline-one">
-                    <h2>Introduction</h2><sub>Chapter 1</sub>
+            <section id="intro">
+                <!-- <img class="bg-image" src="images/bg-picture.png" alt="bg-picture"> -->
+                <div class="headline-box">
+                    <hr>
+                    <div class="headline-one">
+                        <h2>Introduction</h2><sub>Chapter 1</sub>
+                    </div>
                 </div>
                 <div>
-                    <p>Welcome to the very start of your React Native journey! If you're looking for environment setup
+                    <p>Welcome to the very start of your React Native journey! If you're looking for environment
+                        setup
                         instructions, they've moved <u>to their own section</u>.
                         Continue reading for an introduction
                         to
@@ -53,12 +60,16 @@
                         documentation, Native Components, React, and more!</p>
                 </div>
             </section>
-            <section>
-                <div class="headline-two">
-                    <h2>Core components</h2><sub>Chapter 2</sub>
+            <section id="core">
+                <div class="headline-box">
+                    <hr>
+                    <div class="headline-two">
+                        <h2>Core components</h2><sub>Chapter 2</sub>
+                    </div>
                 </div>
                 <div>
-                    <p>React Native is an open source framework for building Android and iOS applications using React
+                    <p>React Native is an open source framework for building Android and iOS applications using
+                        React
                         and
                         the app platform’s native capabiles. With React Native, you use JavaScript to access your
                         platform’s
@@ -70,24 +81,30 @@
                     </p>
                 </div>
             </section>
-            <section>
-                <div class="headline-three">
-                    <h2>react fundamentals</h2><sub>Chapter 3</sub>
+            <section id="fundament">
+                <div class="headline-box">
+                    <hr>
+                    <div class="headline-three">
+                        <h2>react fundamentals</h2><sub>Chapter 3</sub>
+                    </div>
                 </div>
                 <div class="fundamentals-info">
                     <p>React Native runs on <u>React</u>, a popular open source library for building user interfaces
                         with
-                        JavaScript. To make the most of React Native, it helps to understand React itself. This section
+                        JavaScript. To make the most of React Native, it helps to understand React itself. This
+                        section
                         can
                         get you started or can serve as a refresher course.</p>
                     <p>We’re going to cover the core concepts behind React:</p>
-                    <p><b>+ components.</b> The rest of this introduction to React uses cats in its examples: friendly,
+                    <p><b>+ components.</b> The rest of this introduction to React uses cats in its examples:
+                        friendly,
                         approachable creatures that need names and a cafe to work in.</p>
                     <p><b>+ JSX.</b> React and React Native use JSX, a syntax that lets you write elements inside
                         JavaScript
                         like
                         so: <code>&lt;Text&gt;Hello, I am your cat!&lt;/Text&gt;</code>.</p>
-                    <p>The React docs have <u>a comprehensive guide to JSX</u> you can refer to learn even more. Because
+                    <p>The React docs have <u>a comprehensive guide to JSX</u> you can refer to learn even more.
+                        Because
                         JSX
                         is
                         JavaScript, you can use variables inside it. Here you are declaring a name for the cat,
@@ -98,22 +115,29 @@
                     <p><b>+ state.</b> While you can think of props as arguments you use to configure how components
                         render,
                         state
-                        is like a component’s personal data storage. State is useful for handling data that changes over
+                        is like a component’s personal data storage. State is useful for handling data that changes
+                        over
                         time or that comes from user interaction. State gives your components memory!</p>
                 </div>
             </section>
-            <section>
-                <div class="headline-four">
-                    <h2>handling text input</h2><sub>Chapter 4</sub>
+            <section id="inp">
+                <div class="headline-box">
+                    <hr>
+                    <div class="headline-four">
+                        <h2>handling text input</h2><sub>Chapter 4</sub>
+                    </div>
                 </div>
                 <div class="input-info">
-                    <p>TextInput is a Core Component that allows the user to enter text. It has an <i>onChangeText</i>
+                    <p>TextInput is a Core Component that allows the user to enter text. It has an
+                        <i>onChangeText</i>
                         prop
                         that
                         takes a function to be called every time the text changed, and an onSubmitEditing prop that
                         takes a
-                        function to be called when the text is submitted.</p>
-                    <p>For example, let's say that as the user types, you're translating their words into a different
+                        function to be called when the text is submitted.
+                    </p>
+                    <p>For example, let's say that as the user types, you're translating their words into a
+                        different
                         language. In this new language, every single word is written the same way: <span
                             class="pizza">&#x1F355</span>.
                         So the
