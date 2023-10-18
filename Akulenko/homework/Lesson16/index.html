@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="group_row">
+                <div class="group">
+                    <label for="fn">First name</label>
+                    <input type="text" id="fn" name="fn">
+                </div>
+                <div class="group">
+                    <label for="ln">Last name</label>
+                    <input type="text" name="ln" id="ln">
+                </div>
+            </div>
+            <div class="group max_width">
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email">
+                <span class="hint">We'll never share your email with anyone else.</span>
+            </div>
+            <div class="gender_group">
+                <label for="r1"  class="gender_item">
+                    <input id="r1" type="radio" name="gender" value="male">
+                    <span class="radiobutton"></span>
+                    <span>Male</span>
+                </label>
+                <label for="r2" class="gender_item">
+                    <input id="r2" type="radio" name="gender" value="female">
+                    <span class="radiobutton"></span>
+                    <span>Female</span>
+                </label>
+            </div>
+            <div class="group_row">
+                <div class="group">
+                    <label for="country">Country</label>
+                        <select name="country" id="country" name="country">
+                            <option value="">Select</option>
+                            <option value="ukraine">Ukraine</option>
+                            <option value="poland">Poland</option>
+                            <option value="italy">Italy</option>
+                            <option value="france">France</option>
+                            <option value="usa">USA</option>
+                            <option value="spain">Spain</option>
+                        </select>
+                    <img class="arrow" src="./img/arro.png" alt="">
+                </div>
+                <div class="group">
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city">
+                </div>
+            </div>
+            <div class="btn">
+                <button class="sign_up_btn">Sign Up</button>              
+            </div>
+            <div class="terms">
+                <p class="trems_privacy">By clicking the 'Sign Up' button, you confirm that you accept our <a href="#">
+                Terms of Use</a> and <a href="#">Privacy Policy</a>.</p> 
+            </div>
+            <div class="login">
+                <p>Have an account?</p>
+                <a href="#">Log In</a>
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>
