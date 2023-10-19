@@ -1,0 +1,66 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin: 0 auto;
+    width: 1170px;
+}
+
+h1 {
+    padding: 120px 135px 80px;
+    padding: 120px auto;
+    font-family: Delius Unicase;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    text-align: center;
+}
+
+.one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+.two {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 770px;
+}
+
+.three {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 770px;
+
+}
+
+.four {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.five {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.six {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 770px;
+}
