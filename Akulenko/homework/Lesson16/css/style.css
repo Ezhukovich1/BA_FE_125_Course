@@ -4,12 +4,34 @@
     box-sizing: border-box;
 }
 
+.main_container {
+    display: flex;
+    width: 1440px;
+    height: 700px;
+    padding: 55px 135px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: #F7F7F7;
+}
+
 .container {
     width: 570px;
     padding: 35px 34px 16px 36px;
+    background-color: white;
 }
 
-label {
+h3 {
+    color: #1C1C1C;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    padding-bottom: 20px;
+}
+
+.label {
     color: #545454;
     font-family: Roboto;
     font-size: 15px;
@@ -132,7 +154,7 @@ label {
     position: relative;
 }
 
-#country input:focus {
+.group select:focus {
     border: 1px solid #007BFF;
     outline: none;
 }
@@ -193,4 +215,104 @@ label {
     gap: 20px;
     padding-top: 20px;
     width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.terms_privacy a {
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 138.462% */
+    letter-spacing: -0.1px;
+}
+
+.login .label:last-child {
+    color: #007BFF;
+    font-weight: 500;
+}
+
+.pofile_picture {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+
+.file:hover {
+    border: 1px solid #007BFF;
+    outline: none;
+}
+
+.file::file-selector-button { 
+    color: rgba(0,0,0,0); 
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0);
+    width: 138px;
+    height: 30px;
+ }
+
+.file {
+    width: 138px;
+    height: 30px;
+    margin-bottom: 9px;
+    border-radius: 8px;
+    border: 1px solid #545454;
+}
+
+.upl_file {
+    display: flex;
+    flex-direction: column;
+    margin: 7px 10px 9px 20px;
+    position: relative;
+}
+
+.cam_img {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+
+.trash {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    border: 1px solid #545454;
+    border-radius: 8px;
+}
+
+.trash:hover {
+    border: 1px solid #007BFF;
+    outline: none;
+}
+
+.btn_update {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 104px;
+}
+
+.update_btn {
+    width: 150px;
+    height: 38px;
+    background: #007BFF;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 146.667% */
+    letter-spacing: -0.1px;
+    padding: 8px 10px;
 }
