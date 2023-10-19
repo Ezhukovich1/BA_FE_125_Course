@@ -6,7 +6,7 @@
 }
 
 body {
-  position: relative;
+  padding-top: 150px;
 }
 
 .container {
@@ -20,6 +20,7 @@ header {
   position: fixed;
   top: 0;
   background-color: white;
+  z-index: 10;
 }
 
 header .container {
@@ -33,24 +34,33 @@ header .container {
   margin: 13px auto 13px;
 }
 
-.left_main {
-  width: 385px;
-  padding: 10px;
-  position: absolute;
-  /* position: sticky; */
+.backraund img {
+  position: fixed;
   top: 150px;
-  left: 120px;
+  right: 0px;
+  z-index: -1;
+}
+
+.container_main {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* position: relative; */
+}
+
+.left_main {
+  display: inline-block;
+  max-width: 385px;
+  padding: 10px;
+  position: fixed;
+  /* left: 0px; */
+  top: 150px;
 }
 
 .right_main {
-  width: 785px;
-  position: absolute;
-  top: 150px;
-  right: 120px;
-}
-
-.right_main .container img {
-  position: fixed;
+  display: flex;
+  justify-content: end;
+  max-width: 785px;
+  float: right;
 }
 
 .menu {
@@ -107,6 +117,7 @@ h2 {
   letter-spacing: 1.44px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  position: sticky;
 }
 
 sup {
