@@ -1,0 +1,193 @@
+* {
+  font-family: "PT Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: Francois One;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  margin: 0 0 40px 0;
+}
+
+sup {
+  font-family: Farro;
+  font-size: 50%;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  vertical-align: text-top;
+  text-transform: capitalize;
+}
+
+p {
+  font-family: PT Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+code {
+  background: #dadada;
+}
+
+strong {
+  font-weight: 700;
+}
+
+i {
+  font-style: italic;
+}
+
+hr {
+  width: 100px;
+  height: 8px;
+  background: black;
+  border: black;
+  margin: 0 0 20px 0;
+}
+
+.wrapper {
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background: #fff;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 0;
+}
+
+.header_nav {
+  display: flex;
+}
+
+.header_switch {
+  font-family: Tourney;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.88px;
+}
+
+.header_list {
+  display: flex;
+  justify-content: flex-start;
+}
+
+header li {
+  font-family: Staatliches;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.66px;
+  margin: 0 5px;
+}
+
+header li:first-child {
+  margin: 0 50px 0 0;
+}
+
+header li:nth-child(4) {
+  margin: 0 595px 0 0;
+}
+
+/* Main */
+
+main {
+  margin: 160px 0 0 0;
+  position: relative;
+}
+
+main .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_bg_img {
+  position: fixed;
+  width: 760px;
+  height: 760px;
+  top: 160px;
+  right: 0;
+  z-index: -1;
+}
+
+/* Sidebar */
+
+.main_sidebar {
+  padding: 10px;
+  max-width: 390px;
+}
+
+.main_sidebar_nav {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  position: sticky;
+  top: 130px;
+}
+
+.main_sidebar a {
+  font-family: Francois One;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+}
+
+.main_sidebar_title {
+  border-bottom: 1px solid #bdbdbd;
+  padding-bottom: 10px;
+}
+
+/* Main content */
+
+.main_content {
+  max-width: 785px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_content section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 70px 0;
+}
+
+.main_content section:last-child {
+  margin: 0;
+}
+
+.main_react_fundamentals p,
+.main_handling_text_input p {
+  margin: 20px 0;
+}
