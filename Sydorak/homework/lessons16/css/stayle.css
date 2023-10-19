@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 570px;
+  padding: 35px 34px 16px 36px;
+}
+
+label {
+  color: #545454;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  margin-bottom: 7px;
+}
+
+.group_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.group {
+  width: 245px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.group .max_wight {
+  padding-bottom: 25px;
+}
+
+.group input {
+  height: 38px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 1px solid #545454;
+}
+
+.group input:focus {
+  border: 1px solid #007bff;
+}
+
+.max_wight {
+  width: 100%;
+}
+
+.hint {
+  color: #969696;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+}
+
+.group .hint {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.gender_item input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.radioboton {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #e4e4e4;
+  border-radius: 20px;
+  display: block;
+  cursor: pointer;
+  margin-right: 8px;
+  position: relative;
+}
+
+.radioboton ::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 8px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  display: none;
+}
+
+.gender_item {
+  display: flex;
+}
+
+.gender_item input:checked ~ .radioboton {
+  background-color: #007bff;
+}
+
+.gender_item input:checked ~ .radioboton::after {
+  display: block;
+}
