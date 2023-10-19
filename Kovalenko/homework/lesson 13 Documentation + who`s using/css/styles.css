@@ -1,0 +1,507 @@
+body {
+    max-width: 1200;
+    margin: 0px 120px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background: white;
+    z-index: 1;
+    width: 1440px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    height: 54px;
+    margin: 13px auto 13px;
+    justify-content: space-between;
+    width: 100%
+}
+
+.head-text {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+h3 {
+    margin-right: 10px;
+}
+
+p1 {
+    color: black;
+    text-align: center;
+    font-family: Tourney;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.88px;
+    width: 50px;
+    height: 20.377px;
+    flex-shrink: 0;
+}
+
+h2,
+h3,
+h4 {
+    color: #000;
+    font-family: Staatliches;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.66px;
+}
+
+.spacing70px {
+    height: 70px;
+}
+
+.spacing20px {
+    height: 20px;
+}
+
+/*heared end*/
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    background: white;
+    position: -webkit-sticky;
+}
+
+.sidebar h1 {
+    color: #000;
+    font-family: Francois One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #BDBDBD;
+    padding-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.main-content {
+    margin-left: 480px;
+    position: absolute;
+}
+
+.back-pctr {
+    position: relative;
+    position: -webkit-sticky;
+    width: 760px;
+    height: 760px;
+    margin-top: 70px;
+    z-index: -1;
+    left: 270px;
+    flex-shrink: 0;
+}
+
+/*chapters start*/
+
+.text-chapt {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.text-chapt h1 {
+    color: #000;
+    font-family: Francois One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+}
+
+.text-chapt p2 {
+    color: #000;
+    font-feature-settings: 'sups' on;
+    font-family: Farro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
+
+
+.chapter1 p {
+    color: #000;
+    font-family: PT Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+
+/* chapter 1 end */
+
+span2 {
+    font-style: italic;
+}
+
+/* chapter 2 end */
+
+.spacing40px {
+    height: 40px;
+}
+
+span3 {
+    font-weight: 700;
+}
+
+span4 {
+    background-color: silver;
+}
+
+/* chapter 4 end */
+
+/*whos-using START */
+
+.whos-using {
+    display: flex;
+    align-items: center;
+    margin-top: 2350px ;
+
+}
+
+.whos-using img {
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.whos-using h1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 1.44px;
+    margin-bottom: 40px;
+}
+
+
+.first-line {
+    display: flex;
+    margin: auto;
+    border-top: 1px solid #BFBFBF;
+}
+
+.second-line {
+    display: flex;
+    margin: auto;
+    border-bottom: 1px solid #BFBFBF;
+    margin-bottom: 70px;
+}
+
+.container1 {
+    position: relative;
+    background: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s ease-out, background 1s ease-out, display;
+    width: 270px;
+    height: 100px;
+    padding: 50px 30px;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 20px 20px;
+}
+
+.container1:hover {
+    transform: rotateX(180deg);
+    background: darkblue;
+}
+
+.fcb-w {
+    display: none;
+    transform: rotateX(-180deg);
+}
+
+.container1:hover .fcb-w {
+    display: block;
+}
+
+.container1:hover .fcb-b {
+    transition: all 1s ease-out;
+    display: none;
+}
+
+/*facebook end */
+
+.container2 {
+    position: relative;
+    background: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s ease-out, background 1s ease-out, display;
+    width: 270px;
+    height: 100px;
+    padding: 50px 30px;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 20px 20px;
+}
+
+.container2:hover {
+    transform: rotateX(180deg);
+    background: #c13584;
+}
+
+.inst-w {
+    display: none;
+    transform: rotateX(-180deg);
+}
+
+.container2:hover .inst-w {
+    display: block;
+}
+
+.container2:hover .inst-b {
+    transition: all 1s ease-out;
+    display: none;
+}
+
+/*instagram end */
+
+.container3 {
+    position: relative;
+    background: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s ease-out, background 1s ease-out, display;
+    width: 270px;
+    height: 100px;
+    padding: 50px 30px;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 20px 20px;
+}
+
+.container3:hover {
+    transform: rotateX(180deg);
+    background: green;
+}
+
+.shop-w {
+    display: none;
+    transform: rotateX(-180deg);
+}
+
+.container3:hover .shop-w {
+    display: block;
+}
+
+.container3:hover .shop-b {
+    transition: all 1s ease-out;
+    display: none;
+}
+
+/*shopify end */
+
+.container4 {
+    position: relative;
+    background: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s ease-out, background 1s ease-out, display;
+    width: 270px;
+    height: 100px;
+    padding: 50px 30px;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 20px 20px;
+}
+
+.container4:hover {
+    transform: rotateX(180deg);
+    background: blue;
+}
+
+.skp-w {
+    display: none;
+    transform: rotateX(-180deg);
+}
+
+.container4:hover .skp-w {
+    display: block;
+}
+
+.container4:hover .skp-b {
+    transition: all 1s ease-out;
+    display: none;
+}
+
+/*skype end */
+
+.container5 {
+    position: relative;
+    background: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s ease-out, background 1s ease-out, display;
+    width: 270px;
+    height: 100px;
+    padding: 50px 30px;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 20px 20px;
+}
+
+.container5:hover {
+    transform: rotateX(180deg);
+    background: red;
+}
+
+.pint-w {
+    display: none;
+    transform: rotateX(-180deg);
+}
+
+.container5:hover .pint-w {
+    display: block;
+}
+
+.container5:hover .pint-b {
+    transition: all 1s ease-out;
+    display: none;
+}
+
+/*pinterest end */
+
+.container6 {
+    position: relative;
+    background: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s ease-out, background 1s ease-out, display;
+    width: 270px;
+    height: 100px;
+    padding: 50px 30px;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 20px 20px;
+}
+
+.container6:hover {
+    transform: rotateX(180deg);
+    background: darkkhaki;
+}
+
+.wix-w {
+    display: none;
+    transform: rotateX(-180deg);
+}
+
+.container6:hover .wix-w {
+    display: block;
+}
+
+.container6:hover .wix-b {
+    transition: all 1s ease-out;
+    display: none;
+}
+
+/*wix end */
+
+.container7 {
+    position: relative;
+    background: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s ease-out, background 1s ease-out, display;
+    width: 270px;
+    height: 100px;
+    padding: 50px 30px;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 20px 20px;
+}
+
+.container7:hover {
+    transform: rotateX(180deg);
+    background: lightskyblue;
+}
+
+.sales-w {
+    display: none;
+    transform: rotateX(-180deg);
+}
+
+.container7:hover .sales-w {
+    display: block;
+}
+
+.container7:hover .sales-b {
+    transition: all 1s ease-out;
+    display: none;
+}
+
+/*sales end */
+
+.container8 {
+    position: relative;
+    background: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1s ease-out, background 1s ease-out, display;
+    width: 270px;
+    height: 100px;
+    padding: 50px 30px;
+    flex-direction: column;
+    border-radius: 8px;
+    margin: 20px 20px;
+}
+
+.container8:hover {
+    transform: rotateX(180deg);
+    background: orange;
+}
+
+.sound-w {
+    display: none;
+    transform: rotateX(-180deg);
+}
+
+.container8:hover .sound-w {
+    display: block;
+}
+
+.container8:hover .sound-b {
+    transition: all 1s ease-out;
+    display: none;
+}
+
+
+
+/*end*/
