@@ -1,0 +1,85 @@
+hr{
+    width:100px;
+    height: 8px;
+    background-color: black;
+    margin-right: 20px;
+}
+.main_using .title{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 60px;
+}
+.main_using section div:first-child span{
+    color: black;
+    font-size: 36px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 1.44px;
+}
+.gallery{
+    margin: 0 auto;
+    border-top: 1px solid #BDBDBD;;
+    border-bottom: 1px solid #BDBDBD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 1200px;
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit,266px);
+}
+.gallery svg, .gallery svg path{
+    transition: all 0.8s ease-out;
+}
+.box{
+    width: 270px;
+    height: 180px;
+}
+.box div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s ease-out;
+    border-radius: 8px;
+}
+.greyBox, .salesforce{
+    background-color:#E6E6E6 ;
+}
+.shopify{
+    background-color: black;
+}
+.box:hover .greyBox, .box:hover .salesforce {
+    transform: rotateX(180deg);
+    background-color: black;
+}
+.box:hover .shopify{
+    transform: rotateX(180deg);
+    background-color: #E6E6E6;
+}
+.box:hover .greyBox svg, .box:hover .shopify svg, .box:hover .salesforce svg{
+    transform: rotateX(-180deg);
+}
+.box:hover .greyBox svg path, .box:hover .salesforce svg path{
+    fill:#E6E6E6;
+}
+.box:hover .shopify svg path:nth-child(1), .box:hover .shopify svg path:nth-child(4){
+    fill:black;
+}
+.box:hover .shopify svg path:nth-child(3){
+    fill:white;
+}
+.box:hover .pinterest svg path:nth-child(11){
+    fill:black;
+}
+.box:hover .wix svg path:nth-child(1), .box:hover .wix svg path:nth-child(6){
+    fill: white;
+}
+.box:hover .wix svg path:nth-child(2), .box:hover .wix svg path:nth-child(3), .box:hover .wix svg path:nth-child(4), .box:hover .wix svg path:nth-child(5) {
+    fill: black;
+}
+.box:hover .salesforce svg  g path:nth-child(3), .box:hover .salesforce svg  g path:nth-child(2){
+    fill: black;
+}
