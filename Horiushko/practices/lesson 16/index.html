@@ -4,38 +4,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="container">
-        <form action="">
-            <div class="group-row">
-                <div class="group">
-                    <label for="">First name</label>
-                    <input type="text">
+    <main>
+        <div class="container">
+            <form action="">
+                <h2>Create an Account</h2>
+                <div class="group-row">
+                    <div class="group">
+                        <label for="">First name</label>
+                        <input type="text">
+                    </div>
+                    <div class="group">
+                        <label for="">Last name</label>
+                        <input type="text">
+                    </div>
                 </div>
-                <div class="group">
-                    <label for="">Last name</label>
-                    <input type="text">
+                <div class="group max-width">
+                    <label for="">E-mail</label>
+                    <input type="email"><span class="hint">We'll never share your email with anyone else.</span>
                 </div>
-            </div>
-            <div class="group max-width">
-                <label for="">E-mail</label>
-                <input type="text"><span class="hint">We'll never share your email with anyone else.</span>
-            </div>
-            <div class="gender-group">
-                <label class="gender-item">
-                    <input type="radio" name="" id=""><span class="radiobutton"></span><span>Male</span>
-                </label>
-            </div>
-        </form>
-    </div>
+                <div class="gender-group">
+                    <label class="gender-item">
+                        <input type="radio" name="gender" id=""><span class="radiobutton"></span><span>Male</span>
+                    </label>
+                    <label class="gender-item">
+                        <input type="radio" name="gender" id=""><span class="radiobutton"></span><span>Female</span>
+                    </label>
+                </div>
+                <div class="group-row">
+                    <div class="group">
+                        <label for="country">Country</label>
+                        <select name="country" id="">
+                            <option value="" disabled selected hidden>Select</option>
+                            <option value="">Ukraine</option>
+                            <option value="">Poland</option>
+                            <option value="">Germany</option>
+                            <option value="">Lithuania</option>
+                        </select>
+                        <img class="arrow" src="images/arrow.png" alt="">
+                    </div>
+                    <div class="group">
+                        <label for="">City</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="buttn max-width">
+                    <button>Sign Up</button>
+                    <p>By clicking the 'Sign Up' button, you confirm that you accept our<br><span>Terms of Use</span>
+                        and
+                        <span>Privacy Policy</span>.
+                    </p>
+                    <hr>
+                </div>
+                <p class="haveacc">Have an account? <span>Log In</span></p>
+            </form>
+        </div>
+        <div class="container2">
+            <form action="">
+                <h2>Profile</h2>
+                <div class="group-rw">
+                    <img class="man" src="images/Image20231017204353.png" alt="">
+                    <div class="group-items">
+                        <label for="file">
+                            <input type="file" name="file" id="file"><span>Up to 1 MB (300x300 px)</span>
+                        </label>
+                        <img class="cam" src="images/Photo Camera.png" alt="">
+                    </div>
+                    <div class="buttn-trsh">
+                        <button><img src="images/Trash.png" alt=""></button>
+                    </div>
+                </div>
+                <div class="group-row">
+                    <div class="group">
+                        <label for="">Name</label>
+                        <input type="text">
+                    </div>
+                    <div class="group">
+                        <label for="">Email</label>
+                        <input type="email">
+                    </div>
+                </div>
+                <div class="group-row-redact">
+                    <div class="group">
+                        <label for="country">Country</label>
+                        <select name="country" id="">
+                            <option value="" disabled selected hidden>Select</option>
+                            <option value="">Ukraine</option>
+                            <option value="">Poland</option>
+                            <option value="">Germany</option>
+                            <option value="">Lithuania</option>
+                        </select>
+                        <img class="arrow" src="images/arrow.png" alt="">
+                    </div>
+                    <div class="group">
+                        <label for="">City</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="group-row-redact">
+                    <div class="group">
+                        <label for="">Zip Code</label>
+                        <input type="text">
+                    </div>
+                    <div class="group">
+                        <label for="">Phone Number</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div>
+                    <button class="buttn-upd">Update</button>
+                </div>
+            </form>
+        </div>
+    </main>
 </body>
 
 </html>
