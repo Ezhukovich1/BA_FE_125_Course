@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>create an account</title>
+</head>
+<body>
+    <div class="container_box">
+        <div class="container">
+            <h2>Create an Account</h2>
+            <div class="group_row">
+                <div class="group">
+                    <label for="first_name">First name</label>
+                    <input type="text" id="first_name" name="first_name">
+                </div>
+                <div class="group">
+                    <label for="last_name">Last name</label>
+                    <input type="text" id="last_name" name="last_name">
+                </div> 
+            </div>
+                <div class="width">
+                    <div class="group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email">
+                        <span class="hint" for="email">Will neve share you email with anyone else</span>
+                    </div>
+                </div>
+                
+                <div class="gender">
+                    <label class="gender_item" for="male">
+                        <input type="radio" name="male" id="male">
+                        <span class="radiobutton"></span>
+                        <span>Male</span>
+                    </label>
+                      <label class="gender_item" for="female">
+                        <input type="radio" name="female" id="female">
+                        <span class="radiobutton"></span>
+                        <span>Female</span>
+                     </label>
+        
+                </div>
+                <div class="group_row">
+                    <div class="group">
+                        <label for="country">Country</label>
+                        <div class="select_wrapper">
+                            <select class="select_css" name="country" id="country">
+                                <option value="select">Select</option>
+                                <option value="ukraine">Ukraine</option>
+                                <option value="usa">USA</option>
+                                <option value="greece">Greece</option>
+                                <option value="italy">Italy</option>
+                                <option value="australia">Australia</option>
+                            </select>
+                            <span class="arrows"></span>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="group">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                </div>
+                <div class="width">
+                    <button>Sign up</button>
+                </div>
+            <div class="width">
+                <p>By clicking the 'Sign Up' button, you confirm that you accept
+                    our<br/> <a href="#">Terms of use</a> and <a href="#">Privacy policy</a>.</p>
+            </div>
+           
+            <div class="footer">
+                <div class="width"></div>
+                <span>Have an account</span>
+                <a href="#">Log in</a>
+            </div>
+        </div>
+        
+    
+        <div class="container">
+            <h2>Profile</h2>
+            <div class="photo">
+                <img src="./images/084B5F60-0979-4958-9528-109FFD9A84DC.png" alt="photo_placeholder">
+                <div class="group_row">
+                    <div class="group"> 
+                        <input type="text" id="photo" name="photo">
+                        <span>Up to 1 MB (300x300 px)</span>
+                        <img src="./images/53A4F82D-5E03-419A-920B-9AE3830A3B34.png" alt="">
+                    </div>
+                        <button class="reset"><img src="./images/6049A134-E901-4A86-82DD-C7C58E3E81DD.png" alt=""></button>
+                </div>
+            </div>
+            <div class="group_row">
+                <div class="group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="group">
+                    <label for="email_profile">Email</label>
+                    <input type="email" id="email_profile" name="email_profile">
+                    
+                </div>
+            </div>
+            <div class="group_row">
+                <div class="group">
+                    <label for="country_profile">Country</label>
+                    <div class="select_wrapper">
+                        <select class="select_css" name="country_profile" id="country_profile">
+                            <option value="select">Select</option>
+                            <option value="ukraine">Ukraine</option>
+                            <option value="usa">USA</option>
+                            <option value="greece">Greece</option>
+                            <option value="italy">Italy</option>
+                            <option value="australia">Australia</option>
+                        </select>
+                        <span class="arrows"></span>
+                    </div>
+                    
+                </div>
+                <div class="group">
+                    <label for="city_profile">City</label>
+                    <input type="text" name="city" id="city_profile">
+                </div>
+            </div>
+            <div class="group_row">
+                <div class="group">
+                    <label for="zip-_code">Zip code</label>
+                    <input type="text" id="zip-_code" name="zip-_code">
+                </div>
+                <div class="group">
+                    <label for="phone_number">Phone number</label>
+                    <input type="text" id="phone_number" name="phone_number">
+                </div>
+            </div>
+            <button>Update</button>
+
+        </div>
+    </div>
+    
+            
+
+   
+</body>
+</html>
