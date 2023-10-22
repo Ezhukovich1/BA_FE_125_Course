@@ -4,37 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="container">
-        <form action="">
-            <div class="group_row">
-                <div class="group">
-                    <label for="">First name</label>
-                    <input type="text">
-                </div>
-                
-                <div class="group">
-                    <label for="">Last name</label>
-                    <input type="text">
-                </div>
+        <form action="#">
+            <h5>Create an Account</h5>
+            <div class="group_text">
+                <label>
+                    <span>First Name</span>
+                    <input name="First_Name" type="text" >
+                </label>
+
+                <label>
+                    <span>Last Name</span>
+                    <input name="Last_Name" type="text" >
+                </label>
             </div>
 
-                <div class="group max_widht">
-                    <label for="">Last name</label>
-                    <input type="text">
-                    <span class="hint">We ll never share</span>
-                </div>
-                <div class="gender_group">
-                    <label class="gender_item" for="">
-                        <input type="radio">
-                        <span class="radio_button"></span>
-                        <span>Male</span>
-                    </label>
-                    <label class="gender_item" for=""></label>
-                </div>
-           
+            <label class="group_email">
+                <span>E-mail</span>
+                <input name="Email" type="email" >
+                <span> We'll never share your email with anyone else. </span>
+            </label>
+            <div class="group_radio">
+                <label>
+                    <input name="genger" id="male" value="male" type="radio" />
+                    <span>Male</span>
+                </label>
 
+                <label>
+                    <input name="genger" id="female" value="female" type="radio" />
+                    <span>Female</span>
+                </label>
+            </div>
         </form>
     </div>
 </body>
