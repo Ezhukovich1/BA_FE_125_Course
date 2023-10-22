@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1440px;
+    font-family: Roboto, sans-serif;
+}
+header{
+    width: 100%;
+    border-bottom: 1px solid #EFEEF3;
+    padding-top: 22px;
+    padding-bottom: 23px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.blockLogo{
+    width:200px ;
+}
+.blockLogo img{
+    width: 100%;
+}
+.spasing{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+h6{
+    color: #7690A8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+h1{
+    color: #16133D;
+    font-family: "Nunito Sans";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    margin-bottom: 40px;
+}
+.blockCards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card, .card > div{
+    border: 1px solid #EFEEF3;
+    border-radius: 8px;
+}
+.card{
+    width: 370px;
+    padding: 40px;
+}
+.card:hover{
+    border: 1px solid #3DB370;
+}
+.card:hover > div svg path{
+    fill: #3DB370;
+}
+.card:hover .svgMultiPath path:nth-child(1){
+    fill: #E1F4F5;
+}
+.card:hover .svgMultiPath path:nth-child(2), .card:hover .svgMultiPath path:nth-child(4){
+    fill: #CAEFF2;
+}
+.card:hover .svgMultiPath path:nth-child(3){
+    fill:#F4FEFF ;
+}
+.card:hover .svgMultiPath path:nth-child(5), .card:hover .svgMultiPath path:nth-child(6){
+   fill:#E1F4F5 ;
+}
+.card:hover .svgMultiPath path:nth-child(7){
+    fill: #3DB370;
+}
+.card > div{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card p{
+    color: #16133D;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 21.28px;
+    letter-spacing: 0.2px;
+    margin-bottom: 15px;
+}
+.card span {
+    color: #16133D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.card a{
+    display: block;
+    margin-top: 30px;
+    color: #3DB370;
+    font-size: 16px;
+    font-weight: 600;
+   text-decoration: none;
+}
+footer{
+    background-color:#16133D;
+    padding-top:40px ;
+    padding-bottom: 40px;
+}
+.blockSocialIcons{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+}
+.blockSocialIcons > div{
+    width: 38px;
+    height: 38px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 9px;
+}
+.blockSocialIcons > div svg{
+     width:20px;
+     height:20px
+ }
+.icon{
+    fill: black;
+}
+.blockSocialIcons  div:hover .icon {
+    fill: #3DB370;
+}
