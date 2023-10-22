@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <form action="" method="get">
+      <h2>Create an Account</h2>
+
+      <div class="group_text">
+        <label class="box">
+          <span>First Name</span>
+          <input type="text" name="first_name">
+        </label>
+
+        <label class="box">
+          <span>Last Name</span>
+          <input type="text" name="last_name">
+        </label>
+      </div>
+
+      <label class="box">
+        <span>E-mail</span>
+        <input type="email" name="e-mail" required>
+        <span>We'll never share your email with anyone else.</span>
+      </label>
+
+      <div class="group_radio">
+        <label for="male">
+          <input type="radio" name="sex" id="male" value="male" checked>
+          <span>Male</span>
+        </label>
+
+        <label for="female">
+          <input type="radio" name="sex" id="female" value="female">
+          <span>Female</span>
+        </label>
+      </div>
+
+      <div class="group_select">
+        <label class="box">
+          <span>Country</span>
+          <select name="country" required>
+            <option class="option" value="" selected disabled>Select</option>
+            <option value="ukraine">Ukraine</option>
+            <option value="usa">USA</option>
+          </select>
+        </label>
+
+        <label class="box">
+          <span>City</span>
+          <input type="text" name="city">
+        </label>
+      </div>
+
+      <button type="submit">Sign Up</button>
+
+      <p class="group_terms">By clicking the 'Sign Up' button, you confirm that you accept our
+        <a href="">Terms of Use</a>
+        and
+        <a href="">Privacy Policy</a>
+      </p>
+
+      <hr>
+
+      <div class="group_login">
+        <span>Have an account?</span>
+        <a href="">Log In</a>
+      </div>
+    </form>
+
+    <form action="" method="get">
+      <h2>Profile</h2>
+
+      <div class="group_user">
+        <div class="group_user-ava"></div>
+        <div class="group_user-file">
+          <input type="file"  name="file" accept=".jpg" placeholder="ashdjhsad"/>
+          <div class="group_user-trash"></div>
+          <span>Up to 1 MB (300x300 px)</span>
+        </div>
+        
+      </div>
+
+      <div class="group_info">
+        <label class="box">
+          <span>Name</span>
+          <input type="text">
+        </label>
+        <label class="box">
+          <span>E-mail</span>
+          <input type="email">
+        </label>
+      </div>
+      
+      <div class="group_select">
+        <label class="box">
+          <span>Country</span>
+          <select name="country" required>
+            <option class="option" value="" selected disabled>Select</option>
+            <option value="ukraine">Ukraine</option>
+            <option value="usa">USA</option>
+          </select>
+        </label>
+
+        <label class="box">
+          <span>City</span>
+          <input type="text" name="city">
+        </label>
+      </div>
+
+      <div class="group_info">
+        <label class="box">
+          <span>Zip Code</span>
+          <input type="number">
+        </label>
+        <label class="box">
+          <span>Phone Number</span>
+          <input type="number">
+        </label>
+      </div>
+
+      <button class="update" type="submit">Update</button>
+    </form>
+  </div>
+</body>
+</html>
