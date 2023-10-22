@@ -61,7 +61,7 @@ a {
     position: relative;
 }
 
-.section-bg .row {
+.section-bg row {
     width: 780px;
 }
 
@@ -69,7 +69,6 @@ a {
     position: absolute;
     bottom: 0;
     right: 0;
-    z-index: 0;
 }
 
 /* .section-bg .container_style {
@@ -86,9 +85,13 @@ a {
 
 .card {
     background: (0deg, #c4c4c4 0%, #c4c4c4 100%);
-    width: 370px;
+    width: 350px;
     border-radius: 0;
     border-width: 0;
+}
+
+.card img {
+    border-radius: 0;
 }
 
 .card-title {
@@ -96,6 +99,10 @@ a {
 }
 
 .card-subtitle {
+    text-align: left;
+}
+
+.card-text {
     text-align: left;
 }
 
@@ -107,10 +114,21 @@ a {
 }
 
 .green-line {
-    width: 50%;
+    width: 56%;
     height: 0.5rem;
     position: absolute;
     top: 0;
     left: 0;
     background: #128C76;
+}
+
+.card_help_txt {
+    text-align: left;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+.card_help_txt span {
+    color: #128C76;
+    font-size: 1rem;
 }
