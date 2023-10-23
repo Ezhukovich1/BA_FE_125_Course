@@ -71,9 +71,11 @@ a {
     right: 0;
 }
 
-/* .section-bg .container_style {
-
-} */
+.shape2 {
+    position: absolute;
+    left: 100px;
+    top:1400px;
+}
 
 .text-secondary {
     color: #999;
