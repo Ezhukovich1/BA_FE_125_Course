@@ -134,3 +134,23 @@ a {
     color: #128C76;
     font-size: 1rem;
 }
+
+.section-bg3 {
+    height: 780px;
+    width: 100%;
+    background-size: cover;
+    background-color: #ECF4FD;;
+    background-position: center;
+    background-image: url(./img/Vector.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+.rings {
+    position: absolute;
+    top: 2478;
+    right: 74px;
+}
+
