@@ -150,7 +150,42 @@ a {
 
 .rings {
     position: absolute;
-    top: 2478;
     right: 74px;
 }
 
+.section-bg4 {
+    height: 780px;
+    width: 100%;
+    position: relative;
+}
+.shape3 {
+    position: absolute;
+    top: 145px;
+    right: 0px;
+    z-index: -1;
+}
+
+.section-bg5 {
+    height: 483px;
+    width: 100%;
+    background-size: cover;
+    background-color:#ECECEC;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #333333!important;
+    color: #333333!important;
+    border-radius: 0;
+}
+
+.submitbtn {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.em {
+    border-top-right-radius: 8px!important;
+    border-top-left-radius: 8px!important;
+}
