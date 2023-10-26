@@ -1,0 +1,134 @@
+body {
+    max-width: 1200;
+    margin: 13px 120px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.head-text {
+    display: flex;
+    align-items: center;
+}
+
+h2, h3, h4 {
+    color: #000;
+    font-family: Staatliches;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing:6px;
+}
+
+h2 {
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+h3 {
+    margin-right: 10px;
+}
+
+p1 {
+    color: black;
+    text-align: center;
+    font-family: Tourney;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.88px;
+
+    width: 50px;
+    height: 20.377px;
+    flex-shrink: 0;
+}
+
+h2, h3, h4 {
+    color: #000;
+    font-family: Staatliches;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.66px;
+}
+
+.spacing70px {
+    height: 70px;
+}
+
+/*heared end*/
+
+.text-chapt {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.text-chapt h1 {
+    color: #000;
+    font-family: Francois One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+}
+
+.text-chapt p2 { 
+    color: #000;
+    font-feature-settings: 'sups' on;
+    font-family: Farro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300; 
+    line-height: normal;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+} 
+
+.chapter1 p {
+    color: #000;
+    font-family: PT Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+
+/* chapter 1 end */
+
+span2 {
+    font-style: italic;
+}
+
+/* chapter 2 end */
+
+.spacing40px {
+    height: 40px;
+}
+
+span3 {
+    font-weight: 700;
+}
+
+span4 {
+    background-color: silver;
+}
+
+/* chapter 3 end */
+
+.spacing90px {
+    height: 90px;
+}
+
+/*end*/

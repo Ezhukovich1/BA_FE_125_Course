@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.web-forms {
+    display: flex;
+    width: 1440px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 135px;
+    background-color: #E4E4E4;
+
+}
+
+.container {
+    width: 570px;
+    padding: 35px 34px 16px 36px;
+  background-color: white;
+}
+
+.container:last-child {
+    margin-left: 30px;
+}
+
+h3 {
+    color: #1C1C1C;
+    padding-bottom: 20px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+label {
+    color: #545454;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+    margin-bottom: 7px;
+}
+select {
+font-family: Inter;
+color: #545454;
+
+}
+.group {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    position: relative;
+    width: 245px;
+}
+
+.group.max-width {
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+.group-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.group input,
+.group select {
+    height: 38px;
+    padding: 7px 10px;
+    border-radius: 8px;
+    border: 1px solid #545454;
+}
+
+.group input:focus {
+    border: 1px solid #007BFF;
+    outline: none;
+}
+.group select:focus {
+    border: 1px solid #007BFF;
+    outline: none;
+}
+.max-width {
+    width: 100%;
+}
+
+.hint {
+    color: #969696;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+}
+
+.group .hint {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.gender-item input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.genger-group {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.radiobutton {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #e4e4e4;
+    border-radius: 20px;
+    display: block;
+    cursor: pointer;
+    margin-right: 8px;
+    position: relative;
+}
+
+.radiobutton::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.gender-item {
+    display: flex;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.gender-item input:checked~.radiobutton {
+    background-color: #007bff;
+}
+
+.gender-item input:checked~.radiobutton::after {
+    display: block;
+}
+
+.select {
+    color: #E4E4E4;
+}
+
+.button,
+.button3 {
+    width: 100%;
+    display: flex;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    background-color: #007bff;
+    border: 1px solid #007BFF;
+}
+
+.after-button {
+    display: block;
+    color: #969696;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 410;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    flex-shrink: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.after-button a,
+.last-part a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.last-part {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.last-part p {
+    color: #545454;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+}
+
+.last-part a {
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    padding-left: 20px;
+}
+
+.right-part .group-row:first-child {
+    display: flex;
+    width: 138px;
+}
+
+.right-part .button {
+    background-color: #FFFFFF;
+    border-color: #545454;
+    background-image: url(../images/Photo\ Camera.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 110px;
+    height: 30px;
+    width: 138px;
+    margin-top: 15px;
+}
+
+.right-part .button:last-child {
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/Trash.png);
+    background-position: center center;
+}
+
+.trash {
+    margin-left: 10px;
+}
+
+img {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.button3 {
+    width: 150px;
+}

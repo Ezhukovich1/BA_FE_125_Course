@@ -1,0 +1,77 @@
+.container {
+  padding: 0 120px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 80px;
+}
+.nav-text {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+
+  text-transform: uppercase;
+}
+.nav-text p:first-of-type {
+  font-family: Tourney;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 1.32px;
+}
+.nav-text p:last-of-type {
+  font-family: Staatliches;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.66px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 70px 0;
+}
+.article-title {
+  font-family: 'Francois One', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+}
+.article-title sup {
+  font-family: 'Farro', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+  position: relative;
+  top: -24px;
+}
+.article p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px
+}
+.article p i {
+  font-style: italic;
+}
+.article p b {
+  font-weight: 700;
+}
+.article p text {
+  background-color: #dadada;
+}
