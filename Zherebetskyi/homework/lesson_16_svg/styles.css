@@ -1,0 +1,152 @@
+body,
+p,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+header {
+  border-bottom: 1px solid #EFEEF3;
+}
+
+.container {
+  padding-left: 135px;
+  padding-right: 135px;
+}
+.nav {
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  text-decoration: none;
+  height: 30px;
+  width: max-content;
+  align-items: center;
+  gap: 12px;
+
+  font-family: Quicksand;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+
+  color: #16133D;
+}
+
+.logo:hover .logo__icon {
+  fill: #007FFC;
+}
+
+.logo__icon {
+  width: 30px;
+  height: 30px;
+
+  fill: #3DB370;
+
+  transition: all .1s ease-in
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section__title p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: uppercase;
+
+  color: #7690A8;
+}
+
+.section__title h2{
+  font-family: Nunito Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0.2px;
+
+  color: #16133D;
+}
+
+.section__cards {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  width: 370px;
+  height: 340px;
+  padding: 40px;
+
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #E5EAF4;
+
+  transition: border .1s ease-in;
+}
+
+.card:hover {
+  border: 1px solid #3DB370;
+}
+
+.card:hover .card__icon--green {
+  opacity: 1;
+}
+
+.card__icon--blue {
+  box-sizing: border-box;
+  width: 64px;
+  height: 64px;
+
+  padding: 10px;
+
+  border-radius: 16px;
+  border: 1px solid #E5EAF4;
+}
+
+.card__icon--green {
+  position: absolute;
+
+  box-sizing: border-box;
+  width: 64px;
+  height: 64px;
+
+  padding: 10px;
+
+  border-radius: 16px;
+  border: 1px solid #E5EAF4;
+
+  opacity: 0;
+
+  transition: opacity .1s ease-in;
+}
+
+
+
+footer {
+  background-color: #16133D;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
