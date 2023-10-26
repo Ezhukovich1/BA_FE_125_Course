@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 1.44px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+hr {
+  width: 100px;
+  height: 8px;
+  background: black;
+  border: black;
+  margin: 0 20px 0 0;
+  align-self: center;
+}
+
+.wrapper {
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background: #fff;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 0;
+}
+
+.header_nav {
+  display: flex;
+}
+
+.header_switch {
+  font-family: Tourney;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.88px;
+}
+
+.header_list {
+  display: flex;
+  justify-content: flex-start;
+}
+
+header li {
+  font-family: Staatliches;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.66px;
+  margin: 0 5px;
+}
+
+header li:first-child {
+  margin: 0 50px 0 0;
+}
+
+header li:nth-child(4) {
+  margin: 0 595px 0 0;
+}
+
+/* Main */
+
+main {
+  position: relative;
+  top: 210px;
+}
+
+.main_title {
+  display: flex;
+  margin: 0 0 60px 0;
+}
+
+.main_cards_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.main_cards {
+  width: 270px;
+  height: 180px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.main_cards_flip {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.main_cards:hover .main_cards_flip {
+  transform: rotateX(180deg);
+}
+
+.main_facebook,
+.main_facebook_hover,
+.main_instagram,
+.main_instagram_hover,
+.main_shopify,
+.main_shopify_hover,
+.main_skype,
+.main_skype_hover,
+.main_pinterest,
+.main_pinterest_hover,
+.main_wix,
+.main_wix_hover,
+.main_salesforce,
+.main_salesforce_hover,
+.main_soundcloud,
+.main_soundcloud_hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.main_facebook {
+  background-image: url("../images/facebook.png");
+  background-size: cover;
+}
+
+.main_facebook_hover {
+  background-image: url("../images/facebook-hover.png");
+  background-size: cover;
+  transform: rotateX(180deg);
+}
+
+.main_instagram {
+  background-image: url("../images/instagram.png");
+  background-size: cover;
+}
+.main_instagram_hover {
+  background-image: url("../images/instagram-hover.png");
+  background-size: cover;
+  transform: rotateX(180deg);
+}
+.main_shopify {
+  background-image: url("../images/shopify.png");
+  background-size: cover;
+}
+.main_shopify_hover {
+  background-image: url("../images/shopify-hover.png");
+  background-size: cover;
+  transform: rotateX(180deg);
+}
+.main_skype {
+  background-image: url("../images/skype.png");
+  background-size: cover;
+}
+.main_skype_hover {
+  background-image: url("../images/skype-hover.png");
+  background-size: cover;
+  transform: rotateX(180deg);
+}
+.main_pinterest {
+  background-image: url("../images/pinterest.png");
+  background-size: cover;
+}
+.main_pinterest_hover {
+  background-image: url("../images/pinterest-hover.png");
+  background-size: cover;
+  transform: rotateX(180deg);
+}
+.main_wix {
+  background-image: url("../images/wix.png");
+  background-size: cover;
+}
+.main_wix_hover {
+  background-image: url("../images/wix-hover.png");
+  background-size: cover;
+  transform: rotateX(180deg);
+}
+.main_salesforce {
+  background-image: url("../images/saleforce.png");
+  background-size: cover;
+}
+.main_salesforce_hover {
+  background-image: url("../images/saleforce-hover.png");
+  background-size: cover;
+  transform: rotateX(180deg);
+}
+.main_soundcloud {
+  background-image: url("../images/soundcloud.png");
+  background-size: cover;
+}
+.main_soundcloud_hover {
+  background-image: url("../images/soundcloud-hover.png");
+  background-size: cover;
+  transform: rotateX(180deg);
+}
