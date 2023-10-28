@@ -1,0 +1,17 @@
+body {
+  font-family: "Josefin Sans";
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}

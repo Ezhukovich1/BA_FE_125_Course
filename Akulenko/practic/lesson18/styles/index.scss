@@ -1,0 +1,18 @@
+@import './modules/fonts';
+@import './modules/variabless';
+
+body {
+    font-family: $font-family;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    .container {
+        display: flex;
+        justify-content: space-between;
+}
+}
