@@ -92,16 +92,113 @@ h1 {
     margin-top: 20px;
 }
 
-.container h2 {
-    width: 500px;
+h2 {
+    width: 800px;
     height: 110px;
     color: #2F281E;
     font-size: 44px;
     font-weight: 700;
     line-height: 54px;
-    margin: 99px 0 50px;
-    display: inline-flex;
+    margin: 99px auto 50px;
+    text-align: center;
 }
 
+/* .text1 {
+    display: flex;
+    justify-content: center;
+} */
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blast h3 {
+    margin: 30px 0 16px;
+    color: #2F281E;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.blast p {
+    /* width: 270px; */
+    color: #544837;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.box a {
+    margin: 70px 505px 178px;
+    justify-content: center ;
+    /* align-items: center; */
+}
+
+.text1 h2 {
+    text-align: left;
+    margin: 0 0 20px 0;
+    height: 53px;
+}
+
+.text1 p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #544837;
+    /* letter-spacing: 1.5px; */
+}
+
+/* .text1 p:last-child {
+    margin-bottom: 10;
+} */
+ 
+.container .text2 h4 {
+    color: #2F281E;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+.container .text2 h4:first-child {
+    margin-top: 40px;
+}
+
+.container .text2 p {
+    margin-top: 10px;
+}
+
+.image2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.container2 {
+    width: 525px;
+}
+
+.container .image2 {
+    margin-bottom: 100px;
+}
+
+.icon {
+    display: flex;
+    margin-top: 40px;
+    position: relative;
+}
+
+.icon .icon_margin {
+    margin-right: 30px;
+}
+
+.icon span {
+    color: #544837;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
 
 
