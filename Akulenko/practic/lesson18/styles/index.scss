@@ -3,6 +3,7 @@
 
 body {
     font-family: $font-family;
+    color: $black;
 }
 
 .container {
@@ -10,9 +11,94 @@ body {
     margin: 0 auto;
 }
 
-header {
-    .container {
-        display: flex;
-        justify-content: space-between;
+a {
+    text-decoration: none;
+    color: $black;
 }
+
+%flexible {
+    display: flex;
+}
+
+@mixin btn($type: primary) {
+    @extend %flexible;
+    align-items: center;
+    padding: 16px 40px 14px 40px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; 
+    text-transform: uppercase;
+    height: 24px;
+
+    @if $type == primary {
+        background: $primary;
+        border: 1px solid $primary;
+        color: $white;
+    } @else {
+        background: $white;
+        border: 1px solid $secondary;
+        color: $secondary;
+
+        &:hover {
+            background: $secondary;
+            color: $white;
+        }
+    }
+}
+ 
+header {
+    padding: 18px 0;
+
+    .logo {
+        color: $primary;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 100% */
+        letter-spacing: 1.44px;
+        text-transform: uppercase;
+    }
+    .container {
+        @extend %flexible;
+        justify-content: space-between;
+        align-items: center; 
+    }
+
+    .group {
+        @extend %flexible;
+    }
+
+    .navigation {
+        @extend %flexible;
+        list-style: none;
+        margin-right: 24px;
+        gap: 16px;
+
+        li {
+        padding-top: 16px;
+        padding-bottom: 18px;
+        }
+
+            a {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px; 
+            }
+    }
+}
+
+.buttons {
+    @extend %flexible;
+    align-items: center;
+    gap: 16px;
+}
+
+.button {
+    @include btn (primary);
+}
+
+.button-second {
+    @include btn(second);
 }
