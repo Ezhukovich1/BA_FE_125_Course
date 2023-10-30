@@ -1,0 +1,384 @@
+/* GLOBAL */
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.global-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 570px;
+    background-color: white;
+    margin: 55px auto;
+    border-radius: 6px;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+h2 {
+    color: #1C1C1C;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    margin-bottom: 20px;
+}
+
+.form-text {
+    color: #545454;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 146.667% */
+    letter-spacing: -0.2px;
+}
+
+.caption {
+    margin-top: 7px;
+    color: #969696;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 138.462% */
+    letter-spacing: -0.1px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 100%;
+    padding: 8px 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 146.667% */
+    letter-spacing: -0.1px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 22px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* GLOBAL END */
+
+
+/* FORM 1 */
+
+.form-container {
+    padding: 35px 35px 16px 35px;
+}
+
+.form-row {
+    margin-bottom: 20px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    width: 245px;
+}
+
+.single-item-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input, select {
+    margin-top: 7px;
+}
+
+.input-area {
+    height: 38px;
+    border-radius: 6px;
+    border: 1px solid #E4E4E4;
+    padding: 7px 10px;
+}
+
+.input-area:focus {
+    border: 1px solid #007BFF;
+}
+
+.rd-btn {
+    margin-right: 21px;
+}
+
+.flex.single-item {
+    justify-content: flex-start;
+}
+
+#country option {
+    /* color: #545454; */
+    color: red;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 146.667% */
+    letter-spacing: -0.2px;
+}
+
+.privacy-policy {
+    width: 500px;
+    border-bottom: 1px solid #E4E4E4;
+    display: flex;
+    justify-content: center;
+}
+
+.privacy-policy p {
+    width: 410px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.account a:first-of-type {
+    margin-right: 20px;
+}
+
+.account a {
+    color: #545454;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 146.667% */
+    letter-spacing: -0.2px;
+}
+
+.account a:last-of-type {
+    color: #007BFF;
+}
+
+/* FORM 1 END */
+
+
+/* CUSTOM RADIO */
+
+.gender_group {
+    margin-bottom: 20px;
+}
+
+.gender_group label:first-of-type {
+    margin-right: 20px;
+}
+
+.gender_item {
+    display: flex;
+    align-items: center;
+}
+
+
+.gender_item input {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.radio-button {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #e4e4e4;
+    border-radius: 100%;
+    display: block;
+    cursor: pointer;
+    margin-right: 8px;
+    position: relative;
+}
+
+.radio-button::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: none;
+    border-radius: 100%;
+}
+
+.gender_item {
+    display: flex;
+}
+
+.gender_item input:checked ~ .radio-button {
+    background-color: #007BFF;
+}
+
+.gender_item input:checked ~ .radio-button::after {
+    display: block;
+}
+
+.gender_item:hover input ~ .radio-button {
+    background-color: #007BFF;
+}
+
+/* CUSTOM RADIO END */
+
+
+/* CUSTOM SELECT */
+
+.custom-select {
+    position: relative;
+}
+
+.custom-select select {
+    appearance: none;
+    cursor: pointer;
+    color: #545454;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 146.667% */
+    letter-spacing: -0.2px;
+}
+
+.custom-select::before,
+.custom-select::after {
+  --size: 0.35rem;
+  position: absolute;
+  content: "";
+  right: 1rem;
+  pointer-events: none;
+  right: 10px;
+}
+
+.custom-select::before {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-bottom: var(--size) solid #969696;
+    top: 61%;
+  }
+  
+  .custom-select::after {
+    border-left: var(--size) solid transparent;
+    border-right: var(--size) solid transparent;
+    border-top: var(--size) solid #969696;
+    top: 75%;
+  }
+
+/* CUSTOM SELECT END */
+
+
+/* SECOND FORM */
+
+input[type=number] {
+    appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.button2 {
+    width: 150px;
+}
+
+.profile-pic {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    margin-right: 20px;
+}
+
+.upload-pic .input-area {
+    width: 138px;
+}
+
+.upload-pic {
+    display: flex;
+}
+
+.upload-file {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.file {
+    height: 30px;
+}
+
+.file::file-selector-button { 
+    color: rgba(0,0,0,0); 
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0);
+    width: 138px;
+    height: 30px;
+ }
+
+.file:hover {
+    border: 1px solid #007BFF;
+}
+
+.camera-img {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    margin-right: 0;
+}
+
+.upload-file span {
+    margin-top: 9px;
+}
+
+.delete-pic {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 6px;
+    border: 1px solid #E4E4E4;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+.delete-pic:hover {
+    border: 1px solid #007BFF;
+}
+
+.delete-pic img {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+
+.input-area.file {
+    margin-top: 0;
+}
