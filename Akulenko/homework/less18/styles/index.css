@@ -265,10 +265,12 @@
 .section .slider-r .social svg {
   width: 30px;
   height: 30px;
+  fill: #CCCCCC;
+  stroke: #CCCCCC;
 }
 .section .slider-r .social svg:hover {
-  fill: yellow;
-  stroke: yellow;
+  fill: #FC0;
+  stroke: #FC0;
 }
 .section .divider {
   background-color: #FC0;

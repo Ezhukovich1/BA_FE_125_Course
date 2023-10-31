@@ -181,10 +181,12 @@
             svg {
                 width: 30px;
                 height: 30px;
+                fill: #CCCCCC;
+                stroke: #CCCCCC;
 
                 &:hover {
-                    fill: yellow;
-                    stroke: yellow;
+                    fill: $gold;
+                    stroke: $gold;
                 }
             }
 
