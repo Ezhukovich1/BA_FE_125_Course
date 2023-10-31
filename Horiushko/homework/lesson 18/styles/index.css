@@ -1,0 +1,73 @@
+.head-items, .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.head-items .separator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h5, h1 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 66px;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+main {
+  padding: 122px 135px;
+  background: #fff;
+}
+
+.container {
+  padding: 0 75px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.head-items {
+  width: 38.4615384615%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.head-items h1 {
+  margin: 15px auto 50px;
+}
+.head-items h5 {
+  margin: 0px auto 0px;
+}
+.head-items hr {
+  width: 40%;
+  height: 1px;
+  background: #FC0;
+  border: none;
+}
+
+h1 {
+  font-family: "Roboto";
+  color: #FC0;
+}
+
+h5 {
+  font-family: "Raleway";
+  color: #898F8F;
+}

@@ -1,0 +1,10 @@
+@mixin gold-line {
+  width: 40%;
+  height: 1px;
+  background: $headline-color;
+  border: none;
+}
+
+@mixin margin-center($margin-top: 0px, $margin-bottom: 0px) {
+  margin: $margin-top auto $margin-bottom;
+}

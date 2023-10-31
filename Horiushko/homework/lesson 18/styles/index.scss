@@ -1,0 +1,50 @@
+@use "sass:math";
+@import "./modules/fonts";
+@import "./modules/variables";
+@import "./modules/extends";
+@import "./modules/mixins";
+
+main {
+  padding: 122px 135px;
+  background: #fff;
+}
+
+.container {
+  padding: 0 75px;
+  @extend %flexible-column;
+  align-items: center;
+}
+
+.head-items {
+  width: math.div(450px, 1170px) * 100%;
+  @extend %flexible-column;
+  justify-content: center;
+
+  h1 {
+    @include margin-center($margin-top: 15px, $margin-bottom: 50px);
+  }
+
+  h5 {
+    @include margin-center;
+  }
+
+  .separator {
+    @extend %flexible-row;
+  }
+
+  hr {
+    @include gold-line;
+  }
+}
+
+h1 {
+  @extend %h1, %up-text;
+  font-family: $font-roboto;
+  color: $headline-color;
+}
+
+h5 {
+  @extend %sub, %up-text;
+  font-family: $font-raleway;
+  color: $sub-color;
+}
