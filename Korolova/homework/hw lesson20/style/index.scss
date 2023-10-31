@@ -1,0 +1,219 @@
+@import './modules/variables';
+@import './modules/fonts';
+
+
+%flexible {
+    display: flex;
+    text-align: center;
+}
+
+%line {
+    height: 1px;
+    background: $secondary;
+}
+
+%line_bold {
+    height: 4px;
+    background: $secondary;
+}
+
+.container {
+    width: 1179px;
+    margin: 121px auto 122px;
+}
+
+.header {
+    @extend %flexible;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: $light_gray;
+        font-size: 18px;
+        font-family: $raleway;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 24px;
+    }
+
+    h1 {
+        color: $secondary;
+        font-size: 60px;
+        font-family: $roboto;
+        border: 0px solid;
+        margin-bottom: 40px;
+        margin-top: 15px;
+    
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 58px;
+    }
+
+    .line {
+        @extend %flexible;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .line_1 {
+        @extend %line;
+        width: 210px;
+        margin-bottom: 10px;
+    }
+
+    img {
+        margin-bottom: 2px;
+
+    }
+
+}
+
+section {
+    @extend %flexible;
+
+
+
+    .left_side {
+        width: 400px;
+        height: 400px;
+        margin: 80px 105px 80px 85px;
+        position: relative;
+
+
+        .img_border_top_left {
+            width: 100px;
+            height: 100px;
+            border-top: 1px $secondary solid;
+            border-left: 1px $secondary solid;
+            position: absolute;
+            top: -15px;
+            left: -15px;
+
+        }
+
+        .img_border_top_right {
+            width: 100px;
+            height: 100px;
+            border-top: 1px $secondary solid;
+            border-right: 1px $secondary solid;
+            position: absolute;
+            top: -15px;
+            right: -15px;
+
+        }
+
+        .img_border_bottom_right {
+            width: 100px;
+            height: 100px;
+            border-bottom: 1px $secondary solid;
+            border-right: 1px $secondary solid;
+            position: absolute;
+            bottom: -15px;
+            right: -15px;
+
+        }
+
+        .img_border_bottom_left {
+            width: 100px;
+            height: 100px;
+            border-bottom: 1px $secondary solid;
+            border-left: 1px $secondary solid;
+            position: absolute;
+            bottom: -15px;
+            left: -15px;
+
+        }
+
+    }
+
+    .right_side {
+        padding: 70px 0 75px 85px;
+        border-left: 1px $secondary solid;
+        text-align: center;
+
+        h2 {
+            margin: 0 auto;
+            color: $primary;
+            font-size: 36px;
+            font-family: $roboto;
+            font-weight: 900;
+            text-transform: capitalize;
+        }
+
+        .line {
+            @extend %line;
+            width: 100px;
+            margin: 30px auto;
+        }
+
+        h3 {
+            color: $primary;
+            font-size: 24px;
+            font-family: $raleway;
+            font-weight: 400;
+            text-transform: capitalize;
+            line-height: 36px;
+        }
+
+        .social_media {
+            @extend %flexible;
+            gap: 5px;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 49px;
+        }
+
+        p {
+            width: 430px;
+            margin: 0;
+            color: $black;
+            font-size: 14px;
+            font-family: $raleway;
+            font-weight: 500;
+            line-height: 24px;
+          
+
+        }
+       .line_bold {
+            @extend %flexible;
+            gap: 5px;
+            justify-content: center;
+            margin-top: 20px;
+            
+       }
+       .line_bold_short {
+            @extend %line_bold;
+            width: 10px;
+       }
+       .line_bold_medium {
+            @extend %line_bold;
+            width: 20px;
+       }
+        .button_view {
+            width: 118px;
+            border: 1px $secondary solid;
+            padding: 5px 10px;
+            margin: 25px auto 0;
+
+
+        }
+
+
+        a {
+
+            text-decoration: none;
+            color: $primary;
+            font-size: 14px;
+            font-family: $open_sans;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 14px;
+
+        }
+
+
+    }
+}
