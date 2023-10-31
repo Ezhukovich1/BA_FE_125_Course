@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$primaryColor:#F3C200;
+
+@mixin font_style ($fontColor, $fontFamily, $fontSize, $fontWight, $lineHeight, $textTrasform:none){
+    color: $fontColor;
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    font-weight: $fontWight;
+    line-height: $lineHeight;
+    text-transform: $textTrasform;
+}
+@mixin positionAbsolut ($top,$right,$bottom, $left){
+    position: absolute;
+    top:$top;
+    left: $left;
+    bottom: $bottom;
+    right: $right;
+}
+%flexBox{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+}
+%paddingSpace{
+    padding: 80px 100px;
+}
+%sizeWidth{
+    width: 36.5625rem;
+    height: 35rem;
+}
+header{
+    width: 100%;
+    padding-top:121px;
+}
+main{
+    margin: 40px auto 0 auto;
+    width: 95%;
+    @extend %flexBox;
+    padding-bottom:122px ;
+
+}
+hr{
+    border: none;
+    background-color: $primaryColor;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    & p{
+        @include font_style(#898F8F, Raleway, 1.125rem, 500, 24px, uppercase);
+        margin-bottom: 15px;
+      }
+    & h1{
+        @include font_style($primaryColor, Roboto, 3.75rem, 900, 66px, uppercase);
+        margin-bottom: 40px;
+    }
+    hr{
+        width: 13.125rem;
+        height: 1px;
+    }
+    div{
+        @extend %flexBox;
+        align-items: center;
+    }
+}
+.block_content{
+    @extend %paddingSpace;
+    text-align: center;
+    border-left: 1px solid $primaryColor;
+    @extend %sizeWidth;
+    & h2{
+        @include font_style(#666666, Roboto, 2.25rem, 900, normal);
+        margin-bottom: 30px;
+    }
+    & hr{
+        width: 100px;
+        height: 1px;
+        margin: 0 auto;
+    }
+    & p{
+        @include font_style(#666666, Raleway, 1.5rem, 400, 36px, capitalize);
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    & span{
+        @include font_style(#333333, Raleway, 14px, 500, 24px);
+        width: 26.875rem;
+        display: block;
+    }
+    & a{
+        @include font_style(#666666, "Open Sans", 14px, 700, 14px, uppercase);
+        text-decoration: none;
+        display: block;
+        border: 1px solid $primaryColor;
+        padding: 5px 10px;
+        width:max-content;
+        margin: 0 auto;
+    }
+    .blockLines{
+        width: 40px;
+        margin: 20px auto 30px auto;
+        @extend %flexBox;
+        & hr{
+            height: 4px;
+        }
+        :nth-child(1){
+            width: 10px;
+        }
+        :nth-child(2){
+            width: 20px;
+        }
+        :nth-child(3){
+            width: 10px;
+        }
+    }
+}
+.blockIcons{
+    @extend %flexBox;
+    margin-bottom: 30px;
+    & svg{
+        width: 30px;
+        height: 30px;
+        stroke: #CCCCCC;
+        stroke-width: 2px;
+        fill: #CCCCCC;
+        &:hover{
+            stroke:#F3C200;
+            fill: #F3C200;
+        }
+    }
+}
+.block_photo{
+    @extend %paddingSpace;
+    @extend %sizeWidth;
+    & div{
+        position: relative;
+        & img{
+            width: 100%;
+        }
+        & svg{
+            width: 100px;
+            height: 100px;
+            stroke: $primaryColor;
+        }
+    }
+}
+.angle_l_t{
+    @include positionAbsolut(-15px,none,none,-15px);
+ }
+.angle_r_t{
+    @include positionAbsolut(-15px,-15px,none,none);
+}
+.angle_l_b{
+    @include positionAbsolut(none,none,-15px,-15px);
+}
+.angle_r_b{
+    @include positionAbsolut(none,-15px,-15px,none);
+}
