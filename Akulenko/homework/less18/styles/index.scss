@@ -156,7 +156,7 @@
         
         }
 
-        a {
+        .button {
             @extend %btntxt;
             padding: 5px 10px;
             border: 1px solid $gold;
@@ -167,6 +167,28 @@
                 &:hover {
                     background: $gold;
                 }
+        }
+
+        .social {
+            width: 135px;
+            height: 30px;
+            display: flex;
+            flex-direction: row;
+            align-self: center;
+            gap: 5px;
+            margin-bottom: 50px;
+            
+            svg {
+                width: 30px;
+                height: 30px;
+
+                &:hover {
+                    fill: yellow;
+                    stroke: yellow;
+                }
+            }
+
+
         }
    }
 

@@ -51,7 +51,7 @@
   background-color: #FC0;
 }
 
-.section .slider-r a {
+.section .slider-r .button {
   color: #666;
   text-align: center;
   font-family: "Open Sans";
@@ -232,7 +232,7 @@
 .section .slider-r .divider_3::after {
   right: -15px;
 }
-.section .slider-r a {
+.section .slider-r .button {
   padding: 5px 10px;
   border: 1px solid #FC0;
   text-decoration: none;
@@ -243,8 +243,32 @@
       -ms-grid-row-align: center;
       align-self: center;
 }
-.section .slider-r a:hover {
+.section .slider-r .button:hover {
   background: #FC0;
+}
+.section .slider-r .social {
+  width: 135px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  gap: 5px;
+  margin-bottom: 50px;
+}
+.section .slider-r .social svg {
+  width: 30px;
+  height: 30px;
+}
+.section .slider-r .social svg:hover {
+  fill: yellow;
+  stroke: yellow;
 }
 .section .divider {
   background-color: #FC0;
