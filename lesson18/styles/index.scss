@@ -1,0 +1,305 @@
+// Додали шрифти та зміні глобально
+@use 'sass:math';
+@import './modules/fonts';
+@import './modules/variables';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: $font-family;
+    color: $black;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+}
+
+%flexible {
+    display: flex;
+}
+
+.group {
+    @extend %flexible;
+}
+
+@mixin description($fontSize, $lineHeight) {
+    font-size: $fontSize;
+    font-style: normal;
+    font-weight: 400;
+    line-height: $lineHeight;
+}
+
+@mixin btn($type: primary) {
+    @extend %flexible;
+    align-items: center;
+    padding: 16px 40px 14px;
+    width: max-content;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+
+    @if $type == primary {
+        background: $primary;
+        border: 1px solid $primary;
+        color: $white;
+    } @else {
+        background: $white;
+        border: 1px solid $secondary;
+        color: $secondary;
+
+        &:hover {
+            background: $secondary;
+            color: $white;
+        }
+    }
+}
+
+@mixin title($fontSize, $lineHeight) {
+    font-size: $fontSize;
+    font-style: normal;
+    font-weight: 700;
+    line-height: $lineHeight;
+}
+
+@mixin progress-bar($progress, $max) {
+    .progress-view {
+        width: 100%;
+        position: relative;
+        height: 8px;
+        background: #ECECEC;
+
+        &::after {
+            content: '';
+            position: absolute;
+            background: $primary;
+            width: math.percentage($progress/$max);
+            height: 8px;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    .progress-value::after {
+        content: "#{$progress}";
+        color: $primary;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .max-value::after {
+        content: "#{$max}";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    
+}
+
+
+header {
+    padding: 18px 0;
+
+    .logo {
+        color: $primary;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 1.44px;
+        text-transform: uppercase;
+    }
+    .container {
+        @extend %flexible;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navigation {
+        @extend %flexible;
+        list-style: none;
+        margin-right: 24px;
+        gap: 16px;
+        li {
+            padding-top: 16px;
+            padding-bottom: 14px;
+
+            a {
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+.buttons {
+    @extend %flexible;
+    gap: 16px;
+}
+.button {
+    @include btn(primary);
+}
+
+.button-secondary {
+    @include btn(secondary);
+}
+
+section {
+    padding: 160px 0;
+}
+
+.section-bg {
+    background-image:url(../images/Shape.png), url(../images/back.png);
+    background-position: right bottom, center;
+    background-size: auto, cover;
+    background-repeat: no-repeat, no-repeat;
+    width: 100%;
+    padding-top: 202px;
+    padding-bottom: 204px;
+
+    .container {
+        position: relative;
+    }
+
+    .bg-circle {
+        z-index: 0;
+        position: absolute;
+        top: -141px;
+        left: -148px;
+        width: 558px;
+        height: 558px;
+        border-radius: 100%;
+        background: rgba(51, 110, 225, 0.5);
+    }
+
+    .group {
+        width: 770px;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    h1 {
+        z-index: 1;
+        @include title(60px, 80px);
+        color: $white;
+    }
+
+    span {
+        z-index: 1;
+        width: 470px;
+        @include description(24px, 32px);
+        color: $white;
+    }
+
+    .button {
+        z-index: 1;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+}
+
+.offerings {
+
+    .group {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap:24px;
+        margin-bottom: 60px;
+
+        h2 {
+            @include title(48px,64px);
+            text-align: center;
+            
+            &+p {
+                width: 770px;
+                @include description(24px, 32px);
+                color: $gray;
+                text-align: center;
+            }
+        }
+    }
+    
+    .cards {
+        .card {
+            width: 370px;
+
+            .content {
+                .top-part {
+                    position: relative;
+                    padding: 24px;
+                    height: 240px;
+
+                    .tags {
+                        @extend %flexible;
+                        gap: 8px;
+
+                        span {
+                            padding: 8px 12px;
+                            background: rgba(255, 255, 255, 0.80);
+
+                            font-size: 10px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 12px;
+                            text-transform: uppercase;
+                        }
+                    }
+
+                    img {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: auto;
+                        z-index: -1;
+                    }
+                }
+
+                .bottom-part {
+                    @extend %flexible;
+                    flex-direction: column;
+                    gap: 24px;
+                    padding: 24px;
+
+                    h3 {
+                        @include title(24px, 32px);
+
+                        &+span {
+                            @include description(16px, 24px);
+                            color: $gray;
+                        }
+                    }
+
+                    p {
+                        @include description(16px, 24px);
+                    }
+
+                    .progress-bar {
+                        @include progress-bar(5,10);
+                    }
+                }
+            }
+
+            .content--hover {
+                display: none;
+            }
+        }
+    }
+
+}

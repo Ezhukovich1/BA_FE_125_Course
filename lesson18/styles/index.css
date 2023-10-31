@@ -1,0 +1,280 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Josefin Sans";
+  color: #333;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.offerings .cards .card .content .bottom-part, .offerings .cards .card .content .top-part .tags, .button-secondary, .button, .buttons, header .navigation, header .container, .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header {
+  padding: 18px 0;
+}
+header .logo {
+  color: #128C76;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+}
+header .container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .navigation {
+  list-style: none;
+  margin-right: 24px;
+  gap: 16px;
+}
+header .navigation li {
+  padding-top: 16px;
+  padding-bottom: 14px;
+}
+header .navigation li a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.buttons {
+  gap: 16px;
+}
+
+.button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px 40px 14px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  background: #128C76;
+  border: 1px solid #128C76;
+  color: #fff;
+}
+
+.button-secondary {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px 40px 14px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  background: #fff;
+  border: 1px solid #F56B8D;
+  color: #F56B8D;
+}
+.button-secondary:hover {
+  background: #F56B8D;
+  color: #fff;
+}
+
+section {
+  padding: 160px 0;
+}
+
+.section-bg {
+  background-image: url(../images/Shape.png), url(../images/back.png);
+  background-position: right bottom, center;
+  background-size: auto, cover;
+  background-repeat: no-repeat, no-repeat;
+  width: 100%;
+  padding-top: 202px;
+  padding-bottom: 204px;
+}
+.section-bg .container {
+  position: relative;
+}
+.section-bg .bg-circle {
+  z-index: 0;
+  position: absolute;
+  top: -141px;
+  left: -148px;
+  width: 558px;
+  height: 558px;
+  border-radius: 100%;
+  background: rgba(51, 110, 225, 0.5);
+}
+.section-bg .group {
+  width: 770px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+.section-bg h1 {
+  z-index: 1;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  color: #fff;
+}
+.section-bg span {
+  z-index: 1;
+  width: 470px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  color: #fff;
+}
+.section-bg .button {
+  z-index: 1;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.offerings .group {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 24px;
+  margin-bottom: 60px;
+}
+.offerings .group h2 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+}
+.offerings .group h2 + p {
+  width: 770px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  color: #999;
+  text-align: center;
+}
+.offerings .cards .card {
+  width: 370px;
+}
+.offerings .cards .card .content .top-part {
+  position: relative;
+  padding: 24px;
+  height: 240px;
+}
+.offerings .cards .card .content .top-part .tags {
+  gap: 8px;
+}
+.offerings .cards .card .content .top-part .tags span {
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+.offerings .cards .card .content .top-part img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  z-index: -1;
+}
+.offerings .cards .card .content .bottom-part {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+}
+.offerings .cards .card .content .bottom-part h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.offerings .cards .card .content .bottom-part h3 + span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #999;
+}
+.offerings .cards .card .content .bottom-part p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.offerings .cards .card .content .bottom-part .progress-bar .progress-view {
+  width: 100%;
+  position: relative;
+  height: 8px;
+  background: #ECECEC;
+}
+.offerings .cards .card .content .bottom-part .progress-bar .progress-view::after {
+  content: "";
+  position: absolute;
+  background: #128C76;
+  width: 50%;
+  height: 8px;
+  top: 0;
+  left: 0;
+}
+.offerings .cards .card .content .bottom-part .progress-bar .progress-value::after {
+  content: "5";
+  color: #128C76;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.offerings .cards .card .content .bottom-part .progress-bar .max-value::after {
+  content: "10";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.offerings .cards .card .content--hover {
+  display: none;
+}
