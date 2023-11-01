@@ -1,6 +1,6 @@
-@mixin gold-line {
-  width: 40%;
-  height: 1px;
+@mixin gold-line($width, $height: 1px) {
+  width: $width;
+  height: $height;
   background: $headline-color;
   border: none;
 }
