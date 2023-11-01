@@ -69,24 +69,26 @@ h2 {
 }
 
 .photo {
-  max-height: 388px;
-  max-width: 388px;
+  img {
+    max-width: 100%;
+    --s: 50px; /* the size on the corner */
+    --t: 2px; /* the thickness of the border */
+    --g: 20px; /* the gap between the border and image */
 
-  --s: 100px; /* the size on the corner */
-  --t: 2px; /* the thickness of the border */
-  --g: 20px; /* the gap between the border and image */
-  outline: var(--t) solid $headline-color;
-  padding: calc(var(--g) + var(--t));
-  outline-offset: calc(-1 * var(--t));
-  -webkit-mask: conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0 /
-      calc(100% - var(--s)) calc(100% - var(--s)),
-    linear-gradient(#000 0 0) content-box;
-  transition: 0.4s;
-
-  &:hover {
+    padding: calc(var(--g) + var(--t));
+    outline: var(--t) solid $headline-color;
+    outline-offset: calc(-1 * var(--t));
+    -webkit-mask: conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0 /
+        calc(100% - var(--s)) calc(100% - var(--s)),
+      linear-gradient(#000 0 0) content-box;
+    transition: 0.4s;
+  }
+  img:hover {
     outline-offset: calc(var(--g) / -1);
+    filter: grayscale(30%) brightness(80%);
   }
 }
+
 .divider {
   border-left: 1px solid $headline-color;
 }
