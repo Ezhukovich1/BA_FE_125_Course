@@ -1,0 +1,247 @@
+.content .container_rightside .decoration, .content .container_rightside .logos, .content .container_rightside, .content .container_leftside, .header .flex-group, .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h4 {
+  color: #898f8f;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #ffcc00;
+  font-family: "Roboto";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 66px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #666;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: #666;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-transform: capitalize;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+.header {
+  margin-top: 121px;
+}
+.header .container {
+  padding: 0 360px;
+}
+.header h4 {
+  margin-bottom: 15px;
+}
+.header h1 {
+  margin-bottom: 40px;
+}
+.header .flex-group {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+.header .flex-group .line {
+  width: 210px;
+  height: 1px;
+  background-color: #ffcc00;
+}
+.header .flex-group img {
+  width: 20px;
+  height: 20px;
+}
+
+.content {
+  margin-top: 40px;
+  margin-bottom: 121px;
+}
+.content .container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0 70px;
+  gap: 85px;
+}
+.content .container_leftside {
+  position: relative;
+  width: 430px;
+  height: 430px;
+  margin: 80px 0;
+}
+.content .container_leftside img {
+  padding: 15px;
+}
+.content .container_leftside .angle_top_left,
+.content .container_leftside .angle_top_right,
+.content .container_leftside .angle_b_left,
+.content .container_leftside .angle_b_right {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+}
+.content .container_leftside .angle_top_left {
+  top: 0;
+  left: 0;
+}
+.content .container_leftside .angle_top_right {
+  top: 0;
+  right: 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.content .container_leftside .angle_b_left {
+  bottom: 0;
+  left: 0;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+.content .container_leftside .angle_b_right {
+  bottom: 0;
+  right: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.content .divider {
+  width: 1px;
+  height: 560px;
+  background-color: #ffcc00;
+}
+.content .container_rightside {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 70px 0;
+}
+.content .container_rightside .divider {
+  width: 100px;
+  height: 1px;
+  background-color: #ffcc00;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 30px 0;
+}
+.content .container_rightside h3 {
+  margin-bottom: 30px;
+}
+.content .container_rightside .logos {
+  gap: 5px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 49px;
+}
+.content .container_rightside .logos a {
+  width: 30px;
+  height: 30px;
+}
+.content .container_rightside .logos a svg {
+  width: 30px;
+  height: 30px;
+}
+.content .container_rightside .logos a:hover {
+  opacity: 0.6;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+.content .container_rightside .logos a:hover circle {
+  stroke: #ffcc00;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+.content .container_rightside p {
+  color: #333;
+  font-family: "Raleway";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.content .container_rightside .decoration {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.content .container_rightside .decoration .rectangle1 {
+  width: 10px;
+  height: 4px;
+  background: #ffcc00;
+}
+.content .container_rightside .decoration .rectangle2 {
+  width: 20px;
+  height: 4px;
+  background: #ffcc00;
+}
+.content .container_rightside .btn {
+  color: #666;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  text-transform: uppercase;
+  border: 1px solid #ffcc00;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 5px 10px;
+}
+.content .container_rightside .btn:hover {
+  opacity: 0.6;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+.content .container_rightside .btn:focus {
+  background-color: #ffcc00;
+}

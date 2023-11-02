@@ -1,0 +1,258 @@
+@import "./modules/fonts.scss";
+@import "./modules/colors.scss";
+
+%flex {
+  display: flex;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h4 {
+  color: $Grey;
+  font-family: $Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: $Yellow;
+  font-family: $Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 66px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: $Dark_Grey;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: #666;
+  text-align: center;
+  font-family: $Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-transform: capitalize;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  @extend %flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: $Dark_Grey;
+}
+
+.header {
+  margin-top: 121px;
+
+  .container {
+    padding: 0 360px;
+  }
+
+  h4 {
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    margin-bottom: 40px;
+  }
+
+  .flex-group {
+    @extend %flex;
+    align-items: center;
+    gap: 5px;
+
+    .line {
+      width: 210px;
+      height: 1px;
+      background-color: $Yellow;
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+.content {
+  margin-top: 40px;
+  margin-bottom: 121px;
+
+  .container {
+    flex-direction: row;
+    padding: 0 70px;
+    gap: 85px;
+  }
+
+  .container_leftside {
+    @extend %flex;
+    position: relative;
+    width: 430px;
+    height: 430px;
+    margin: 80px 0;
+
+    img {
+      padding: 15px;
+    }
+
+    .angle_top_left,
+    .angle_top_right,
+    .angle_b_left,
+    .angle_b_right {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      padding: 0;
+    }
+
+    .angle_top_left {
+      top: 0;
+      left: 0;
+    }
+
+    .angle_top_right {
+      top: 0;
+      right: 0;
+      transform: rotate(90deg);
+    }
+
+    .angle_b_left {
+      bottom: 0;
+      left: 0;
+      transform: rotate(-90deg);
+    }
+
+    .angle_b_right {
+      bottom: 0;
+      right: 0;
+      transform: rotate(180deg);
+    }
+  }
+
+  .divider {
+    width: 1px;
+    height: 560px;
+    background-color: $Yellow;
+  }
+
+  .container_rightside {
+    @extend %flex;
+    flex-direction: column;
+    margin: 70px 0;
+
+    .divider {
+      width: 100px;
+      height: 1px;
+      background-color: $Yellow;
+      align-self: center;
+      margin: 30px 0;
+    }
+
+    h3 {
+      margin-bottom: 30px;
+    }
+
+    .logos {
+      @extend %flex;
+      gap: 5px;
+      align-self: center;
+      margin-bottom: 49px;
+
+      a {
+        width: 30px;
+        height: 30px;
+
+        svg {
+          width: 30px;
+          height: 30px;
+        }
+
+        &:hover {
+          opacity: 0.6;
+          transition: 0.4s ease-in-out;
+        }
+
+        &:hover circle {
+          stroke: $Yellow;
+          transition: 0.4s ease-in-out;
+        }
+      }
+    }
+
+    p {
+      color: $Dark;
+      font-family: $Raleway;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
+
+    .decoration {
+      @extend %flex;
+      justify-content: center;
+      gap: 5px;
+      margin-bottom: 20px;
+
+      .rectangle1 {
+        width: 10px;
+        height: 4px;
+        background: $Yellow;
+      }
+
+      .rectangle2 {
+        width: 20px;
+        height: 4px;
+        background: $Yellow;
+      }
+    }
+
+    .btn {
+      color: $Dark_Grey;
+      font-family: $Open_Sans;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 14px;
+      text-transform: uppercase;
+      border: 1px solid $Yellow;
+      align-self: center;
+      padding: 5px 10px;
+
+      &:hover {
+        opacity: 0.6;
+        transition: 0.4s ease-in-out;
+      }
+
+      &:focus {
+        background-color: $Yellow;
+      }
+    }
+  }
+}
