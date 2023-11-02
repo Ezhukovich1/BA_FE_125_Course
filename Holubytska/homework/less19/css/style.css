@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    font-size: 16px;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    color: #2F281E;
+}
+header{
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+button{
+    border-radius: 4px;
+    padding:13px 25px;
+}
+button:hover{
+    border:1px solid  #775298;
+    background-color: #775298;
+    color: white;
+}
+.button_orange{
+    border:1px solid  #FF9900;
+    background-color: #FF9900;
+    color: white;
+}
+.button_white{
+    border:1px solid  #BCD0E5;
+    background-color: white;
+}
+.buttons_sections{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif
+}
+h1{
+    font-size: 2.75rem;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 30px;
+    margin-top: 7vw;
+}
+h2{
+    font-size: 2.1875rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+h6{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 40px;
+}
+p{
+    color: #544837;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 28px;
+}
+.section{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7vw auto 0 auto;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center
+}
+.logo div:first-child {
+    width:34px;
+    height: 32px;
+    margin-right: 12px;
+}
+.logo div:first-child img{
+    width: 100%;
+}
+.logo div:last-child{
+    width: 154px;
+}
+.logo div:last-child img{
+    width: 100%;
+}
+.navigation{
+    display: flex;
+    list-style: none;
+}
+.navigation li{
+    margin-right: 6%;
+}
+.navigation li a{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #2F281E;
+}
+.navigation li:first-child a{
+    color:#FF9900;
+}
+.navigation li:last-child{
+    margin-right: 0;
+}
+.content{
+    padding-top: 20px;
+    width: 45%;
+    margin-right:56px;
+}
+.picture{
+    width: 50%;
+}
+.picture img{
+    width: 100%;
+}
+.block_section_two{
+    margin: 100px auto 0 auto;
+    width: 100%;
+}
+.block_section_two h2{
+    margin: 0 auto;
+    text-align: center;
+}
+.container_icons{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin: 50px auto 70px auto;
+}
+.container_icons .item{
+    width: 270px;
+}
+.item div{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.item div img{
+    width: 100%;
+}
+.item h4{
+    font-size: 1.375rem;
+    font-weight: 600;
+}
+.item p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 26px;
+}
+.block_section_two > div:nth-child(3){
+    text-align: center;
+    margin-bottom: 74px;
+}
+.liner_gradient{
+    min-width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(
+                    to top,
+                    #FFF2E9 ,
+                    white
+    );
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+.content p{
+    color: #544837;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 26px;
+}
+.checkboxs{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.checkboxs div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.checkboxs div img{
+     margin-right: 30px;
+}
+#resources .content{
+    margin-right: 0;
+    margin-left: 56px;
+}
+#pricing .picture img, #resources .picture img{
+    width: 95%;
+}
+#resources .content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer{
+    max-width: 1440px;
+    margin: 8vw auto 0 auto;
+}
+footer > div{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    padding-bottom: 72px;
+}
+.footer_block p{
+    margin-bottom: 30px;
+}
+.footer_block p, label {
+    font-family: 'Gotham Serif', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #2F281E;
+}
+.footer_block div a{
+    display: block;
+    margin-bottom: 15px;
+    color: #544837;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 26px;
+}
+.footer_block form{
+    width: 340px;
+}
+label{
+    line-height: 30px;
+}
+input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-top: 28px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+input::placeholder{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #BCD0E5;
+}
+.autorisation_btns{
+    display: flex;
+    gap:15px
+}
+@media screen and (max-width: 1024px){
+    html{
+        font-size: 13px;
+    }
+  h1{
+      margin-top: 0;
+  }
+    h6{
+        margin-top: 10px;
+    }
+   header{
+       align-items: flex-start;
+   }
+    .section{
+        margin-top: 2vw;
+    }
+    .navigation{
+        flex-flow: column;
+    }
+    .container_icons {
+        justify-content: center;
+        gap:30px;
+    }
+    .container_icons .item{
+        width: 45%;
+    }
+    .block_section_two{
+        margin: 30px auto 0 auto;
+    }
+    footer >div{
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width: 768px){
+    h1{
+        line-height: 1.5;
+        margin-bottom: 10px;
+        font-size: 1.5625rem;
+    }
+    h2{
+        font-size: 1.25rem;
+    }
+  .item  h4{
+        font-size: 1.2rem;
+    }
+    .item div {
+        width: 35px;
+        height: 35px;
+        margin-bottom: 5px;
+    }
+    .footer_block div a {
+        margin-bottom: 0;
+        line-height: 2;
+    }
+    .footer_block p {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 615px){
+    html{
+        font-size: 10px;
+    }
+    h1{
+
+    }
+    .logo div:last-child {
+        width: 80px;
+    }
+    .logo div:first-child img {
+        width: 80%;
+    }
+    button {
+        padding: 5px 10px;
+    }
+    .container_icons {
+        margin: 50px auto 0 auto;
+    }
+    .block_section_two > div:nth-child(3) {
+        margin-bottom: 20px;
+    }
+    #resources .content {
+         padding-top: 0;
+         padding-bottom: 0;
+    }
+    .checkboxs {
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    .section {
+        margin-top: 0;
+    }
+    .content {
+        padding-top: 20px;
+        width: 80%;
+        margin-right: 10px;
+    }
+    .checkboxs div img {
+        margin-right: 15px;
+        width: 20px;
+    }
+}
+@media screen and (max-width: 527px) {
+    header,  .section{
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+   .section{
+       flex-flow: column;
+   }
+    .content {
+        width: 100%;
+    }
+    #resources .content{
+        margin-left: 0;
+    }
+    .picture {
+        width: 30%;
+        text-align: center;
+    }
+    .content_res{
+        order: -1;
+    }
+    footer > div {
+        align-items: center;
+    }
+    input {
+        height: 35px;
+        margin-top: 9px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    footer form{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 425px){
+button{
+    font-size: 10px;
+}
+    .container_icons .item {
+        width:100%;
+        text-align: center;
+    }
+    .container_icons .item  div{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 375px){
+    button{
+        font-size: 8px;
+    }
+   h1{
+       font-size: 15px;
+       width: 200px;
+   }
+    h2{
+        font-size: 13px;
+        width: 200px;
+    }
+    .container_icons{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 320px){
+    button{
+        font-size: 5px;
+    }
+    h1{
+        font-size: 15px;
+        width: 200px;
+    }
+    h2{
+        font-size: 13px;
+        width: 200px;
+    }
+    .container_icons{
+        margin-top: 20px;
+    }
+    .logo div:last-child {
+        width: 54px;
+    }
+    .logo div:first-child {
+        width: 29px;
+        margin-right: 2px;
+    }
+    .navigation li a {
+        font-size: 0.8rem;
+    }
+    header{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
