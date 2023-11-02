@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <!-- <link rel="stylesheet" href="./styles/styles.css"> -->
+    <link rel="stylesheet" href="./SASS/main.css">
+</head>
+<body>
+    <div class="form-container">
+    <form action="" class="create">
+        <h1>Create an Account</h1>
+        <div class="flex-container">
+            <div class="container-input">
+                <label  class="block-label" for="name-input">First Name</label>
+                <input type="text" id="name-input">
+            </div>
+    
+            <div class="container-input">
+                <label class="block-label" for="last-name-input">Last Name</label>
+                <input type="text" id="last-name-input">
+            </div>
+        </div>
+        
+
+
+        <label for="mail-input">E-mail</label>
+        <input type="email" id="mail-input">
+        <p>We'll never share your email with anyone else.</p>
+
+<div class="container-radio">
+        <label class="gender container" for="male-input">Male
+            <input  type="radio" name="gender" id="male-input">
+            <span class="checkmark"></span>
+        </label>
+
+    
+        <label class="gender container" for="female-input">Female
+            <input type="radio" name="gender" id="female-input">
+            <span class="checkmark"></span>
+        </label>
+</div>
+        
+<div class="flex-container">
+        <div class="container-input">
+            <label class="block-label" for="country-input">Country</label>
+        <select required name="country" id="country-input" placeholder="Select" >
+            <option value="" disabled selected hidden >Select</option>
+            <option value="country">country </option>
+            <option value="country">country </option>
+            <option value="country">country </option>
+            <option value="country">country </option>
+        </select>
+        </div>
+        
+
+        <div class="container-input">
+            <label class="block-label" for="city">City</label>
+            <input type="text" id="city">
+        </div>
+    </div>
+     
+        <button class="button-form" type="button">Sign Up</button>
+
+        <p class="accept">By clicking the 'Sign Up' button, you confirm that you accept our <br><a href="#">Terms of Use</a> and <a href="#">Privacy policy</a></p>
+        <svg width="500" height="1">
+            <line x1="1" x2="500" stroke="#E4E4E4" stroke-width="1" />
+          </svg>
+        <p class="login">Have an account?
+            <a href="#">Log In</a></p>
+
+
+
+    </form>
+
+</div>
+<div class="form-container">
+<form action="" class="profile">
+    <h1>Profile</h1>
+        <img class="avatar" src="./img/Image.jpg" alt="">
+    <div class="container-box">
+        <div class="container-uploades">
+            <input
+            type="file"
+            id="image_uploads"
+            name="image_uploads"
+            accept=".jpg, .jpeg, .png"
+            multiple /></div>
+        <button class="delete-button" ></button>
+        <p>Up to 1 MB (300x300 px)</p>
+    </div>
+
+    <div class="flex-container">
+        <div class="container-input">
+            <label  class="block-label" for="name-input">Name</label>
+            <input type="text" id="name-input">
+        </div>
+    
+        <div class="container-input">
+            <label class="block-label" for="E-mail-input">E-mail</label>
+            <input type="email" id="E-mail-input">
+        </div>
+    </div>
+    
+    <div class="flex-container">
+        <div class="container-input">
+            <label class="block-label" for="country-input">Country</label>
+        <select required name="country" id="country-input" placeholder="Select" >
+            <option value="" disabled selected hidden >Select</option>
+            <option value="country">country </option>
+            <option value="country">country </option>
+            <option value="country">country </option>
+            <option value="country">country </option>
+        </select>
+        </div>
+        
+    
+        <div class="container-input">
+            <label class="block-label" for="city">City</label>
+            <input type="text" id="city">
+        </div>
+    </div>
+    
+    <div class="flex-container">
+        <div class="container-input">
+            <label  class="block-label" for="code-input">Zip Code</label>
+            <input type="text" id="code-input">
+        </div>
+    
+        <div class="container-input">
+            <label class="block-label" for="phone-input">Phone Number</label>
+            <input type="phone" id="phone-input">
+        </div>
+    </div>
+    
+    <button class="button-form">Update</button>
+        
+
+    
+    
+</form>
+</div>
+</body>
+</html>
