@@ -51,3 +51,43 @@ $font-familyR: 'Red Hat Display';
     line-height: 166%; 
     letter-spacing: 0.8px;
     }
+
+%heading_title {
+    color: $black;
+    font-family: $font-familyR;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 166%; 
+    letter-spacing: 2.8px;
+}
+
+%h9 {
+    color: $grey500;
+    font-family: $font-familyL;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166%;
+    letter-spacing: 1.2px;
+}
+
+%btn {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 166%; 
+    letter-spacing: 1.6px;
+}
+
+%h4 {
+    color: #565656;
+    font-family: $font-familyL;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    letter-spacing: 0.95px;
+}
