@@ -1,0 +1,268 @@
+@import "_mixins.scss";
+@import "_variables.scss";
+@import "_modules.scss";
+
+.header-container {
+  @include flex;
+  justify-content: space-between;
+  margin: 20px 135px;
+
+  .header-container-items {
+    @include flex;
+    gap: 84px;
+
+    .navigation {
+      @include flex;
+      gap: 42px;
+
+      a {
+        text-decoration: none;
+        font-family: $font-lato;
+        font-size: 14px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: $headline-color;
+        position: relative;
+      }
+
+      a::after {
+        content: "";
+        border: 1px solid $headline-color;
+        width: 60%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: none;
+        transition: 0.3s;
+      }
+
+      a:hover::after {
+        display: block;
+      }
+    }
+  }
+}
+
+section {
+  margin: 0 135px;
+  margin-bottom: 90px;
+  @include flex($direction: column, $gap: 50px);
+}
+
+.main-info {
+  background: url(../images/bg-image.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 100px 135px 0;
+  margin: 0;
+
+  h1 {
+    @extend %h1;
+    font-weight: 600;
+  }
+}
+
+section:nth-of-type(2) {
+  h1 {
+    @extend %h1;
+    font-weight: 400;
+  }
+
+  .row-container:nth-of-type(1) {
+    @include flex;
+
+    .post-items {
+      @include flex($direction: column, $gap: 15px);
+      width: 38%;
+
+      h6:nth-of-type(2) {
+        padding-bottom: 35px;
+      }
+
+      .text-and-arrow {
+        @include flex($direction: row, $gap: 15px);
+      }
+    }
+  }
+
+  .row-container:nth-of-type(2) {
+    @include flex($direction: row-reverse);
+
+    .post-items {
+      @include flex($direction: column, $gap: 15px);
+      width: 38%;
+
+      h6:nth-of-type(2) {
+        padding-bottom: 35px;
+      }
+
+      .text-and-arrow {
+        @include flex($direction: row);
+      }
+    }
+  }
+}
+
+section:nth-of-type(3) {
+  .row-container {
+    @include flex;
+    justify-content: center;
+
+    .post {
+      @include flex($direction: column, $gap: 25px);
+      text-align: left;
+      flex: 1 1 0;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+        height: 260px;
+      }
+    }
+  }
+}
+
+section:nth-of-type(4) {
+  .row-container {
+    @include flex;
+    justify-content: center;
+
+    .post {
+      @include flex($direction: column, $gap: 20px);
+      text-align: left;
+      flex: 1 1 0;
+    }
+  }
+
+  button {
+    width: 15%;
+    margin: 0 auto;
+    appearance: none;
+    cursor: pointer;
+    border: 1px solid $primary-color;
+    background: $primary-color;
+    padding: 10px 45px;
+    font-family: $font-lato;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 1.6px;
+  }
+}
+
+section:nth-of-type(5) {
+  .row-container {
+    @include flex($gap: 250px);
+
+    div {
+      flex: 1 1 0;
+    }
+
+    h3 {
+      font-size: 23px;
+    }
+
+    p {
+      font-family: $font-lato;
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0.95px;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+h6 {
+  @extend %h6;
+}
+
+h4 {
+  @extend %h4;
+}
+
+h5 {
+  @extend %h5;
+}
+
+span {
+  margin-left: 10px;
+}
+
+.heading {
+  @extend %heading;
+}
+
+h3 {
+  @extend %h3;
+}
+
+footer {
+  padding: 70px 135px 30px;
+  background: #f4f4f4;
+
+  .row-container {
+    @include flex($gap: 0);
+    justify-content: space-between;
+
+    .contact {
+      @include flex($direction: column, $gap: 20px);
+
+      h1 {
+        font-family: $font-redhat;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: 2.4px;
+        margin: 0;
+      }
+
+      p {
+        margin: 0;
+        @extend %h6;
+        color: $headline-color;
+      }
+    }
+
+    .icons {
+      @include flex($gap: 23px);
+      align-items: center;
+
+      .border-w {
+        box-sizing: border-box;
+        height: 50px;
+        width: 50px;
+        border: 1px solid $primary-color;
+        padding: 10px;
+        text-align: center;
+
+        .icon {
+          fill: $primary-color;
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+
+      .border-w:hover {
+        background-color: $primary-color;
+      }
+
+      .border-w:hover .icon {
+        fill: white;
+      }
+    }
+  }
+
+  h6 {
+    color: $headline-color;
+    text-align: center;
+    margin-top: 20px;
+  }
+}

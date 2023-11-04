@@ -1,0 +1,50 @@
+%h1 {
+  font-family: $font-redhat;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 2px;
+  margin: 0;
+  color: $headline-color;
+}
+
+%h6 {
+  font-family: $font-lato;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: $secondary-color;
+  margin: 0;
+}
+
+%h4 {
+  color: $headline-color;
+  font-family: $font-redhat;
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+%h5 {
+  color: $primary-color;
+  font-family: $font-lato;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  margin: 0;
+}
+
+%heading {
+  @include flex($gap: 0);
+  justify-content: space-between;
+  align-items: center;
+}
+
+%h3 {
+  color: $headline-color;
+  font-family: $font-redhat;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 2.8px;
+  margin: 0;
+}
