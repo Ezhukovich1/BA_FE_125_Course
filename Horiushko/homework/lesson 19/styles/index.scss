@@ -7,6 +7,12 @@
   justify-content: space-between;
   margin: 20px 135px;
 
+  .svg-container,
+  .search {
+    @include flex($gap: 0);
+    align-items: center;
+  }
+
   .header-container-items {
     @include flex;
     gap: 84px;
@@ -42,6 +48,10 @@
       a:hover::after {
         display: block;
       }
+    }
+
+    .hamburger {
+      display: none;
     }
   }
 }
@@ -122,6 +132,10 @@ section:nth-of-type(3) {
         object-fit: cover;
         height: 260px;
       }
+
+      .post-items {
+        @include flex($direction: column, $gap: 20px);
+      }
     }
   }
 }
@@ -139,7 +153,6 @@ section:nth-of-type(4) {
   }
 
   button {
-    width: 15%;
     margin: 0 auto;
     appearance: none;
     cursor: pointer;
@@ -264,5 +277,247 @@ footer {
     color: $headline-color;
     text-align: center;
     margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    margin: 1rem 2.125rem;
+
+    .header-container-items {
+      gap: 40px;
+
+      .navigation {
+        display: none;
+      }
+
+      .search svg {
+        width: 20px;
+        height: 20px;
+      }
+
+      .hamburger {
+        display: block;
+      }
+    }
+  }
+
+  section {
+    margin: 0 2.125rem;
+    margin-bottom: 70px;
+  }
+
+  .main-info {
+    padding: 1.875rem 2.125rem 0;
+    height: 320px;
+
+    h1 {
+      font-size: 2.25rem;
+      line-height: 3.125rem;
+    }
+  }
+
+  section:nth-of-type(2) {
+    .row-container {
+      & > img {
+        width: 340px;
+        height: 280px;
+      }
+
+      &:nth-of-type(2) {
+        .post-items {
+          width: 100%;
+
+          h6:nth-of-type(2) {
+            padding-bottom: 25px;
+          }
+        }
+      }
+    }
+  }
+
+  section:nth-of-type(3) {
+    .row-container {
+      flex-direction: column;
+      .post:nth-of-type(2) {
+        flex-direction: row-reverse;
+      }
+      .post {
+        flex-direction: row;
+        width: 100%;
+        flex: 1 1 0;
+
+        & > * {
+          display: flex;
+          flex: 1 1 0;
+        }
+        img {
+          min-width: 0%;
+        }
+      }
+    }
+  }
+
+  section:nth-of-type(4) {
+    .post img {
+      width: 340px;
+      height: 160px;
+    }
+  }
+
+  section:nth-of-type(5) {
+    .row-container {
+      flex-direction: column;
+      gap: 50px;
+
+      h3 {
+        line-height: 2.375rem;
+      }
+
+      h3:nth-of-type(2) {
+        margin-bottom: 20px;
+      }
+
+      p {
+        text-align: end;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  footer {
+    padding: 50px;
+
+    .row-container {
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+
+      .contact {
+        align-items: center;
+      }
+    }
+
+    h6 {
+      margin-top: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header-container {
+    margin: 7px 0.625rem;
+
+    .header-container-items {
+      gap: 20px;
+    }
+  }
+
+  section {
+    margin: 0.625rem;
+    margin-bottom: 70px;
+  }
+
+  .main-info {
+    padding: 4.375rem 0.625rem 0;
+    height: 450px;
+    background-size: cover;
+    background-position: 50% 0%;
+
+    h1 {
+      font-size: 1.875rem;
+      line-height: 3.125rem;
+    }
+  }
+
+  section:nth-of-type(2) {
+    h1 {
+      margin-top: 60px;
+      text-align: center;
+    }
+    .row-container:nth-of-type(1),
+    .row-container:nth-of-type(2) {
+      flex-direction: column-reverse;
+      & > img {
+        width: 300px;
+        height: 250px;
+      }
+
+      .post-items {
+        width: 100%;
+      }
+    }
+  }
+
+  section:nth-of-type(3) {
+    .heading {
+      flex-direction: column;
+      gap: 10px;
+      align-items: start;
+    }
+
+    .row-container {
+      gap: 50px;
+      .post {
+        flex-direction: column;
+
+        .heading {
+          flex-direction: row;
+          justify-content: space-between;
+        }
+      }
+
+      .post:nth-of-type(2) {
+        flex-direction: column;
+      }
+    }
+  }
+
+  section:nth-of-type(4) {
+    .heading {
+      flex-direction: column;
+      gap: 10px;
+      align-items: start;
+    }
+
+    .row-container {
+      flex-direction: column;
+      gap: 50px;
+
+      .post .heading {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .post img {
+        width: 300px;
+        height: 150px;
+      }
+    }
+  }
+
+  section:nth-of-type(5) {
+    p:nth-of-type(1) {
+      margin-bottom: 35px;
+    }
+
+    .row-container p {
+      text-align: start;
+    }
+  }
+
+  footer {
+    padding: 50px 10px;
+    .row-container {
+      .contact {
+        gap: 15px;
+        h1 {
+          font-size: 2rem;
+          text-align: center;
+          line-height: unset;
+          margin-bottom: 5px;
+        }
+      }
+    }
   }
 }
