@@ -142,6 +142,10 @@ header .headerright {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 header .headerright nav ul {
   display: -webkit-box;
@@ -157,9 +161,69 @@ header .headerright nav a:hover {
   padding: 4px;
   width: 40px;
 }
+header .headerright .hamburger {
+  display: none;
+}
 header .headerright .search {
   width: 17px;
   height: 16px;
+}
+
+.aside-menu {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(164, 156, 156);
+  opacity: 0;
+  pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+}
+.aside-menu:target {
+  opacity: 1;
+  pointer-events: all;
+}
+.aside-menu .xsymbol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+.aside-menu .xsymbol svg {
+  width: 40px;
+  height: 40px;
+}
+.aside-menu nav {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+.aside-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+.aside-menu ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Red Hat Display";
+  border-bottom: 1px solid white;
 }
 
 .first_screen {
@@ -177,9 +241,20 @@ header .headerright .search {
 
 .blog {
   margin-bottom: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .blog h2 {
   font-weight: 400;
+}
+.blog .img_wrapper {
+  width: 570px;
+  height: 470px;
+}
+.blog .img_wrapper img {
+  width: 100%;
+  height: auto;
 }
 .blog .blog_content {
   width: 450px;
@@ -466,4 +541,88 @@ header .headerright .search {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 700px;
+  }
+  header .container {
+    padding: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .headerleft {
+    width: auto;
+    padding-right: 20px;
+  }
+  header .logo {
+    padding-left: 0;
+  }
+  header .headerright {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    gap: 20px;
+  }
+  header .headerright nav {
+    display: none;
+  }
+  header .headerright .hamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .first_screen {
+    width: 768px;
+    height: 320px;
+    margin-bottom: 70px;
+  }
+  .first_screen h1 {
+    font-size: 36px;
+    padding-top: 60px;
+    width: 570px;
+    padding-left: 34px;
+  }
+  .blog {
+    margin-bottom: 40px;
+  }
+  .blog h2 {
+    font-weight: 300;
+    padding-left: 34px;
+  }
+  .blog .img_wrapper {
+    width: 340px;
+    height: 280px;
+  }
+  .blog .blog_content {
+    width: 340px;
+    height: 280px;
+  }
+  .blog .blog_content h3 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  .blog .blog_content h5 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .blog .blog_content h5 svg {
+    width: 23px;
+    height: 10px;
+  }
+  .blog .blog_section_l {
+    height: auto;
+  }
+  .blog .blog_section_r {
+    height: auto;
+  }
 }
