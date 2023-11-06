@@ -1,0 +1,197 @@
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Roboto', sans-serif;
+
+$font-secondary:'Open Sans', sans-serif;
+$font-primary:'Raleway', sans-serif;
+$font-title:'Roboto', sans-serif;
+
+$color-primary: #333;
+$color-secondary:#666;
+$color-accent:  #FC0;
+$color-subtitle: #898F8F;
+
+.container{
+    width: 1170px;
+    margin: auto;
+    padding-top: 121px;
+    text-align: center;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.subtitle{
+    color: $color-subtitle;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h1{
+    color: $color-accent;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 66px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 100px;
+    position: relative;
+    &::after{
+        content: ' ';
+        display: inline-block;
+        width: 450px;
+        height: 20px;
+        background-size: 210px, 20px, 210px;
+        background-image: url(../img/Line.svg), url(../img/bonfire-sharp.svg), url(../img/Line.svg);
+        background-position: left, center, right;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 360px;
+        bottom: -40px;
+        }
+}
+.section-slider{
+    width: 1030px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+        &::after{
+        content: ' ';
+        width: 1px;
+        height: 560px;
+        background-image: url(../img/divider.svg);
+        position: absolute;
+        left: 50%;
+        }
+        .left{
+            width: 430px;
+            height: 430px;
+            position: relative;
+            &::after{
+                content: ' ';
+                display: inline-block;
+                width: 430px;
+                height: 430px;
+                background-size: 100px, 100px, 100px, 100px;
+                background-image: url(../img/angle1.svg),url(../img/angle2.svg), url(../img/angle4.svg), url(../img/angle3.svg);
+                background-position:top left, top right ,bottom  left, bottom right;
+                background-repeat: no-repeat;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            
+            img{
+                display: block;
+                height: 100%;
+                width: 100%;
+                object-fit: none;
+                object-position: 50% 50%;
+                
+            }
+        }
+        .right{
+            width: 430px;
+            height: 420px;
+            
+            h2{
+                color: $color-secondary;
+                text-align: center;
+                font-family: Roboto;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+                text-transform: capitalize; 
+                margin-top: 0;
+                margin-bottom: 30px;
+            }
+            p{
+                color: $color-secondary;                 
+                text-align: center;
+                font-family: Raleway;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 36px;
+                text-transform: capitalize;
+                margin-top: 0;
+                margin-bottom: 30px;
+            }
+            .social{
+                width: 135px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 49px;
+                a{
+                    
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &:hover{
+                        svg{
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+            .text{
+                color: $color-primary;
+                text-align: center;
+                font-family: Raleway;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                margin-bottom: 54px;  
+                position: relative;
+                &::after{
+                content: ' ';
+                display: inline-block;
+                width: 50px;
+                height: 4px;
+                background-size: 10px, 20px, 10px;
+                background-image: url(../img/Rectangle1.svg), url(../img/Rectangle2.svg), url(../img/Rectangle3.svg);
+                background-position: left, center, right;
+                background-repeat: no-repeat;
+                position: absolute;
+                left: 190px;
+                bottom: -20px;
+                } 
+            }
+            button{
+                height: 24px;
+                width: 118px;
+                border: 1px solid $color-accent;
+                align-items: center;
+                color: $color-secondary;
+                text-align: center;
+                font-family: Open Sans;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 14px;
+                text-transform: uppercase;
+                &:hover{
+                    transform: scale(1.1);
+                }  
+            }
+
+        }
+
+
+}
