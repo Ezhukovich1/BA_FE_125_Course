@@ -211,6 +211,11 @@ main,
   background-size: cover;
   padding-bottom: 74px;
 }
+@media (min-width: 2400px) {
+  .features {
+    background: none;
+  }
+}
 .features h2 {
   text-align: center;
   margin-bottom: 30px;
