@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const miniCss = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const autoprefixer = require('autoprefixer');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: './src/js/main.js', // Точка входа для сборки проекта
@@ -21,6 +22,10 @@ module.exports = {
                 generator: {
                     filename: 'icons/[hash].svg'
                 }
+            },
+            {
+                test: /\.(jpg|png|svg|jpeg|gif)$/,
+                type: 'asset/resource'
             },
             {
                 test: /\.s[ac]ss$/i,
@@ -56,6 +61,14 @@ module.exports = {
         new miniCss({
             filename: 'style.css',
         }),
+        new CopyPlugin({
+            patterns: [
+                {
+                    from: path.resolve(__dirname, 'src/img'),
+                    to: path.resolve(__dirname, 'dist/img')
+                }
+            ]
+        })
     ],
 
     devServer: {
