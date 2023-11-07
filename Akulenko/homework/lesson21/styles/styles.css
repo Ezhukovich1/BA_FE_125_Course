@@ -1,0 +1,81 @@
+.container {
+  width: 1200;
+  margin: 0 auto;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.card-item {
+  width: 303px;
+  height: 430px;
+  position: relative;
+}
+.card-item:hover .card-item__side-front {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+  z-index: 2;
+}
+.card-item:hover .card-item__side-back {
+  z-index: -1;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.card-item__side-front {
+  height: 100%;
+  background: white;
+  border: 1px solid #000;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  z-index: 0;
+  -webkit-transition: -webkit-transform 2s ease;
+  transition: -webkit-transform 2s ease;
+  transition: transform 2s ease;
+  transition: transform 2s ease, -webkit-transform 2s ease;
+}
+.card-item__side-front span {
+  font-size: 26px;
+  font-weight: 900px;
+}
+.card-item__side-front span:first-child {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+.card-item__side-front span:last-child {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+.card-item__side-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: -webkit-transform 2s ease;
+  transition: -webkit-transform 2s ease;
+  transition: transform 2s ease;
+  transition: transform 2s ease, -webkit-transform 2s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  z-index: 0;
+}
+.card-item__side-back img {
+  width: 100%;
+  height: auto;
+}
