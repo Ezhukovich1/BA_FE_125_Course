@@ -1,0 +1,37 @@
+.hero {
+    padding: 70px 0;
+    min-height: 500px;
+    background: url('./../img/hero_bg.png');
+    background-size: cover;
+
+    &__title {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: 1.5px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero {
+        padding: 30px 0;
+        min-height: 320px;
+
+        &__title {
+            font-size: 36px;
+        }
+    }
+}
+
+@media (min-width: 1400px) {
+    .hero {
+        padding: 100px 0;
+        min-height: 600px;
+
+        &__title {
+            font-size: 48px;
+            line-height: 64px;
+            letter-spacing: 2.4px;
+        }
+    }
+}
