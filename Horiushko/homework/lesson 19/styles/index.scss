@@ -50,7 +50,8 @@
       }
     }
 
-    .hamburger {
+    .hamburger,
+    #toggle-menu {
       display: none;
     }
   }
@@ -289,6 +290,13 @@ footer {
 
       .navigation {
         display: none;
+        position: absolute;
+        top: calc(24px + 2rem);
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #fff;
+        padding-bottom: 1rem;
       }
 
       .search svg {
@@ -298,6 +306,14 @@ footer {
 
       .hamburger {
         display: block;
+      }
+
+      #toggle-menu:checked ~ .navigation {
+        @include flex($direction: column);
+      }
+
+      a::after {
+        border: none !important;
       }
     }
   }
@@ -406,7 +422,7 @@ footer {
 
 @media screen and (max-width: 320px) {
   .header-container {
-    margin: 7px 0.625rem;
+    margin: 1rem 0.625rem;
 
     .header-container-items {
       gap: 20px;
