@@ -15,22 +15,32 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="header__logo">
-
+                    <div class="header__container">
+                        <div class="header__logo">
+                            <img src="./img/logo.svg" alt="Manifest">
+                        </div>
+                        <nav class="menu">
+                            <div class="menu__toggle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="22" viewBox="0 0 34 22"
+                                    fill="none">
+                                    <line y1="1" x2="34" y2="1" stroke="black" stroke-width="2" class="line-first" />
+                                    <line y1="11" x2="34" y2="11" stroke="black" stroke-width="2" class="line-second" />
+                                    <line y1="21" x2="34" y2="21" stroke="black" stroke-width="2" class="line-third" />
+                                </svg>
+                            </div>
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="#">Home</a></li>
+                                <li class="menu__item"><a href="#">About</a></li>
+                                <li class="menu__item"><a href="#">Works</a></li>
+                                <li class="menu__item"><a href="#">Blog</a></li>
+                                <li class="menu__item"><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__item"><a href="#">Home</a></li>
-                            <li class="menu__item"><a href="#">About</a></li>
-                            <li class="menu__item"><a href="#">Works</a></li>
-                            <li class="menu__item"><a href="#">Blog</a></li>
-                            <li class="menu__item"><a href="#">Contact</a></li>
-                        </ul>
-                    </nav>
                 </div>
             </div>
         </div>
@@ -274,18 +284,34 @@
                         <a href="mailto:tanya.hill@example.com">tanya.hill@example.com</a>
                     </div>
                 </div>
-                <div class="col-12 col-xl-6">
-                    <ul>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
+                <div class="col-12 col-xl-6 footer__social">
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item">
+                            <a href="#">
+                                <img src="./img/instagram-icon.svg" alt="instagram">
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#">
+                                <img src="./img/facebook-icon.svg" alt="fb">
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#">
+                                <img src="./img/twitter-icon.svg" alt="twiter">
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#">
+                                <img src="./img/linkedin-icon.svg" alt="linkedin">
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
-                    <p class="text-center footer_copyright">
+                    <p class="text-center footer__copyright">
                         © Copyright Manifest Theme. Allrights reserved
                     </p>
                 </div>
