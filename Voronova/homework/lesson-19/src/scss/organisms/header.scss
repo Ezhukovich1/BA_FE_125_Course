@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    position: fixed;
+    background: #ffffff;
+
+    &__container {
+        position: relative;
+
+        padding: 19px 0;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        max-width: 142px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .header {
+        &__container {
+            padding: 38px 0;
+        }
+    }
+}
