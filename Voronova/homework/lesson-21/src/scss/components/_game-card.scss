@@ -1,0 +1,57 @@
+.game-card {
+    margin: 20px 0 20px 0;
+    padding: 0;
+    width: 300px;
+    height: 427px;
+    position: relative;
+
+    &__front {
+        width: 296px;
+        height: 423px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        background-color: #f7f7f7;
+        border: 1px solid #000;
+        border-radius: 9px;
+
+        backface-visibility: hidden;
+    }
+
+    &__back {
+        position: relative;
+        width: 300px;
+        height: 427px;
+        backface-visibility: hidden;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/*------------------------
+    Random Animation
+-------------------------*/
+@for $i from 1 through 6 {
+
+    .game-card:nth-child(#{randomNum(1, 6)}) {
+
+        .game-card__back {
+            animation: animate 1s ease;
+            animation-delay: #{$i + 1}s;
+            animation-fill-mode: none;
+        }
+
+        .game-card__front {
+            animation: animate_back 1s ease;
+            animation-delay: #{$i + 1}s;
+            animation-fill-mode: none;
+        }
+    }
+
+}

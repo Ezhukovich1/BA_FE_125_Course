@@ -1,0 +1,45 @@
+@function randomNum($min, $max) {
+    $rand: random();
+    $randomNum: $min + floor($rand * (($max - $min) + 1));
+
+    @return $randomNum;
+}
+
+
+@keyframes animate_back {
+    0% {
+        transform: perspective(1000px) rotateY(-180deg)
+    }
+
+    25% {
+        transform: perspective(1000px) rotateY(-90deg)
+    }
+
+    50% {
+        transform: perspective(1000px) rotateY(0deg)
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(-180deg)
+    }
+
+}
+
+@keyframes animate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg)
+    }
+
+    25% {
+        transform: perspective(1000px) rotateY(90deg)
+    }
+
+    50% {
+        transform: perspective(1000px) rotateY(180deg)
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(0deg)
+    }
+
+}
