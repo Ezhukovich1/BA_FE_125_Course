@@ -2,8 +2,15 @@
     width: 1200;
     margin: 0 auto;
     padding: 50px;
+    border: 1px red solid;
+    
+    .row {
     display: flex;
+    justify-content: center;
     gap: 20px;
+    padding-bottom: 20px;
+    }
+
 }
 
 .card-item {
@@ -29,17 +36,30 @@
         background: white;
         border: 1px solid #000;
         border-radius: 10px;
-  
-       
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-
+        position: relative;
+         
+        
         transform: rotateY(-180deg);
         backface-visibility: hidden;
         z-index: 0;
         transition: transform 2s ease;
+
+        .inner_border {
+            position: absolute;
+            background: white;
+            width: 280px;
+            height: 400px;
+            top: 10px;
+            right: 10px;
+            border: 1px solid #000;
+            z-index: 1;
+            border-radius: 10px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
 
 
         span {
