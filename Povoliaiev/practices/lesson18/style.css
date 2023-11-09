@@ -1,0 +1,76 @@
+label{
+font-family: roboto;
+
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    position: relative;
+    width: 245px;
+}
+
+.max_widht{
+    width: 100%;
+}
+
+.group_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.group.max_widht{
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+ 
+.hint{
+    font-weight: 400;
+}
+
+.group .hint{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.gender_item input{
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+
+.radio_button{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #E4E4E4E4;
+    display: block;
+    cursor: pointer;
+    margin-right: 8px;
+    position: relative;
+}
+
+.radio_button::after{
+   content: "";
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    position: absolute;
+    top: 6;
+    left: 6;
+    display: none;
+}
+
+.gender_item{
+    display: flex;
+}
+
+.gender_item input:checked ~ .radio_button {
+    background-color: #007BFF;
+}
+
+.gender_item input:checked ~ .radio_button::after{
+display: block;
+}

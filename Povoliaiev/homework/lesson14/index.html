@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <h2>Create an Account</h2>
+            <div class="group_text">
+
+                <label>
+                    <span>First Name</span>
+                    <input placeholder="Name" name="First_Name" type="text" />
+                </label>
+
+                <label>
+                    <span>Last Name</span>
+                    <input placeholder="Last Name" name="Last_Name" type="text" />
+                </label>
+
+            </div>
+
+            <label class="group_email">
+
+                <span>E-mail</span>
+                <input placeholder="E-mail" name="Email" type="email" />
+                <span> We'll never share your email with anyone else. </span>
+
+            </label>
+
+            <div class="group_radio">
+
+                <label>
+                    <input name="genger" id="male" value="male" type="radio" />
+                    <span>Male</span>
+                </label>
+
+                <label>
+                    <input name="genger" id="female" value="female" type="radio" />
+                    <span>Female</span>
+                </label>
+
+            </div>
+
+            <div class="group_address">
+            
+                <label>
+                    <span>Country</span>
+                    <div class="select">
+                        <img class="img" src="./image/➡️ Right.png" alt="">
+                        <select name="country" id="country">
+                            <option value="">Select</option>
+                            <option value="">Ukraine</option>
+                            <option value="">Poland</option>
+                            <option value="">USA</option>
+                            <option value="">Canada</option>
+                        </select>
+                    </div>
+                </label>
+                
+
+                    <label>
+                        <span>City</span>
+                        <input name="city" type="text" />
+                    </label>
+                       
+               
+            </div>
+
+
+                <button class="button" type="submit">Sign Up</button>
+
+                <div class="about_us">
+                    <p>By clicking the 'Sign Up' button, you confirm that you accept our <br>
+                    <a href="#">Terms of Use</a>  and <a href="#">Terms of Use</a> .</p>
+                </div>
+                <div class="footer">
+                    <p>Have an account? <a href="#">Log In</a> </p>
+                </div>
+        </form>
+
+
+            <form action="#">
+                <h2>Profile</h2>   
+
+                <div class="group_photo">
+
+                    <div class="prof_photo">
+                    <img src="./image/📷 Image.png" alt="photo">
+                    </div>
+
+                  <div class="file">
+
+                    <label>
+                        <input type="file">
+                        <img class="img2" src="./image/Photo Camera.svg" alt="">
+                    </label>
+                    <span>Up to 1 MB (300x300 px)</span>
+                    </div>
+                   
+
+                   <div class="delete">
+
+                    <label>
+                        <input type="file">
+                        <img class="img3" src="./image/Trash.svg" alt="">
+                    </label> 
+
+                   </div>
+                    
+                </div>
+    
+                <div class="group_text">
+            
+                    <label>
+                        <span>Name</span>
+                        <input placeholder="Name" name="First_Name" type="text" />
+                    </label>
+            
+                    <label>
+                        <span>E-maile</span>
+                        <input placeholder="E-mail" name="E-mail" type="email" />
+                    </label>
+            
+                </div>
+            
+                <div class="group_address">
+            
+                    <label>
+                        <span>Country</span>
+                        <div class="select">
+                            <img class="img" src="./image/➡️ Right.png" alt="">
+                            <select name="country" id="country">
+                                <option value="">Select</option>
+                                <option value="">Ukraine</option>
+                                <option value="">Poland</option>
+                                <option value="">USA</option>
+                                <option value="">Canada</option>
+                            </select>
+                        </div>
+                    </label>
+            
+                    <label>
+                        <span>City</span>
+                        <input name="city" type="text" />
+                    </label>
+            
+            
+                </div>
+
+                <div class="group_info">
+
+                    <label>
+                        <span>Zip Code</span>
+                        <input type="password" />
+                    </label>
+
+                    <label>
+                        <span>Phone Number</span>
+                        <input type="tel" />
+                    </label>
+                </div>
+            
+                <div>
+                    <button class="button2" type="submit">Update</button>
+                </div>
+                
+
+            </form>
+            
+    </div>
+</body>
+</html>
