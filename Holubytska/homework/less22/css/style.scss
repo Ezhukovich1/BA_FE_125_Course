@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@mixin adaptiveImg($percent, $width:100%) {
+    width: $width;
+    padding: 0 0 $percent 0;
+    overflow: hidden;
+    position: relative;
+    & img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top:0;
+        left: 0;
+    }
+}
+@mixin flexBox ($justContent, $alineItems, $gap, $direction:row, $display:flex) {
+    display: $display;
+    flex-direction: $direction;
+    justify-content:$justContent;
+    align-items:$alineItems;
+    gap:$gap;
+    flex-flow: row wrap;
+}
+main{
+    @include flexBox(center, center,0);
+    width: 100%;
+    height: 100vh;
+}
+.cards_block{
+    @include flexBox(center, center,20px);
+    width:63%;
+    margin: 0 auto;
+    .card_item{
+        margin-bottom: 5px;
+        width: 109.86px;
+        height: 149.35px;
+        border-radius: 10px;
+        position: relative;
+        &:hover{
+            .shirt, .front{
+                animation-play-state: paused;
+            }
+        }
+        & .shirt{
+            @include adaptiveImg(146.7%, 100%);
+            border: 1px solid #292A23;
+            border-radius: 10px;
+            position: absolute;
+            opacity: 1;
+            animation: rotate 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 2 alternate running  backwards;
+        }
+        & .front{
+            border-radius: 10px;
+            background-color: white;
+            border: 1px solid #292A23;
+            position: absolute;
+            z-index: -1;
+            opacity: 0;
+            animation: rotate_front 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 2 alternate running  backwards;
+            & svg{
+               width: 100%;
+                height: 100%;
+            }
+        }
+    }
+            :nth-child(1){
+                .shirt, .front{
+                    animation-delay: random(12)+s;//задержка перед проигрыванием.
+                }
+            }
+            :nth-child(2){
+                .shirt, .front{
+                    animation-delay: random(12)+s;
+                }
+            }
+            :nth-child(3){
+                .shirt, .front{
+                    animation-delay: random(12)+s;
+                }
+            }
+            :nth-child(4){
+                .shirt, .front{
+                    animation-delay: random(12)+s;
+                }
+            }
+            :nth-child(5){
+                .shirt, .front{
+                    animation-delay: random(12)+s;
+                }
+            }
+            :nth-child(6){
+                .shirt, .front{
+                    animation-delay: random(12)+s;
+                }
+            }
+            :nth-child(7){
+                .shirt, .front{
+                    animation-delay: random(12)+s;
+                }
+            }
+            :nth-child(8){
+                .shirt, .front{
+                    animation-delay: random(12)+s;
+                }
+            }
+            :nth-child(9){
+                .shirt, .front{
+                    animation-delay: random(12)+s;
+                }
+            }
+            :nth-child(10){
+                .shirt, .front{
+                    animation-delay: random(12)+s;
+                }
+            }
+            :nth-child(11){
+                .shirt, .front{
+                    animation-delay: random(12)+s;
+                }
+            }
+            :nth-child(12){
+                .shirt, .front{
+                    animation-delay: random(12)+s;
+                }
+            }
+}
+@keyframes rotate {
+ 0%{
+     opacity: 1;
+     transform: rotateY(-180deg);
+ }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes rotate_front {
+    0%{
+        opacity: 0;
+        transform: rotateY(-180deg);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .cards_block{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cards_block{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .cards_block{
+        width: 100%;
+    }
+}
