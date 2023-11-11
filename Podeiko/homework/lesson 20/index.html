@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/75d09723d7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>RWD</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <img src="./img/logo.svg" alt="Logo">
+                </div>
+                <div class="header__body">
+                    <nav class="header__menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#">home</a>
+                            </li>
+                            <li class="menu__item"><a href="#">about</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">works</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">blog</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a href="#" class="header__search">
+                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="search" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M13.8942 11.0715L17.6712 14.6313C17.8399 14.8079 17.8316 15.0783 17.6524 15.2454L16.9914 15.8684C16.9027 15.9526 16.7821 16 16.6562 16C16.5303 16 16.4096 15.9526 16.3209 15.8684L12.5439 12.3085C12.4394 12.21 12.3446 12.1028 12.2606 11.9881L11.5524 11.0982C10.3806 11.9801 8.92549 12.4602 7.42595 12.4598C4.33594 12.4699 1.65084 10.461 0.960303 7.62231C0.269767 4.78365 1.75809 1.87288 4.54414 0.613257C7.3302 -0.646363 10.6704 0.0813446 12.5873 2.36555C14.5042 4.64977 14.4862 7.88086 12.5439 10.1459L13.4881 10.76C13.6356 10.849 13.7718 10.9535 13.8942 11.0715ZM2.70508 6.23017C2.70508 8.68773 4.81889 10.68 7.42641 10.68C8.67859 10.68 9.87948 10.2112 10.7649 9.37666C11.6503 8.54216 12.1477 7.41034 12.1477 6.23017C12.1477 3.77262 10.0339 1.78037 7.42641 1.78037C4.81889 1.78037 2.70508 3.77262 2.70508 6.23017Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                    <input type="checkbox" id="toggle" class="checkbox">
+                    <label for="toggle" class="burger__menu">
+                        <img src="./img/hamburger.svg" alt="burger__menu">
+                    </label>
+                    <nav class="header__menu header__mobile">
+                        <label for="toggle" class="xmark">
+                            <img src="./img/close.svg" alt="xmark">
+                        </label>
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#">home</a>
+                            </li>
+                            <li class="menu__item"><a href="#">about</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">works</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">blog</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#">contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="page">
+            <section class="main__title">
+                <div class="container">
+                    <div class="main__title__content">
+                        <h1>Manifest is a newborn theme.
+                            Clean, simple and fast.</h1>
+                    </div>
+                </div>
+                <div class="title__background">
+                    <img src="./img/bg-image.png" alt="background-image">
+                </div>
+            </section>
+            <section class="main__blog">
+                <div class="container">
+                    <div class="blog__title">
+                        <h2>Blog</h2>
+                    </div>
+                    <article class="blog__description start">
+                        <div class="description__img">
+                            <img src="./img/img_arrow.png" alt="blog-image">
+                        </div>
+                        <div class="description__info">
+                            <span>Technology, Interface Design</span>
+                            <h4>Using UX Design to Build a Sustainable Future</h4>
+                            <span>6 May, 2020</span>
+                            <p>Transformation has to be driven by everybody, not just by climate groups, and we have a
+                                responsibility to use our
+                                influence to drive this.
+                                <svg>
+                                    <use xlink:href="./img/sprite.svg#Arrow_2"></use>
+                                </svg>
+                            </p>
+
+                        </div>
+                    </article>
+                    <article class="blog__description end">
+                        <div class="description__info">
+                            <span>Technology, Interface Design</span>
+                            <h4>Using UX Design to Build a Sustainable Future</h4>
+                            <span>6 May, 2020</span>
+                            <p>Transformation has to be driven by everybody, not just by climate groups, and we have a
+                                responsibility to use our
+                                influence to drive this.
+                                <svg>
+                                    <use xlink:href="./img/sprite.svg#Arrow_2"></use>
+                                </svg>
+                            </p>
+
+                        </div>
+                        <div class="description__img">
+                            <img src="./img/blog-image.png" alt="blog-image">
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="main__posts">
+                <div class="container">
+                    <div class="posts__title">
+                        <h3>Latest Posts</h3>
+                        <div class="posts__title__view">
+                            <span>View All</span>
+                            <svg>
+                                <use xlink:href="./img/sprite.svg#Arrow_2"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="post__lists">
+                        <article class="lists__item">
+                            <div class="item__image">
+                                <img src="./img/img_lamp.png" alt="lamp">
+                            </div>
+                            <div class="item__description">
+                                <div class="description__heading">
+                                    <span>Interface Design</span>
+                                    <span>8 June, 2020</span>
+                                </div>
+                                <div class="description__items">
+                                    <h3>UX traffic light colours</h3>
+                                    <p>UI has to make a huge visual difference between warning, an alert and a success.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="lists__item">
+                            <div class="item__image">
+                                <img src="./img/img_arrow_smaller.png" alt="arrow">
+                            </div>
+                            <div class="item__description">
+                                <div class="description__heading">
+                                    <span>Technology</span>
+                                    <span>6 May, 2020</span>
+                                </div>
+                                <div class="description__items">
+                                    <h3>Using UX Design to Build a Sustainable Future</h3>
+                                    <p>UI has to make a huge visual difference between warning, an alert and a success.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="lists__item">
+                            <div class="item__image">
+                                <img src="./img/img_roof.png" alt="roof">
+                            </div>
+                            <div class="item__description">
+                                <div class="description__heading">
+                                    <span>Visual Design</span>
+                                    <span>8 June, 2020</span>
+                                </div>
+                                <div class="description__items">
+                                    <h3>Creativity vs. UX</h3>
+                                    <p>Is it possible to create a delightful user experience without following best UX
+                                        practices?</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="main__popular">
+                <div class="container">
+                    <div class="posts__title">
+                        <h3>The Most Popular</h3>
+                        <div class="posts__title__view">
+                            <span>View All</span>
+                            <svg>
+                                <use xlink:href="./img/sprite.svg#Arrow_2"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="post__lists">
+                        <article class="lists__item">
+                            <div class="item__image">
+                                <img src="./img/img_lamp2.png" alt="lamp">
+                            </div>
+                            <div class="item__description">
+                                <div class="description__heading">
+                                    <span>Interface Design</span>
+                                    <span>8 June, 2020</span>
+                                </div>
+                                <div class="description__items">
+                                    <h3>Mentorship Match — How a simple LinkedIn feature can boost diversity</h3>
+                                    <p>LinkedIn is on a clear mission to make professionals more successful by
+                                        connecting the global workforce and as we
+                                        learned — diversity and success go hand in hand.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="lists__item">
+                            <div class="item__image">
+                                <img src="./img/img_arrow2.png" alt="arrow">
+                            </div>
+                            <div class="item__description">
+                                <div class="description__heading">
+                                    <span>Visual Design</span>
+                                    <span>8 June, 2020</span>
+                                </div>
+                                <div class="description__items">
+                                    <h3>Creativity vs. UX</h3>
+                                    <p>Is it possible to create a delightful user experience without following best UX
+                                        practices?</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <a href="#">Load More</a>
+                </div>
+            </section>
+            <section class="main__info">
+                <div class="container">
+                    <div class="info__title">
+                        <h4>Full-time UI/UX designer
+                            Head of Design at VeronaLabs.com</h4>
+                        <svg>
+                            <use xlink:href="./img/sprite.svg#Arrow_2"></use>
+                        </svg>
+                    </div>
+                    <div class="info__description">
+                        <p>We work with clients around the world from our headquarters in Charleston, South Carolina.
+                        </p>
+                        <p>We focus on naming, branding, brand narratives, website design and development, and brand
+                            experiences.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__project">
+                        <h2>Need a project?</h2>
+                        <div class="project__contacts">
+                            <p>(239) 555-0108</p>
+                            <p>tanya.hill@example.com</p>
+                        </div>
+                    </div>
+                    <div class="footer__socials">
+                        <a href="#">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" y="0.5" width="49" height="49" stroke="#565656" />
+                                <path
+                                    d="M25.0029 18.8467C21.5969 18.8467 18.8496 21.594 18.8496 25C18.8496 28.406 21.5969 31.1533 25.0029 31.1533C28.4089 31.1533 31.1562 28.406 31.1562 25C31.1562 21.594 28.4089 18.8467 25.0029 18.8467ZM25.0029 29.0004C22.8019 29.0004 21.0025 27.2064 21.0025 25C21.0025 22.7936 22.7965 20.9996 25.0029 20.9996C27.2093 20.9996 29.0034 22.7936 29.0034 25C29.0034 27.2064 27.204 29.0004 25.0029 29.0004ZM32.8431 18.595C32.8431 19.3929 32.2005 20.0302 31.4079 20.0302C30.61 20.0302 29.9727 19.3876 29.9727 18.595C29.9727 17.8024 30.6153 17.1598 31.4079 17.1598C32.2005 17.1598 32.8431 17.8024 32.8431 18.595ZM36.9186 20.0517C36.8275 18.1291 36.3884 16.4261 34.9799 15.023C33.5768 13.6199 31.8738 13.1807 29.9513 13.0843C27.9698 12.9719 22.0307 12.9719 20.0492 13.0843C18.132 13.1754 16.429 13.6145 15.0205 15.0176C13.6121 16.4207 13.1783 18.1237 13.0819 20.0463C12.9694 22.0278 12.9694 27.9669 13.0819 29.9483C13.1729 31.8709 13.6121 33.5739 15.0205 34.977C16.429 36.3801 18.1266 36.8193 20.0492 36.9157C22.0307 37.0281 27.9698 37.0281 29.9513 36.9157C31.8738 36.8246 33.5768 36.3855 34.9799 34.977C36.383 33.5739 36.8222 31.8709 36.9186 29.9483C37.031 27.9669 37.031 22.0331 36.9186 20.0517ZM34.3587 32.0744C33.941 33.1241 33.1323 33.9327 32.0773 34.3558C30.4975 34.9824 26.7488 34.8378 25.0029 34.8378C23.2571 34.8378 19.503 34.977 17.9285 34.3558C16.8788 33.9381 16.0702 33.1294 15.6471 32.0744C15.0205 30.4946 15.1651 26.7458 15.1651 25C15.1651 23.2542 15.0259 19.5001 15.6471 17.9256C16.0648 16.8759 16.8735 16.0673 17.9285 15.6442C19.5083 15.0176 23.2571 15.1622 25.0029 15.1622C26.7488 15.1622 30.5029 15.023 32.0773 15.6442C33.127 16.0619 33.9356 16.8706 34.3587 17.9256C34.9853 19.5054 34.8407 23.2542 34.8407 25C34.8407 26.7458 34.9853 30.4999 34.3587 32.0744Z"
+                                    fill="#565656" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" y="0.5" width="49" height="49" stroke="#565656" />
+                                <path
+                                    d="M30.5845 26.5L31.251 22.1566H27.0834V19.338C27.0834 18.1497 27.6656 16.9914 29.5321 16.9914H31.4268V13.2934C31.4268 13.2934 29.7074 13 28.0635 13C24.6313 13 22.3879 15.0803 22.3879 18.8463V22.1566H18.5728V26.5H22.3879V37H27.0834V26.5H30.5845Z"
+                                    fill="#565656" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" y="0.5" width="49" height="49" stroke="#565656" />
+                                <path
+                                    d="M36.7376 18.9812C36.7564 19.2437 36.7564 19.5063 36.7564 19.7687C36.7564 27.775 30.6626 37 19.5251 37C16.0938 37 12.9064 36.0062 10.2251 34.2813C10.7126 34.3375 11.1813 34.3563 11.6876 34.3563C14.5188 34.3563 17.1251 33.4 19.2063 31.7688C16.5438 31.7125 14.3126 29.9688 13.5438 27.5687C13.9189 27.625 14.2938 27.6625 14.6876 27.6625C15.2313 27.6625 15.7751 27.5874 16.2814 27.4563C13.5064 26.8937 11.425 24.4562 11.425 21.5125V21.4375C12.2313 21.8875 13.1688 22.1688 14.1625 22.2062C12.5313 21.1187 11.4626 19.2625 11.4626 17.1625C11.4626 16.0375 11.7625 15.0062 12.2875 14.1062C15.2688 17.7812 19.7501 20.1812 24.775 20.4437C24.6813 19.9937 24.625 19.525 24.625 19.0563C24.625 15.7187 27.325 13 30.6813 13C32.425 13 34 13.7312 35.1063 14.9125C36.475 14.65 37.7875 14.1437 38.95 13.45C38.5 14.8563 37.5438 16.0375 36.2875 16.7875C37.5063 16.6563 38.6876 16.3187 39.775 15.85C38.9502 17.05 37.9189 18.1187 36.7376 18.9812Z"
+                                    fill="#565656" />
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.5" y="0.5" width="49.0007" height="49" stroke="#565656" />
+                                <path
+                                    d="M18.3723 37H13.3964V20.9764H18.3723V37ZM15.8817 18.7907C14.2906 18.7907 13 17.4728 13 15.8817C13 15.1174 13.3036 14.3844 13.844 13.844C14.3844 13.3036 15.1174 13 15.8817 13C16.6459 13 17.3789 13.3036 17.9193 13.844C18.4597 14.3844 18.7633 15.1174 18.7633 15.8817C18.7633 17.4728 17.4722 18.7907 15.8817 18.7907ZM36.9952 37H32.0301V29.1998C32.0301 27.3409 31.9926 24.9569 29.443 24.9569C26.856 24.9569 26.4596 26.9766 26.4596 29.0659V37H21.4891V20.9764H26.2614V23.1622H26.331C26.9953 21.9032 28.618 20.5746 31.039 20.5746C36.0748 20.5746 37.0005 23.8908 37.0005 28.198V37H36.9952Z"
+                                    fill="#565656" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <span>© Copyright Manifest Theme. Allrights reserved</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
