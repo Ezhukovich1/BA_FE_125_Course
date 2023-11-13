@@ -1,0 +1,206 @@
+@import './modules/fonts';
+@import './modules/variables';
+@import './modules/extends';
+
+.container {
+    width: 1170px;
+    margin: 121px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tite_container {
+    width: 450px;
+    height: 157px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 40px;
+    
+    p {
+        @extend %grey-txt;
+        color: $grey;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px; 
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+
+    h1 {
+        @extend %h1;
+        padding-bottom: 50px;
+    }
+
+    .line_l {
+      @include line ($left:true);
+    }
+
+    .line_r {
+        @include line ($right:true);
+       
+    }
+
+    img {
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.section {
+    display: flex;
+    width: 100%;
+
+   .slider-l {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+      
+  
+    .img {
+        width: 400px;
+        height: 400px;
+        position: relative;
+        display: flex;
+    }
+
+    .border_tl {
+        @extend %border;
+        top: -15px;
+        left: -15px;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+    }
+
+    .border_tr {
+        @extend %border;
+        top: -15px;
+        right: -15px;
+        border-left-color: transparent;
+        border-bottom-color: transparent;
+    }
+
+    .border_bl {
+        @extend %border;
+        bottom: -15px;
+        left: -15px;
+        border-right-color: transparent;
+        border-top-color: transparent;
+    }
+
+    .border_br {
+        @extend %border;
+        bottom: -15px;
+        right: -15px;
+        border-left-color: transparent;
+        border-top-color: transparent;
+    }
+}
+
+    .slider-r {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+        @extend %grey-txt;
+        color: $greytxt;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+
+    .divider_2 {
+        background: $gold;
+        width: 100px;
+        height: 1px;
+        margin: 30px 0;
+        align-self: center;
+    }
+
+    p {
+        @extend %position_txt;
+        padding-bottom: 30px;
+    }
+
+    span {
+        @extend %spantxt;
+        padding-bottom: 20px;
+    }
+    
+    .divider_3 {    
+        width: 20px;
+        height: 4px;
+        background-color: $gold;
+        align-self: center;
+        position: relative;
+        margin-bottom: 25px;
+
+            &::before {
+                @extend %smallines;
+                left: -15px;
+            }
+
+            &::after {
+                @extend %smallines;
+                right: -15px;
+            }
+        
+        }
+
+        .button {
+            @extend %btntxt;
+            padding: 5px 10px;
+            border: 1px solid $gold;
+            text-decoration: none;
+            width: max-content;
+            align-self: center;
+
+                &:hover {
+                    background: $gold;
+                }
+        }
+
+        .social {
+            width: 135px;
+            height: 30px;
+            display: flex;
+            flex-direction: row;
+            align-self: center;
+            gap: 5px;
+            margin-bottom: 50px;
+            
+            svg {
+                width: 30px;
+                height: 30px;
+                fill: #CCCCCC;
+                stroke: #CCCCCC;
+
+                &:hover {
+                    fill: $gold;
+                    stroke: $gold;
+                }
+            }
+
+
+        }
+   }
+
+
+   
+   .divider {
+        background-color: $gold;
+        width: 1px;
+        height: 560px;
+        margin-left: 85px;
+        margin-right: 85px;        
+   }
+}
