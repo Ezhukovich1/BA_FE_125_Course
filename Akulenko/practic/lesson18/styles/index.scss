@@ -1,0 +1,149 @@
+@import './modules/fonts';
+@import './modules/variabless';
+
+body {
+    font-family: $font-family;
+    color: $black;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+}
+
+%flexible {
+    display: flex;
+}
+
+%title-description {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+}
+
+@mixin btn($type: primary) {
+    @extend %flexible;
+    align-items: center;
+    padding: 16px 40px 14px 40px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; 
+    text-transform: uppercase;
+    height: 24px;
+    width: max-content;
+
+    @if $type == primary {
+        background: $primary;
+        border: 1px solid $primary;
+        color: $white;
+    } @else {
+        background: $white;
+        border: 1px solid $secondary;
+        color: $secondary;
+
+        &:hover {
+            background: $secondary;
+            color: $white;
+        }
+    }
+}
+ 
+header {
+    padding: 18px 0;
+
+    .logo {
+        color: $primary;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 100% */
+        letter-spacing: 1.44px;
+        text-transform: uppercase;
+    }
+    .container {
+        @extend %flexible;
+        justify-content: space-between;
+        align-items: center; 
+    }
+
+    .group {
+        @extend %flexible;
+    }
+
+    .navigation {
+        @extend %flexible;
+        list-style: none;
+        margin-right: 24px;
+        gap: 16px;
+
+        li {
+        padding-top: 16px;
+        padding-bottom: 18px;
+        }
+
+            a {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px; 
+            }
+    }
+}
+
+.buttons {
+    @extend %flexible;
+    align-items: center;
+    gap: 16px;
+}
+
+.button {
+    @include btn (primary);
+}
+
+.button-second {
+    @include btn(second);
+}
+
+.section-bg {
+    background-image: url(../img/shape1.png), url(../img/back.png);
+    background-position: right bottom, left top;
+    background-size: auto, cover;
+    background-repeat: no-repeat, no-repeat;
+    width: 100%;
+    padding-top: 202px;
+    padding-bottom: 204px;
+
+    .group {
+        @extend %flexible;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    h1 {
+        color: $white;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 80px;
+        width: 770px;
+    }
+
+    span {
+        @extend %title-description;
+        color: $white;
+        width: 470px;
+    }
+
+    .button {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+}
