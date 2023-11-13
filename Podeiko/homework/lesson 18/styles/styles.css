@@ -1,0 +1,191 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  margin: 0 0 100px 0;
+}
+
+main {
+  flex: 1 1 auto;
+  margin: 0 0 100px 0;
+}
+
+main .container {
+  gap: 40px;
+}
+
+footer {
+  background: #16133d;
+}
+
+h1 {
+  color: #16133d;
+  font-family: Nunito Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0.2px;
+}
+
+h2 {
+  color: #16133d;
+  font-family: Quicksand;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+h3 {
+  color: #16133d;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.28px;
+  letter-spacing: 0.2px;
+}
+
+h4 {
+  color: #7690a8;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+p {
+  color: #16133d;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+a {
+  color: #3db370;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo_group {
+  display: flex;
+  align-items: center;
+}
+
+header .logo_group {
+  padding: 22px 0;
+}
+
+.flex_container {
+  display: flex;
+  gap: 30px;
+}
+
+.flex_title {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.flex_card {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  position: relative;
+  border: 1px solid #e5eaf4;
+  border-radius: 8px;
+  gap: 30px;
+}
+
+.flex_card:hover {
+  border: 1px solid #3db370;
+  transition: all 0.3s ease-in;
+}
+
+.flex_card:hover .icon_hover {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+
+.icon {
+  width: 74px;
+  height: 74px;
+  z-index: 0;
+  border: 1px solid rgba(21, 101, 216, 0.1);
+  border-radius: 16px;
+  padding: 11px 20px;
+}
+
+.icon_hover {
+  width: 74px;
+  height: 74px;
+  opacity: 0;
+  position: absolute;
+  left: 40px;
+  z-index: 1;
+  border: 1px solid rgba(21, 101, 216, 0.1);
+  border-radius: 16px;
+  padding: 11px 20px;
+}
+
+.logo_group img {
+  width: 30px;
+  height: 30px;
+  margin: 0 13px 0 0;
+}
+
+footer .container {
+  padding: 40px 0;
+  gap: 40px;
+}
+
+footer h2 {
+  color: #fff;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+.socials svg {
+  width: 39px;
+  height: 39px;
+  padding: 9px;
+  background: #efeef3;
+  border-radius: 5px;
+}
+
+.socials a:hover use {
+  fill: #3db370;
+  transition: all 0.3s ease-in;
+}
