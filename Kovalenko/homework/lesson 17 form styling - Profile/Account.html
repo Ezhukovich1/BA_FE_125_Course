@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Account</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="section-1">
+            <h1>Create an Account</h1>
+            <form action="">
+                <div class="group">
+                    <div class="name">
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name">
+                    </div>
+                    <div class="name">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name">
+                    </div>
+                </div>
+
+                <div class="email">
+                    <label for="Email">E-mail</label>
+                    <div class="spacing7px"></div>
+                    <input type="text" id="Email">
+                    <h2>We'll never share your email with anyone else.</h2>
+                </div>
+
+                <div class="gender-group">
+                    <label class="gander-item">
+                        <input type="radio" name="gander">
+                        <span class="radiobutton"></span>
+                        <span class="h1">Male</span>
+                    </label>
+                    <label class="gander-item">
+                        <input type="radio" name="gander">
+                        <span class="radiobutton"></span>
+                        <span class="h1">Female</span>
+                    </label>
+                </div>
+
+                <div class="place">
+                    <div class="country">
+                        <label for="country">Country</label>
+                        <div class="spacing7px"></div>
+                        <select name="Country" id="country">
+                            <option value="">Select</option>
+                            <option value="ua">Ukraine</option>
+                            <option value="pl">Poland</option>
+                            <option value="ger">Germany</option>
+                            <option value="fr">France</option>
+                            <option value="us">USA</option>
+                        </select>
+                    </div>
+                    <div class="city">
+                        <label for="city">City</label>
+                        <div class="spacing7px"></div>
+                        <input type="text" id="city">
+                    </div>
+                </div>
+
+                <button id="btn" type="submit">Sign Up</button>
+
+                <h3>By clicking the 'Sign Up' button, you confirm that you accept our <br> <span>Terms of Use</span>
+                    and <span>Privacy Policy</span></h3>
+
+                <div class="border"></div>
+
+                <div class="footer">
+                    <h3>Have an account?</h3>
+                    <a href="">Log In</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="section-1">
+            <h1>Profile</h1>
+            <form action="">
+                <div class="profile">
+                    <div>
+                        <img src="img/account_foto.svg" alt="">
+                    </div>
+                    <div class="forms">
+                        <div class="camera-btn">
+                            <button><img src="img/Photo Camera.svg" alt=""></button>
+                            <p>Up to 1 MB (300x300 px)</p>
+                        </div>
+                        <div class="bin">
+                            <button><img src="img/Trash.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="name">
+                        <label for="name">Name</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="name">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email">
+                    </div>
+                </div>
+
+                <div class="place">
+                    <div class="country">
+                        <label for="country">Country</label>
+                        <div class="spacing7px"></div>
+                        <select name="Country" id="country">
+                            <option value="">Select</option>
+                            <option value="ua">Ukraine</option>
+                            <option value="pl">Poland</option>
+                            <option value="ger">Germany</option>
+                            <option value="fr">France</option>
+                            <option value="us">USA</option>
+                        </select>
+                    </div>
+                    <div class="city">
+                        <label for="city">City</label>
+                        <div class="spacing7px"></div>
+                        <input type="text" id="city">
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="name">
+                        <label for="zip_code">Zip Code</label>
+                        <input type="text" id="zip_code">
+                    </div>
+                    <div class="name">
+                        <label for="phone_number">Phone Number</label>
+                        <input type="text" id="phone_number">
+                    </div>
+                </div>
+                <button type="submit" id="btn-update">Update</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
