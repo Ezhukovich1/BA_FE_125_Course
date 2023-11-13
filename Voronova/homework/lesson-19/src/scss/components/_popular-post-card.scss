@@ -1,0 +1,53 @@
+.popular-post-card {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+
+    &__img {
+        margin-bottom: 25px;
+    }
+
+    &__info {
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__cat,
+    &__date {
+        font-family: 'Lato', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 1.2px;
+        color: #7B7B7B;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 166%;
+        letter-spacing: 2.2px;
+    }
+
+    &__description {
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 166%;
+        letter-spacing: 0.8px;
+        color: #565656;
+    }
+}
+
+@media (min-width: 768px) {
+    .popular-post-card {
+        &__img {
+            margin-bottom: 20;
+        }
+
+        &__title {
+            margin-bottom: 20px;
+        }
+    }
+}

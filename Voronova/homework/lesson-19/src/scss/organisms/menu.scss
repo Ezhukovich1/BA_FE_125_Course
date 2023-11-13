@@ -1,0 +1,125 @@
+.menu {
+    &__list {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        justify-content: center;
+        gap: 30px;
+
+        height: 100vh;
+        top: 62px;
+
+        position: fixed;
+        right: -100%;
+        background-color: #ffffff;
+        transition: all .5s ease;
+
+    }
+
+    &__item {
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+
+        a {
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 4.2px;
+            text-transform: uppercase;
+            color: #000;
+            text-decoration: none;
+        }
+    }
+
+
+    /*----------------------
+        Menu Mobile
+    ----------------------*/
+
+    &__toggle {
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+        z-index: 998;
+
+        line {
+            float: left;
+            margin-left: 0;
+            transition: all .4s ease-in-out;
+        }
+    }
+
+    #toggle-menu {
+        width: 40px;
+        height: 30px;
+
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 9999;
+        opacity: 0;
+
+    }
+
+    &__list:has(+ #toggle-menu:checked) {
+
+        right: 0;
+
+        background: #ffffff;
+
+        a {
+            font-size: 20px;
+        }
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .menu {
+        &__list {
+            flex-direction: row;
+            gap: 42px;
+
+            height: auto;
+
+            position: static;
+
+            a {
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -3px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    display: inline-block;
+                    height: 2px;
+                    width: 0;
+                    background-color: #000;
+                    transition: width .5s ease;
+                }
+
+
+                &:hover {
+                    &::after {
+                        width: 40px;
+                    }
+                }
+            }
+        }
+
+        &__toggle {
+            display: none;
+        }
+    }
+}
