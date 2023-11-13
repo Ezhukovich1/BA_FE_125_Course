@@ -16,6 +16,11 @@ header .container {
     height: 80px;
 }
 
+.hamburger {
+    display: none;
+ }
+
+
 a {
     text-decoration: none;
     color: black;
@@ -299,4 +304,66 @@ header .custom_btn:last-of-type {
     justify-content: center;
     align-items: center;
     display: inline-flex;
+}
+
+.aside-menu {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(164, 156, 156);
+    opacity: 0;
+    pointer-events: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+        /* &:target {
+            opacity: 1;
+            pointer-events: all;
+        }   */
+
+    .xsymbol svg {
+        width: 40px;
+        height: 40px;
+        fill: #F4F4F4;
+        margin-top: 8px;
+        margin-right: 8px;
+        
+        display: flex;
+        align-self: flex-end;
+    }
+
+    .aside-menu nav {
+        align-self: center;
+    }
+
+    .aside-menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .aside-menu ul a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-family: $font-familyR;
+            border-bottom: 1px solid white;
+        }
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 700px;
+    }
+
+    .hamburger {
+        display: flex;
+       }
+
 }
