@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/stayle.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Farro:wght@300&family=Francois+One&family=Inter&family=Montserrat:wght@400;600&family=PT+Sans:ital@0;1&family=Roboto:wght@400;500&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form action="#">
+        <h5>Create an Account</h5>
+        <div class="group_text">
+          <label>
+            <span>First Name</span>
+            <input name="First_Name" type="text" />
+          </label>
+          <label>
+            <span>Last Name</span>
+            <input name="Last_Name" type="text" />
+          </label>
+        </div>
+
+        <label class="group_email">
+          <span>E-mail</span>
+          <input name="Email" type="email" />
+          <span> We'll never share your email with anyone else. </span>
+        </label>
+
+        <div class="group_radio">
+          <label>
+            <input name="genger" id="male" value="male" type="radio" />
+            <span>Male</span>
+          </label>
+          <label>
+            <input name="genger" id="female" value="female" type="radio" />
+            <span>Female</span>
+          </label>
+        </div>
+
+        <div class="group_adress">
+          <label for="#">
+            <span>Country</span>
+            <select name="country" id="country">
+              <option value="" placeholder="select">Select</option>
+              <option value="Ukraine">Ukraine</option>
+              <option value="USA">USA</option>
+              <option value="Poland">Poland</option>
+              <option value="Germany">Germany</option>
+            </select>
+          </label>
+          <label>
+            <span>City</span>
+            <input name="city" type="city" />
+          </label>
+        </div>
+
+        <button class="castom_butom"><span>Singn Up</span></button>
+        <div class="info">
+          <span>
+            By clicking the 'Sign Up' button, you confirm that you accept our
+            <br />
+            <a href="#">Terms of Use</a> and
+            <a href="#"> Privacy Policy</a> .</span
+          >
+        </div>
+        <hr />
+        <div class="log_in">
+          <a href="#"> Have an account?</a>
+          <a href="#"> Log In</a>
+        </div>
+      </form>
+      <form action="#">
+        <h5>Profile</h5>
+
+        <div class="foto">
+          <img src="./img/Image.svg" alt="" />
+          <div class="foto_box">
+            <button>
+              <img src="./img/Photo Camera.svg" alt="" />
+            </button>
+            <span>Up to 1 MB (300x300 px)</span>
+          </div>
+          <button>
+            <img src="./img/Trash.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="group_text">
+          <label>
+            <span>Name</span>
+            <input name="Name" type="text" />
+          </label>
+          <label>
+            <span>E-mail</span>
+            <input name="email" type="email" />
+          </label>
+        </div>
+        <div class="group_adress">
+          <label for="#">
+            <span>Country</span>
+            <select name="country">
+              <option value="" placeholder="select">Select</option>
+              <option value="Ukraine">Ukraine</option>
+              <option value="USA">USA</option>
+              <option value="Poland">Poland</option>
+              <option value="Germany">Germany</option>
+            </select>
+          </label>
+          <label>
+            <span>City</span>
+            <input name="city" type="city" />
+          </label>
+        </div>
+        <div class="group_text">
+          <label>
+            <span>Zip Code</span>
+            <input name="zipcode" type="text" />
+          </label>
+          <label>
+            <span>Phone Number</span>
+            <input name="number" type="tel" />
+          </label>
+        </div>
+        <button class="btn"><span>Update</span></button>
+      </form>
+    </div>
+  </body>
+</html>
