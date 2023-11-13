@@ -1,0 +1,38 @@
+.intro {
+    margin-bottom: 30px;
+
+    a {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    &__title {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 166%;
+        letter-spacing: 2.8px;
+        color: #000000;
+    }
+
+    span {
+        padding-right: 30px;
+        display: inline-block;
+        position: relative;
+        color: #7B7B7B;
+
+        &::after {
+            content: url(./../img/arrow.svg);
+            position: absolute;
+            right: 0;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .intro {
+       margin-bottom: 50px;
+    }
+}
