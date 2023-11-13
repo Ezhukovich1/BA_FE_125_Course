@@ -1,0 +1,291 @@
+@import url(./reset.css);
+@import url(./fonts.css);
+
+* {
+  transition: all .1s ease-in;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  padding: 0 120px;
+  min-width: 1200px;
+}
+
+.logo {
+  float: left;
+  padding-top: 7px;
+}
+
+nav {
+  text-align: center;
+  height: 46px;
+  line-height: 46px;
+
+  padding: 18px 0;
+}
+
+.nav-menu,
+.nav-menu-item,
+.nav-btns {
+  display: inline-block;
+  height: 46px;
+}
+
+.nav-menu-item  a{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+
+  text-decoration: none;
+
+  color: #000;
+
+  padding-right: 20px;
+}
+
+.nav-menu-item:first-child a {
+  color: #F90;
+}
+
+.nav-menu-item:last-child a{
+  padding-right: 0;
+}
+
+.nav-btns {
+  float: right;
+}
+
+.nav-btns a {
+  display: inline-block;
+  height: 44px;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+
+  color: #000;
+  text-decoration: none;
+
+  padding: 0 25px;
+
+  border-radius: 4px;
+  border: 1px solid #BCD0E5;
+}
+
+.nav-btns a:last-child {
+  color: #fff;
+  background-color: #F90;
+  margin-left: 32px;
+
+  border-color: transparent;
+}
+
+.page-title {
+  color: #2F281E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.section-title {
+  text-align: center;
+  width: 540px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin: 0 auto;
+}
+
+
+.header-content {
+  padding-top: 70px;
+}
+.header-text {
+  display: inline-block;
+
+  height: 300px;
+  width: 500px;
+
+  padding-top: 98px;
+  padding-bottom: 198px;
+}
+.header-text p {
+  color: #544837;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+
+  margin: 30px 0 20px;
+}
+.header-bg {
+  height: 495px;
+  width: 644px;
+
+  float: right;
+  background-image: url(../img/image.jpg);
+}
+
+.btn {
+  display: inline-block;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+
+  color: #FFF;
+  border-radius: 4px;
+  background-color: #F90;
+
+  padding: 13px 40px;
+}
+
+.features{
+  height: 510px;
+  background-image: url(../img/bg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.features-cards {
+  width: max-content;
+  margin: 50px auto 70px;
+}
+
+.features-card {
+  display: inline-block;
+  width: 270px;
+  margin-right: 40px;
+}
+
+.features-card:last-child {
+  margin-right: 0;
+}
+
+.features-card h3 {
+  color: #2F281E;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+.features-card p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.features-btn {
+  box-sizing: border-box;
+  display: block;
+  width: 180px;
+  text-align: center;
+
+  padding: 13px 0;
+  margin: 0 auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  border-top: 1px solid rgba(188, 208, 229, 0.50);
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-top: 100px;
+}
+
+.footer img {
+  height: 32px;
+  padding: 0
+}
+
+.footer ul {
+  width: 135px;
+  padding-right: 130px;
+}
+
+.footer ul p{
+  color: #2F281E;
+  font-family: 'Gotham-Bold';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.footer ul li {
+  margin-top: 15px;
+  line-height: 26px;
+}
+
+.footer ul li:first-of-type {
+  margin-top: 30px;
+}
+
+.footer ul a {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+
+  color: #544837;
+}
+
+.footer ul a:hover {
+  border-bottom: 1px solid #2F281E;;
+}
+
+.footer form p {
+  color: #2F281E;
+  font-family: 'Gotham-Bold';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.footer form input {
+  box-sizing: border-box;
+  display: block;
+  height: 50px;
+  width: 340px;
+
+  color: #BCD0E5;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+  border-radius: 4px;
+  border: 1px solid #BCD0E5;
+  padding-left: 10px;
+  margin: 25px 0;
+}
+
+.footer form button {
+  border: none;
+}
