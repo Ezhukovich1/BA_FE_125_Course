@@ -1,0 +1,166 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+header .container{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 13px;
+    left: 120px;
+    z-index: 3;
+
+
+}
+
+header::after {
+    content: "";
+    background-color: white;
+    height: 100px;
+    width: 1210px;
+    position: fixed;
+    top: 0px;
+    left: 120px;
+    z-index: 2;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: Tourney;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.88px;
+}
+
+.doc a   {
+    margin-left: 50px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: Staatliches;
+    font-weight: 400;
+    letter-spacing: 0.66px;
+}
+
+.doc a:last-of-type {
+    margin-left: 10px;
+    margin-right: 600px;
+}
+
+.logo img{
+    width: 237.999977px;
+    height: 54px;
+    margin-right: 0px;
+}
+
+.container2  {
+    margin-left: 120px;
+    margin-left: 0px;
+    width: 385px;
+    height: 462px;
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    top: 160px;
+    left: 120px;
+}
+
+.container2 nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+    font-family: Francois One;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1.44px;
+    padding-bottom: 10px;
+    border-bottom: 1px #BDBDBD solid;
+}
+
+.container2 nav ul {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: sticky;
+}
+
+.container2 nav li {
+    margin-left: 0;
+    margin-bottom: 70px;
+    list-style-type: none;
+}
+
+.container3 {
+    width: 785px;
+    margin: 0;
+    position: absolute;
+    top: 70px;
+    left: 535px;
+
+}
+
+.divider {
+    width: 100px;
+    height: 8px;
+    margin-top: 70px;
+    background: black;
+}
+
+.bg {
+    position: fixed;
+    top: 150px;
+    left: 812px;
+    z-index: -1;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-size: 36px;
+    font-family: Francois One;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 1.44px;
+}
+
+sup {
+    height: 20px;
+    vertical-align: text-top;
+    line-height: normal;
+    font-size: 50%;
+    color: black;
+    font-family: Farro; 
+    font-weight: 300;
+    letter-spacing: 1.20px;
+}
+
+p {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    color: black;
+    font-size: 28px;
+    font-family: PT Sans;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+code {
+    background: lightgray;
+    color: black;
+    font-size: 28px;
+    font-family: PT Sans;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+#handling {
+    margin-bottom: 90px;
+}
