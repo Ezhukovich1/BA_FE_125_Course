@@ -1,0 +1,191 @@
+.container_style {
+    max-width: 1170px;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-primary {
+    color: #128C76!important;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-primary {
+    background: #128C76!important;
+    border-color: #128C76!important;
+    border-radius: 0;
+}
+
+.btn-outline-secondary {
+    border-color: #F56B8D;
+    color: #F56B8D;
+    border-radius: 0;
+}
+
+.btn-outline-secondary:hover {
+    border-color: #F56B8D;
+    background-color: #F56B8D;
+}
+
+.px-2_5 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.px-80 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.py-160 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.my-2_5 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.section-bg {
+    height: 780px;
+    width: 100%;
+    background-size: cover;
+    background: url(./img/back.png);
+    background-position: center;
+    position: relative;
+}
+
+.section-bg row {
+    width: 780px;
+}
+
+.section-bg img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.shape2 {
+    position: absolute;
+    left: 100px;
+    top:1400px;
+}
+
+.text-secondary {
+    color: #999;
+}
+
+.box-shadow-card {
+    box-shadow: 0px 24px 60px 0px rgba(51, 51, 51, 0.46);
+}
+
+.card {
+    background: (0deg, #c4c4c4 0%, #c4c4c4 100%);
+    width: 350px;
+    border-radius: 0;
+    border-width: 0;
+}
+
+.card img {
+    border-radius: 0;
+}
+
+.card-title {
+    text-align: left;
+}
+
+.card-subtitle {
+    text-align: left;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.gray-line {
+    width: 100%;
+    height: 0.5rem;
+    background: #c4c4c4;
+    position: relative;
+}
+
+.green-line {
+    width: 56%;
+    height: 0.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #128C76;
+}
+
+.card_help_txt {
+    text-align: left;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+.card_help_txt span {
+    color: #128C76;
+    font-size: 1rem;
+}
+
+.section-bg3 {
+    height: 780px;
+    width: 100%;
+    background-size: cover;
+    background-color: #ECF4FD;;
+    background-position: center;
+    background-image: url(./img/Vector.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+.rings {
+    position: absolute;
+    right: 74px;
+}
+
+.section-bg4 {
+    height: 780px;
+    width: 100%;
+    position: relative;
+}
+.shape3 {
+    position: absolute;
+    top: 145px;
+    right: 0px;
+    z-index: -1;
+}
+
+.section-bg5 {
+    height: 483px;
+    width: 100%;
+    background-size: cover;
+    background-color:#ECECEC;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #333333!important;
+    color: #333333!important;
+    border-radius: 0;
+}
+
+.submitbtn {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.em {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
