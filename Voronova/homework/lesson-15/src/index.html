@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <title></title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="form__container">
+                    <div class="form__title">
+                        <h2 >Create an Account</h2>
+                    </div>
+                    <form action="">
+                        <div class="form__row">
+                            <div class="form__input">
+                                <label for="first_name" class="form-label">First Name</label>
+                                <input type="text" name="first_name" id="first_name" class="form-control">
+                            </div>
+                            <div class="form__input">
+                                <label for="last_name" class="form-label">Last Name</label>
+                                <input type="text" name="last_name" id="last_name" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form__row--collumn">
+                            <label for="e-mail" class="form-label">E-mail</label>
+                            <input type="email" name="e-mail" id="e-mail" class="form-control">
+                            <p class="form-text">We'll never share your email with anyone else.</p>
+                        </div>
+                        <div class="form__row">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">Male</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">Female</label>
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="form__input">
+                                <label for="country" class="form-label">Country</label>
+                                <select name="country" id="country" class="form-select">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="form__input">
+                                <label for="city" class="form-label">City</label>
+                                <input type="text" name="city" id="city" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form__row--collumn">
+                            <input type="submit" value="Sign Up" class="btn btn-primary">
+                            <p class="form-text text-center form__terms">
+                                By clicking the 'Sign Up' button, you confirm that you accept our <a href="#">Terms of
+                                    Use</a>
+                                and <a href="#">Privacy Policy</a>
+                            </p>
+                        </div>
+                    </form>
+                    <div class="form__text">
+                        <p class="form-text text-center">
+                            Have an account? <a href="#">Log In</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="form__container">
+                    <div class="form__title">
+                        <h2>Profile</h2>
+                    </div>
+                    <form action="">
+                        <div class="form__profile-avatar">
+                            <img src="./img/Image.png" alt="Profile Photo">
+                            <div class="form__upload">
+                                <label for="avatar" class="form-label"> </label>
+                                <input type="file" name="avatar" id="avatar" class="form-control form-control-sm">
+                                <p class="form-text mb-0">Up to 1 MB (300x300 px)</p>
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="form__input">
+                                <label for="profile_name" class="form-label">Name</label>
+                                <input type="text" name="profile_name" id="profile_name" class="form-control">
+                            </div>
+                            <div class="form__input">
+                                <label for="profile_email" class="form-label">Last Name</label>
+                                <input type="email" name="profile_email" id="profile_email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="form__input">
+                                <label for="profile_country" class="form-label">Country</label>
+                                <select name="profile_country" id="profile_country" class="form-select">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="form__input">
+                                <label for="profile_city" class="form-label">City</label>
+                                <input type="text" name="profile_city" id="profile_city" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="form__input">
+                                <label for="profile_zipcode" class="form-label">Zip Code</label>
+                                <input type="number" name="profile_zipcode" id="profile_zipcode" class="form-control">
+                            </div>
+                            <div class="form__input">
+                                <label for="profile_tel" class="form-label">Phone Number</label>
+                                <input type="tel" name="profile_tel" id="profile_tel" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <input type="submit" value="Update" class="btn btn-primary w-auto">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="bundle.js"></script>
+</body>
+
+</html>

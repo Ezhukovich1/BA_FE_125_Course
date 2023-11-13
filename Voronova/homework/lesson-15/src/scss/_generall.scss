@@ -1,0 +1,51 @@
+body {
+    padding-top: 55px;
+    background-color: #E4E4E4;
+}
+
+.form {
+
+    &__container {
+        padding: 35px 36px;
+        margin-bottom: 50px;
+        min-height: 640px;
+        background-color: #ffffff;
+    }
+
+    &__row {
+        margin-bottom: 20px;
+        display: flex;
+        gap: 12px;
+
+        &--column {
+            flex-direction: column;
+        }
+    }
+
+    &__profile-avatar{
+        margin-bottom: 20px;
+    }
+
+    &__title{
+        margin-bottom: 20px;
+    }
+
+    &__input {
+        width: 50%;
+    }
+
+    &__terms {
+        margin: 20px auto;
+        max-width: 410px;
+    }
+
+    &__text{
+        border-top: 1px solid #E4E4E4;
+    }
+
+    &__profile-avatar {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
