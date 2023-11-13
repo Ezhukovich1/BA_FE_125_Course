@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Web Forms</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <form action="">
+                <h2>Create an Account</h2>
+                <div class="flex_container">
+                    <div class="flex_container_input">
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" id="first_name">
+                    </div>
+                    <div class="flex_container_input">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" id="last_name">
+                    </div>
+                </div>
+                <div class="flex_container_input_mail">
+                    <label for="mail">E-mail</label>
+                    <input type="email" name="mail" id="mail">
+                    <span>We'll never share your email with anyone else.</span>
+                </div>
+                <div class="flex_container">
+                    <label for="male" class="flex_container_radiobtn_box">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <span class="radio"></span>
+                        <span>Male</span>
+                    </label>
+                    <label for="female" class="flex_container_radiobtn_box">
+                        <input type="radio" id="female" name="gender" value="female">
+                        <span class="radio"></span>
+                        <span>Female</span>
+                    </label>
+                </div>
+                <div class="flex_container">
+                    <div class="flex_container_select">
+                        <label for="country">Country</label>
+                        <select name="country" id="country">
+                            <option value="empty">Select</option>
+                            <option value="gb">Great Britain</option>
+                            <option value="france">France</option>
+                            <option value="germany">Germany</option>
+                            <option value="spain">Spain</option>
+                            <option value="netherlands">Netherlands</option>
+                            <option value="belgium">Belgium</option>
+                            <option value="poland">Poland</option>
+                            <option value="ukraine">Ukraine</option>
+                        </select>
+                    </div>
+                    <div class="flex_container_input">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                </div>
+                <button type="submit" name="sign_up">Sign Up</button>
+                <div class="flex_container_privacy">
+                    <p>By clicking the 'Sign Up' button, you confirm that you accept our <a href="#">Terms of Use</a>
+                        and <a href="#">Privacy Policy</a>.
+                    </p>
+                </div>
+                <div class="line"></div>
+                <div class="flex_footer">
+                    <p>Have an account?</p>
+                    <a href="#">Log in</a>
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <form action="">
+                <h2>Profile</h2>
+                <div class="flex_container_file">
+                    <div class="photo"></div>
+                    <div class="flex_container_file_group">
+                        <input type="file" name="file" id="file" placeholder="">
+                        <span>Up to 1 MB (300x300 px)</span>
+                    </div>
+                    <input type="reset" value="">
+                </div>
+                <div class="flex_container">
+                    <div class="flex_container_input">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="flex_container_input">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </div>
+                <div class="flex_container">
+                    <div class="flex_container_select">
+                        <label for="country">Country</label>
+                        <select name="country" id="country">
+                            <option value="empty">Select</option>
+                            <option value="gb">Great Britain</option>
+                            <option value="france">France</option>
+                            <option value="germany">Germany</option>
+                            <option value="spain">Spain</option>
+                            <option value="netherlands">Netherlands</option>
+                            <option value="belgium">Belgium</option>
+                            <option value="poland">Poland</option>
+                            <option value="ukraine">Ukraine</option>
+                        </select>
+                    </div>
+                    <div class="flex_container_input">
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                </div>
+                <div class="flex_container">
+                    <div class="flex_container_input">
+                        <label for="zcode">Zip Code</label>
+                        <input type="text" name="code" id="zcode">
+                    </div>
+                    <div class="flex_container_input">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" name="phone" id="phone" pattern="[0-9]{10}">
+                    </div>
+                </div>
+                <button type="submit" name="update">Update</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
