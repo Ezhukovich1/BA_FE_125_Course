@@ -1,0 +1,159 @@
+@use "sass:math";
+@import "./modules/fonts";
+@import "./modules/variables";
+@import "./modules/extends";
+@import "./modules/mixins";
+
+main {
+  padding: 122px 135px;
+  background: #fff;
+}
+
+.container {
+  padding: 0 75px;
+  @extend %flexible-column;
+  align-items: center;
+  gap: 40px;
+}
+
+.head-items {
+  width: math.div(450px, 1170px) * 100%;
+  @extend %flexible-column;
+  justify-content: center;
+
+  h1 {
+    @include margin-center($margin-top: 15px, $margin-bottom: 40px);
+  }
+
+  h5 {
+    @include margin-center;
+  }
+
+  .separator {
+    @extend %flexible-row;
+  }
+
+  hr {
+    @include gold-line($width: 40%);
+  }
+}
+
+h1 {
+  @extend %h1, %up-text;
+  font-family: $font-roboto;
+  color: $headline-color;
+}
+
+h5 {
+  @extend %sub, %up-text;
+  font-family: $font-raleway;
+  color: $sub-color;
+}
+
+h2 {
+  @extend %h2;
+  font-family: $font-roboto;
+  color: $primary-color;
+  margin-top: 0;
+}
+
+.main-items {
+  @extend %flexible-row;
+  justify-content: center;
+}
+
+.info,
+.photo {
+  @extend %m-70;
+  flex: 1 1 0;
+}
+
+.photo {
+  img {
+    max-width: 100%;
+    --s: 50px; /* the size on the corner */
+    --t: 2px; /* the thickness of the border */
+    --g: 20px; /* the gap between the border and image */
+
+    padding: calc(var(--g) + var(--t));
+    outline: var(--t) solid $headline-color;
+    outline-offset: calc(-1 * var(--t));
+    -webkit-mask: conic-gradient(at var(--s) var(--s), #0000 75%, #000 0) 0 0 /
+        calc(100% - var(--s)) calc(100% - var(--s)),
+      linear-gradient(#000 0 0) content-box;
+    transition: 0.4s;
+  }
+  img:hover {
+    outline-offset: calc(var(--g) / -1);
+    filter: grayscale(30%) brightness(80%);
+  }
+}
+
+.divider {
+  border-left: 1px solid $headline-color;
+}
+
+.info-items {
+  @extend %flexible-column;
+  align-items: center;
+
+  hr {
+    @include gold-line($width: 30%);
+  }
+
+  p:first-of-type {
+    font-family: $font-raleway;
+    color: $primary-color;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: capitalize;
+  }
+
+  .svg-social {
+    margin-bottom: 50px;
+  }
+
+  p:last-of-type {
+    color: $third-color;
+    text-align: center;
+    font-family: $font-raleway;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.dotted-line {
+  @extend %flexible-row;
+  gap: 5px;
+  margin-bottom: 25px;
+
+  hr:nth-of-type(1) {
+    @include gold-line($width: 10px, $height: 4px);
+  }
+
+  hr:nth-of-type(2) {
+    @include gold-line($width: 20px, $height: 4px);
+  }
+
+  hr:nth-of-type(3) {
+    @include gold-line($width: 10px, $height: 4px);
+  }
+}
+
+.btn {
+  appearance: none;
+  cursor: pointer;
+  border: 1px solid #fc0;
+  background: #fff;
+  padding: 5px 10px;
+  @extend %up-text;
+  font-family: $font-opensans;
+  color: $primary-color;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+}
