@@ -1,0 +1,226 @@
+/* GLOBAL */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.icon {
+    fill: #0D0D0D;
+    height: 33px;
+    width: 33px;
+}
+
+h1 {
+    color: var(--6, #16133D);
+    font-family: Nunito Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px; /* 130% */
+    letter-spacing: 0.2px; 
+}
+
+.eyebrow {
+    text-transform: uppercase;
+    color: var(--7, #7690A8);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 131.25% */
+    margin-bottom: 15px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    color: var(--6, #16133D);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.28px; /* 88.667% */
+    letter-spacing: 0.2px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: var(--text, #16133D);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-bottom: 30px;
+}
+
+a {
+    color: #3DB370;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* GLOBAL END */
+
+/* HEADER */
+
+header {
+    border-bottom: 1px solid #EFEEF3;
+}
+
+.logo {
+    color: var(--6, #16133D);
+    font-family: Quicksand;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 100% */ 
+    margin-bottom: 0;
+}
+
+.logo-icon-svg {
+    fill: #3DB370;
+    width: 30px;
+    height: 30px;
+    margin-right: 12.5px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+header .logo-container {
+    margin: 22.5px 0;
+}
+
+/* HEADER END*/
+
+
+/* SERVICES */
+
+.container.services {
+    margin: 100px auto;
+}
+
+.card {
+    width: 370px;
+    padding: 40px;
+    border: 1px solid #E5EAF4;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.services-icon-container {
+    width: 64px;
+    height: 64px;
+    border: 1px solid rgba(21, 101, 216, 0.1);
+    border-radius: 16px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.icon.services {
+    position: absolute;
+    top: 14.5px;
+    left: 14px;
+}
+
+.icon.services.hover {
+    opacity: 0;
+    position: absolute;
+    top: 14.5px;
+    left: 14px;
+}
+
+/* SERVICES END */
+
+
+/* CARDS HOVER EFFECTS */
+
+.card:hover .icon.services {
+    opacity: 0;
+    transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.card:hover .icon.services.hover {
+    opacity: 1;
+    transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.card:hover .services-icon-container {
+    border: 1px solid rgba(61, 179, 112, 0.1);
+    transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.card:hover {
+    border: 1px solid #3DB370;
+    transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* CARDS HOVER EFFECTS END */
+
+
+/* FOOTER */
+
+footer {
+    background-color: var(--6, #16133D);
+    overflow: auto;
+}
+
+footer .logo {
+    color: white;
+}
+
+.footer-content {
+    margin: 40px auto;
+}
+
+.flex-container.footer {
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+
+.social-media {
+    width: 38px;
+    height: 38px;
+    border-radius: 5px;
+    background: var(--1, #EFEEF3);
+    position: relative;
+}
+
+.flex-container.footer a {
+    margin-right: 10px;
+}
+
+.flex-container.footer a:last-of-type {
+    margin-right: 0;
+}
+
+.social-media .icon-social-media {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+.social-media:hover .icon-social-media {
+    fill: #3DB370;
+    transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* FOOTER END */
+
