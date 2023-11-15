@@ -1,0 +1,224 @@
+body{
+    background-color: #F7F7F7;
+    display: flex;
+    width: 1170px;
+    margin: auto;
+    padding-top: 55px;
+}
+    
+.form-container{
+    background-color: white;
+    width: 570px;
+    height: 590px;
+    box-sizing: border-box;
+    padding-top: 35px;
+    padding-left: 36px;
+    padding-right: 36px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 133.333%;
+    margin-bottom: 20px;
+}
+label{
+    color: #545454;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 146.667%;
+    letter-spacing: -0.2px;
+    margin-bottom: 7px;
+    }
+.block-label{
+    display: block;
+    margin-bottom: 7px;
+    }
+.container-input{
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 245px;
+
+    input, select{
+        width: 100%;
+    }
+}
+input, select {
+    border: 1px solid rgba(228, 228, 228, 1);
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    height: 38px;
+
+    &:focus{
+        border-color: rgba(0, 123, 255, 1);
+}
+}
+#mail-input{
+    display: block;
+    width: 100%;    
+}
+.button-form{
+    
+    display: flex;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: rgba(0, 123, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 22px;
+}
+.create > .button-form{
+    width: 100%;
+}
+button:hover{
+    transform: scale(1.01);
+}
+p{
+    color: #969696;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 138.462% */
+    letter-spacing: -0.1px;
+}
+input[type="radio"]{
+    height: 22px;
+    margin-right: 8px;
+}
+.gender{
+    margin-right: 21px;
+}
+.container-radio{
+    display: flex;
+    align-items: center;
+}
+
+.accept{
+    text-align: center;
+    width: 410px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+svg{
+    margin-bottom: 20px;
+}
+.login{
+    margin: 0;
+    text-align: center;
+    color: #545454;
+}
+a{
+text-decoration: none;
+color: rgba(0, 123, 255, 1);
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+        &:checked ~ .checkmark {
+            /* background-color: #2196F3; */
+            box-sizing: border-box;
+            background: white;
+            border: 6.5px solid #2196F3;
+            &:after {
+                display: block;
+              }
+        
+          }
+        
+      }
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: rgba(228, 228, 228, 1);
+    border-radius: 50%;
+  }
+  .avatar{
+    width: 80px;
+    margin-right: 20px; 
+  }
+  .container-box{
+    display: inline-block;
+    &>p{
+        margin: 0;
+      }
+  }
+  .container-uploades{
+    position: relative;
+    display: inline-block;
+    top: -12px
+  }
+  select:invalid{
+    color: #969696;
+  }
+  #image_uploads{
+    display: inline-block;
+    width: 138px;
+    height: 30px;
+    border: 1px solid rgba(228, 228, 228, 1);
+    border-radius: 4px;
+    color: transparent;
+    &::file-selector-button{
+        width: 16px;
+        height: 16px;
+        background-image: url(../img/Photo-Camera.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        outline: none;
+        border: none;
+        background-color: white;
+        position: absolute;
+        right: 7px;
+        top: 7px;
+        margin: 0;
+        
+    color: transparent;
+      }
+  }
+  .delete-button{
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/Trash.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid rgba(228, 228, 228, 1);
+    outline: none;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 4px;
+  }
+  .profile > {
+    .button-form{
+        width: 130px;
+    }
+  }
