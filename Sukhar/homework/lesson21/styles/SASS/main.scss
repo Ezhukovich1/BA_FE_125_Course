@@ -1,0 +1,114 @@
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    position: relative;
+    width: 213px;
+    height:300px;
+    margin-bottom: 30px;
+
+
+    
+   
+    .card__front{
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+        box-sizing: border-box;
+        border-radius: 8px;
+        background-image: url(../../img/karty-bicycle.jpg);
+        background-size: cover;
+
+        // z-index: 1;
+        // position: relative;
+        // backface-visibility: hidden;
+        // transition: transform 0.8s ;
+        
+    }
+    .card__back{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        border-radius: 8px;
+        position: absolute;
+        top: 0;
+
+        background-color: white;
+        border: 1px solid black;
+
+
+        opacity: 0;
+        transform: rotateY(180deg);
+
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        &::after,
+        &::before{
+            content: 'A';
+            display: block;
+            width: 28px;
+            height: 28px;
+            position: absolute;
+        }
+        &::after{
+            top: 20px;
+            left: 20px;
+        }
+        &::before{
+            transform: rotateX(180deg);
+            bottom: 20px;
+            right: 20px;
+        }
+
+        // z-index: 0;
+        // backface-visibility: hidden;
+        // transform: rotateY(180deg);
+        // transition: transform 0.8s;
+        p{
+            font-size: 50px;
+            font-weight: 900;
+            text-align: center;
+            }
+    
+    }
+    &:hover{
+        transition: transform 2s;
+        transform: rotateY(180deg);
+        .card__back{
+            animation: changeOpacity;
+            animation-delay: 0.5s;
+            animation-duration: 1.5s;
+            animation-fill-mode: forwards;
+     
+        }
+
+        // .card__back {
+        //     transform: rotateY(0deg);
+        //     z-index: 2;
+        //     }
+        // .card__front {
+        //     transform: rotateY(-180deg);
+        //     z-index: -1;
+        //     }
+    }
+   
+    
+    }
+    .red{
+        color: red;
+    }
+
+@keyframes changeOpacity{
+    0% {opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100% {opacity: 1;    
+    }
+}
