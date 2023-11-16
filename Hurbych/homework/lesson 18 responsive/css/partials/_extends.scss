@@ -1,0 +1,67 @@
+%h1 {
+    color: $col-primary;
+    font-family: $primary-font;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 66px; 
+    text-transform: uppercase; 
+}
+
+%h2 {
+    color: $col-grey;
+    font-family: $primary-font;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+%h3 {
+    color: $col-grey;
+    font-family: $secondary-font;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+%paragraph {
+    color: $col-black;
+    font-family: $secondary-font;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+%flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+%flex-row {
+    display: flex;
+    align-items: center;
+}
+
+%btn {
+    font-family: $button-font;
+    color: $col-grey;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px; 
+    text-transform: uppercase;
+    text-decoration: none;
+
+    border: 1px solid $col-primary;
+    padding: 5px 10px;
+}

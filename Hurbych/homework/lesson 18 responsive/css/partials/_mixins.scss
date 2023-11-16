@@ -1,0 +1,9 @@
+@mixin divider($thickness: 1px, $direction: bottom) {
+    @if $direction == bottom {
+        border-bottom: $thickness solid $col-primary;
+    }
+
+    @else {
+        border-right: $thickness solid $col-primary;
+    }
+}
