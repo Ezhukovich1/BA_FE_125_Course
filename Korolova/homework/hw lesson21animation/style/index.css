@@ -1,0 +1,333 @@
+.container {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 10px;
+  max-width: 700px;
+  height: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.card {
+  width: 170px;
+  height: auto;
+  position: relative;
+  perspective: 1000px;
+}
+.card:hover .card_inner {
+  transform: rotateY(180deg);
+}
+.card:nth-child(5) .card_inner {
+  animation-delay: 2s;
+}
+.card:nth-child(4) .card_inner {
+  animation-delay: 6s;
+}
+.card:nth-child(2) .card_inner {
+  animation-delay: 8s;
+}
+.card:nth-child(9) .card_inner {
+  animation-delay: 10s;
+}
+.card:nth-child(1) .card_inner {
+  animation-delay: 12s;
+}
+.card:nth-child(6) .card_inner {
+  animation-delay: 14s;
+}
+.card:nth-child(3) .card_inner {
+  animation-delay: 16s;
+}
+.card:nth-child(7) .card_inner {
+  animation-delay: 18s;
+}
+.card:nth-child(8) .card_inner {
+  animation-delay: 20s;
+}
+.card:nth-child(5) .card_inner {
+  animation-delay: 2s;
+}
+.card:nth-child(4) .card_inner {
+  animation-delay: 6s;
+}
+.card:nth-child(2) .card_inner {
+  animation-delay: 8s;
+}
+.card:nth-child(9) .card_inner {
+  animation-delay: 10s;
+}
+.card:nth-child(1) .card_inner {
+  animation-delay: 12s;
+}
+.card:nth-child(6) .card_inner {
+  animation-delay: 14s;
+}
+.card:nth-child(3) .card_inner {
+  animation-delay: 16s;
+}
+.card:nth-child(7) .card_inner {
+  animation-delay: 18s;
+}
+.card:nth-child(8) .card_inner {
+  animation-delay: 20s;
+}
+.card:nth-child(5) .card_inner {
+  animation-delay: 2s;
+}
+.card:nth-child(4) .card_inner {
+  animation-delay: 6s;
+}
+.card:nth-child(2) .card_inner {
+  animation-delay: 8s;
+}
+.card:nth-child(9) .card_inner {
+  animation-delay: 10s;
+}
+.card:nth-child(1) .card_inner {
+  animation-delay: 12s;
+}
+.card:nth-child(6) .card_inner {
+  animation-delay: 14s;
+}
+.card:nth-child(3) .card_inner {
+  animation-delay: 16s;
+}
+.card:nth-child(7) .card_inner {
+  animation-delay: 18s;
+}
+.card:nth-child(8) .card_inner {
+  animation-delay: 20s;
+}
+.card:nth-child(5) .card_inner {
+  animation-delay: 2s;
+}
+.card:nth-child(4) .card_inner {
+  animation-delay: 6s;
+}
+.card:nth-child(2) .card_inner {
+  animation-delay: 8s;
+}
+.card:nth-child(9) .card_inner {
+  animation-delay: 10s;
+}
+.card:nth-child(1) .card_inner {
+  animation-delay: 12s;
+}
+.card:nth-child(6) .card_inner {
+  animation-delay: 14s;
+}
+.card:nth-child(3) .card_inner {
+  animation-delay: 16s;
+}
+.card:nth-child(7) .card_inner {
+  animation-delay: 18s;
+}
+.card:nth-child(8) .card_inner {
+  animation-delay: 20s;
+}
+.card:nth-child(5) .card_inner {
+  animation-delay: 2s;
+}
+.card:nth-child(4) .card_inner {
+  animation-delay: 6s;
+}
+.card:nth-child(2) .card_inner {
+  animation-delay: 8s;
+}
+.card:nth-child(9) .card_inner {
+  animation-delay: 10s;
+}
+.card:nth-child(1) .card_inner {
+  animation-delay: 12s;
+}
+.card:nth-child(6) .card_inner {
+  animation-delay: 14s;
+}
+.card:nth-child(3) .card_inner {
+  animation-delay: 16s;
+}
+.card:nth-child(7) .card_inner {
+  animation-delay: 18s;
+}
+.card:nth-child(8) .card_inner {
+  animation-delay: 20s;
+}
+.card:nth-child(5) .card_inner {
+  animation-delay: 2s;
+}
+.card:nth-child(4) .card_inner {
+  animation-delay: 6s;
+}
+.card:nth-child(2) .card_inner {
+  animation-delay: 8s;
+}
+.card:nth-child(9) .card_inner {
+  animation-delay: 10s;
+}
+.card:nth-child(1) .card_inner {
+  animation-delay: 12s;
+}
+.card:nth-child(6) .card_inner {
+  animation-delay: 14s;
+}
+.card:nth-child(3) .card_inner {
+  animation-delay: 16s;
+}
+.card:nth-child(7) .card_inner {
+  animation-delay: 18s;
+}
+.card:nth-child(8) .card_inner {
+  animation-delay: 20s;
+}
+.card:nth-child(5) .card_inner {
+  animation-delay: 2s;
+}
+.card:nth-child(4) .card_inner {
+  animation-delay: 6s;
+}
+.card:nth-child(2) .card_inner {
+  animation-delay: 8s;
+}
+.card:nth-child(9) .card_inner {
+  animation-delay: 10s;
+}
+.card:nth-child(1) .card_inner {
+  animation-delay: 12s;
+}
+.card:nth-child(6) .card_inner {
+  animation-delay: 14s;
+}
+.card:nth-child(3) .card_inner {
+  animation-delay: 16s;
+}
+.card:nth-child(7) .card_inner {
+  animation-delay: 18s;
+}
+.card:nth-child(8) .card_inner {
+  animation-delay: 20s;
+}
+.card:nth-child(5) .card_inner {
+  animation-delay: 2s;
+}
+.card:nth-child(4) .card_inner {
+  animation-delay: 6s;
+}
+.card:nth-child(2) .card_inner {
+  animation-delay: 8s;
+}
+.card:nth-child(9) .card_inner {
+  animation-delay: 10s;
+}
+.card:nth-child(1) .card_inner {
+  animation-delay: 12s;
+}
+.card:nth-child(6) .card_inner {
+  animation-delay: 14s;
+}
+.card:nth-child(3) .card_inner {
+  animation-delay: 16s;
+}
+.card:nth-child(7) .card_inner {
+  animation-delay: 18s;
+}
+.card:nth-child(8) .card_inner {
+  animation-delay: 20s;
+}
+.card:nth-child(5) .card_inner {
+  animation-delay: 2s;
+}
+.card:nth-child(4) .card_inner {
+  animation-delay: 6s;
+}
+.card:nth-child(2) .card_inner {
+  animation-delay: 8s;
+}
+.card:nth-child(9) .card_inner {
+  animation-delay: 10s;
+}
+.card:nth-child(1) .card_inner {
+  animation-delay: 12s;
+}
+.card:nth-child(6) .card_inner {
+  animation-delay: 14s;
+}
+.card:nth-child(3) .card_inner {
+  animation-delay: 16s;
+}
+.card:nth-child(7) .card_inner {
+  animation-delay: 18s;
+}
+.card:nth-child(8) .card_inner {
+  animation-delay: 20s;
+}
+.card .card_inner {
+  transition: transform 2s ease;
+  transform-style: preserve-3d;
+  animation-name: random;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+.card .card_inner .shirt {
+  position: absolute;
+  left: 0;
+  top: 0;
+  backface-visibility: hidden;
+}
+.card .card_inner .shirt img {
+  width: 100%;
+}
+.card .card_inner .inside {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 168px;
+  height: 240px;
+  border: 1px #565656 solid;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 800;
+  color: red;
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+.card .card_inner .inside .value:first-child {
+  align-self: flex-start;
+}
+.card .card_inner .inside .value:last-child {
+  align-self: flex-end;
+  transform: rotateX(180deg);
+  margin-bottom: 10px;
+}
+.card .card_inner .inside .value {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  line-height: 0;
+  margin-top: 10px;
+}
+.card .card_inner .inside .value h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+@keyframes random {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
