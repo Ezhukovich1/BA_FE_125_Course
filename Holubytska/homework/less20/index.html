@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/red-hat-display" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/f8bf98dd90.js" crossorigin="anonymous"></script>
+    <title>Manifest</title>
+</head>
+<body>
+        <header>
+            <div class="container">
+                <div class="flex">
+                    <div class="logo">
+                        <svg>
+                          <use xlink:href="./img/icons/logo.svg#logo"></use>
+                        </svg>
+                    </div>
+                    <div class="navigation">
+                        <input  class="toggle" type="checkbox" id="nav">
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">works</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                        <svg width="18" height="16">
+                            <use xlink:href="./img/icons/search.svg#search"></use>
+                        </svg>
+                        <div class="menuHamburger">
+                           <label  for="nav">
+                               <svg class="burger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" stroke="black" stroke-width=".5"  fill="rgba(0,0,0,0)" stroke-linecap="square" style="cursor: pointer">
+                                   <path d="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7">
+                                       <animate dur="0.2s" attributeName="d" values="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7;M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7" fill="freeze" begin="start.begin" />
+                                       <animate dur="0.2s" attributeName="d" values="M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7;M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7" fill="freeze" begin="reverse.begin" />
+                                   </path>
+                                   <rect width="10" height="10" stroke="none">
+                                       <animate dur="2s" id="reverse" attributeName="width" begin="click" />
+                                   </rect>
+                                   <rect width="10" height="10" stroke="none">
+                                       <animate dur="0.001s" id="start" attributeName="width" values="10;0" fill="freeze" begin="click" />
+                                       <animate dur="0.001s" attributeName="width" values="0;10" fill="freeze" begin="reverse.begin" />
+                                   </rect>
+                               </svg>
+                           </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="banner_block">
+            <img src="./img/bg-image.jpg" alt="picture">
+            <section class="container">
+                <h1>Manifest is a newborn theme. Clean, simple and fast.</h1>
+            </section>
+        </div>
+        <div class="container">
+            <section class="blog_block">
+                <h1>Blog</h1>
+                <div class=" flex">
+                        <div class="img_block">
+                            <img src="./img/image1.jpg" alt="picture">
+                        </div>
+                        <div>
+                            <p>Technology, Interface Design</p>
+                            <h3>Using UX Design to Build a Sustainable Future</h3>
+                            <p>6 May, 2020</p>
+                            <span>Transformation has to be driven by everybody, not just by climate groups, and we have
+                            a responsibility to use our influence to drive <a href="#">&#10230;</a></span>
+                        </div>
+                        <div>
+                            <p>Technology, Interface Design</p>
+                            <h3>Using UX Design to Build a Sustainable Future</h3>
+                            <p>6 May, 2020</p>
+                            <span>Transformation has to be driven by everybody, not just by climate groups, and we have
+                            a responsibility to use our influence to drive <a href="#">&#10230;</a></span>
+                        </div>
+                        <div class="img_block">
+                            <img src="./img/bg-image.jpg" alt="picture">
+                        </div>
+                </div>
+            </section>
+            <section class="posts_block">
+                <div class="title">
+                    <h2>Latest Posts</h2>
+                    <a href="#">View All &#10230;</a>
+                </div>
+                <div class="cards">
+                    <div class="item">
+                        <div class="item_img">
+                            <img src="./img/image2.jpg" alt="picture">
+                        </div>
+                         <div>
+                             <div>
+                                <p>Interface Design</p>
+                                <p>8 June, 2020</p>
+                             </div>
+                             <h3>UX traffic light colours</h3>
+                             <span>UI has to make a huge visual difference between warning, an alert and a success.</span>
+                          </div>
+                    </div>
+                    <div class="item">
+                        <div class="item_img">
+                            <img src="./img/image1.jpg" alt="picture">
+                        </div>
+                        <div class="order_-1">
+                            <div>
+                                <p>Technology</p>
+                                <p>6 May, 2020</p>
+                            </div>
+                            <h3>Using UX Design to Build a Sustainable Future</h3>
+                            <span>UI has to make a huge visual difference between warning, an alert and a success.</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item_img">
+                            <img src="./img/Image3.jpg" alt="picture">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Visual Design</p>
+                                <p>8 June, 2020</p>
+                            </div>
+                            <h3>Creativity vs. UX</h3>
+                            <span>Is it possible to create a delightful user experience without following best UX practices?</span>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="popular_block">
+                <div class="title">
+                    <h2>The Most Popular</h2>
+                    <a href="#">View All &#10230;</a>
+                </div>
+                <div class="cards">
+                    <div class="item">
+                        <div class="item_img">
+                            <img src="./img/Image4.jpg" alt="picture">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Interface Design</p>
+                                <p>8 June, 2020</p>
+                            </div>
+                            <h3>Mentorship Match — How a simple LinkedIn feature can boost diversity</h3>
+                            <span>LinkedIn is on a clear mission to make professionals more successful by connecting the global workforce and as we learned — diversity and success go hand in hand</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item_img">
+                            <img src="./img/Image5.jpg" alt="picture">
+                        </div>
+                        <div>
+                            <div>
+                                <p>Visual Design</p>
+                                <p>8 June, 2020</p>
+                            </div>
+                            <h3>Creativity vs. UX</h3>
+                            <span>Is it possible to create a delightful user experience without following best UX practices?</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="#">Load More</a>
+            </section>
+            <section class="about_as">
+                <div class="">
+                    <div class="left_block">
+                        <p>Full-time UI/UX designer
+                            Head of Design at VeronaLabs.com</p>
+                        <a href="#">&#10230;</a>
+                    </div>
+                    <div class="right_block">
+                        <p>We work with clients around the world from our headquarters in Charleston, South Carolina. </p>
+                        <br>
+                        <p>We focus on naming, branding, brand narratives, website design and development, and brand experiences.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer_block">
+                    <div>
+                        <h2>Need a project?</h2>
+                        <p>(239) 555-0108</p>
+                        <p>tanya.hill@example.com</p>
+                    </div>
+                    <div class="svg_block">
+                        <div>
+                            <svg>
+                                <use xlink:href="./img/icons/sprite.svg#instagram"></use>
+                            </svg>
+                        </div>
+                        <div>
+                            <svg>
+                                <use xlink:href="./img/icons/sprite.svg#facebook"></use>
+                            </svg>
+                        </div>
+                        <div>
+                            <svg>
+                                <use xlink:href="./img/icons/sprite.svg#twitter"></use>
+                            </svg>
+                        </div>
+                        <div>
+                            <svg>
+                                <use xlink:href="./img/icons/sprite.svg#linkedin"></use>
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+                <p class="manifest">© Copyright Manifest Theme. Allrights reserved</p>
+            </div>
+        </footer>
+</body>
+</html>
