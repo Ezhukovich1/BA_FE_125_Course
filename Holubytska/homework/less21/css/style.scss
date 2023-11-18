@@ -1,0 +1,216 @@
+*{padding: 0;margin-bottom: 0;margin-top:0; border: 0;margin-left: 0;margin-right: 0;}
+*{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+
+body{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+$primaryColor: #000000;
+$secondaryColor:#7B7B7B;
+$thirdColor:#565656;
+
+@mixin fontStyle($fontFamily, $fontSize, $fontWeight, $lineHeight, $letterSpacing, $textTransform){
+    font-family: $fontFamily, sans-serif;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    line-height: $lineHeight;
+    letter-spacing: $letterSpacing;
+    text-transform: $textTransform;
+}
+@mixin adaptiveImg($percent, $width:100%) {
+    width: $width;
+    padding: 0 0 $percent 0;
+    overflow: hidden;
+    position: relative;
+    & img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top:0;
+        left: 0;
+    }
+}
+@mixin flexBox ($justContent, $alineItems, $gap, $direction:row, $display:flex) {
+    display: $display;
+    flex-direction: $direction;
+    justify-content:$justContent;
+    align-items:$alineItems;
+    gap:$gap;
+}
+h1{
+    @include fontStyle("Red Hat Display", 3rem, 600, 133%, 2.4px, capitalize);
+}
+h2{
+    @include fontStyle("Red Hat Display", 1.75rem, 600, 166%, 2.8px, capitalize);
+}
+p{
+    @include fontStyle(Lato, 1.1875rem, 400, 168%, 0.95px, none);
+    color: $thirdColor;
+}
+svg{
+    max-width: 100%;
+    max-height: 100%;
+}
+.container{
+    width: 85.42%;
+    padding: 30px;
+    margin: 0 auto;
+    & span{
+        @include fontStyle(Lato, 1rem, 400, 150%, 8px, uppercase);
+        color: $primaryColor;
+    }
+}
+.block_img{
+    @include adaptiveImg(42.7%, 100%);
+}
+section{
+    & h1{
+        margin-bottom:70px;
+    }
+    & h2{
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+}
+.content{
+    p{
+        max-inline-size: 51ch;
+    }
+}
+.img_content{
+    p{
+        margin-top: 20px;
+    }
+}
+footer{
+    background-color: #F4F4F4;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    & .manifest{
+        @include fontStyle(Lato, 0.75rem, 400, 166%, 1.2px, none);
+        color: $primaryColor;
+        margin: 0 auto;
+        width: max-content;
+
+    }
+    .footer_block{
+        @include flexBox(space-between, center, 0);
+        & > div{
+            p{
+                margin-top: 30px;
+                margin-bottom: 15px;
+                color: $primaryColor;
+            }
+        }
+        .svg_block{
+            @include flexBox(center, center, 23px);
+            & div{
+                width: 50px;
+                height: 50px;
+                background-color: transparent;
+                border: 1px solid $thirdColor;
+                padding: 10px;
+                transition: all .5s ease-in;
+                & svg{
+                    fill:$thirdColor;
+                }
+                &:hover{
+                    background-color: $thirdColor;
+                    & svg{
+                        fill: white;
+                    }
+                }
+            }
+
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    h1{
+        font-size: 2.0625rem;
+        line-height: 151%;
+        letter-spacing:1.65px;
+    }
+    header{
+        & .container{
+            padding-top: 18px;
+            padding-bottom: 18px ;
+        }
+    }
+    .container{
+    width: 98.96%;
+    }
+    .block_img{
+        padding: 0 0 54.4% 0;
+    }
+    section{
+        & h1{
+            margin-top:20px;
+            margin-bottom:50px;
+        }
+        & h2{
+            margin-top: 90px;
+            margin-bottom: 50px;
+        }
+    }
+    .content{
+        p{
+            max-inline-size: none;
+        }
+    }
+    footer{
+        & .manifest{
+            margin-top: 40px;
+        }
+        .footer_block{
+            justify-content: center;
+            gap:40px;
+            flex-direction: column;
+            & div{
+                text-align: center;
+            }
+        }
+    }
+}
+@media screen and (max-width: 320px){
+    h1{
+        font-size:1.8rem;
+        line-height: 166%;
+        letter-spacing:1.5px;
+        margin-bottom: 40px;
+    }
+    p{
+        font-size: 1rem;
+    }
+    section{
+        & h2{
+            margin-top: 70px;
+            margin-bottom: 30px;
+        }
+    }
+    .container{
+        width:100%;
+        padding: 10px;
+    }
+
+    .block_img{
+        padding: 0 0 100% 0;
+    }
+    footer{
+        & h2{
+            font-size: 2rem;
+            letter-spacing: 1.6px;
+        }
+        & p{
+            font-size:1.125rem ;
+        }
+        & .manifest{
+            font-size: 1rem;
+            letter-spacing: 1.6px;
+            max-inline-size: 27ch;
+            text-align: center;
+        }
+    }
+}
