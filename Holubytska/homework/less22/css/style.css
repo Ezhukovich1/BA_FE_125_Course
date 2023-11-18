@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 100vh;
+}
+
+.cards_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-flow: row wrap;
+  width: 63%;
+  margin: 0 auto;
+}
+.cards_block .card_item {
+  margin-bottom: 5px;
+  width: 109.86px;
+  height: 149.35px;
+  border-radius: 10px;
+  position: relative;
+}
+.cards_block .card_item:hover .shirt, .cards_block .card_item:hover .front {
+  animation-play-state: paused;
+}
+.cards_block .card_item .shirt {
+  width: 100%;
+  padding: 0 0 146.7% 0;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #292A23;
+  border-radius: 10px;
+  position: absolute;
+  opacity: 1;
+  animation: rotate 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 2 alternate running backwards;
+}
+.cards_block .card_item .shirt img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cards_block .card_item .front {
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #292A23;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  animation: rotate_front 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 2 alternate running backwards;
+}
+.cards_block .card_item .front svg {
+  width: 100%;
+  height: 100%;
+}
+.cards_block :nth-child(1) .shirt, .cards_block :nth-child(1) .front {
+  animation-delay: 3s;
+}
+.cards_block :nth-child(2) .shirt, .cards_block :nth-child(2) .front {
+  animation-delay: 5s;
+}
+.cards_block :nth-child(3) .shirt, .cards_block :nth-child(3) .front {
+  animation-delay: 5s;
+}
+.cards_block :nth-child(4) .shirt, .cards_block :nth-child(4) .front {
+  animation-delay: 1s;
+}
+.cards_block :nth-child(5) .shirt, .cards_block :nth-child(5) .front {
+  animation-delay: 2s;
+}
+.cards_block :nth-child(6) .shirt, .cards_block :nth-child(6) .front {
+  animation-delay: 7s;
+}
+.cards_block :nth-child(7) .shirt, .cards_block :nth-child(7) .front {
+  animation-delay: 6s;
+}
+.cards_block :nth-child(8) .shirt, .cards_block :nth-child(8) .front {
+  animation-delay: 10s;
+}
+.cards_block :nth-child(9) .shirt, .cards_block :nth-child(9) .front {
+  animation-delay: 8s;
+}
+.cards_block :nth-child(10) .shirt, .cards_block :nth-child(10) .front {
+  animation-delay: 10s;
+}
+.cards_block :nth-child(11) .shirt, .cards_block :nth-child(11) .front {
+  animation-delay: 10s;
+}
+.cards_block :nth-child(12) .shirt, .cards_block :nth-child(12) .front {
+  animation-delay: 12s;
+}
+
+@keyframes rotate {
+  0% {
+    opacity: 1;
+    transform: rotateY(-180deg);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes rotate_front {
+  0% {
+    opacity: 0;
+    transform: rotateY(-180deg);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .cards_block {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cards_block {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .cards_block {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
