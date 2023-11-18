@@ -1,0 +1,146 @@
+h1 {
+  color: #FFCC00;
+  font-family: Roboto;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 66px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #666;
+  font-family: Roboto;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+h3 {
+  color: #666;
+  font-family: Raleway;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.main-content .about-info .bottom-part p {
+  color: #333333;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.main-content .about-info .bottom-part, .main-content .about-info .top-part, .main-content .about-info, .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content .about-info .separator, .main-content .about-info .social, .main-content, .intro .horizontal-divider {
+  display: flex;
+  align-items: center;
+}
+
+.main-content .about-info .btn {
+  font-family: "Open Sans";
+  color: #666;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #FFCC00;
+  padding: 5px 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 121px;
+  padding-bottom: 122px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  fill: #CCCCCC;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+.intro .subtitle {
+  font-family: Raleway;
+  color: #898F8F;
+  text-align: center;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.intro h1 {
+  margin-bottom: 40px;
+}
+.intro .horizontal-divider {
+  justify-content: center;
+  gap: 5px;
+}
+.intro .horizontal-divider .divider {
+  border-bottom: 1px solid #FFCC00;
+  width: 210px;
+}
+
+.main-content {
+  padding: 0 70px;
+  gap: 85px;
+}
+.main-content .vertical-divider {
+  border-right: 1px solid #FFCC00;
+  height: 560px;
+}
+.main-content .about-info {
+  width: 430px;
+  gap: 49px;
+}
+.main-content .about-info .top-part {
+  gap: 30px;
+}
+.main-content .about-info .divider {
+  border-bottom: 1px solid #FFCC00;
+  width: 100px;
+}
+.main-content .about-info .social {
+  gap: 5px;
+}
+.main-content .about-info .social a {
+  height: 30px;
+}
+.main-content .about-info .bottom-part p {
+  margin-bottom: 20px;
+}
+.main-content .about-info .separator {
+  gap: 5px;
+}
+.main-content .about-info .separator .divider {
+  border-bottom: 4px solid #FFCC00;
+  width: 10px;
+}
+.main-content .about-info .separator .divider:nth-child(2) {
+  width: 20px;
+}
+.main-content .about-info .btn {
+  margin-top: 25px;
+}
