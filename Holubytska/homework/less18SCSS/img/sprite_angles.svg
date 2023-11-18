@@ -1,0 +1,18 @@
+<svg  xmlns="http://www.w3.org/2000/svg">
+    <symbol id="angle_l_t" viewBox="0 0 100 101">
+        <line x1="0.000144958" y1="0.5" x2="100" y2="0.5" />
+        <line x1="0.500145" y1="1" x2="0.500141" y2="101"/>
+    </symbol>
+    <symbol id="angle_r_t" viewBox="0 0 101 100">
+        <line x1="100.5" y1="0.000122092" x2="100.5" y2="100" />
+        <line x1="100" y1="0.500122" x2="-4.37114e-08" y2="0.500113" />
+    </symbol>
+    <symbol id="angle_l_b"  viewBox="0 0 101 100">
+        <line x1="0.5" y1="100" x2="0.499996" y2="2.18557e-08" />
+        <line x1="1" y1="99.5" x2="101" y2="99.5" />
+    </symbol>
+    <symbol id="angle_r_b" viewBox="0 0 100 101">
+        <line x1="100" y1="100.5" x2="-4.37114e-08" y2="100.5" />
+        <line x1="99.5" y1="100" x2="99.5" y2="-6.55671e-08" />
+    </symbol>
+</svg>

@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blockIcons, .block_content .blockLines, .container div, main {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.block_photo, .block_content {
+  padding: 80px 100px;
+}
+
+.block_photo, .block_content {
+  width: 36.5625rem;
+  height: 35rem;
+}
+
+header {
+  width: 100%;
+  padding-top: 121px;
+}
+
+main {
+  margin: 40px auto 0 auto;
+  width: 95%;
+  padding-bottom: 122px;
+}
+
+hr {
+  border: none;
+  background-color: #F3C200;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+.container p {
+  color: #898F8F;
+  font-family: Raleway;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.container h1 {
+  color: #F3C200;
+  font-family: Roboto;
+  font-size: 3.75rem;
+  font-weight: 900;
+  line-height: 66px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.container hr {
+  width: 13.125rem;
+  height: 1px;
+}
+.container div {
+  align-items: center;
+}
+
+.block_content {
+  text-align: center;
+  border-left: 1px solid #F3C200;
+}
+.block_content h2 {
+  color: #666666;
+  font-family: Roboto;
+  font-size: 2.25rem;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: none;
+  margin-bottom: 30px;
+}
+.block_content hr {
+  width: 100px;
+  height: 1px;
+  margin: 0 auto;
+}
+.block_content p {
+  color: #666666;
+  font-family: Raleway;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 36px;
+  text-transform: capitalize;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.block_content span {
+  color: #333333;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: none;
+  width: 26.875rem;
+  display: block;
+}
+.block_content a {
+  color: #666666;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  border: 1px solid #F3C200;
+  padding: 5px 10px;
+  width: max-content;
+  margin: 0 auto;
+}
+.block_content .blockLines {
+  width: 40px;
+  margin: 20px auto 30px auto;
+}
+.block_content .blockLines hr {
+  height: 4px;
+}
+.block_content .blockLines :nth-child(1) {
+  width: 10px;
+}
+.block_content .blockLines :nth-child(2) {
+  width: 20px;
+}
+.block_content .blockLines :nth-child(3) {
+  width: 10px;
+}
+
+.blockIcons {
+  margin-bottom: 30px;
+}
+.blockIcons svg {
+  width: 30px;
+  height: 30px;
+  stroke: #CCCCCC;
+  stroke-width: 2px;
+  fill: #CCCCCC;
+}
+.blockIcons svg:hover {
+  stroke: #F3C200;
+  fill: #F3C200;
+}
+
+.block_photo div {
+  position: relative;
+}
+.block_photo div img {
+  width: 100%;
+}
+.block_photo div svg {
+  width: 100px;
+  height: 100px;
+  stroke: #F3C200;
+}
+
+.angle_l_t {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  bottom: none;
+  right: none;
+}
+
+.angle_r_t {
+  position: absolute;
+  top: -15px;
+  left: none;
+  bottom: none;
+  right: -15px;
+}
+
+.angle_l_b {
+  position: absolute;
+  top: none;
+  left: -15px;
+  bottom: -15px;
+  right: none;
+}
+
+.angle_r_b {
+  position: absolute;
+  top: none;
+  left: none;
+  bottom: -15px;
+  right: -15px;
+}
+
+/*# sourceMappingURL=style.css.map */
