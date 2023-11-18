@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>form</title>
+</head>
+<body>
+    <div class='container'>
+        <form class="formReg" action=""  method="" name="formReg" autocomplete="off">
+            <p class="formHead">Create an Account</p>
+           <div class="block">
+               <div class="group">
+                   <label for="f_name">First Name</label><br>
+                   <input  type="text"  id="f_name"  required>
+               </div>
+               <div class="group">
+                   <label for="l_name">Last Name</label><br>
+                   <input  name="l_name" type="text"  id="l_name"  required>
+               </div>
+           </div>
+            <label for="email" >e-mail</label>
+            <input type="email" id="email" required>
+            <span class="marg_7">We'll never share your email with anyone else.</span>
+            <div class="radioBtns_sex">
+                <div class="btnOne">
+                    <input id='sex_male' type='radio' name="sex">
+                    <label for="sex_male">male</label>
+                </div>
+                <div class="btnTwo">
+                    <input id='sex_female' name="sex" type='radio'>
+                    <label for="sex_female">female</label>
+                </div>
+            </div>
+            <div class="address">
+                <div>
+                    <label for="country">country</label>
+                    <select name=""id="country" >
+                        <option value=""></option>
+                        <option value="">Ukraine</option>
+                        <option value="">Poland</option>
+                        <option value="">Moldova</option>
+                    </select>
+
+                </div>
+                <div>
+                    <label for="">city</label>
+                    <input type="text" id="">
+                </div>
+            </div>
+            <button type="submit">Sign Up</button>
+            <div class="terms">
+                <span>By clicking the 'Sign Up' button, you confirm that you accept our <br>
+                <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></span>
+            </div>
+            <div class="footer">
+                <label>Have an account? <a href="#">Log In</a></label>
+            </div>
+        </form>
+
+        <form class="formProfile" action=""  method="" name="profile" autocomplete="off">
+            <p class="formHead">Profile</p>
+            <div class="blockAddPhoto">
+                <div>
+                    <img src="img/Image.png" alt="">
+                </div>
+                <div>
+                    <label class="blockInputFile" for="profile_pic">
+                        <input type="file" value="" id="profile_pic" name="profile_pic"  accept=".jpg, .jpeg, .png" />
+                        <input type="text" id="file">
+                        <button type="reset"></button><br>
+                    </label>
+                    <span>Up to 1 MB (300x300px)</span>
+                </div>
+            </div>
+            <div class="block">
+                <div class="group">
+                    <label for="profile_name">Name</label><br>
+                    <input  type="text" id="profile_name">
+                </div>
+                <div class="group">
+                    <label for="profile_mail" >e-mail</label>
+                    <input type="email" id="profile_mail">
+                </div>
+            </div>
+            <div class="address">
+                <div>
+                    <label for="profile_country">country</label>
+                    <select name=""  id="profile_country">
+                        <option value=""></option>
+                        <option value="">Ukraine</option>
+                        <option value="">Poland</option>
+                        <option value="">Moldova</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="profile_city">city</label>
+                    <input type="text" id="profile_city">
+                </div>
+            </div>
+            <div class="block">
+                <div class="group">
+                    <label for="name">Zip Code</label><br>
+                    <input  type="text" id="name">
+                </div>
+                <div class="group">
+                    <label for="tel" >Phone Number</label>
+                    <input type="tel" id="tel">
+                </div>
+            </div>
+            <button type="submit">Update</button>
+        </form>
+    </div>
+</body>
+</html>
