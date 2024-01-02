@@ -6,6 +6,7 @@
 }
 
 body {
+  position: relative;
   padding-top: 150px;
 }
 
@@ -34,33 +35,25 @@ header .container {
   margin: 13px auto 13px;
 }
 
-.backraund img {
-  position: fixed;
-  top: 150px;
-  right: 0px;
-  z-index: -1;
-}
-
-.container_main {
-  max-width: 1200px;
-  margin: 0 auto;
-  /* position: relative; */
-}
-
 .left_main {
-  display: inline-block;
-  max-width: 385px;
+  width: 385px;
   padding: 10px;
-  position: fixed;
-  /* left: 0px; */
+  position: absolute;
+  /* position: sticky; */
   top: 150px;
+  left: 120px;
 }
 
 .right_main {
-  display: flex;
-  justify-content: end;
-  max-width: 785px;
-  float: right;
+  width: 785px;
+  position: absolute;
+  top: 150px;
+  right: 120px;
+}
+
+.right_main .container img {
+  position: fixed;
+
 }
 
 .menu {
